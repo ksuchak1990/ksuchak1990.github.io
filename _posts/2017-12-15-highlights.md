@@ -5,7 +5,7 @@ date: 2017-12-15
 categories: music
 ---
 
-#Albums:
+# Albums:
 ## Evanescence - Synthesis
 Evanescence need no introduction, so I'll try not to give you a full Wikipedia article.
 Following the release of their self-title album in {insert year here}, lead singer Amy Lee announced that the band would not be focusing on making new music for the immeadiate future, but would continue to tour.
