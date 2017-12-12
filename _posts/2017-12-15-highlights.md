@@ -2,6 +2,7 @@
 layout: post
 title: "Highlights of 2017"
 date: 2017-12-15
+categories: music
 ---
 
 #Albums:
