@@ -3,6 +3,11 @@ layout: default
 title: Music Writing
 ---
 <h1>{{ page.title }}</h1>
+<h2>Personal writing</h2>
 <ul class="posts">
-	<li><span>15/12/17</span> - <a href="/_musicPosts/2017-12-15-highlights">Highlights of 2017</a></li>
+  {% for post in site.music %}
+    <li><span>{{post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
+
+<h2>Other writing</h2>
