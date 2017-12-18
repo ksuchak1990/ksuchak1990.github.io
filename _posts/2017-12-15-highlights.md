@@ -19,12 +19,10 @@ Granted, this is not an album of new material, but it is still worth checking ou
 Lee's vocals are so rich, you just feel like you're being wrapped up in a massive velvet blanket and stuffed full of decadent belgian chocolates.
 What more could you ask for?
 
-
 ## AK/DK - Patterns/Harmonics
 AK/DK's new album is one that I'd been looking forward to since they announced it's release (I was one of those worryingly keen people who pre-ordered the vinyl within about 60 seconds of it going on sale).
 This is another album that brings the fun (not in an over-the-top Pop Punk way) - the music itself is fun and makes you want to move.
 The album sees the introduction of more vocals by {name} and {name} in comparison to previous release {album}.
-
 
 ## Nordic Giants - Amplify Human Vibrations
 This is less an album, and more a social project.
@@ -32,14 +30,11 @@ With Amplify Human Vibrations, Nordic Giants look to draw greater attention to e
 The album is accompanied by a mini-film, part of which are displayed with their couterpart songs during live performances.
 It is in this live setting that the project truly comes to life, inspiring you out of apathy, making you want to do something, empowering you with the feeling that what you do does, in fact, matter.
 
-
 ## Arcane Roots - Melancholia Hymns
 I might spend this time raving about x, y and z, but Arcane Roots are one those bands that I feel can't be bigged up enough.
 They do everyhting - heavy, soft, fun and bouncy, dark and emotional.
 You feel that there is an honesty, a sincerity in their music, that it comes from somewhere personal for these guys.
 And what they write resonnates with people.
-
-
 
 ## Marilyn Manson - Heaven Upside Down
 I'm not sure that this is really a highlight, but it wouldn't feel right not mention a Marilyn Manson in an end-of-year roundup.
@@ -53,15 +48,12 @@ Either way, their {month} release - Nightbringers - as my real entry point...and
 This album, for me, is a very strong contender for best Metal album of the year.
 It essentially has everything you could want from a Metal album, with perfectly delivered vocals, guitars that offer equal parts groove and shred, and this is all topped off with clean, crisp production.
 
-
 ## Grave Pleasures - Motherblood
 Grave Pleasures, Beastmilk, whatever we're calling them, are great.
-
 
 ## Chelsea Wolfe - Hiss Spun
 Chelsea Wolfe is, it seems, in a world of her own, one that she explores by looking in, and feeding upon what she finds there to produce her dark and often doomy music.
 {year}'s Abyss was an absolute triumph, and Hiss Spun sees her offering up more of the same.
-
 
 ## Gary Numan - Savage
 If you've read anything I've written about Gary Numan in the past, then you'll know that I'm a big fan.
@@ -69,12 +61,9 @@ So it shouldn't come as any surprise that I thoroughly enjoyed his most recent a
 Sonically, this album picks up where previous release Splinter left off back in {insert year}, drawing us further down Numan's industrial rabbit hole, continuing to evolve and refine.
 There are plenty of artists who could learn a thing or two about growth from Numan, as he seems discontent with residing in the past (which he could easily do with the litany of hits that he had at the beginning of his career), and hungry to chart out new musical territories.
 
-
-
 ## Brutus - Burst
 Another ArcTanGent band
 Fronted by a drummer-vocalist, something that you don't see too often.
-
 
 ## SiKth - The Future in Whose Eyes?
 {insert month here} saw the return of SiKth to full length albums, having only released mini-album Opacities since reforming.
@@ -90,7 +79,6 @@ But to reduce them to such a label really does them a disservice.
 Their music makes you want to jump around, to dance - it makes you feel happy to be alive.
 The highlights on this album are...
 
-
 ## Oathbreaker - Rheia
 
 
@@ -102,16 +90,17 @@ And Ho99o9 are one of those gems.
 Their brand of punk-tinged industrial Hip Hop (it sounds more complicated than it is) has a visceral quality to it, harking back to pioneers like Bad Brains.
 This blend really gets the blood pumping, making you want to get up and take a stand for something.
 
-
-
 ## Mount Eerie - A Crow Looked at Me
 I struggle to call this album a highlight.
 This is not to suggest that it lacks quality - indeed, the simplicity of instrumentation and the lyrics express such human emotions endow this album with a certain beauty.
 However, the lyrical subject matter makes this less-than-easy listening.
 Seriously, you may want to bring a box of tissues.
 
+## Malevolence - Self Supremacy
 
-# January
+
+
+<!-- # January
 
 # February
 
@@ -146,3 +135,4 @@ Wait, what about Marmozets?
 I'd always want to put a Queens of the Stone Age release on my highlights, being a huge fan. 
 However Villains realy let me down - I just couldn't handle what I felt was too significant a change in musical direction.
 
+ -->
