@@ -50,3 +50,9 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
