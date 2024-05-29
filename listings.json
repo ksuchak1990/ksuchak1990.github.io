@@ -1,5 +1,16 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/papers/24_jth/index.html",
+      "/papers/24_rsos/index.html",
+      "/papers/24_jasss/index.html",
+      "/papers/22_energies/index.html",
+      "/papers/22_jgs/index.html",
+      "/papers/21_applied_sciences/index.html"
+    ]
+  },
+  {
     "listing": "/boardgames.html",
     "items": [
       "/posts/agropolis/index.html",
@@ -48,17 +59,6 @@
       "/posts/uncharted_stars/index.html",
       "/posts/unmatched_teen_spirit/index.html",
       "/posts/wyrmspan/index.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/papers/24_jth/index.html",
-      "/papers/24_rsos/index.html",
-      "/papers/24_jasss/index.html",
-      "/papers/22_energies/index.html",
-      "/papers/22_jgs/index.html",
-      "/papers/21_applied_sciences/index.html"
     ]
   },
   {
