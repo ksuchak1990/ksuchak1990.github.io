@@ -1,0 +1,30 @@
+---
+title: "Exploring the impact of driver adherence to speed limits and the interdependence of roadside collisions in an urban environment: an agent-based modelling approach"
+date: 2021-06-08
+author:
+  - name: Sedar Olmez
+    affiliation: School of Geography, University of Leeds
+  - name: Liam Douglas-Mann
+    affiliation: York Plasma Institute, University of York
+  - name: Ed Manley
+    affiliation: School of Geography, University of Leeds
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+  - name: Alison Heppenstall
+    affiliation: School of Geography, University of Leeds
+  - name: Dan Birks
+    affiliation: School of Law, University of Leeds
+  - name: Annabel Whipp
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - agent-based modelling
+  - traffic simulation
+  - speed adherence
+doi: 10.3390/app11125336
+---
+
+## Abstract
+
+Roadside collisions are a significant problem faced by all countries. Urbanisation has led to an increase in traffic congestion and roadside vehicle collisions. According to the UK Government’s Department for Transport, most vehicle collisions occur on urban roads, with empirical evidence showing drivers are more likely to break local and fixed speed limits in urban environments. Analysis conducted by the Department for Transport found that the UK’s accident prevention measure’s cost is estimated to be £33bn per year. Therefore, there is a strong motivation to investigate the causes of roadside collisions in urban environments to better prepare traffic management, support local council policies, and ultimately reduce collision rates. This study utilises agent-based modelling as a tool to plan, experiment and investigate the relationship between speeding and vehicle density with collisions. The study found that higher traffic density results in more vehicles travelling at a slower speed, regardless of the degree to which drivers comply with speed restrictions. Secondly, collisions increase linearly as speed compliance is reduced for all densities. Collisions are lowest when all vehicles comply with speed limits for all densities. Lastly, higher global traffic densities result in higher local traffic densities near-collision sites across all adherence levels, increasing the likelihood of congestion around these sites. This work, when extended to real-world applications using empirical data, can support effective road safety policies.
+
+

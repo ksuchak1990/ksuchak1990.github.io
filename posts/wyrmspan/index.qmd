@@ -1,0 +1,19 @@
+---
+title: "Wyrmspan"
+author: "Keiran Suchak"
+date: today
+categories: [boardgames]
+image: "https://cf.geekdo-images.com/oXUkkh9uq3zBVWQ8mbgMfQ__imagepage/img/DaWOlDtxDRns4ibNr1_NYlicTw8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7947338.png"
+description: "Build a cavernous sanctuary for dragons of all shapes and sizes!"
+---
+
+## Theming: What's the point?
+
+## Setting up: How to get started?
+
+## Rounds and Phases
+
+## Scoring
+
+## Terminology
+

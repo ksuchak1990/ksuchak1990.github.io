@@ -1,0 +1,21 @@
+---
+title: "Moon"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [boardgames, kickstarter]
+image: https://cf.geekdo-images.com/5S4mv0txfpPBtvttcOThUg__itemrep/img/tDaLiIY58rhlKzdvCnfxf31QTZ0=/fit-in/246x300/filters:strip_icc()/pic6742326.png
+description: "Construct the most popular Moon base by drafting cards and placing
+rovers."
+---
+
+## Theming
+
+## Setting up
+
+## Rounds
+
+## Scoring
+
+## Terminology
+
+

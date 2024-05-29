@@ -1,0 +1,70 @@
+[
+  {
+    "listing": "/boardgames.html",
+    "items": [
+      "/posts/agropolis/index.html",
+      "/posts/chai_garam/index.html",
+      "/posts/chrononauts/index.html",
+      "/posts/cosmic_voyage/index.html",
+      "/posts/cytress/index.html",
+      "/posts/deep_vents/index.html",
+      "/posts/dobble/index.html",
+      "/posts/drinking_fluxx/index.html",
+      "/posts/evolution_another_world/index.html",
+      "/posts/evolution_climate/index.html",
+      "/posts/fiesta_de_los_muertos/index.html",
+      "/posts/fluxx/index.html",
+      "/posts/fluxx_remixx/index.html",
+      "/posts/hideous_abominations/index.html",
+      "/posts/hunters_of_the_lost_creatures/index.html",
+      "/posts/it_startup_office_lockdown/index.html",
+      "/posts/innovation/index.html",
+      "/posts/kelp/index.html",
+      "/posts/luddite/index.html",
+      "/posts/lux_aeterna/index.html",
+      "/posts/micro_architects/index.html",
+      "/posts/micro_cosmos/index.html",
+      "/posts/monopoly_deal/index.html",
+      "/posts/moon/index.html",
+      "/posts/my_city/index.html",
+      "/posts/mycelia/index.html",
+      "/posts/mysterium/index.html",
+      "/posts/oceans/index.html",
+      "/posts/rove/index.html",
+      "/posts/radlands/index.html",
+      "/posts/sprawlopolis/index.html",
+      "/posts/star_trek_missions/index.html",
+      "/posts/stellar_expedition/index.html",
+      "/posts/sushi_go_party/index.html",
+      "/posts/the_crew_quest_for_planet_nine/index.html",
+      "/posts/the_mind/index.html",
+      "/posts/old_kings_crown/index.html",
+      "/posts/paradox_initiative/index.html",
+      "/posts/string_railway_collection/index.html",
+      "/posts/they_live/index.html",
+      "/posts/tuki/index.html",
+      "/posts/turing_machine/index.html",
+      "/posts/tussie_mussie/index.html",
+      "/posts/uncharted_stars/index.html",
+      "/posts/unmatched_teen_spirit/index.html",
+      "/posts/wyrmspan/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/papers/24_jth/index.html",
+      "/papers/24_rsos/index.html",
+      "/papers/24_jasss/index.html",
+      "/papers/22_energies/index.html",
+      "/papers/22_jgs/index.html",
+      "/papers/21_applied_sciences/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/science/index.html"
+    ]
+  }
+]

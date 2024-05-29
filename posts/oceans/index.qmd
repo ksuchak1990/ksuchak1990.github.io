@@ -1,0 +1,24 @@
+---
+title: "Oceans"
+author: "Keiran Suchak"
+date: today
+categories: [boardgames, evolution]
+image: "https://cf.geekdo-images.com/1J7_qmdohyypZNyvu8B45A__imagepage/img/I39hsAFIO_FbBR70EPR1Rvwh_xI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4382323.jpg"
+description: "Adapt in a continually changing ecosystem in this interactive engine builder."
+---
+
+## Theming: What's the point?
+
+
+## Setting up: How to get started?
+
+
+## Rounds and Phases
+
+
+## Scoring
+
+
+## Terminology
+
+

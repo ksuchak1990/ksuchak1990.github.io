@@ -1,0 +1,94 @@
+---
+title: "Evolution: Climate"
+author: "Keiran Suchak"
+date: "2024-02-28"
+categories: [boardgames, evolution]
+image: "https://cf.geekdo-images.com/hs1P4qPgDKHXct3qs4JWGg__itemrep/img/lzH5SE_WuCSDlKDyVfdyi5pE8-I=/fit-in/246x300/filters:strip_icc()/pic2876816.jpg"
+description: "Adapt your species in an ecosystem of scarce food, predators, and
+a dynamic climate!"
+---
+
+## Theming: What's the point?
+
+* In Evolution Climate, players take responsibility for species evolving in an ever-changing ecosystem.
+* The game involves:
+    * Creating and evolving species with different traits,
+    * Adapting species to withstand challenges posed by the changing climate,
+    * Managing populations, and 
+    * Competing for limited resources.
+* The goal is to have the most successful and well-adapted species by the end of the game.
+* This is achieved by scoring points at the end of the game based on:
+    * The food that a player's species have eaten over the course of the game.
+    * The population of a player's surviving species.
+    * The traits attached to a player's surviving species.
+
+## Setting up: How to get started?
+
+1. **Assemble the board.**
+    * Choose the appropriate side (2-3 vs 4-6).
+2. **Climate marker:** Place the climate marker in the temperate zone.
+3. **Climate event cards:**
+    * Shuffle each of the cold and hot decks.
+    * Place them face-down in their respective zones on the board.
+    * Draw the top card from each deck and place it in the climate zone on the
+      card.
+4. **Deck of trait cards:**
+    * Adjust the deck size according to the table below.
+    * Shuffle the deck.
+    * Place the deck face-down on the table.
+5. **For each player:**
+    * Give one food bag.
+    * Give one species board with wooden markers (portrait or landscape); all
+      species start with 1 population and 1 body size.
+6. **Food bank:**
+    * Put the food tokens in pile on the table.
+
+* Deck sizing:
+
+| Number of players | Number of cards to remove |
+|:-----------------:|:-------------------------:|
+|         2         |            Half           |
+|         3         |             60            |
+|         4         |             30            |
+|        5-6        |             0             |
+
+## Rounds and Phases
+
+* **A game** is made up of 5-7 rounds.
+* **A round consists of 5 phases:**
+    1. Dealing cards
+    2. Selecting food cards
+    3. Playing trait cards
+    4. Modifying the environment
+    5. Feeding
+
+### Dealing cards
+
+* For any players who don't have any species boards, place a species board in
+  front of them.
+* Deal cards from the draw deck:
+    * Deal 4 cards to each player + 1 card for each species they have.
+* If the draw deck runs out, this is the final round of the game; shuffle the
+  discard pile and use this to finish dealing.
+
+### Selecting food cards
+
+* Each player chooses one of the trait cards from their hand 
+
+### Playing trait cards
+
+* If playing with 6 players, all players play their cards at the same time
+  without looking at what their opponents are doing.
+
+### Modifying the environment
+
+### Feeding
+
+## Scoring
+
+* 
+
+## Terminology
+
+* Food bank: All of the food tokens on the side of the table.
+* Watering hole: Collection of food tokens on the board.

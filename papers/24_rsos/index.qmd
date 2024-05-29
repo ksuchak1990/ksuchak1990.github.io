@@ -1,0 +1,25 @@
+---
+title: "Coupling an agent-based model and an ensemble Kalman filter for real-time crowd modelling"
+date: 2024-04-10
+author:
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+  - name: Minh Kieu
+    affiliation: Department of Civil and Environmental Engineering, University of Auckland
+  - name: Yannick Oswald
+    affiliation: School of Geography, University of Leeds
+  - name: Jonathan A. Ward
+    affiliation: School of Mathematics, University of Leeds
+  - name: Nick Malleson
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - agent-based modelling
+  - data assimilation
+  - ensemble kalman filter
+doi: 10.1098/rsos.231553
+---
+
+## Abstract
+
+Agent-based modelling has emerged as a powerful tool for modelling systems that are driven by discrete, heterogeneous individuals and has proven particularly popular in the realm of pedestrian simulation. However, real-time agent-based simulations face the challenge that they will diverge from the real system over time. This paper addresses this challenge by integrating the ensemble Kalman filter (EnKF) with an agent-based crowd model to enhance its accuracy in real time. Using the example of Grand Central Station in New York, we demonstrate how our approach can update the state of an agent-based model in real time, aligning it with the evolution of the actual system. The findings reveal that the EnKF can substantially improve the accuracy of agent-based pedestrian simulations by assimilating data as they evolve. This approach not only offers efficiency advantages over existing methods but also presents a more realistic representation of a complex environment than most previous attempts. The potential applications of this method span the management of public spaces under ‘normality’ to exceptional circumstances such as disaster response, marking a significant advancement for real-time agent-based modelling applications.
+

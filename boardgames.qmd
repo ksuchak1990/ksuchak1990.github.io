@@ -1,0 +1,23 @@
+---
+title: "Boardgames"
+listing:
+  contents: posts
+  sort:
+    - "title"
+    - "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  include:
+    categories: ["boardgames"]
+page-layout: full
+title-block-banner: false
+---
+
+This page lists the boardgames in my collection.
+My aim is to create 1-page summary of the setup and rules for each of these
+games which can be easily accessed by the people with whom I play these games.
+
+All cover images and descriptions are sourced from 
+[BoardGameGeek](https://boardgamegeek.com/).

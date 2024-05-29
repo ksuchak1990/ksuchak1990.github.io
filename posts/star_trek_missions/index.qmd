@@ -1,0 +1,43 @@
+---
+title: "Star Trek: Missions"
+author: "Keiran Suchak"
+date: today
+date-format: iso
+categories: [boardgames]
+image: "https://cf.geekdo-images.com/HQSs1ZMoi0PdfFlVzlCdow__itemrep/img/QKl50OvyIYPLx0QdL4MAtOSV54I=/fit-in/246x300/filters:strip_icc()/pic6458192.jpg"
+description: "Construct the best hand and explore new worlds, one card at a
+time!"
+---
+
+## Theming
+
+## Setting up
+
+1. Galaxy deck:
+    i) Shuffle the Galaxy deck.
+    ii) Deal 5 Galaxy cards to each player.
+    iii) Place the deck facedown.
+2. Mission deck:
+    i) Shuffle the Mission deck.
+    ii) Deal 2 Mission cards to each player.
+    iii) Place the deck facedown.
+
+## Rounds
+
+## Scoring
+
+## Terminology
+
+* Galaxy card
+* Type
+* Speciality
+* Lifeform
+* Affiliation
+* Text
+* Mission card
+
+* WITH
+* FOR EACH
+* BLANKS
+* BLANKED UNLESS WITH
+

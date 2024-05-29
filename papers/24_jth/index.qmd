@@ -1,0 +1,35 @@
+---
+title: "Influencing transport-health interactions through incentivised mode switch using new data and models"
+date: 2024-07-01
+author:
+  - name: Gillian Harrison
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Yuanxuan Yang
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Keiran Suchak
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Susan M. Grant-Muller
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Simon Shephard
+    affiliation: Institute for Transport Studies, University of Leeds
+  - name: Frances C. Hodgson
+    affiliation: Institute for Transport Studies, University of Leeds
+categories: 
+  - transport
+  - health
+  - system dynamics
+  - causal loop diagram
+  - spatial microsimulation
+  - agent-based modelling
+doi: 10.1016/j.jth.2024.101830
+---
+
+## Abstract
+
+In this study we present a ‘proof-of-concept’ model using novel model integration and new forms of data that addresses the research question, How does incentivising a change in travel mode to reduce personal car use impact health? We focus on simple transport-health interactions between switching between car and bus: the exposure to activity and pollution linked to these modes and how these changes effect health status, which in turn influences the mode choice.
+
+We identify a basic causal loop diagram of key conceptual feedback between mode choice and health status (related to exposure to activity and pollution). From this we build a simple system dynamics stock and flow simulation model, with data input from spatial micro-simulation synthetic populations derived from ‘track and trace’ data as the output from an agent-based model. We then analyse scenarios of mode shift incentivised by bus fare reduction and bus frequency increase.
+
+In the tested scenarios of this novel modelling approach, we identify that a reduction in bus fare or increase in bus frequency could incentivise a shift from car to bus which would result in a small decrease in relative risk of all causes mortality. Reducing bus fare in particular could provide both health and financial benefits for the most deprived communities.
+
+This modelling approach presented in this data is a promising new method for the study of complex transport-health interactions. From our prototype model we have identified the impacts of mode shift on health status through exposure to pollution and activity, using unique feedbacks that are unaccounted for in conventional models.

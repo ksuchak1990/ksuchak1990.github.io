@@ -1,0 +1,26 @@
+---
+title: "Simplifying the interpretation of continuous time models for spatio-temporal networks"
+date: 2021-07-26
+author:
+  - name: Sarah C. Gadd
+    affiliation: School of Geography, University of Leeds
+  - name: Alexis Comber
+    affiliation: School of Geography, University of Leeds
+  - name: Mark S. Gilthorpe
+    affiliation: Leeds Institute for Data Analytics, University of Leeds
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+  - name: Alison Heppenstall
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - spatio-temporal data
+  - hierarchical modelling
+  - networks
+  - multilevel modelling
+doi: 10.1007/s10109-020-00345-z
+---
+
+## Abstract
+
+Autoregressive and moving average models for temporally dynamic networks treat time as a series of discrete steps which assumes even intervals between data measurements and can introduce bias if this assumption is not met. Using real and simulated data from the London Underground network, this paper illustrates the use of continuous time multilevel models to capture temporal trajectories of edge proper ties without the need for simultaneous measurements, along with two methods for producing interpretable summaries of model results. These including extracting ‘features’ of temporal patterns (e.g. maxima, time of maxima) which have utility in understanding the network properties of each connection and summarising whole-network properties as a continuous function of time which allows estimation of network properties at any time without temporal aggregation of non-simultaneous measurements. Results for temporal pattern features in the response variable were captured with reasonable accuracy. Variation in the temporal pattern features for the exposure variable was underestimated by the models. The models showed some lack of precision. Both model summaries provided clear ‘real-world’ interpretations and could be applied to data from a range of spatio-temporal network structures (e.g. rivers, social networks). These models should be tested more extensively in a range of scenarios, with potential improvements such as random effects in the exposure variable dimension.
+

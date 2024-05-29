@@ -1,0 +1,26 @@
+---
+title: "An agent-based model of the 2020 international policy diffusion in response to the COVID-19 pandemic with particle filter"
+date: 2024-03-31
+author:
+  - name: Yannick Oswald
+    affiliation: Institute of Geography and Sustainability, University of Lausanne
+  - name: Nick Malleson
+    affiliation: School of Geography, University of Leeds
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - agent-based modelling
+  - policy diffusion
+  - peer mimcry
+  - data assimilation
+  - particle filter
+  - covid-19
+doi: 10.18564/jasss.5342 
+---
+
+## Abstract
+
+Global problems, such as pandemics and climate change, require rapid international coordination and diffusion of policy. These phenomena are rare however, with one notable example being the international policy response to the COVID-19 pandemic in early 2020. Here we build an agent-based model of this rapid policy diffusion, where countries constitute the agents and with the principal mechanism for diffusion being peer mimicry. Since it is challenging to predict accurately the policy diffusion curve, we utilize data assimilation, that is an “on-line” feed of data to constrain the model against observations. The specific data assimilation algorithm we apply is a particle filter because of its convenient implementation, its ability to handle categorical variables and because the model is not overly computationally expensive, hence a more efficient algorithm is not required. We find that the model alone is able to predict the policy diffusion relatively well with an ensemble of at least 100 simulation runs. The particle filter however improves the fit to the data, reliably so from 500 runs upwards, and increasing filtering frequency results in improved prediction.
+
+
+

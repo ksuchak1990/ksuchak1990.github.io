@@ -1,0 +1,33 @@
+---
+title: "An agent-based model of heterogeneous driver behaviour and its impact on energy consumption and costs in urban space"
+date: 2022-05-30
+author:
+  - name: Sedar Olmez
+    affiliation: School of Geography, University of Leeds
+  - name: Jason Thompson
+    affiliation: Transport, Health and Urban Design Research Laboratory, University of Melbourne
+  - name: Ellie Marfleet
+    affiliation: School of Geography, University of Leeds
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+  - name: Alison Heppenstall
+    affiliation: The Alan Turing Institute
+  - name: Ed Manley
+    affiliation: School of Geography, University of Leeds
+  - name: Annabel Whipp
+    affiliation: School of Geography, University of Leeds
+  - name: Rajith Vidanaarachchi
+    affiliation: Transport, Health and Urban Design Research Laboratory, University of Melbourne
+categories: 
+  - agent-based modelling
+  - electric vehicles
+  - traffic simulation
+  - public policy
+doi: 10.3390/en15114031
+---
+
+## Abstract
+
+By 2020, over 100 countries had expanded electric and plug-in hybrid electric vehicle (EV/PHEV) technologies, with global sales surpassing 7 million units. Governments are adopting cleaner vehicle technologies due to the proven environmental and health implications of internal combustion engine vehicles (ICEVs), as evidenced by the recent COP26 meeting. This article proposes an agent-based model of vehicle activity as a tool for quantifying energy consumption by simulating a fleet of EV/PHEVs within an urban street network at various spatio-temporal resolutions. Driver behaviour plays a significant role in energy consumption; thus, simulating various levels of individual behaviour and enhancing heterogeneity should provide more accurate results of potential energy demand in cities. The study found that (1) energy consumption is lowest when speed limit adherence increases (low variance in behaviour) and is highest when acceleration/deceleration patterns vary (high variance in behaviour); (2) vehicles that travel for shorter distances while abiding by speed limit rules are more energy efficient compared to those that speed and travel for longer; and (3) on average, for tested vehicles, EV/PHEVs were £233.13 cheaper to run than ICEVs across all experiment conditions. The difference in the average fuel costs (electricity and petrol) shrinks at the vehicle level as driver behaviour is less varied (more homogeneous). This research should allow policymakers to quantify the demand for energy and subsequent fuel costs in cities.
+
+
