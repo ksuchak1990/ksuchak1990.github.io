@@ -4,4 +4,9 @@ title: "Keiran Suchak"
 
 # Bio
 
-This is me.
+I am a Research Fellow in Mobility Data Science in the School of Geography at
+the University of Leeds.
+Within the school, I am a member of the Institute for Spatial Data Science and the Mobility Science Lab. 
+My current research focuses on exploring the mobility of healthcare workers and its impact on the way in which infections spread within healthcare settings; this research forms part of a broader digital health hub focused on antimicrobial resistance. 
+I previously did my PhD at the Leeds Institute for Data Analytics, working on the development of novel methods for the real-time simulation of pedestrian systems. 
+During my PhD, I also held the role of Data Science Fellow with the Connected Places Catapult, working on modelling and mapping the incidence of social isolation.
