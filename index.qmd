@@ -2,8 +2,6 @@
 title: "Keiran Suchak"
 ---
 
-# Bio
-
 I am a Research Fellow in Mobility Data Science in the School of Geography at
 the University of Leeds.
 Within the school, I am a member of the Institute for Spatial Data Science and
