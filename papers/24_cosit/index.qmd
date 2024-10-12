@@ -1,0 +1,19 @@
+---
+title: "Towards a general framework for co-location"
+date: 2024-09-09
+author:
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+  - name: Ed Manley
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - co-location
+  - modelling
+  - human mobility
+  - contact tracing
+doi: 10.4230/LIPIcs.COSIT.2024.24
+---
+
+## Abstract
+
+Previous studies into co-location exist in a variety of fields such as epidemiology and human mobility. In each field, researchers are interested identifying points of co-location amongst members of a population. In each of these fields, however, the definition of what it means for members of the population to be co-located may differ; furthermore, the ways in which data are collected vary. This piece of work aims to provide an initial outline of a general framework for identifying points of co-location. It demonstrates that the identification of co-location points between individuals is sensitive to the way in which co-location is defined in each context, as well as the types of data used. Furthermore, it highlights the impact that uncertainty in observations can have on our ability to reliably identify co-location.
