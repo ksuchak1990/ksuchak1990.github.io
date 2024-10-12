@@ -5,7 +5,7 @@ listing:
   sort:
     - "title"
     - "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: true
   filter-ui: true
