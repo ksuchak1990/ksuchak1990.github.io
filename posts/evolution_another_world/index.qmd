@@ -1,14 +1,93 @@
 ---
 title: "Evolution: Another World"
 author: "Keiran Suchak"
-date: "2024-02-28"
+date: 2024-06-27
 categories: [boardgames, evolution, kickstarter]
 image: "https://cf.geekdo-images.com/RVnHpC9pDOhcvtuWyRqGzg__itemrep/img/5XkxBgoOnZ4u_k07QeOHsqPs4C8=/fit-in/246x300/filters:strip_icc()/pic7533877.png"
 description: "Create creatures and help them evolve in a strange magical world!"
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## Theming: What's the point?
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+In _Evolution: Another World_, you create uncommon creatures, evolve them, 
+imbue them with energy and transmute them into super-beings. 
+A creature can transmute when its Energy track is filled.
+Transmute three of your creatures first to win the game.
 
+## Setting up: How to get started?
 
+1. **Energy deck:**
+    * Shuffle the Energy Source cards.
+    * Place the deck face down on the table.
+    * Draw a card and place it next to the deck - this is the Energy Source.
+    * Place the required number of Energy tokens on the lower part of the card
+      according to the number of players.
+    * Additionally, place the required number of Energy tokens on the upper part
+      of the card.
+2. **Token supply:**
+    * Place the remaining Energy tokens, Sleep tokens and Transmutations on the
+      table.
+    * For the purpose of the game, these tokens are considered to be unlimited.
+3. **Evolution deck:**
+    * Shuffle the Evolution cards 
+    * Place the deck on the table with space for a discard pile.
+4. **Starting creatures and starting hands:**
+    * Place 1 card from the top of the Evolution deck face down in front of each
+      player - these are players' starting creatures.
+    * Deal 5 cards from the Evolution deck to each player - these are the
+      players' starting hands.
+5. **First player:**
+    * The youngest player decides who gets the First Player Token.
+
+## Rounds and Phases
+
+* The game comprises of several rounds.
+* Each round, players take turns clockwise.
+* At the start of the round, each player may redraw cards once; when redrawing,
+  players discard their hand and redraw an each number of cards from the
+  Evolution deck.
+* If the deck runs out of cards, immediately shuffle the discard pile to form a
+  new deck.
+* The round ends as soon as all creatures of all players are asleep, i.e. have
+  gained a Sleep token.
+* A turn comprises of players taking the following actions:
+    1. **Create a new creature:** Place 1 Evolution card face down from your
+       hand to the table, creating a new creature with no traits **(optional)**.
+    2. **Add a new trait:** Place 1 Evolution card from your hand face up under
+       one of your exiting creatures, providing the trait to the creature
+       **(optional)**.
+    3. **Activate:** Choose 1 of your non-sleeping creatures and activate it
+       **(compulsory)**.
+
+### Notes
+
+* **Creating creatures:**
+    * You may create as many creatures as you want over the course of the game.
+    * The creatures of a player are considered *friendly* to each other;
+      friendly creatures can attach each other.
+    * Creatures do not die.
+* **Adding traits:**
+    * You may add a trait to sleeping creatures.
+    * A creature can have multiple different traits but can never have more than
+      one copy of a trait.
+* **Activating traits:**
+    * After activating a creature's traits, it must perform one of the following
+      actions:
+        * Gain energy,
+        * Transmute,
+        * Attach,
+        * Sleep.
+
+### Traits
+
+* **Aggressive:**
+* **Defensive:**
+* **Energetic:**
+* **Special:**
+
+## Scoring
+
+## Terminology
+
+* **Energy Source cards:** Cards with a waterfall on the back.
+* **Evolution cards:** Cards with a lizard and Energy track on the back.
