@@ -1,15 +1,24 @@
 ---
 title: "Keiran Suchak"
+about:
+    template: trestles
+    image: ./img/ks.jpg
+    links:
+        - icon: github
+          text: Github
+          href: https://github.com/ksuchak1990
 ---
 
 I am a Research Fellow in Mobility Data Science in the School of Geography at
 the University of Leeds.
 Within the school, I am a member of the 
 [Institute for Spatial Data Science](https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/) and the Mobility Science Lab.
+
 My current research focuses on exploring the mobility of healthcare workers and
 its impact on the way in which infections spread within healthcare settings;
 this research forms part of a broader digital health hub focused on
 antimicrobial resistance.
+
 I previously did my PhD at the Leeds Institute for Data Analytics, working on
 the development of novel methods for the real-time simulation of pedestrian
 systems.
