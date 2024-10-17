@@ -21,6 +21,8 @@ format:
       in_header: |
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Merriweather:wght@400&display=swap" rel="stylesheet">
     css: styles.css
+    code-line-numbers: true
+    code-block-bg: true
 
 
 execute:

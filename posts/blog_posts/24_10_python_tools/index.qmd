@@ -1,0 +1,457 @@
+---
+title: "Python Tools"
+author: "Keiran Suchak"
+date: 2024-10-17
+categories: [python]
+description: "There a lots of tools for Python out there - what do they all do?"
+reference-location: margin
+citation-location: margin
+toc: false
+execute:
+  eval: false
+---
+
+A lot of the work that I do focuses on writing Python code, whether that be to
+analyse data, build simulation models or develop visualisations.
+Given the popularity of Python as a language, there are many tools out there for
+it that can help developers in different ways.
+
+At the moment, I am writing some code to identify points of co-location between
+individuals in a population who are moving around in space and time; here, we
+define co-location as instances where two or more individuals are in the same
+place at the same time.
+
+As I have been writing this code, I have been thinking that I would like it to
+be re-usable and so have been thinking about how it could be developed into a
+package.
+As a consequence, I have been looking at the tools that are available to develop
+and distribute packages.
+Whilst there are lots of resources available on the internet which document the
+various tools, I decided that it would be useful for me to have all of the
+information in one place (and perhaps others will find it useful in the future).
+
+The tools available to us aim to fulfil a range of different activities that
+Python developers often undertake.
+These activities fall into the following categories:
+
+* Package installation,
+* Virtual environment management,
+* Python version management,
+* Codebase structuring,
+* Code packaging,
+* Code documentation,
+* Code testing,
+* Formatting and linting.
+
+This post will focus on the following tools, and how each of them help to fulfil
+the above functions:
+
+|        |    Tools   |        |              |
+|:------:|:----------:|:------:|:------------:|
+|   pip  |    conda   | poetry |    pipenv    |
+|  venv  | virtualenv |  pyenv | cookiecutter |
+|  flit  | setuptools |  twine |  conda-build |
+| pytest |  unittest  |  black |     isort    |
+| flake8 |    ruff    | mkdocs |    sphinx    |
+
+## pip
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| package installation
+:::
+
+`pip` is Python's built-in package manager.
+[You can find more information about `pip` on the [Python documentation page](https://docs.python.org/3/installing/index.html).]{.aside}
+It installs and manages Python packages from the Python Package Index - PyPI.
+[You can find more information about `pypi` on its [help page](https://pypi.org/help/).]{.aside}
+To install a package called `package_name` you would run:
+
+```{bash}
+pip install package_name
+```
+
+This is the simplest way to install packages and comes installed with Python by
+default.
+It does not, on its own, deal with the potential conflicts that can arise when
+we want to install different versions of packages for different projects.
+
+## virtualenv
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| virtual environment management
+:::
+
+`virtualenv` is a tool that can be used to create isolated environments within
+which we can manage dependencies without affecting the system-level Python
+installation (or having the dependencies of different projects interfere with
+each other).
+[You can find more information about `virtualenv` on its [documentation
+page](https://virtualenv.pypa.io/en/latest/user_guide.html).]{.aside}
+
+To create a new environment called `venv`, we would run the following command:
+[We can, of course, name our virtual environment whatever we like; it is useful
+to give your virtual environment an appropriate name for its purpose.]{.aside}
+
+
+```{bash}
+virtualenv venv
+```
+
+This creates a new virtual environment containing all of its relevant files in a
+directory `./venv/`.
+We can then activate the environment using the following command:
+
+```{bash}
+source venv/bin/activate
+```
+
+We can, if desired, create the virtual environment in a different location; this
+would obviously require that we provide the appropriate relative path to the 
+virtual environment when activating.
+As an example, if we have created the virtual environment in parent directory -
+`../` - the we would activate the environment using the following command:
+
+```{bash}
+source ../venv/bin/activate
+```
+
+Having activated the environment, you will find that your terminal prompt is
+pre-pended with the environment name.
+After activating the environment, we can install packages using `pip` as above:
+
+```{bash}
+pip install package_name
+```
+
+When we are finished using the environment, we can deactivate it with the
+`deactivate` command.
+
+This approach provides us with a simple yet effective way in which to maintain
+isolated dependencies.
+
+
+## conda
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| package installation
+| virtual environment management
+| python version management
+:::
+
+`conda` is a tool which comes packaged with the Anaconda and Miniconda
+distributions of Python.
+It enables us to install packages, create and manage environments, and also
+manage Python versions.
+[You can find more information about `conda` on their [documentation page](https://docs.conda.io/en/latest/).]{.aside}
+
+A typical workflow would involve creating a new virtual environment, activating
+it and installing packages within it.
+
+To install a new environment called `myenv`, we use the following command:
+
+```{bash}
+conda create -n myenv
+```
+
+It can then be activated using the following command:
+
+```{bash}
+conda activate myenv
+```
+
+Having activated the environment, we install packages using the following
+command:
+
+```{bash}
+conda install package_name
+```
+
+`conda` allows us to install packages from different channels; unless directed
+otherwise, it installs from the `default` repository, but can install from other
+repositories.
+One of the most popular alternative repositories is `conda-forge` -- packages
+can be installed from `conda-forge` using the following command:
+
+```{bash}
+conda install -c conda-forge package_name
+```
+
+When installing packages, `conda` is able to handle both the python and system
+dependencies -- a key advantage over other package management systems when
+working with packages that depend on compilers and external libraries.
+
+## poetry
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| package installation
+| virtual environment management
+| codebase structuring
+| code packaging
+:::
+
+Poetry is a modern package manager that provides the ability to install
+packages, manage environments and publishing code as packages.
+
+[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+
+Whilst Poetry supports the use of virtual environments, this is preceded by the
+initialising a project.
+If you already have an existing directory of code, this can be achieved by
+running the following command:
+
+```{bash}
+poetry init
+```
+
+This will run you through a setup process.
+Alternatively, if you are starting a fresh project, you can run the following
+command to create a directory called `my_project/`:
+
+```{bash}
+poetry new my_project
+```
+
+These commands will ensure that the project contains the following:
+
+* A `test/` directory to build a test suite,
+* A `my_project/` directory containing an `__init__.py` file in which to build
+your module, 
+* A `pyproject.toml` file to configure dependencies and versioning.
+
+Whilst other tools, we may just install the packages we require, Poetry
+considers packages as dependencies and so separates the process of identifying
+dependencies and installing them.
+If we wish to add `my_package` as a dependency for our project, we can run the
+following command:
+
+```{bash}
+poetry add my_package
+```
+
+This will update our `pyproject.toml` file, and document the specific versions
+in a `poetry.lock` file.
+Additionally, we can add packages as dependencies specifically for development
+using the following command:
+
+```{bash}
+poetry add --group dev my_package
+```
+
+Having added packages as dependencies, we can then install them using:
+
+```{bash}
+poetry install
+```
+
+This will install the dependencies within a virtual environment.
+The environment can be activated using:
+
+```{bash}
+poetry shell
+```
+
+If we reach a stage where we feel that our code warrants publishing as a
+package, we can do this using the following command:
+
+```{bash}
+poetry publish --build
+```
+
+This will make use of the package metadata in the `pyproject.toml` file and
+publish the package to PyPI by default.
+
+## pipenv
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| package installation
+| virtual environment management
+:::
+
+What is `poetry`?
+[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+
+## venv
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| virtual environment management
+:::
+
+What is `poetry`?
+[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+
+## pyenv
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| python version management
+:::
+
+What is `poetry`?
+[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+
+## cookiecutter
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| codebase structuring
+:::
+
+What is `poetry`?
+[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+
+## flit
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| codebase structuring
+| code packaging
+:::
+
+What is `flit`?
+[You can find more information about `flit` on their [documentation page](https://flit.pypa.io/en/stable/).]{.aside}
+
+## setuptools
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| codebase structuring
+| code packaging
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## twine
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code packaging
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## conda-build
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code packaging
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## pytest
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code testing
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## unittest
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code testing
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## black
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| formatting and linting
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## isort
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| formatting and linting
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## flake8
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| formatting and linting
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## ruff
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| formatting and linting
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## mkdocs
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code documentation
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## sphinx
+
+::: {.callout-tip appearance="simple"}
+## Uses
+| code documentation
+:::
+
+What is `setuptools`?
+[You can find more information about `setuptools` on their [documentation page](https://setuptools.pypa.io/en/latest/setuptools.html).]{.aside}
+
+## Tool list
+
+* [x] pip
+* [ ] conda
+* [ ] poetry
+* [ ] pipenv
+* [ ] venv
+* [x] virtualenv
+* [ ] pyenv
+* [ ] cookiecutter
+* [ ] flit
+* [ ] setuptools
+* [ ] twine
+* [ ] conda-build
+* [ ] pytest
+* [ ] unittest
+* [ ] black
+* [ ] isort
+* [ ] flake8
+* [ ] ruff
+* [ ] mkdocs
+* [ ] sphinx
+
+## Conclusion
+
+We have examined a number of different Python tools which aim to help Python
+developers in a range of ways.
+Below is a table that summarises this information.

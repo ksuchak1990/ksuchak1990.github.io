@@ -1,15 +1,16 @@
 ---
 title: "Blog"
 listing:
-  contents: posts
+  contents: posts/blog_posts
   sort: "date desc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: true
-  exclude:
-    categories: ["boardgames"]
 page-layout: full
 title-block-banner: false
 ---
 
+Below you will find a collection of blog posts that I have written.
+These focus on range of topics from the academic work that I undertake to
+documentation of tools that I am developing.
