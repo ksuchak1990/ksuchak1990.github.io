@@ -9,7 +9,6 @@ website:
         href: https://github.com/ksuchak1990/
     left:
       - cv.qmd
-      - projects.qmd
       - publications.qmd
       - blog.qmd
       - boardgames.qmd
