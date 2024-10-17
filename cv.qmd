@@ -1,10 +1,11 @@
 ---
 title: "CV"
+include-in-header: ./mapping_header.html
 ---
 
-## Professional Experience
+## Current Role
 
-### 2024 - Present: Research Fellow in Mobility Data Science
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2024 - Present: Research Fellow in Mobility Data Science
 
 > School of Geography, University of Leeds
 
@@ -16,7 +17,112 @@ __*Projects: AMR-Hub*__
 * Developing and maintaining collaborations within and beyond the research
   group.
 
-### 2023: Research Fellow in Simulating Urban Systems
+## Previous Experience
+
+```{=html}
+ <div id="map"></div>
+ <script>
+    // Set up map
+    // Initialize the map and set its view to focus on the UK (latitude, longitude) with a suitable zoom level
+    const map = L.map('map').setView([52.5, -2.0], 7);  // Centre the map over the UK
+
+    // Use CartoDB Dark Matter map tiles
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 19
+    }).addTo(map);
+
+    // Set up icons
+    var blueIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    var goldIcon = new L.Icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-gold.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+    });
+
+    // Functions
+    // Adding an individual location to the map
+    function addLocation(location, iconType){
+        var marker = L.marker([location[1], location[2]], {icon: iconType}).addTo(map);
+        marker.bindPopup(location[0]);
+    }
+    
+    // Add a collection of maps
+    function addLocations(locations, iconType){
+        for (var i = 0; i < locations.length; i++) {
+            addLocation(locations[i], iconType);
+        }
+    }
+
+    // Define main locations
+    var study_locations = [
+        ["<b>BSc Physics</b><br>Department of Physics<br>Imperial College London", 51.499524, -0.179225],
+        ["<b>MSc Aerospace Dynamics</b><br>Department of Aerospace Engineering<br>Cranfield University", 52.071858, -0.627679],
+        ["<b>MSc Mathematics</b><br>School of Mathematics<br>University of Leeds", 53.805682, -1.554612],
+        ["<b>CDT Data Analytics and Society</b><br>LIDA<br>University of Leeds", 53.803272, -1.555669]
+    ];
+
+    var work_locations = [
+        ["<b>Research Fellow - Mobility Data Science<br>Research Fellow - Simulating Urban Systems</b><br>School of Geography<br>University of Leeds", 53.804666, -1.555481],
+        ["<b>Research Fellow - Transport-Health Interactions</b><br>Institute for Transport Studies<br>University of Leeds", 53.808052, -1.558518],
+        ["<b>Principal Investigator - Sustrans Challenge</b><br>Alan Turing Institute<br>", 51.530213, -0.126976],
+        ["<b>Data Science Fellow - Connected Place Catapult</b><br>Buckinghamshire County Council", 51.814784, -0.811689],
+        ["<b>Software Developer / Analyst</b><br>Ampere Analysis", 51.529102, -0.077912],
+        ["<b>Aviation Observations Placement</b><br>Met Office", 50.727282, -3.474336]
+    ];
+
+    // Add both types of locations to map
+    addLocations(work_locations, blueIcon);
+    addLocations(study_locations, goldIcon);
+
+    // Add a custom legend control to the map
+    var legend = L.control({ position: 'topright' });
+
+    legend.onAdd = function (map) {
+        var div = L.DomUtil.create('div', 'info legend');
+        div.innerHTML += '<i style="background: #2A81CB"></i> Work<br>';
+        div.innerHTML += '<i style="background: #988F2E"></i> Education<br>';
+    return div;
+    };
+
+    legend.addTo(map);
+
+ </script>
+
+ <style>
+  /* Legend styling */
+  .legend {
+    background-color: grey;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+  }
+
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 1.0;
+  }
+</style>
+
+
+```
+
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2023: Research Fellow in Simulating Urban Systems
 
 > School of Geography, University of Leeds
 
@@ -27,7 +133,7 @@ __*Projects: DUST*__
 * Developing a series of unit tests to verify reliable behaviour of
   agent-based models and data assimilation methods.
 
-### 2022 - 2023: Principal Investigator
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2022 - 2023: Principal Investigator
 
 > Sustrans / Alan Turing Institute
 
@@ -42,7 +148,7 @@ Infrastructure for All*__
   integrity.
 * Monitoring and finalising the production of reports for publication.
 
-### 2021 - 2023: Research Fellow in Transport-Health Interactions
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2021 - 2023: Research Fellow in Transport-Health Interactions
 
 > Institute for Transport Studies, University of Leeds
 
@@ -57,7 +163,7 @@ __*Projects: KARMA, TRACK*__
   modelling approaches.
 * Disseminating research group work at workshops.
 
-### 2020: Data Science Fellow
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2020: Data Science Fellow
 
 > Buckinghamshire County Council / Connected Places Catapult
 
@@ -72,7 +178,15 @@ __*Fellowship Project: Mapping and Modelling Social Isolation*__
 * Managing stakeholder relationships and running stakeholder engagement events
   in conjunction with the Connected Places Catapult.
 
-### 2016 - 2017: Software Developer / Analyst
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png) 2017 - 2022: CDT Data Analytics and Society
+
+> Leeds Institute for Data Analytics, University of Leeds
+
+* PhD Project: Developing Methods for Real-time Pedestrian Simulation
+* MSc Project: Implementing the Ensemble Kalman Filter with an Agent-Based Model
+* Internship project: Footfall at Kirkgate Market with Leeds City Council
+
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2016 - 2017: Software Developer / Analyst
 
 > Ampere Analysis
 
@@ -84,7 +198,13 @@ __*Fellowship Project: Mapping and Modelling Social Isolation*__
 * Supporting the wider team's bespoke consulting work for high-profile film, TV
   and technology firms.
 
-### 2015: Aviation Observation Placement Student
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png) 2015 - 2016: MSc Mathematics
+
+> School of Mathematics, University of Leeds
+
+* MSc Project: Dynamics on Networks
+
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png) 2015: Aviation Observations Placement Student
 
 > Met Office
 
@@ -92,29 +212,13 @@ __*Fellowship Project: Mapping and Modelling Social Isolation*__
   questions regarding data quality from commercial aircraft.
 * Analysing large multivariate datasets using R.
 
-## Academic Experience
-
-### 2017 - 2022: CDT Data Analytics and Society
-
-> Leeds Institute for Data Analytics, University of Leeds
-
-* PhD Project: Developing Methods for Real-time Pedestrian Simulation
-* MSc Project: Implementing the Ensemble Kalman Filter with an Agent-Based Model
-* Internship project: Footfall at Kirkgate Market with Leeds City Council
-
-### 2015 - 2016: MSc Mathematics
-
-> School of Mathematics, University of Leeds
-
-* MSc Project: Dynamics on Networks
-
-### 2013 - 2014: MSc Aerospace Dynamics
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png) 2013 - 2014: MSc Aerospace Dynamics
 
 > Department of Aerospace Engineering, Cranfield University
 
 * MSc Project: Turbulent to Laminar Relaminarisation
 
-### 2010 - 2013: BSc Physics
+### ![](https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png) 2010 - 2013: BSc Physics
 
 > Department of Physics, Imperial College London
 
