@@ -1,0 +1,21 @@
+---
+title: "My City"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [kickstarter]
+image: "https://cf.geekdo-images.com/fz4aYmycg9baQlm_DzwyKA__itemrep/img/9KNmnszInjHRVLIT-ZTv7Miex7Y=/fit-in/246x300/filters:strip_icc()/pic7443423.jpg"
+description: "Develop your city through the ages in this family-friendly legacy
+experience."
+---
+
+## Theming
+
+## Setting up
+
+## Rounds
+
+## Scoring
+
+## Terminology
+
+

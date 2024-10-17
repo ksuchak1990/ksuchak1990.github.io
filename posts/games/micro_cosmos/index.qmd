@@ -1,0 +1,21 @@
+---
+title: "Micro Cosmos"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [micro, kickstarter]
+image: "https://cf.geekdo-images.com/k2g0DCiRUcuuTEF5NhtzJA__itemrep/img/G2XUe14c3wGdm2f68n_vfzCAUZA=/fit-in/246x300/filters:strip_icc()/pic6848508.jpg"
+description: "Rebuild the galaxy after a great war and help its inhabitants find
+new homes."
+---
+
+## Theming
+
+## Setting up
+
+## Rounds
+
+## Scoring
+
+## Terminology
+
+

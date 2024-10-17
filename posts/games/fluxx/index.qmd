@@ -1,0 +1,20 @@
+---
+title: "Fluxx"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [fluxx]
+image: "https://cf.geekdo-images.com/ZBQHRlhd32wt4F_zgeic6w__itemrep/img/QPPkQKe4hiliACZ4chyMVDtRY5U=/fit-in/246x300/filters:strip_icc()/pic2405641.jpg"
+description: "Play cards and alter the rules in this ever changing card game!"
+---
+
+## Theming
+
+## Setting up
+
+## Rounds
+
+## Scoring
+
+## Terminology
+
+

@@ -1,0 +1,74 @@
+---
+title: "Hideous Abominations"
+author: "Keiran Suchak"
+date: today
+categories: [kickstarter]
+image: "https://cf.geekdo-images.com/ovTwZCRP6F-75PWtnx8tqQ__itemrep/img/jGgeJzm1OUbNn8O9HfGAxXrTTLw=/fit-in/246x300/filters:strip_icc()/pic7657912.png"
+description: "Construct your own monstrosities out of hundreds of body parts!"
+---
+
+## Theming
+
+## Setting up
+
+1. Place the Grand Prizes face up between all players.
+2. Place the Score cards deck next to the Grand Prizes, leaving a space below to
+   place them as awards. Set aside the tie-breaker prizes.
+3. Shuffle the Body Part deck and place the top 3 Body Part cards in the middle
+   between players - this is the Buffet. Place the remaining Body Part deck next
+   to the Buffet.
+4. Provide each player with a Torso card (all Torsos are functionally the same).
+5. Deal 3 Body Part cards to each player.
+6. Place the Bolt tokens within reach of players.
+
+## Rounds
+
+Players take turns.
+Each turn, players take the following actions:
+
+1. **Roll the die:**
+    i) **Draw:** Draw 2 tiles and place them in your hand from either the Buffet
+    piles or from the top of the deck.
+    ii) **Dig:** Pick up one of the piles from the Buffet, dig through it and
+    select any 2 tiles. Return the pile in any order. If a pile only contains 1
+    tile, draw your second tile blind from the Body Parts deck.
+    iii) **Award:** Draw a card from the Score cards deck, placing it face-up
+    with the other Awards and Grand Prizes. **Draw** (as above).
+    iv) **Steal:** Take one body part from another player's abomination, add it
+    to your hand and give that player 2 Bolt tokens.
+    v) **Go Mad:** Choose any of the options above.
+2. **Play a tile on any abomination:** When playing a tile, all Loose Ends must
+   match up. You 
+3. **Discard down to 3 cards in hand:** cards are discarded face-up onto any of
+   the 3 piles in the Buffet.
+
+Special notes:
+
+* On the first turn, players draw instead of rolling.
+* If any of the Buffet piles are empty, draw a card from the Body Parts pile to
+  replenish it.
+* You cannot steal any of the following:
+    i) Torso tiles,
+    ii) Tiles with Bolt tokens on them,
+    iii) Your own tiles.
+* If you roll **Steal** but there are tiles available to steal then re-roll.
+
+The game ends when either:
+
+a) There are more Awards displayed than the number of players AND any player
+completes any abomination by closing off all of its loose ends, or
+b) A player is unable to draw a card because the deck is empty.
+
+## Scoring
+
+* **Consistency:**
+
+## Terminology
+
+* **Grand Prizes:** Score cards for "Completed Abomination", "Most Colors" and
+  "Fewest Tiles".
+* **Buffet:** Selection of Body Part cards in the middle of the table.
+* **Stealing:**
+* **Bolting:**
+* **Loose End:** Any side of a tile where the artwork meets the edge.
+

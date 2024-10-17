@@ -1,0 +1,13 @@
+---
+title: "The Mind"
+author: "Keiran Suchak"
+date: "2024-02-28"
+categories: [co-op]
+image: "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__itemrep/img/w6x_ahGLQVe2u6trDx0kO91OprM=/fit-in/246x300/filters:strip_icc()/pic3979766.png"
+description: "Play your cards in ascending order without communicating. Timing
+is key!"
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

@@ -1,7 +1,7 @@
 ---
 title: "Boardgames"
 listing:
-  contents: posts
+  contents: posts/games
   sort:
     - "title"
     - "date desc"
@@ -9,8 +9,6 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
-  include:
-    categories: ["boardgames"]
 page-layout: full
 title-block-banner: false
 ---

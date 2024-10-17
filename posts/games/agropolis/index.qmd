@@ -1,0 +1,19 @@
+---
+title: "Agropolis"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [co-op, button shy]
+image: "https://cf.geekdo-images.com/KcE2t-zmo-p-POO8fPTUmA__itemrep/img/SfUoSZWYz7h-5iKCN7KF36vxJkk=/fit-in/246x300/filters:strip_icc()/pic5674430.png"
+description: "Add farms to the card-laying experience of Sprawlopolis."
+---
+
+## Theming
+
+## Setting up
+
+## Rounds
+
+## Scoring
+
+## Terminology
+

@@ -1,0 +1,117 @@
+---
+title: "Moon"
+author: "Keiran Suchak"
+date: 2024-03-03
+categories: [kickstarter]
+image: https://cf.geekdo-images.com/5S4mv0txfpPBtvttcOThUg__itemrep/img/tDaLiIY58rhlKzdvCnfxf31QTZ0=/fit-in/246x300/filters:strip_icc()/pic6742326.png
+description: "Construct the most popular Moon base by drafting cards and placing
+rovers."
+---
+
+## Theming
+
+## Setting up
+
+1. Put all Hearts, Rovers and Resources on the table within reach of all
+   players, forming the **General Supply**.
+2. Place the Flag Reward Board near the centre of the table.
+    a) Place a 3-Heart token on the space under each Flag.
+    b) Place 3 Hearts on the X space.
+    c) Stack the five 4-Heart tokens and five 5-Heart tokens next to the board.
+3. In the centre of the table, place $n$ random Reputation Cards of each level
+   face-up, where $n$ is the number of players.
+4. Place the Structure Cards for each of the Eras in separate decks on the
+   table.
+5. Place one of the Era 1 cards next to the Flag Reward Board - this is the
+   Discard Pile.
+6. Provide each player with the following:
+    * A Base Card,
+    * A Player Aid Card, and
+    * Two Rovers.
+7. Give the First Expedition Card to the player with the loudest voice; use the
+   appropriate card for the number of players.
+8. Place each of the Expedition Decks on the table.
+
+### Two-player games
+
+## Rounds
+
+* The game is played in three rounds called Eras
+* Each Era consists of the following phases:
+    1. Production Phase: Players produce Resources, Rovers and Hearts from their
+       Settlements.
+    2. Construction Phase: Players pick a card from their hands to Build or
+       Assimilate, then pass their hand to the next player.
+    3. Scoring Phase: Players claim the Hearts on the Flag Reward Board and
+       score any Hearts placed on their Structure and Reputation Cards.
+
+### Production phase
+
+* In this phase, all players claim the Resources and other items depicted on the
+  Production Symbols in their Settlement.
+* In the first Production Phase, players only have the Production Symbols on
+  their Base Card.
+* Production Symbols on Structure Cards also produce immediately when built in
+  the Construction Phase.
+
+### Construction phase
+
+* In this phase, players take turn acquiring cards and placing them in their
+  Settlements.
+* Start the phase by taking the following actions:
+    1. If at the beginning of either Era 2 or Era 3:
+        a) Form a new Discard Pile with a card from the appropriate Era Structure 
+           Card Deck.
+        b) Deal each player a hand from the current Era Structure Card Deck
+        (according to @tbl-handsize).
+    2. Deal a random Expedition Card to each player (except the player with the
+       First Expedition Card) using the appropriate Era Expedition Deck.
+* Each player now has a hand consisting of multiple Structure Cards and one
+  Expedition Card.
+* Players take turns (starting with the player holding the First Expedition
+  Card), proceeding in clockwise order.
+* Turns take the following form:
+    * A player must either:
+        a) Build, or
+        b) Assimilate.
+    * A player may do any of the following actions once at any point in their
+      turn:
+        a) Use the Bonus Action on their Expedition Card,
+        b) Park a Rover,
+        c) Claim a Reputation Card,
+        d) Flip over a pink Action Card.
+* After all players have taken a turn, they pass their hand (including
+  Expedition Card) to the player to the left.
+* Repeat the turn process until only the Expedition Cards are left in players'
+  hands.
+
+| Number of players | Hand size |
+|:-----------------:|:---------:|
+|         2         |    8      |
+|        3-4        |    7      |
+|         5         |    6      |
+
+: Hand size by number of players {#tbl-handsize}
+
+### Scoring phase
+
+## Scoring
+
+## Terminology
+
+* **General Supply:** Collection of Hearts, Rovers and Resources.
+* **Settlement:** The Base Card and Structure Cards of a player.
+* **Era:** A round of the game.
+* **Build:** Take a Structure Card from your hand and place it in your
+  Settlement. Resource costs must be paid and Flag Requirements must be
+  fulfilled.
+* **Assimilate:** Place a Structure Card from your hand onto the discard pile.
+  Take the Resources, Rovers or Hearts depicted on the card into your Supply.
+
+### Structure Card Types
+
+* **Blue Cards:**
+* **Yellow Cards:**
+* **Pink Cards:**
+* **Grey Cards:**
+* **Red Cards:**
