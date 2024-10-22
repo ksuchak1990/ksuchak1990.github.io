@@ -272,8 +272,57 @@ publish the package to PyPI by default.
 | virtual environment management
 :::
 
-What is `poetry`?
-[You can find more information about `poetry` on their [documentation page](https://python-poetry.org/docs/).]{.aside}
+Pipenv is a tool designed to help with the management of Python projects by
+handling package installation and virtual environment management, combining the
+features of tools like `pip` and `virtualenv` into a single tool.
+This provides many of the capabilities provided in Poetry.
+[You can find more information about `pipenv` on their [documentation page](https://pipenv.pypa.io/en/latest/).]{.aside}
+
+As with other similar tools, we will use `pipenv` to install packages and manage
+virtual environments.
+To do this, the most basic command is `pipenv install`, which can be used to
+install `my_package` as follows:
+
+```{bash}
+pipenv install my_package
+```
+
+Executing this command with carry out the following steps:
+
+1. Create a virtual environment for the project if one does not already exist,
+   along with an associated `Pipfile`,
+2. Add `my_package`to the `Pipfile`,
+3. Install `my_package` in the virtual environment.
+
+Just as with Poetry, we may wish to add a dependency which is only used for
+development and is not required for the package to function - we can do so using
+the `--dev` flag, e.g. to install `my_package` as a development dependency, we
+would run the following command:
+
+```{bash}
+pipenv install --dev my_package
+```
+
+If we wish to share the list of packages that we are using along with the
+versions installed, we can do so using a `Pipfile.lock` file - this functions
+much like a `requirements.txt` file for `pip`.
+To produce such a file, we would run the following command:
+```{bash}
+pipenv lock
+```
+
+To activate the virtual environment for a project, we can run:
+```{bash}
+pipenv shell
+```
+
+One additional facility offered by `pipenv` is the ability to generate a visual
+representation of the dependencies within a project as a graph.
+This can be achieved using:
+
+```{bash}
+pipenv graph
+```
 
 ## venv
 
