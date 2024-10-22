@@ -478,26 +478,26 @@ What is `setuptools`?
 
 ## Tool list
 
-* [x] pip
-* [ ] conda
-* [ ] poetry
-* [ ] pipenv
-* [ ] venv
-* [x] virtualenv
-* [ ] pyenv
-* [ ] cookiecutter
-* [ ] flit
-* [ ] setuptools
-* [ ] twine
-* [ ] conda-build
-* [ ] pytest
-* [ ] unittest
-* [ ] black
-* [ ] isort
-* [ ] flake8
-* [ ] ruff
-* [ ] mkdocs
-* [ ] sphinx
+1. [x] pip
+2. [x] conda
+3. [x] poetry
+4. [x] pipenv
+5. [x] virtualenv
+6. [ ] venv
+7. [ ] pyenv
+8. [ ] cookiecutter
+9. [ ] flit
+10. [ ] setuptools
+11. [ ] twine
+12. [ ] Conda-build
+13. [ ] pytest
+14. [ ] unittest
+15. [ ] black
+16. [ ] isort
+17. [ ] flake8
+18. [ ] ruff
+19. [ ] mkdocs
+20. [ ] sphinx
 
 ## Conclusion
 
