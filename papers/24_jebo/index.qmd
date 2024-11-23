@@ -1,0 +1,21 @@
+---
+title: "Agent-based models of the United States wealth distribution with Ensemble Kalman Filter"
+date: 2024-11-22
+author:
+  - name: Yannick Oswald
+    affiliation: Institute of Geography and Sustainability, University of Lausanne
+  - name: Nick Malleson
+    affiliation: School of Geography, University of Leeds
+  - name: Keiran Suchak
+    affiliation: School of Geography, University of Leeds
+categories: 
+  - agent-based modelling
+  - wealth inequality
+  - data assimilation
+  - ensemble kalman filter
+doi: 10.1016/j.jebo.2024.106820
+---
+
+## Abstract
+
+The distribution of wealth is central to economic, social, and environmental dynamics. The release of high-frequency distributional data and the rapid pace of the complex global economy makes ‘real-time’ predictions about the distribution of wealth and income increasingly relevant. For instance, during the COVID-19 pandemic in spring 2020, the stock markets experienced a crash followed by a surge within a brief period, evidently reshaping the wealth distribution in the US. Yet economic data, when first released, can be uncertain and need to be readjusted — again specifically so during crisis moments like the pandemic when information about household consumption and business returns is patchy and drastically different from “business-as-usual”. Our motivation here is to develop one way of overcoming the problem of uncertain ‘real-time’ data and enable economic simulation methods, such as agent-based models, to accurately predict in ‘real-time’ when combined with newly released data. Therefore, we tested two distinct, parsimonious agent-based models of wealth distribution, calibrated with US data from 1990 to 2022, in conjunction with data assimilation. Data assimilation is essentially applied control theory — a set of algorithms aiming to improve model predictions by integrating ‘real-time’ observational data into a simulation. The algorithm we employed is the Ensemble Kalman Filter (EnKF), which performs well in the context of computationally expensive problems. Our findings reveal that while the base models already align well historically, the EnKF enables a superior fit to the data.
