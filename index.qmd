@@ -12,7 +12,8 @@ about:
 I am a Research Fellow in Mobility Data Science in the School of Geography at
 the University of Leeds.
 Within the school, I am a member of the 
-[Institute for Spatial Data Science](https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/) and the Mobility Science Lab.
+[Institute for Spatial Data Science](https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/) 
+and the [Mobility Science Lab](https://mobscilab.com/).
 
 My current research focuses on exploring the mobility of healthcare workers and
 its impact on the way in which infections spread within healthcare settings;
