@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-03-03">
 <meta name="description" content="Construct the most popular Moon base by drafting cards and placing rovers.">
 
-<title>Moon – Keiran Suchak</title>
+<title>Keiran Suchak - Moon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -115,7 +86,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -149,7 +120,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -201,21 +172,10 @@ window.Quarto = {
    
   <ul>
   <li><a href="#theming" id="toc-theming" class="nav-link active" data-scroll-target="#theming">Theming</a></li>
-  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting up</a>
-  <ul class="collapse">
-  <li><a href="#two-player-games" id="toc-two-player-games" class="nav-link" data-scroll-target="#two-player-games">Two-player games</a></li>
-  </ul></li>
-  <li><a href="#rounds" id="toc-rounds" class="nav-link" data-scroll-target="#rounds">Rounds</a>
-  <ul class="collapse">
-  <li><a href="#production-phase" id="toc-production-phase" class="nav-link" data-scroll-target="#production-phase">Production phase</a></li>
-  <li><a href="#construction-phase" id="toc-construction-phase" class="nav-link" data-scroll-target="#construction-phase">Construction phase</a></li>
-  <li><a href="#scoring-phase" id="toc-scoring-phase" class="nav-link" data-scroll-target="#scoring-phase">Scoring phase</a></li>
-  </ul></li>
+  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting up</a></li>
+  <li><a href="#rounds" id="toc-rounds" class="nav-link" data-scroll-target="#rounds">Rounds</a></li>
   <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
-  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a>
-  <ul class="collapse">
-  <li><a href="#structure-card-types" id="toc-structure-card-types" class="nav-link" data-scroll-target="#structure-card-types">Structure Card Types</a></li>
-  </ul></li>
+  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
   </ul>
 </nav>
     </div>
@@ -231,142 +191,17 @@ window.Quarto = {
 </section>
 <section id="setting-up" class="level2">
 <h2 class="anchored" data-anchor-id="setting-up">Setting up</h2>
-<ol type="1">
-<li>Put all Hearts, Rovers and Resources on the table within reach of all players, forming the <strong>General Supply</strong>.</li>
-<li>Place the Flag Reward Board near the centre of the table.
-<ol type="a">
-<li>Place a 3-Heart token on the space under each Flag.</li>
-<li>Place 3 Hearts on the X space.</li>
-<li>Stack the five 4-Heart tokens and five 5-Heart tokens next to the board.</li>
-</ol></li>
-<li>In the centre of the table, place <span class="math inline">\(n\)</span> random Reputation Cards of each level face-up, where <span class="math inline">\(n\)</span> is the number of players.</li>
-<li>Place the Structure Cards for each of the Eras in separate decks on the table.</li>
-<li>Place one of the Era 1 cards next to the Flag Reward Board - this is the Discard Pile.</li>
-<li>Provide each player with the following:
-<ul>
-<li>A Base Card,</li>
-<li>A Player Aid Card, and</li>
-<li>Two Rovers.</li>
-</ul></li>
-<li>Give the First Expedition Card to the player with the loudest voice; use the appropriate card for the number of players.</li>
-<li>Place each of the Expedition Decks on the table.</li>
-</ol>
-<section id="two-player-games" class="level3">
-<h3 class="anchored" data-anchor-id="two-player-games">Two-player games</h3>
-</section>
 </section>
 <section id="rounds" class="level2">
 <h2 class="anchored" data-anchor-id="rounds">Rounds</h2>
-<ul>
-<li>The game is played in three rounds called Eras</li>
-<li>Each Era consists of the following phases:
-<ol type="1">
-<li>Production Phase: Players produce Resources, Rovers and Hearts from their Settlements.</li>
-<li>Construction Phase: Players pick a card from their hands to Build or Assimilate, then pass their hand to the next player.</li>
-<li>Scoring Phase: Players claim the Hearts on the Flag Reward Board and score any Hearts placed on their Structure and Reputation Cards.</li>
-</ol></li>
-</ul>
-<section id="production-phase" class="level3">
-<h3 class="anchored" data-anchor-id="production-phase">Production phase</h3>
-<ul>
-<li>In this phase, all players claim the Resources and other items depicted on the Production Symbols in their Settlement.</li>
-<li>In the first Production Phase, players only have the Production Symbols on their Base Card.</li>
-<li>Production Symbols on Structure Cards also produce immediately when built in the Construction Phase.</li>
-</ul>
-</section>
-<section id="construction-phase" class="level3">
-<h3 class="anchored" data-anchor-id="construction-phase">Construction phase</h3>
-<ul>
-<li>In this phase, players take turn acquiring cards and placing them in their Settlements.</li>
-<li>Start the phase by taking the following actions:
-<ol type="1">
-<li>If at the beginning of either Era 2 or Era 3:
-<ol type="a">
-<li>Form a new Discard Pile with a card from the appropriate Era Structure Card Deck.</li>
-<li>Deal each player a hand from the current Era Structure Card Deck (according to <a href="#tbl-handsize" class="quarto-xref">Table&nbsp;1</a>).</li>
-</ol></li>
-<li>Deal a random Expedition Card to each player (except the player with the First Expedition Card) using the appropriate Era Expedition Deck.</li>
-</ol></li>
-<li>Each player now has a hand consisting of multiple Structure Cards and one Expedition Card.</li>
-<li>Players take turns (starting with the player holding the First Expedition Card), proceeding in clockwise order.</li>
-<li>Turns take the following form:
-<ul>
-<li>A player must either:
-<ol type="a">
-<li>Build, or</li>
-<li>Assimilate.</li>
-</ol></li>
-<li>A player may do any of the following actions once at any point in their turn:
-<ol type="a">
-<li>Use the Bonus Action on their Expedition Card,</li>
-<li>Park a Rover,</li>
-<li>Claim a Reputation Card,</li>
-<li>Flip over a pink Action Card.</li>
-</ol></li>
-</ul></li>
-<li>After all players have taken a turn, they pass their hand (including Expedition Card) to the player to the left.</li>
-<li>Repeat the turn process until only the Expedition Cards are left in players’ hands.</li>
-</ul>
-<div id="tbl-handsize" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-handsize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Hand size by number of players
-</figcaption>
-<div aria-describedby="tbl-handsize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Number of players</th>
-<th style="text-align: center;">Hand size</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3-4</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">6</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</section>
-<section id="scoring-phase" class="level3">
-<h3 class="anchored" data-anchor-id="scoring-phase">Scoring phase</h3>
-</section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
 </section>
 <section id="terminology" class="level2">
 <h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
-<ul>
-<li><strong>General Supply:</strong> Collection of Hearts, Rovers and Resources.</li>
-<li><strong>Settlement:</strong> The Base Card and Structure Cards of a player.</li>
-<li><strong>Era:</strong> A round of the game.</li>
-<li><strong>Build:</strong> Take a Structure Card from your hand and place it in your Settlement. Resource costs must be paid and Flag Requirements must be fulfilled.</li>
-<li><strong>Assimilate:</strong> Place a Structure Card from your hand onto the discard pile. Take the Resources, Rovers or Hearts depicted on the card into your Supply.</li>
-</ul>
-<section id="structure-card-types" class="level3">
-<h3 class="anchored" data-anchor-id="structure-card-types">Structure Card Types</h3>
-<ul>
-<li><strong>Blue Cards:</strong></li>
-<li><strong>Yellow Cards:</strong></li>
-<li><strong>Pink Cards:</strong></li>
-<li><strong>Grey Cards:</strong></li>
-<li><strong>Red Cards:</strong></li>
-</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -405,7 +240,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -437,37 +283,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ksuchak1990\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
