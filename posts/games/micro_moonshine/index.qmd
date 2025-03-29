@@ -1,0 +1,65 @@
+---
+title: "Micro Moonshine"
+draft: true
+author: "Keiran Suchak"
+date: 2025-03-29
+categories: [micro]
+image: "https://boardgamegeek.com/image/8155441/micro-moonshine"
+description: "Build an empire of forbidden spirits navigating the world of illegal liquor. "
+---
+
+## Theming
+
+## Setting up
+
+1. Place the board on the table
+2. Place the Turn and Truck tokens at their starting spaces on the board (space
+   1).
+3. Place each player's marker at the start of the scoring track.
+4. Place the Building tiles on the table to form the City; these should start
+   coloured side up.
+5. Split the Contract cards intro 3 decks - one for each level.
+6. Shuffle each Contract card deck and place them face up (coloured side up) by
+   the City.
+7. Draw one Contract card from each of the decks and place them below their
+   corresponding decks; place 2 Clean Dollars on each of the Level 1 Contracts
+   and 1 Clean Dollar on each of the Level 2 Contracts.
+8. Place the Barrels, Bottles and Dollars next to the City - these form the
+   General Supply.
+9. Shuffle the Ingredient cards and place them face down as a deck next to the
+   City.
+10. Display 7 Ingredient cards to create a Market.
+11. Shuffle the Crew cards and place them face down as a deck next to the City.
+12. Give each player:
+  - A Player Aid card,
+  - 1 Dollar token,
+  - 5 Ingredient cards from the top of the deck.
+13. Choose the first player (suggested: most recent person to watch a gangster
+    film).
+14. If there are 3 players, give each player except the first player an
+    additional Dollar token.
+
+## Rounds
+
+### Phases
+
+## Scoring
+
+## Terminology
+
+- The City
+- Building tiles:
+  - Barrel Houses:
+    - Whiskey
+    - Rum
+    - Wine
+    - Gin
+  - Markets:
+    - Black Market
+    - Street Market
+  - Other:
+    - Docks
+    - Bottling Plant
+  - Expansion modules:
+    - Police Station
+    - Farm
