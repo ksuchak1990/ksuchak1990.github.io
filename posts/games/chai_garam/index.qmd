@@ -9,6 +9,21 @@ description: "Chai shop owners manage multitude of customers by serving chai."
 
 ## Theming
 
+Welcome to a bustling Mela in India.
+
+As owners of a Chai Tapri in the heart of the Mela, you will be challenged to
+serve queues filled with everyone from the most discerning  tea enthusiasts to
+celebs, to quick-fix tea drinkers.
+
+Your shop will compete with the other tapris in the mela to win the hearts of
+the crowd.
+Fortunately, your traditional tea recipes and extensive menu are your biggest
+assets.
+
+Brew perfect chai, serve as quickly as you can, rake in money, and leave behind
+a great impression on your customers.
+Every serving takes you further towards becoming the best Tapri in the Mela.
+
 ## Setting up
 
 ## Rounds
