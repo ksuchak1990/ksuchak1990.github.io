@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: vapor
+    theme: pulse
     toc: true
     includes:
       in_header: |
