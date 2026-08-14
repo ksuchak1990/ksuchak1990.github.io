@@ -8,6 +8,57 @@ description: "Play your cards in ascending order without communicating. Timing
 is key!"
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## Theming: What's the point?
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Without talking or signalling, the group must play its numbered cards in ascending order. Success depends on shared timing rather than taking turns.
+
+### The communication rule
+
+Do not say card values, show cards, make deliberate signals, or agree on timing systems. Natural reactions are unavoidable; the point is to judge the moment collectively.
+
+## Setting up: How to get started?
+
+### Build the level track
+
+1. Use 12 levels with 2 players, 10 with 3 players, or 8 with 4 players.
+2. Start with as many lives as players and one throwing star.
+3. Place the level cards in order and reveal level 1.
+4. Shuffle cards 1-100 and deal every player cards equal to the current level number.
+5. Players look only at their own cards. Take a moment of silence before anyone plays.
+
+## Rounds and Phases
+
+### Play a level
+
+There is no turn order. Any player may place their lowest-feeling card face-up in the centre. Continue until every dealt card is in one ascending shared pile.
+
+### When a card is too high
+
+If a player reveals a card while another player still holds a lower card:
+
+1. Lose one shared life.
+2. Every player discards all cards lower than the card just played.
+3. Continue the same level with the cards that remain.
+
+### Throwing stars and level rewards
+
+At any agreed moment, a player may raise a hand to ask for a throwing star. If everyone agrees, spend one: every player discards their lowest hand card face-up. After completing a level, discard remaining used cards, reveal the next level, and award any life or star shown on that level card before dealing again.
+
+## Scoring
+
+### Win or lose together
+
+The game has no points. Clear the final level to win. The instant the team loses its last life, the game ends in a shared loss. There is no tiebreak because the team has one result.
+
+## Terminology
+
+### Key terms
+
+- **Level:** a round with a specified number of cards per player.
+- **Life:** a shared error allowance.
+- **Throwing star:** a shared aid that discards everyone's lowest card.
+- **Shared pile:** cards played in ascending order.
+
+## Official rules
+
+[The Mind official product page and rulebook link](https://pandasaurusgames.com/products/the-mind)

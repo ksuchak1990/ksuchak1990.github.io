@@ -7,14 +7,60 @@ description: "Play cards and alter the rules in this ever-changing card game!"
 image: "https://cf.geekdo-images.com/09wnoCbNbpPe2UGu7vap2A__itemrep/img/6jjZ1H58ApzLqGD7niw7OMDAYGs=/fit-in/246x300/filters:strip_icc()/pic6494288.jpg"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Fluxx Remixx is a more chaotic version of Fluxx, with music-themed cards, changing rules, and Goals that decide which Keepers win.
 
-## Rounds
+### The remix
+
+The basic Fluxx structure remains, but Remixx adds **Surprises** that interrupt play at their stated timing. A new Goal, Rule, or Surprise can overturn a good plan immediately.
+
+## Setting up: How to get started?
+
+### Deal the game
+
+1. Shuffle the deck and deal three cards to every player.
+2. Put the remaining cards face-down as the draw pile and leave room for discards.
+3. Choose a first player.
+4. Start with no cards in play and the Basic Rule Draw 1, Play 1.
+
+If the draw pile is exhausted, shuffle the discard pile into a replacement draw pile. Cards in front of players stay in play.
+
+## Rounds and Phases
+
+### Take a turn
+
+1. Draw the required number of cards.
+2. Play the required number, resolving each card immediately.
+3. Enforce active Hand and Keeper Limits after playing.
+4. Check the active Goal before the next player begins.
+
+### Cards and interruptions
+
+- **Keepers** remain in front of their owner.
+- **Goals** and **New Rules** replace the existing card of the same type.
+- **Actions** resolve once and are discarded.
+- A **Surprise** is playable only at the timing printed on it. Resolve it before returning to the interrupted effect or turn.
+
+If a new Draw or Play rule appears during your turn, use it immediately when it can still affect that turn. If an instruction cannot be completed, do as much as possible. Latest card text beats a conflicting general rule.
 
 ## Scoring
 
+### End of the game
+
+There is no score. The first time one or more players satisfy the active Goal with their Keepers, those players win immediately. This can happen on any player's turn, including while resolving an Action or Surprise.
+
 ## Terminology
 
+### Key terms
 
+- **Keeper:** a persistent card in front of a player.
+- **Goal:** the current win condition.
+- **New Rule:** changes the rules in force.
+- **Action:** a one-off effect.
+- **Surprise:** a card playable at the timing printed on it.
+- **Limit:** a maximum number of cards in hand or Keepers in play.
+
+## Official rules
+
+[Fluxx Remixx rules (PDF)](https://www.looneylabs.com/sites/default/files/literature/FluxxRemixxRules_0.pdf)

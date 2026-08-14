@@ -8,12 +8,81 @@ description: "Build a cavernous sanctuary for dragons of all shapes and sizes!"
 ---
 
 ## Theming: What's the point?
+You are a dracologist building a cavern sanctuary and attracting dragons to live in it. Over four rounds, build an engine in three caves and score the most victory points.
+
+### Players
+
+- The standard game is for 1-5 players; the solo game uses the included Automa rules.
+- In a multiplayer game, players share the card displays, the Dragon Guild, and round-end goals.
+- Guild spaces and the guild's player-count side depend on the number of players.
 
 ## Setting up: How to get started?
 
+### Build the shared display
+
+1. Choose one Dragon Guild and use the correct player-count side.
+2. Reveal the round-end objective tiles and prepare the cave-card and dragon-card displays.
+3. Each player takes a mat, adventurer, Guild marker, starting egg, and starting cards.
+
+### Choose a start
+
+- Your mat starts with the leftmost space of each cave excavated.
+- Choose four cards from three dragon cards and three cave cards.
+- Choose any three food resources. Keep your choices hidden until play begins.
+
 ## Rounds and Phases
+
+### Start of a round
+
+- The game has exactly four rounds.
+- At the start of every round, gain 6 coins and 1 egg.
+- Coins may be saved from an earlier round, subject to the end-of-turn limit.
+
+### Take turns
+
+On a turn, spend coins to take one action. The main actions are:
+
+1. **Excavate:** play a cave card into an available cave space, pay its placement cost if any, and take its when-played benefit.
+2. **Entice:** play a dragon into an excavated, unoccupied space, paying the resources and any egg shown on that dragon.
+3. **Explore:** send your adventurer through one cave from left to right. Resolve each dragon encountered in order and take the benefit at the cave's end if reached.
+4. **Advance on the Dragon Guild:** pay the listed cost to claim an available Guild benefit and move your marker.
+
+### Passing and cleanup
+
+- When you cannot or do not wish to take another action, pass for the round.
+- Once everyone has passed, resolve the round-end goal, then refresh the shared cave and dragon displays for the next round.
+- At the end of each of your turns, discard down to at most 9 cards, 9 coins, and 9 resource tokens.
+
+### Important exceptions
+
+- Most card abilities are optional. An ability that offers something to other players must activate, but each player chooses whether to take the benefit.
+- A dragon that says “in this cave” means its own row, not all three caves.
+- Reaching a stop sign or the end of an explored cave sends the adventurer back to Base Camp and ends that turn.
+- You may exchange two resources for one resource of your choice at any time.
 
 ## Scoring
 
+### End of game
+
+After round four's goal is scored, add:
+
+- victory points printed on dragons;
+- eggs in nests;
+- tucked dragon cards and cached resources where the relevant effect scores them;
+- objective-tile points;
+- Dragon Guild end-game benefits; and
+- end-game card abilities.
+
+The highest total wins. Ties for a round-end goal are friendly: tied players receive the full points for that place, then the next player receives the next lower place.
+
 ## Terminology
 
+- **Excavate:** add a cave card and make a space available for a dragon.
+- **Entice:** play a dragon into an excavated space.
+- **Explore:** move the adventurer through one cave, activating dragons in order.
+- **Hatchling:** a baby dragon with an egg cost, a feeding effect, and a later growth effect.
+- **Tuck / cache:** store a card beneath a dragon or a resource on it.
+- **Dragon Guild:** a shared progression board with limited benefits and end-game scoring.
+
+## Official rules
+[Stonemaier Games: Wyrmspan Rules and FAQ](https://stonemaiergames.com/games/wyrmspan/rules-faq/) links to the official rulebook, solo rules, and rulings answers.

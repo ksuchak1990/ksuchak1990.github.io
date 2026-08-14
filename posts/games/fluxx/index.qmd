@@ -7,14 +7,62 @@ image: "https://cf.geekdo-images.com/ZBQHRlhd32wt4F_zgeic6w__itemrep/img/QPPkQKe
 description: "Play cards and alter the rules in this ever changing card game!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Fluxx is a card game whose rules and victory condition change during play. Put the right Keepers in front of you when the current Goal appears.
 
-## Rounds
+### The only stable rule
+
+The game starts with **Draw 1, Play 1**. Everything else can change, including the number of cards you draw or play, what you may keep, and the way to win. Before each turn, read every face-up New Rule.
+
+## Setting up: How to get started?
+
+### Deal the game
+
+1. Shuffle all cards into one deck.
+2. Deal three cards to each player.
+3. Make a face-down draw pile and leave room for discards.
+4. Choose a first player by any fair method.
+5. Begin with no Keepers, no Goal, and only Draw 1, Play 1.
+
+If the draw pile runs out, shuffle the discard pile into a new draw pile. Never shuffle cards that remain in play.
+
+## Rounds and Phases
+
+### Take a turn
+
+1. Draw the number of cards required by the active Draw rule.
+2. Play the number required by the active Play rule.
+3. Resolve each card immediately. A Goal or New Rule replaces the existing card of that type.
+4. After playing, obey every active Hand Limit and Keeper Limit by discarding excess cards of your choice.
+5. Check the current Goal before play passes clockwise.
+
+### What each card does
+
+- **Keepers** stay face-up in front of their owner.
+- **Goals** set the current win condition. With no Goal, nobody wins normally.
+- **New Rules** take effect immediately and can alter this turn.
+- **Actions** resolve once, then go to the discard pile.
+
+If you must play more cards than you hold, play all you can. When rules conflict, the newest relevant card wins; a card's specific instruction overrides the general rules.
 
 ## Scoring
 
+### End of the game
+
+There is no points total. The instant a player has all Keepers listed on the current Goal, that player wins, including during another player's Action or rule change. If several players meet it at once, they all win.
+
 ## Terminology
 
+### Card types and limits
 
+- **Keeper:** a card kept face-up in front of a player.
+- **Goal:** the current winning requirement.
+- **New Rule:** a card that changes how the game is played.
+- **Action:** a one-off instruction, resolved and then discarded.
+- **Hand Limit:** maximum cards held after a turn.
+- **Keeper Limit:** maximum Keepers kept after a turn.
+
+## Official rules
+
+[Fluxx 5.0 rules (PDF)](https://www.looneylabs.com/sites/default/files/literature/Fluxx5.0Rules_0.pdf)

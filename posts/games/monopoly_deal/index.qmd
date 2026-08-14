@@ -8,14 +8,67 @@ description: "Can you collect three sets of properties before your fortune runs
 out?"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Build a property portfolio while using money and action cards to charge rent, demand payment, and disrupt opponents.
 
-## Rounds
+### How to think about your cards
+
+Every card has a money value in the corner, but using a card as money is permanent: it stays in your bank and cannot later be used for its action or property side. Keep action cards in hand until their effect is useful.
+
+## Setting up: How to get started?
+
+### Deal the game
+
+1. Shuffle the full deck.
+2. Deal five cards face-down to every player.
+3. Put the remaining cards face-down as the draw pile.
+4. Choose a first player; play proceeds clockwise.
+
+Each player makes space for a bank and for property sets. Cards in hand stay secret; money and properties are face-up.
+
+## Rounds and Phases
+
+### Take a turn
+
+1. Draw two cards. If you start the turn with no cards, draw five instead.
+2. Play up to three cards total. You may play fewer or none.
+3. Use each play as one of the following:
+   - put a property or wild property in your collection;
+   - put a money card, or an action card for its printed value, in your bank;
+   - play an action card and resolve it.
+4. Discard down to seven cards at the end of your turn.
+
+### Paying demands
+
+When another player demands payment, pay only from face-up bank cards and properties. Choose what to give; you do not make change, and any overpayment stays with the recipient. You cannot pay with cards in hand. If you cannot pay the full amount, give everything you have in play.
+
+### Important action effects
+
+- **Rent** charges a player or all opponents as stated; add the rents of complete sets only when the card allows it.
+- **Debt Collector** and **It's My Birthday** demand money, not a choice of cards from hand.
+- **Sly Deal** steals one property from an incomplete set; **Forced Deal** swaps properties between incomplete sets.
+- **Deal Breaker** steals a complete set. **Just Say No** cancels an action; another Just Say No can cancel that cancellation.
+
+You may rearrange wild properties among your own sets during your turn, but not after another player has announced an action against them.
 
 ## Scoring
 
+### End of the game
+
+There is no points total. The first player with three complete property sets of different colours wins immediately, even if the final property was obtained by an action. Extra properties or houses/hotels are not needed for a set to count.
+
 ## Terminology
 
+### Key terms
 
+- **Bank:** your pile of money cards and banked action cards.
+- **Property set:** properties of one colour collected together.
+- **Complete set:** the number of properties shown on the cards for that colour.
+- **Wild property:** a property card that can represent one of its printed colours.
+- **Rent:** a payment demanded by a rent action card.
+- **Action card:** a card with an immediate effect, such as charging rent or stealing property.
+
+## Official rules
+
+[Monopoly Deal instructions (PDF)](https://instructions.hasbro.com/api/download/B0965_en-us_monopoly-deal-card-game.pdf)

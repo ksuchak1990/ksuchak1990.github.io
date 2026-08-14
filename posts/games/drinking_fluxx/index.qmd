@@ -7,14 +7,63 @@ image: "https://cf.geekdo-images.com/NnxLGq0wJuqA2JEYV9lrog__itemrep/img/MjiP5n3
 description: "The Drinking Game with Ever-Changing Rules."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Drinking Fluxx is an adult Fluxx variant in which the changing cards also create responsible-adult drinking and party-game effects. The card text always decides the effect.
 
-## Rounds
+### Play responsibly
+
+Every drinking instruction can use water, a soft drink, or a non-drinking substitute. Agree before play that anyone may decline or replace an instruction without explanation. Never make driving, medication, or personal limits part of a game effect.
+
+## Setting up: How to get started?
+
+### Deal the game
+
+1. Shuffle all cards and deal three to each player.
+2. Put the rest face-down as a draw pile, with space for discards.
+3. Choose a first player.
+4. Start with no Goal, no Keepers, and the Basic Rule **Draw 1, Play 1**.
+
+If the draw pile is empty, shuffle the discard pile into a new draw pile. Cards in play are never shuffled back in.
+
+## Rounds and Phases
+
+### Take a turn
+
+1. Draw the number required by the active Draw rule.
+2. Play the number required by the active Play rule.
+3. Resolve every card as it is played.
+4. Discard down to active Hand and Keeper Limits after playing.
+5. Check the current Goal before play passes clockwise.
+
+### Card effects
+
+- **Keepers** stay in front of their owner and can satisfy Goals.
+- A **Goal** or **New Rule** replaces the previous card of that type.
+- An **Action** resolves once, then is discarded.
+- A **Creeper** stays in play and normally prevents its owner from winning unless a Goal says otherwise.
+- A **Surprise** can be played only at the timing printed on it, sometimes outside your turn.
+
+New Rules can change draw, play, hand, or Keeper limits immediately. Do as much of an impossible instruction as you can. Specific card text overrides the general rules.
 
 ## Scoring
 
+### End of the game
+
+There is no points total. A player wins immediately on meeting the active Goal with their Keepers and any other stated conditions. If a Creeper prevents that win, it still prevents it even when the player has the listed Keepers. Simultaneous winners share the victory.
+
 ## Terminology
 
+### Key terms
 
+- **Keeper:** a persistent card in front of a player.
+- **Goal:** the current win condition.
+- **New Rule:** changes the rules in force.
+- **Action:** a one-off effect.
+- **Creeper:** a card with an ongoing drawback.
+- **Surprise:** a card playable at the timing stated on it.
+- **Drink instruction:** use the group's agreed substitute when appropriate.
+
+## Official rules
+
+[Drinking Fluxx rules (PDF)](https://www.looneylabs.com/sites/default/files/literature/DrinkingFluxxRules_1.pdf)

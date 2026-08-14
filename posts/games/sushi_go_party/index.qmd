@@ -10,68 +10,62 @@ room for dessert!"
 
 ## Theming: What's the point?
 
-* In Sushi Go Party, we are dining at a sushi restaurant, eating a three course
-  meal.
-* For each course, we will be collecting pieces of sushi on our plates as their
-  travel around on the conveyor belt, and gaining points for the sushi
-  combinations that we accumulate.
+Build the best sushi meal by drafting cards that score well together. The selected menu changes which combinations are available each game.
+
+### Read the menu first
+
+Every selected dish scores differently. Before dealing, read all eight menu tiles aloud, especially the roll, appetizer, special, and dessert choices. Some cards score only in a round; desserts remain in play and score after round 3.
 
 ## Setting up: How to get started?
 
-1. Place game board.
-2. Initial choices:
-    1. Choose player pieces.
-    2. Choose menu; place menu tiles on board.
-3. Collect cards pertaining to the chosen menu:
-    1. Shuffle desert cards and place them to the side (face-down).
-    2. Shuffler all other menu cards and place them to the side (face-down).
-4. Play 3 rounds. For each round, deal out the cards according to the tables
-   below:
+### Build the menu and deck
 
-* Desserts to add to deck each round:
+1. Place the board and select eight menu tiles: 1 nigiri, 1 roll, 3 appetizers, 2 specials, and 1 dessert.
+2. Put the chosen tiles on the board and collect only their matching cards.
+3. Shuffle non-dessert cards into the draw deck; shuffle desserts separately.
+4. Add desserts to the deck before each round, then shuffle: 5, 3, and 2 for 2-5 players, or 7, 5, and 3 for 6-8 players.
+5. Deal 10 cards each for 2-3 players, 9 for 4-5, 8 for 6-7, or 7 for 8.
 
-|         | **2-5 Players** | **6-8 Players** |
-|---------|:-----------:|:-----------:|
-| **Round 1** |      5      |      7      |
-| **Round 2** |      3      |      5      |
-| **Round 3** |      2      |      3      |
+The game always has three rounds. Keep the remaining dessert cards separate until the next round.
 
-* Cards to deal to players:
+## Rounds and Phases
 
-| **Players** | **Cards** |
-|:-------:|:-----:|
-|   2-3   |   10  |
-|   4-5   |   9   |
-|   6-7   |   8   |
-|    8    |   7   |
+### Draft one card at a time
 
-## Rounds and Turns
+1. Choose one card from hand and place it face-down.
+2. All players reveal together and add that card to their tableau.
+3. Pass the remaining hand left in rounds 1 and 3, and right in round 2.
+4. Repeat until every hand is empty.
 
-* **A turn**:
-    * This consists of players placing one card from their hand in front of them face-down.
-    * All players place these cards **simultaneously**.
-    * When all players have placed their cards, all players simultaneously reveal
-      their card and add it to their collection.
-        * Group cards of the same colour/type together.
-    * After each turn, players pass their hand to the player to their left.
-* **A round**:
-    * This consists of players playing cards in front of them until their hands are empty.
-    * After each round:
-        * Players score their collections (according to the process below;
-        * All cards are collected (**except the played desserts**);
-        * Extra desserts are added to the deck;
-        * The deck is shuffled;
-        * Cards are dealt for the next round.
-* **A game** consists of 3 rounds.
+Some cards change this flow. Chopsticks lets you take a second card from the same hand, then return Chopsticks to that hand before passing it. Spoon lets you call for a matching card from another player after cards are revealed; follow the tile's exact timing and fallback rule.
+
+### End-of-round cleanup
+
+1. Score every non-dessert card using the selected menu tiles.
+2. Move pawns on the score track.
+3. Discard all non-dessert cards from tableaux, including used special cards.
+4. Leave desserts in front of their owners; they carry into later rounds.
+5. Add the next round's desserts, shuffle the deck, and deal again.
 
 ## Scoring
 
-* Scoring takes place at the end of each round.
-* When scoring each round, **exclude dessert cards** and set them aside - these
-  will be scored after all rounds have been completed.
-* Add up the scores from the round based on the rules on the menu tiles.
-* Players move their pieces around the scoring track accordingly.
-* After scoring the third round, score the dessert cards.
-* The person with the most points wins.
-* If scores are tied, the player with the most dessert cards wins.
+### Score in the right order
 
+Score the menu tiles in their printed order at each round's end. Resolve shared awards and penalties exactly as the tile says; tied players usually share the listed points or receive no points, depending on that dish. Do not score desserts until after round 3.
+
+After the third round, score each player's retained desserts, add them to the score track totals, and compare totals. Highest score wins. If players tie for highest score, they share the victory.
+
+## Terminology
+
+### Key terms
+
+- **Menu:** the eight selected dish types and their scoring rules.
+- **Draft:** choose one card, then pass the remaining hand.
+- **Tableau:** cards you have played in front of you.
+- **Round:** one complete draft of the dealt hands.
+- **Dessert:** a card retained between rounds and scored after round 3.
+- **Special:** a menu card with a timing or scoring exception.
+
+## Official rules
+
+[Sushi Go Party! rules (PDF)](https://gamewright.com/pdfs/Rules/SushiGoPartyTM-RULES.pdf)
