@@ -23,10 +23,21 @@ Every selected dish scores differently. Before dealing, read all eight menu tile
 1. Place the board and select eight menu tiles: 1 nigiri, 1 roll, 3 appetizers, 2 specials, and 1 dessert.
 2. Put the chosen tiles on the board and collect only their matching cards.
 3. Shuffle non-dessert cards into the draw deck; shuffle desserts separately.
-4. Add desserts to the deck before each round, then shuffle: 5, 3, and 2 for 2-5 players, or 7, 5, and 3 for 6-8 players.
-5. Deal 10 cards each for 2-3 players, 9 for 4-5, 8 for 6-7, or 7 for 8.
+4. Add the appropriate desserts to the deck, then shuffle and deal according to the tables below.
 
 The game always has three rounds. Keep the remaining dessert cards separate until the next round.
+
+| Players | Cards dealt to each player |
+|:-------:|:--------------------------:|
+|   2-3   |             10             |
+|   4-5   |              9             |
+|   6-7   |              8             |
+|    8    |              7             |
+
+| Players | Round 1 desserts | Round 2 desserts | Round 3 desserts |
+|:-------:|:----------------:|:----------------:|:----------------:|
+|   2-5   |        5         |        3         |        2         |
+|   6-8   |        7         |        5         |        3         |
 
 ## Rounds and Phases
 

@@ -20,11 +20,17 @@ Do not say card values, show cards, make deliberate signals, or agree on timing 
 
 ### Build the level track
 
-1. Use 12 levels with 2 players, 10 with 3 players, or 8 with 4 players.
-2. Start with as many lives as players and one throwing star.
-3. Place the level cards in order and reveal level 1.
-4. Shuffle cards 1-100 and deal every player cards equal to the current level number.
-5. Players look only at their own cards. Take a moment of silence before anyone plays.
+Use this setup for the number of players:
+
+| Players | Levels | Starting lives | Starting throwing stars |
+|:-------:|:------:|:--------------:|:----------------------:|
+|    2    |   12   |       2        |           1            |
+|    3    |   10   |       3        |           1            |
+|    4    |   8    |       4        |           1            |
+
+1. Place the required level cards in order and reveal level 1.
+2. Shuffle cards 1-100 and deal every player cards equal to the current level number.
+3. Players look only at their own cards. Take a moment of silence before anyone plays.
 
 ## Rounds and Phases
 
