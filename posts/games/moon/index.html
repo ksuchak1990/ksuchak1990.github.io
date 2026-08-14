@@ -77,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -202,22 +173,25 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#theming" id="toc-theming" class="nav-link active" data-scroll-target="#theming">Theming</a></li>
-  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting up</a>
+  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a>
   <ul class="collapse">
-  <li><a href="#two-player-games" id="toc-two-player-games" class="nav-link" data-scroll-target="#two-player-games">Two-player games</a></li>
+  <li><a href="#what-guests-should-watch-for" id="toc-what-guests-should-watch-for" class="nav-link" data-scroll-target="#what-guests-should-watch-for">What guests should watch for</a></li>
   </ul></li>
-  <li><a href="#rounds" id="toc-rounds" class="nav-link" data-scroll-target="#rounds">Rounds</a>
+  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a>
   <ul class="collapse">
-  <li><a href="#production-phase" id="toc-production-phase" class="nav-link" data-scroll-target="#production-phase">Production phase</a></li>
-  <li><a href="#construction-phase" id="toc-construction-phase" class="nav-link" data-scroll-target="#construction-phase">Construction phase</a></li>
-  <li><a href="#scoring-phase" id="toc-scoring-phase" class="nav-link" data-scroll-target="#scoring-phase">Scoring phase</a></li>
+  <li><a href="#table-checklist" id="toc-table-checklist" class="nav-link" data-scroll-target="#table-checklist">Table checklist</a></li>
   </ul></li>
-  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
-  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a>
+  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a>
   <ul class="collapse">
-  <li><a href="#structure-card-types" id="toc-structure-card-types" class="nav-link" data-scroll-target="#structure-card-types">Structure Card Types</a></li>
+  <li><a href="#construction-turn" id="toc-construction-turn" class="nav-link" data-scroll-target="#construction-turn">Construction turn</a></li>
+  <li><a href="#important-exception" id="toc-important-exception" class="nav-link" data-scroll-target="#important-exception">Important exception</a></li>
   </ul></li>
+  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a>
+  <ul class="collapse">
+  <li><a href="#end-of-an-era" id="toc-end-of-an-era" class="nav-link" data-scroll-target="#end-of-an-era">End of an Era</a></li>
+  </ul></li>
+  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
+  <li><a href="#official-rules" id="toc-official-rules" class="nav-link" data-scroll-target="#official-rules">Official rules</a></li>
   </ul>
 </nav>
     </div>
@@ -228,147 +202,80 @@ window.Quarto = {
 
 
 
-<section id="theming" class="level2">
-<h2 class="anchored" data-anchor-id="theming">Theming</h2>
-</section>
-<section id="setting-up" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up">Setting up</h2>
-<ol type="1">
-<li>Put all Hearts, Rovers and Resources on the table within reach of all players, forming the <strong>General Supply</strong>.</li>
-<li>Place the Flag Reward Board near the centre of the table.
-<ol type="a">
-<li>Place a 3-Heart token on the space under each Flag.</li>
-<li>Place 3 Hearts on the X space.</li>
-<li>Stack the five 4-Heart tokens and five 5-Heart tokens next to the board.</li>
-</ol></li>
-<li>In the centre of the table, place <span class="math inline">\(n\)</span> random Reputation Cards of each level face-up, where <span class="math inline">\(n\)</span> is the number of players.</li>
-<li>Place the Structure Cards for each of the Eras in separate decks on the table.</li>
-<li>Place one of the Era 1 cards next to the Flag Reward Board - this is the Discard Pile.</li>
-<li>Provide each player with the following:
+<section id="theming-whats-the-point" class="level2">
+<h2 class="anchored" data-anchor-id="theming-whats-the-point">Theming: What’s the point?</h2>
+<p>Moon is a 2-5 player pick-and-pass base-building game played over three Eras. Build a Settlement that produces resources, establishes the five Flag types, and gains Hearts. Hearts earned during play, plus printed Hearts on grey Structures and Reputation cards at the end, determine the winner.</p>
+<section id="what-guests-should-watch-for" class="level3">
+<h3 class="anchored" data-anchor-id="what-guests-should-watch-for">What guests should watch for</h3>
 <ul>
-<li>A Base Card,</li>
-<li>A Player Aid Card, and</li>
-<li>Two Rovers.</li>
-</ul></li>
-<li>Give the First Expedition Card to the player with the loudest voice; use the appropriate card for the number of players.</li>
-<li>Place each of the Expedition Decks on the table.</li>
+<li>Every Era starts with Production, including the very first one, before any cards are drafted.</li>
+<li>Every Construction turn requires exactly one Build or Assimilate action; the four extra actions are each limited to once that turn.</li>
+<li>Hearts placed on Structures or Reputation cards score again in every later Era; do not remove them after scoring.</li>
+</ul>
+</section>
+</section>
+<section id="setting-up-how-to-get-started" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-how-to-get-started">Setting up: How to get started?</h2>
+<p>Make a general supply of Hearts, Rovers, and Energy, Water, Biomass, and Metal. Put three Hearts below each Flag on the Flag Reward board and three Hearts on X. Reveal as many random Bronze, Silver, and Gold Reputation cards as there are players, except reveal three of each in a two-player game. Shuffle the three Structure decks and three Expedition decks separately; start a face-up Era I discard pile with one Structure card.</p>
+<section id="table-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="table-checklist">Table checklist</h3>
+<ol type="1">
+<li>Give each player a Base, player aid, and two Rovers. A Base counts as both a blue and yellow Structure.</li>
+<li>Give the First Expedition card to the starting player: use the <code>2-3</code> card for two or three players and the <code>4-5</code> card for four or five.</li>
+<li>For two players, remove the Base, Expedition, and Era I/II Structure cards marked <code>3+</code> before setup. No Era III Structures are removed.</li>
+<li>In Era I, deal Structure hands only after Production: eight cards at two players, seven at three or four, and six at five. In Eras II and III, first turn one Structure from that Era face up to begin a new discard pile.</li>
+<li>Deal one current-Era Expedition card to every player except the holder of First Expedition; each hand therefore has Structure cards plus one Expedition card.</li>
 </ol>
-<section id="two-player-games" class="level3">
-<h3 class="anchored" data-anchor-id="two-player-games">Two-player games</h3>
 </section>
 </section>
-<section id="rounds" class="level2">
-<h2 class="anchored" data-anchor-id="rounds">Rounds</h2>
-<ul>
-<li>The game is played in three rounds called Eras</li>
-<li>Each Era consists of the following phases:
+<section id="rounds-and-phases" class="level2">
+<h2 class="anchored" data-anchor-id="rounds-and-phases">Rounds and Phases</h2>
+<p>Each Era has Production, Construction, then Scoring. In Production, all players take everything shown by the white-arrow Production symbols in their Settlement. Blue Structures produce immediately when built as well as in later Production phases.</p>
+<section id="construction-turn" class="level3">
+<h3 class="anchored" data-anchor-id="construction-turn">Construction turn</h3>
 <ol type="1">
-<li>Production Phase: Players produce Resources, Rovers and Hearts from their Settlements.</li>
-<li>Construction Phase: Players pick a card from their hands to Build or Assimilate, then pass their hand to the next player.</li>
-<li>Scoring Phase: Players claim the Hearts on the Flag Reward Board and score any Hearts placed on their Structure and Reputation Cards.</li>
-</ol></li>
-</ul>
-<section id="production-phase" class="level3">
-<h3 class="anchored" data-anchor-id="production-phase">Production phase</h3>
-<ul>
-<li>In this phase, all players claim the Resources and other items depicted on the Production Symbols in their Settlement.</li>
-<li>In the first Production Phase, players only have the Production Symbols on their Base Card.</li>
-<li>Production Symbols on Structure Cards also produce immediately when built in the Construction Phase.</li>
-</ul>
+<li>Starting with First Expedition, take turns clockwise. You must either <strong>Build</strong> one Structure from hand, paying its resource cost and already meeting all printed Flag requirements, or <strong>Assimilate</strong> one Structure by placing it on the discard pile and taking its trash-can reward.</li>
+<li>Before or after that mandatory action, each of these optional actions may be used once: use the Expedition card’s bonus action, park one Rover, claim one Reputation card, and flip one pink Structure.</li>
+<li>A Rover parks only on another player’s blue or yellow Structure. On blue, take its production immediately; on yellow, use its Flags for this turn’s Build requirement. The parking space remains blocked until Era end, when the Rover becomes that Structure owner’s Rover.</li>
+<li>A Reputation card may be claimed only when its requirement is met; take its immediate or ongoing effect and keep it. Pink Structures are flipped for their once-per-Era effects.</li>
+<li>After everyone has taken a turn, pass complete hands, including Expedition cards, left. Repeat until only Expedition cards remain. In a two-player game, the same player leads throughout Construction, then the other player leads next Era.</li>
+<li>End Construction by passing First Expedition left, returning the other Expedition cards, taking parked Rovers into the owning players’ supplies, flipping pink cards back, and shuffling the discard pile back into the current Era deck.</li>
+</ol>
 </section>
-<section id="construction-phase" class="level3">
-<h3 class="anchored" data-anchor-id="construction-phase">Construction phase</h3>
-<ul>
-<li>In this phase, players take turn acquiring cards and placing them in their Settlements.</li>
-<li>Start the phase by taking the following actions:
-<ol type="1">
-<li>If at the beginning of either Era 2 or Era 3:
-<ol type="a">
-<li>Form a new Discard Pile with a card from the appropriate Era Structure Card Deck.</li>
-<li>Deal each player a hand from the current Era Structure Card Deck (according to <a href="#tbl-handsize" class="quarto-xref">Table&nbsp;1</a>).</li>
-</ol></li>
-<li>Deal a random Expedition Card to each player (except the player with the First Expedition Card) using the appropriate Era Expedition Deck.</li>
-</ol></li>
-<li>Each player now has a hand consisting of multiple Structure Cards and one Expedition Card.</li>
-<li>Players take turns (starting with the player holding the First Expedition Card), proceeding in clockwise order.</li>
-<li>Turns take the following form:
-<ul>
-<li>A player must either:
-<ol type="a">
-<li>Build, or</li>
-<li>Assimilate.</li>
-</ol></li>
-<li>A player may do any of the following actions once at any point in their turn:
-<ol type="a">
-<li>Use the Bonus Action on their Expedition Card,</li>
-<li>Park a Rover,</li>
-<li>Claim a Reputation Card,</li>
-<li>Flip over a pink Action Card.</li>
-</ol></li>
-</ul></li>
-<li>After all players have taken a turn, they pass their hand (including Expedition Card) to the player to the left.</li>
-<li>Repeat the turn process until only the Expedition Cards are left in players’ hands.</li>
-</ul>
-<div id="tbl-handsize" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-handsize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Hand size by number of players
-</figcaption>
-<div aria-describedby="tbl-handsize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">Number of players</th>
-<th style="text-align: center;">Hand size</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3-4</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">6</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</section>
-<section id="scoring-phase" class="level3">
-<h3 class="anchored" data-anchor-id="scoring-phase">Scoring phase</h3>
+<section id="important-exception" class="level3">
+<h3 class="anchored" data-anchor-id="important-exception">Important exception</h3>
+<p>Flag requirements must already be in your Settlement, but a Rover parked on another player’s yellow Structure can supply Flags only for the Build made that turn. A Rover cannot park on your own cards, and one card has room for only one Rover (the Base has one blue and one yellow space).</p>
 </section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
+<p>Resolve each Flag reward in order. The player with the most of that Flag in their Settlement takes all Hearts below it. A tie goes to the tied player with more Rovers in their supply; if still tied, nobody takes the reward and the Hearts remain. Then each player gains Hearts equal to the Heart tokens on their Structures and Reputation cards, leaving those tokens in place.</p>
+<section id="end-of-an-era" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-an-era">End of an Era</h3>
+<ol type="1">
+<li>Award all five Flag rewards, then score Heart tokens already placed on cards.</li>
+<li>Remove one Heart from X, reducing the Excitement Value from 3 in Era I to 2 in Era II and 1 in Era III.</li>
+<li>After Era I, put four Hearts below every Flag; after Era II, put five below every Flag. Unclaimed Hearts remain and add to the refill.</li>
+<li>After Era III, do not refill. Add the Hearts already earned during the game to the printed Hearts on grey Structures and Reputation cards. Do not score Heart tokens on cards again.</li>
+<li>The highest total wins. Ties go to the player with more Rovers, then fewer Reputation cards; a remaining tie is shared.</li>
+</ol>
+</section>
 </section>
 <section id="terminology" class="level2">
 <h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
 <ul>
-<li><strong>General Supply:</strong> Collection of Hearts, Rovers and Resources.</li>
-<li><strong>Settlement:</strong> The Base Card and Structure Cards of a player.</li>
-<li><strong>Era:</strong> A round of the game.</li>
-<li><strong>Build:</strong> Take a Structure Card from your hand and place it in your Settlement. Resource costs must be paid and Flag Requirements must be fulfilled.</li>
-<li><strong>Assimilate:</strong> Place a Structure Card from your hand onto the discard pile. Take the Resources, Rovers or Hearts depicted on the card into your Supply.</li>
+<li><strong>Settlement:</strong> Your Base, built Structures, and Hearts and Rovers on them; resources and Reputation cards are not part of it.</li>
+<li><strong>Build:</strong> Put a Structure into the appropriate Settlement area after paying costs and satisfying Flag requirements.</li>
+<li><strong>Assimilate:</strong> Discard a Structure from hand for its trash-can reward.</li>
+<li><strong>Rover:</strong> A token that can use another player’s blue production or yellow Flags for the turn.</li>
+<li><strong>Reputation card:</strong> A public, claimable card with a requirement, an effect, and printed endgame Hearts.</li>
 </ul>
-<section id="structure-card-types" class="level3">
-<h3 class="anchored" data-anchor-id="structure-card-types">Structure Card Types</h3>
-<ul>
-<li><strong>Blue Cards:</strong></li>
-<li><strong>Yellow Cards:</strong></li>
-<li><strong>Pink Cards:</strong></li>
-<li><strong>Grey Cards:</strong></li>
-<li><strong>Red Cards:</strong></li>
-</ul>
-
-
 </section>
+<section id="official-rules" class="level2">
+<h2 class="anchored" data-anchor-id="official-rules">Official rules</h2>
+<p>This teach covers multiplayer; the rulebook’s GURPS opponent is a separate solo mode.</p>
+
+
 </section>
 
 </main> <!-- /main -->

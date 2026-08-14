@@ -91,60 +91,102 @@
     "text": "Previous Experience\n \n \n\n \n\n\n\n 2023: Research Fellow in Simulating Urban Systems\n\nSchool of Geography, University of Leeds\n\nProjects: DUST\n\nDisseminating cutting-edge research on the development of method for the real-time simulation of urban systems.\nDeveloping a series of unit tests to verify reliable behaviour of agent-based models and data assimilation methods.\n\n\n\n 2022 - 2023: Principal Investigator\n\nSustrans / Alan Turing Institute\n\nData Study Group Project: Towards Equitable Walking and Cycling Infrastructure for All\n\nWorking with challenge owners to formulate academic questions based on industrial challenges.\nScoping challenge feasibility, assessing ethical implications and project sensitivity.\nOverseeing challenge progress, offering guidance and ensuring scientific integrity.\nMonitoring and finalising the production of reports for publication.\n\n\n\n 2021 - 2023: Research Fellow in Transport-Health Interactions\n\nInstitute for Transport Studies, University of Leeds\n\nProjects: KARMA, TRACK\n\nDeveloping agent-based models of commuter behaviour and mode shift.\nDeveloping a framework for interfacing between different modelling paradigms, focussing on data flows between spatial micro-simulation models, agent-based models and system dynamics models.\nDeveloping Python data pipelines for the processing of spatial data.\nReviewing literature on the integration of agent-based and system dynamics modelling approaches.\nDisseminating research group work at workshops.\n\n\n\n 2020: Data Science Fellow\n\nBuckinghamshire County Council / Connected Places Catapult\n\nFellowship Project: Mapping and Modelling Social Isolation\n\nDeveloping a method for modelling all-age social isolation across Buckinghamshire using Geographically Weighted Regression.\nCritically appraising the existing research from both academia and government.\nIdentifying the required internal and external datasets.\nDeveloping dashboards to communicate findings with non-technical stakeholders and colleagues using the Dash framework in Python.\nManaging stakeholder relationships and running stakeholder engagement events in conjunction with the Connected Places Catapult.\n\n\n\n 2017 - 2022: CDT Data Analytics and Society\n\nLeeds Institute for Data Analytics, University of Leeds\n\n\nPhD Project: Developing Methods for Real-time Pedestrian Simulation\nMSc Project: Implementing the Ensemble Kalman Filter with an Agent-Based Model\nInternship project: Footfall at Kirkgate Market with Leeds City Council\n\n\n\n 2016 - 2017: Software Developer / Analyst\n\nAmpere Analysis\n\n\nCreating mechanisms to obtain and manage large and complex media-sector datasets using Python.\nDeveloping innovative solutions to help visualise and solve live business challenges relating to content sales and acquisition, competitive analysis and business planning.\nSupporting the wider team’s bespoke consulting work for high-profile film, TV and technology firms.\n\n\n\n 2015 - 2016: MSc Mathematics\n\nSchool of Mathematics, University of Leeds\n\n\nMSc Project: Dynamics on Networks\n\n\n\n 2015: Aviation Observations Placement Student\n\nMet Office\n\n\nWorking alongside observation scientists to answer some of the currently open questions regarding data quality from commercial aircraft.\nAnalysing large multivariate datasets using R.\n\n\n\n 2013 - 2014: MSc Aerospace Dynamics\n\nDepartment of Aerospace Engineering, Cranfield University\n\n\nMSc Project: Turbulent to Laminar Relaminarisation\n\n\n\n 2010 - 2013: BSc Physics\n\nDepartment of Physics, Imperial College London\n\n\nBSc Project: Membrane Stresses in the Earth"
   },
   {
-    "objectID": "posts/games/deep_vents/index.html#setting-up",
-    "href": "posts/games/deep_vents/index.html#setting-up",
+    "objectID": "posts/games/deep_vents/index.html",
+    "href": "posts/games/deep_vents/index.html",
     "title": "Deep Vents",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Deep Vents is a 2-4 player ecosystem-building game. Grow archaea on connected hexes, convert it to the personal supply that scores, and use triggers to build shells or attack rival ecosystems. After eight turns each, the richest surviving ecosystem wins.\n\n\n\nAdjacent heat, rock, bioluminescence, and predation traits power many growth effects.\nArchaea on a hex are productive but score only half as efficiently as archaea in personal supply.\nAttacks drain personal supply, so shells and avoiding shortfall matter as much as growth."
   },
   {
-    "objectID": "posts/games/deep_vents/index.html#rounds",
-    "href": "posts/games/deep_vents/index.html#rounds",
+    "objectID": "posts/games/deep_vents/index.html#theming-whats-the-point",
+    "href": "posts/games/deep_vents/index.html#theming-whats-the-point",
     "title": "Deep Vents",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Deep Vents is a 2-4 player ecosystem-building game. Grow archaea on connected hexes, convert it to the personal supply that scores, and use triggers to build shells or attack rival ecosystems. After eight turns each, the richest surviving ecosystem wins.\n\n\n\nAdjacent heat, rock, bioluminescence, and predation traits power many growth effects.\nArchaea on a hex are productive but score only half as efficiently as archaea in personal supply.\nAttacks drain personal supply, so shells and avoiding shortfall matter as much as growth."
+  },
+  {
+    "objectID": "posts/games/deep_vents/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/deep_vents/index.html#setting-up-how-to-get-started",
+    "title": "Deep Vents",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nGive each player one Deep Vent starting hex; return unused starting hexes to the box in a 2- or 3-player game. Shuffle the remaining hexes face-up as a central stack and reveal the top five in a row to its left. The display therefore has six available hexes including the top of the stack.\n\nTable checklist\n\nChoose a first player, then give starting archaea by player count and seat: 2 players receive 10 and 11; 3 players receive 15, 16, and 17; 4 players receive 20, 21, 22, and 23.\nPut all remaining archaea and shells in the general supply.\nKeep shortfall tokens and the two track cubes available for hexes that use tracks."
+  },
+  {
+    "objectID": "posts/games/deep_vents/index.html#rounds-and-phases",
+    "href": "posts/games/deep_vents/index.html#rounds-and-phases",
+    "title": "Deep Vents",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nPlayers take eight turns each, clockwise. A turn is choose, place, activate, then refill. Hexes retain any archaea already on them when taken, and no hex may hold more than ten; excess is lost.\n\nTeaching a placement\n\nChoose a display hex. The leftmost is free; for any later hex, place one archaeon from personal supply on every skipped hex, left to right.\nAdd it adjacent by at least one side to your ecosystem.\nActivate every hex in your ecosystem once, in top-left to bottom-right order. For each, choose grow or trigger, never both, and do not return to a previous hex. Grow adds archaea from supply according to its symbols, commonly one per matching adjacent passive trait. A trigger pays its listed cost from that hex or collects/uses its stated effect; repeat a trigger as often as affordable before continuing. If triggering would have no effect, grow instead.\nSlide unclaimed hexes left and replenish from the stack; play passes left.\n\n\n\nImportant exception\nAttacks remove archaea from every opponent’s personal supply, sometimes once per matching trait in their ecosystem. A defender may spend one shell per attack to block half the damage, rounded up. If damage exceeds a player’s supply, they take a shortfall token and 10 archaea, then finish taking the damage. A player with a shortfall at the start of their turn must take the leftmost hex; end a turn with two shortfalls and be eliminated. A shortfall can be repaid at any time for 10 personal archaea."
   },
   {
     "objectID": "posts/games/deep_vents/index.html#scoring",
     "href": "posts/games/deep_vents/index.html#scoring",
     "title": "Deep Vents",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nThe game ends after all players have completed eight turns, when each has nine hexes, or immediately once all but one player has been eliminated. Score 1 point per personal archaeon, 1 per two unused shells rounded up, 1 per two archaea on your hexes rounded up, and subtract 10 per shortfall token. Highest score wins; ties go to the player earlier in turn order.\n\nEndgame\nDecimated hexes are flipped in place: take half their archaea, rounded up, into personal supply, return the rest, and thereafter use only their reverse-side passive trait. They cannot be grown or triggered, but may still receive archaea from adjacent effects."
   },
   {
     "objectID": "posts/games/deep_vents/index.html#terminology",
     "href": "posts/games/deep_vents/index.html#terminology",
     "title": "Deep Vents",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nGrow: Add archaea from the general supply to the active hex.\nTrigger: Pay or collect archaea to resolve a hex’s upper-left action.\nPersonal supply: Your scored archaea, and the pool damaged by attacks.\nShell: A one-attack defence token.\nShortfall: Borrowed archaea after over-damage, worth -10 points."
   },
   {
-    "objectID": "posts/games/chai_garam/index.html#setting-up",
-    "href": "posts/games/chai_garam/index.html#setting-up",
-    "title": "Chai Garam",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/deep_vents/index.html#official-rules",
+    "href": "posts/games/deep_vents/index.html#official-rules",
+    "title": "Deep Vents",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Deep Vents rulebook."
   },
   {
-    "objectID": "posts/games/chai_garam/index.html#rounds",
-    "href": "posts/games/chai_garam/index.html#rounds",
+    "objectID": "posts/games/chai_garam/index.html",
+    "href": "posts/games/chai_garam/index.html",
     "title": "Chai Garam",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "In the recommended Basic Game, Cutting Chai, 2-4 players run tea stalls at a mela. Prepare chai in saucepans, serve customers in the shared 3 by 3 queue, collect money and receipts, and earn half-stars. The game ends when someone reaches four full stars, or when the Evening Customer is served or leaves in disgust.\n\n\n\nMake green tea from a green leaf and water, black tea from a black leaf and water, or milk tea from a black leaf, water, milk, and sugar. Lemon cannot be added to milk tea.\nOn a turn take one main action, then any number of free actions; a Chai Garam card can buy one extra main action.\nA careful, specific service earns the customer’s printed payment and can earn a half-star; a simple service only pays the base rate."
+  },
+  {
+    "objectID": "posts/games/chai_garam/index.html#theming-whats-the-point",
+    "href": "posts/games/chai_garam/index.html#theming-whats-the-point",
+    "title": "Chai Garam",
+    "section": "",
+    "text": "In the recommended Basic Game, Cutting Chai, 2-4 players run tea stalls at a mela. Prepare chai in saucepans, serve customers in the shared 3 by 3 queue, collect money and receipts, and earn half-stars. The game ends when someone reaches four full stars, or when the Evening Customer is served or leaves in disgust.\n\n\n\nMake green tea from a green leaf and water, black tea from a black leaf and water, or milk tea from a black leaf, water, milk, and sugar. Lemon cannot be added to milk tea.\nOn a turn take one main action, then any number of free actions; a Chai Garam card can buy one extra main action.\nA careful, specific service earns the customer’s printed payment and can earn a half-star; a simple service only pays the base rate."
+  },
+  {
+    "objectID": "posts/games/chai_garam/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/chai_garam/index.html#setting-up-how-to-get-started",
+    "title": "Chai Garam",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nFor the Basic Game, prepare the customer deck by placing the Evening Customer face-down between two roughly equal halves of the shuffled remaining customers. Remove one Water card per player from the Basics deck for starting supplies, remove Pakora snacks, and remove the zero-cost medium saucepans for players. Make three face-up cards for each of the Tea Leaf, Basics, and Additives markets; the Snacks deck stays face-down.\n\nTable checklist\n\nShuffle the Goal deck and reveal 3 Public Goals for 2-3 players or 4 for 4 players. Deal 9 customers into the Mela’s 3 by 3 grid.\nPut coins, half-star tokens, negative tokens, Chai Garam cards, and the three face-up saucepan piles within reach.\nGive every player a Tapri, Basic upgrade board, 12 cups, 3 upgrade tokens, one zero-cost medium saucepan, one reserved Water, one Chai Garam card, one personal Goal, and a reference card.\nThe most recent tea drinker is first player. The second player draws a Tea Leaf; the third draws a Tea Leaf and Additive; the fourth also draws a Basics card."
+  },
+  {
+    "objectID": "posts/games/chai_garam/index.html#rounds-and-phases",
+    "href": "posts/games/chai_garam/index.html#rounds-and-phases",
+    "title": "Chai Garam",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nTurns proceed clockwise. On your turn take one main action, any number of free actions, and at most one Chai Garam card. You may hold at most two Chai Garam cards. A Pick action takes up to three market cards, with no more than one face-down Snack; immediately refill each face-up ingredient taken. Ingredients are hidden and the hand limit is nine, checked after picking.\n\nTurn sequence\n\nUse free actions before, between, or after main actions. Prepare chai by putting an entire recipe, plus optional additives, into one saucepan, then immediately add cup tokens equal to its size. Ingredients cannot be changed once cups are placed; discard them when its final cup is served.\nPick ingredients or take a Serve action. To serve, have at least one cup of the matching chai type ready and choose one row or one column of the Mela; serve one to three customers in it, skipping is allowed.\nFor each served customer choose simple or specific service and partial or complete fulfilment. Simple service needs only the chai type and pays 1 rupee per black/green cup or 2 per milk cup. Specific service matches the listed type, leaf, and additives, pays the printed amount, and earns a half-star from a celebrity or critic if completely served.\nAdd negative tokens to every unserved customer to the left of any served customer in that row. Each such customer loses 1 rupee per cup per token; discard one whose tolerance is reached. If you disgruntled anyone, take one negative token yourself.\nTake payment, then a receipt only if you alone supplied every cup; otherwise discard the completed customer. Return cups and negatives, slide each row left, and refill it to nine customers. Serving at least one cup to three Mela customers in one row or column on a turn gains a Chai Garam card.\n\n\n\nUseful reminder\nClaim a completed Public or Personal Goal as a free action for a half-star; receipts spent for goals are discarded. Refill a claimed Public Goal, or draw a new Personal Goal, at turn end. Each pair of half-stars immediately unlocks one upgrade. Once per turn, you may buy a saucepan into an empty one of your three slots; emptying one wastes its chai and gives you one negative token per cup."
   },
   {
     "objectID": "posts/games/chai_garam/index.html#scoring",
     "href": "posts/games/chai_garam/index.html#scoring",
     "title": "Chai Garam",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nEnd the game at the end of the turn in which a player reaches four full stars, serves the Evening Customer, or causes that customer to leave through intolerance. Score 1 point per full star and 0.5 per half-star, 0.5 per complete 10 rupees after resolving your negative tokens, 0.5 per six unused receipts, and 0.5 per six unserved chai cups. The highest total wins; break a tie with the higher star rating, then share victory.\n\nEndgame\nThe Advanced Game, Kadak Chai, changes the target to five full stars and adds customer tags, the Funfair bonus track, specialisations, and personal queues. This teach uses the Basic Game; do not mix those advanced rules into it."
   },
   {
     "objectID": "posts/games/chai_garam/index.html#terminology",
     "href": "posts/games/chai_garam/index.html#terminology",
     "title": "Chai Garam",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nMela: The shared customer grid; service is restricted to one row or column.\nSpecific service: A cup matching all of a customer’s stated requirements.\nNegative token: A penalty that reduces a customer’s payment and counts towards their tolerance.\nReceipt: A completely fulfilled customer claimed by a single player.\nChai Garam card: A card discarded for an extra main action or to clear negatives from declared customer orders."
+  },
+  {
+    "objectID": "posts/games/chai_garam/index.html#official-rules",
+    "href": "posts/games/chai_garam/index.html#official-rules",
+    "title": "Chai Garam",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Chai Garam rulebook’s Basic Game rules."
   },
   {
     "objectID": "posts/games/evolution_another_world/index.html",
@@ -189,32 +231,53 @@
     "text": "Terminology\n\nEnergy Source cards: Cards with a waterfall on the back.\nEvolution cards: Cards with a lizard and Energy track on the back."
   },
   {
-    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#setting-up",
-    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#setting-up",
+    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html",
+    "href": "posts/games/the_crew_quest_for_planet_nine/index.html",
     "title": "The Crew: Quest for Planet Nine",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "The Crew is a cooperative campaign of 50 trick-taking missions for 3-5 players; a two-player variant uses the simulated third player JARVIS. The crew must make the right player win each required card, usually without discussing the cards in their hands.\n\n\nMost missions assign coloured-card tasks. A task is complete when its owner wins a trick containing the matching playing card. The mission logbook sets the number of tasks, any task order, and any special rule; play the missions in order for the campaign."
   },
   {
-    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#rounds",
-    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#rounds",
+    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#theming-whats-the-point",
+    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#theming-whats-the-point",
     "title": "The Crew: Quest for Planet Nine",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "The Crew is a cooperative campaign of 50 trick-taking missions for 3-5 players; a two-player variant uses the simulated third player JARVIS. The crew must make the right player win each required card, usually without discussing the cards in their hands.\n\n\nMost missions assign coloured-card tasks. A task is complete when its owner wins a trick containing the matching playing card. The mission logbook sets the number of tasks, any task order, and any special rule; play the missions in order for the campaign."
+  },
+  {
+    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#setting-up-how-to-get-started",
+    "title": "The Crew: Quest for Planet Nine",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nPrepare a mission\n\nChoose the mission and read its instructions. Shuffle the 40 playing cards and deal them as evenly as possible. With three players, one card is left unplayed after the final trick.\nGive each player a communication token green-side up and a reminder card. Put the distress-signal token inactive, shuffle the task cards face down, and keep task tokens available.\nIf the mission uses task cards, place the specified number face up. The holder of the 4 rocket becomes Commander, takes the Commander token, and chooses first; players then take tasks clockwise until they are all assigned. Take any attached task token with its task.\nIf the mission specifies task tokens, lay them out first and place task cards against them from left to right. The token’s condition travels with the task when it is chosen.\nAfter task distribution but before any communication, the crew may activate a distress signal. Everyone passes one non-rocket card to the adjacent player in one agreed direction. The signal remains active for every retry of that mission, and adds one to the logged attempt total on success.\n\n\n\nTwo players\nSet the rockets aside. Make JARVIS from seven face-down cards with seven face-up cards directly over them, then shuffle the rockets into the remaining cards and deal 13 cards to each player. JARVIS counts as a third crew member. The Commander chooses JARVIS’s tasks and plays one of its face-up cards on its turns without discussion; reveal the card beneath only after the trick ends."
+  },
+  {
+    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#rounds-and-phases",
+    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#rounds-and-phases",
+    "title": "The Crew: Quest for Planet Nine",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nPlay a trick\n\nThe Commander leads the first trick; thereafter, the previous trick winner leads. The leader may play any card, which establishes the suit, including a rocket.\nIn clockwise order, each other player must follow that suit if able. If unable, they may play any card. There is never an obligation to play a winning card.\nThe highest card in the led colour wins unless a rocket was played. Rockets are trump; if rockets are led, they must be followed where possible, and the highest rocket wins.\nThe winner keeps the trick face down, checks whether tasks in it were completed, and leads next. Only the most recently won trick may be inspected.\n\n\n\nCommunicate once\nAfter tasks have been distributed and before, never during, a trick, a player may communicate once per mission attempt. Place one coloured card face up and put the token at its top, middle, or bottom to mean respectively that it is the highest, only, or lowest card of that colour in hand. Rockets cannot be communicated. The card remains playable; when played, discard the reminder card and turn the token red. Its stated position cannot later be changed.\n\n\nMission procedures\nThe logbook can override the normal task distribution or communication rules. Number tokens require tasks to be completed in that sequence; arrow tokens require only their linked precedence. Several tasks won in one trick are valid only when their order tokens are consecutive.\nA dead zone permits a communication card without its positional token. A disruption forbids communication until the named trick. A Commander’s decision has the Commander ask each other player only “yes” or “no”, then assign all face-down tasks to one of them. A Commander’s distribution similarly uses yes/no responses, but the Commander assigns each revealed task and final task counts may differ by no more than one."
   },
   {
     "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#scoring",
     "href": "posts/games/the_crew_quest_for_planet_nine/index.html#scoring",
     "title": "The Crew: Quest for Planet Nine",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nSucceed or fail\nThere are no victory points. The crew wins immediately when every required task has been completed and every mission condition met. It loses immediately if a player wins a card matching another player’s task, violates a task order, or breaks a mission-specific rule. Reshuffle, redeal, and draw new tasks to retry.\nRecord the number of attempts after a successful mission. If the distress signal was activated, add one to that number. Completing all 50 missions completes the campaign."
   },
   {
     "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#terminology",
     "href": "posts/games/the_crew_quest_for_planet_nine/index.html#terminology",
     "title": "The Crew: Quest for Planet Nine",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nTrick: one card played by every crew member.\nLead suit: the colour or rocket suit set by the first card in a trick.\nRocket: a trump card, valued 1-4.\nCommander: the holder of the 4 rocket, who starts task selection and the first trick.\nTask: a playing card that its task-card owner must win.\nCommunication token: the once-per-attempt signal for a highest, only, or lowest coloured card.\nDistress signal: an optional pre-mission card pass that increases the recorded attempts by one."
+  },
+  {
+    "objectID": "posts/games/the_crew_quest_for_planet_nine/index.html#official-rules",
+    "href": "posts/games/the_crew_quest_for_planet_nine/index.html#official-rules",
+    "title": "The Crew: Quest for Planet Nine",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied The Crew: The Quest for Planet Nine rulebook."
   },
   {
     "objectID": "posts/games/unmatched_teen_spirit/index.html#setting-up",
@@ -329,32 +392,53 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/star_trek_missions/index.html#setting-up",
-    "href": "posts/games/star_trek_missions/index.html#setting-up",
+    "objectID": "posts/games/star_trek_missions/index.html",
+    "href": "posts/games/star_trek_missions/index.html",
     "title": "Star Trek: Missions",
-    "section": "Setting up",
-    "text": "Setting up\n\nGalaxy deck:\n\nShuffle the Galaxy deck.\nDeal 5 Galaxy cards to each player.\nPlace the deck facedown.\n\nMission deck:\n\nShuffle the Mission deck.\nDeal 2 Mission cards to each player.\nPlace the deck facedown."
+    "section": "",
+    "text": "Build the highest-scoring seven-card hand from Galaxy and Mission cards. Galaxy cards are the characters, places, equipment, and artefacts that supply attributes and bonuses; Mission cards are scoring challenges. Everything is evaluated only against cards in your own final hand.\n\n\n\nGalaxy cards have a Type, possibly one or more Specialties, a Lifeform, an Affiliation, and scoring text. Mission cards have scoring text only.\nYou may finish with one or two Mission cards, never none or more than two.\nA card that is blanked scores no points, grants no points, and has no effect, but still occupies one of your seven hand slots."
   },
   {
-    "objectID": "posts/games/star_trek_missions/index.html#rounds",
-    "href": "posts/games/star_trek_missions/index.html#rounds",
+    "objectID": "posts/games/star_trek_missions/index.html#theming-whats-the-point",
+    "href": "posts/games/star_trek_missions/index.html#theming-whats-the-point",
     "title": "Star Trek: Missions",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Build the highest-scoring seven-card hand from Galaxy and Mission cards. Galaxy cards are the characters, places, equipment, and artefacts that supply attributes and bonuses; Mission cards are scoring challenges. Everything is evaluated only against cards in your own final hand.\n\n\n\nGalaxy cards have a Type, possibly one or more Specialties, a Lifeform, an Affiliation, and scoring text. Mission cards have scoring text only.\nYou may finish with one or two Mission cards, never none or more than two.\nA card that is blanked scores no points, grants no points, and has no effect, but still occupies one of your seven hand slots."
+  },
+  {
+    "objectID": "posts/games/star_trek_missions/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/star_trek_missions/index.html#setting-up-how-to-get-started",
+    "title": "Star Trek: Missions",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nShuffle the 50-card Galaxy deck and 24-card Mission deck separately. Deal every player five Galaxy cards and two Mission cards. Put both decks facedown beside a shared, initially empty discard area; choose a starting player at random and play clockwise.\n\nTable checklist\n\nKeep the Galaxy and Mission decks separate throughout the game.\nSpread all discarded cards face up so every player can inspect the whole discard area, not just its most recent card.\nEach player begins with seven cards and two Missions. The score pad is needed only after the end trigger."
+  },
+  {
+    "objectID": "posts/games/star_trek_missions/index.html#rounds-and-phases",
+    "href": "posts/games/star_trek_missions/index.html#rounds-and-phases",
+    "title": "Star Trek: Missions",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nThere are no rounds or phases: players take one turn at a time until the shared discard area contains either eight Galaxy cards or twelve Mission cards. A turn always ends with seven cards in hand and one or two Mission cards.\n\nTurn sequence\n\nChoose exactly one option: take one card from the discard area, then discard a different card; draw the top Galaxy card, then discard any card; or draw the top two Mission cards, then discard any two cards.\nDiscards go face up into the shared discard area. The cards taken from it can be Galaxy or Mission cards.\nCheck your Mission count after discarding. You may not end with zero Missions or with more than two.\nThe game ends immediately once the discard area reaches eight Galaxy cards or twelve Mission cards. Finish the current turn’s required discards before scoring.\n\n\n\nReading card text\n\nWITH grants the bonus once if at least one named card or attribute is present.\nFOR EACH grants the stated bonus once for every qualifying card.\nA single card may grant bonuses to several cards, but it cannot grant the same receiving card more than one bonus, even if it matches several requested criteria.\nResolve BLANKS and BLANKED UNLESS WITH first. A blanked card cannot score, give bonuses, or affect the hand in any way."
   },
   {
     "objectID": "posts/games/star_trek_missions/index.html#scoring",
     "href": "posts/games/star_trek_missions/index.html#scoring",
     "title": "Star Trek: Missions",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nAt game end, score every non-blanked card in each player’s seven-card hand, including Mission cards, according to its text and the other cards in that hand. Do not compare or combine players’ hands.\n\nScoring order\n\nIdentify cards blanked outright or blanked unless their stated condition is present.\nIgnore those cards completely, except that they still count towards the seven-card hand size.\nAdd the values and conditional bonuses of every remaining Galaxy and Mission card, applying the one-bonus-per-giving-card restriction.\nThe highest total wins; tied players share victory."
   },
   {
     "objectID": "posts/games/star_trek_missions/index.html#terminology",
     "href": "posts/games/star_trek_missions/index.html#terminology",
     "title": "Star Trek: Missions",
     "section": "Terminology",
-    "text": "Terminology\n\nGalaxy card\nType\nSpeciality\nLifeform\nAffiliation\nText\nMission card\nWITH\nFOR EACH\nBLANKS\nBLANKED UNLESS WITH"
+    "text": "Terminology\n\nGalaxy card: A card with attributes and scoring text.\nMission card: A text-only card that scores as part of the final hand.\nType, Specialty, Lifeform, Affiliation: Galaxy-card attributes that card text can require or reward.\nBlanked: A card that neither scores nor has any effect, while still taking a hand slot.\nWith / For Each: Respectively, a one-off conditional bonus and a bonus repeated for each qualifying card."
+  },
+  {
+    "objectID": "posts/games/star_trek_missions/index.html#official-rules",
+    "href": "posts/games/star_trek_missions/index.html#official-rules",
+    "title": "Star Trek: Missions",
+    "section": "Official rules",
+    "text": "Official rules\nThe scoring examples in the rulebook are useful for checking unusual combinations of attributes and blanking."
   },
   {
     "objectID": "posts/games/drinking_fluxx/index.html",
@@ -434,60 +518,102 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/moon/index.html#setting-up",
-    "href": "posts/games/moon/index.html#setting-up",
+    "objectID": "posts/games/moon/index.html",
+    "href": "posts/games/moon/index.html",
     "title": "Moon",
-    "section": "Setting up",
-    "text": "Setting up\n\nPut all Hearts, Rovers and Resources on the table within reach of all players, forming the General Supply.\nPlace the Flag Reward Board near the centre of the table.\n\nPlace a 3-Heart token on the space under each Flag.\nPlace 3 Hearts on the X space.\nStack the five 4-Heart tokens and five 5-Heart tokens next to the board.\n\nIn the centre of the table, place \\(n\\) random Reputation Cards of each level face-up, where \\(n\\) is the number of players.\nPlace the Structure Cards for each of the Eras in separate decks on the table.\nPlace one of the Era 1 cards next to the Flag Reward Board - this is the Discard Pile.\nProvide each player with the following:\n\nA Base Card,\nA Player Aid Card, and\nTwo Rovers.\n\nGive the First Expedition Card to the player with the loudest voice; use the appropriate card for the number of players.\nPlace each of the Expedition Decks on the table.\n\n\nTwo-player games"
+    "section": "",
+    "text": "Moon is a 2-5 player pick-and-pass base-building game played over three Eras. Build a Settlement that produces resources, establishes the five Flag types, and gains Hearts. Hearts earned during play, plus printed Hearts on grey Structures and Reputation cards at the end, determine the winner.\n\n\n\nEvery Era starts with Production, including the very first one, before any cards are drafted.\nEvery Construction turn requires exactly one Build or Assimilate action; the four extra actions are each limited to once that turn.\nHearts placed on Structures or Reputation cards score again in every later Era; do not remove them after scoring."
   },
   {
-    "objectID": "posts/games/moon/index.html#rounds",
-    "href": "posts/games/moon/index.html#rounds",
+    "objectID": "posts/games/moon/index.html#theming-whats-the-point",
+    "href": "posts/games/moon/index.html#theming-whats-the-point",
     "title": "Moon",
-    "section": "Rounds",
-    "text": "Rounds\n\nThe game is played in three rounds called Eras\nEach Era consists of the following phases:\n\nProduction Phase: Players produce Resources, Rovers and Hearts from their Settlements.\nConstruction Phase: Players pick a card from their hands to Build or Assimilate, then pass their hand to the next player.\nScoring Phase: Players claim the Hearts on the Flag Reward Board and score any Hearts placed on their Structure and Reputation Cards.\n\n\n\nProduction phase\n\nIn this phase, all players claim the Resources and other items depicted on the Production Symbols in their Settlement.\nIn the first Production Phase, players only have the Production Symbols on their Base Card.\nProduction Symbols on Structure Cards also produce immediately when built in the Construction Phase.\n\n\n\nConstruction phase\n\nIn this phase, players take turn acquiring cards and placing them in their Settlements.\nStart the phase by taking the following actions:\n\nIf at the beginning of either Era 2 or Era 3:\n\nForm a new Discard Pile with a card from the appropriate Era Structure Card Deck.\nDeal each player a hand from the current Era Structure Card Deck (according to Table 1).\n\nDeal a random Expedition Card to each player (except the player with the First Expedition Card) using the appropriate Era Expedition Deck.\n\nEach player now has a hand consisting of multiple Structure Cards and one Expedition Card.\nPlayers take turns (starting with the player holding the First Expedition Card), proceeding in clockwise order.\nTurns take the following form:\n\nA player must either:\n\nBuild, or\nAssimilate.\n\nA player may do any of the following actions once at any point in their turn:\n\nUse the Bonus Action on their Expedition Card,\nPark a Rover,\nClaim a Reputation Card,\nFlip over a pink Action Card.\n\n\nAfter all players have taken a turn, they pass their hand (including Expedition Card) to the player to the left.\nRepeat the turn process until only the Expedition Cards are left in players’ hands.\n\n\n\n\nTable 1: Hand size by number of players\n\n\n\n\n\nNumber of players\nHand size\n\n\n\n\n2\n8\n\n\n3-4\n7\n\n\n5\n6\n\n\n\n\n\n\n\n\nScoring phase"
+    "section": "",
+    "text": "Moon is a 2-5 player pick-and-pass base-building game played over three Eras. Build a Settlement that produces resources, establishes the five Flag types, and gains Hearts. Hearts earned during play, plus printed Hearts on grey Structures and Reputation cards at the end, determine the winner.\n\n\n\nEvery Era starts with Production, including the very first one, before any cards are drafted.\nEvery Construction turn requires exactly one Build or Assimilate action; the four extra actions are each limited to once that turn.\nHearts placed on Structures or Reputation cards score again in every later Era; do not remove them after scoring."
+  },
+  {
+    "objectID": "posts/games/moon/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/moon/index.html#setting-up-how-to-get-started",
+    "title": "Moon",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nMake a general supply of Hearts, Rovers, and Energy, Water, Biomass, and Metal. Put three Hearts below each Flag on the Flag Reward board and three Hearts on X. Reveal as many random Bronze, Silver, and Gold Reputation cards as there are players, except reveal three of each in a two-player game. Shuffle the three Structure decks and three Expedition decks separately; start a face-up Era I discard pile with one Structure card.\n\nTable checklist\n\nGive each player a Base, player aid, and two Rovers. A Base counts as both a blue and yellow Structure.\nGive the First Expedition card to the starting player: use the 2-3 card for two or three players and the 4-5 card for four or five.\nFor two players, remove the Base, Expedition, and Era I/II Structure cards marked 3+ before setup. No Era III Structures are removed.\nIn Era I, deal Structure hands only after Production: eight cards at two players, seven at three or four, and six at five. In Eras II and III, first turn one Structure from that Era face up to begin a new discard pile.\nDeal one current-Era Expedition card to every player except the holder of First Expedition; each hand therefore has Structure cards plus one Expedition card."
+  },
+  {
+    "objectID": "posts/games/moon/index.html#rounds-and-phases",
+    "href": "posts/games/moon/index.html#rounds-and-phases",
+    "title": "Moon",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nEach Era has Production, Construction, then Scoring. In Production, all players take everything shown by the white-arrow Production symbols in their Settlement. Blue Structures produce immediately when built as well as in later Production phases.\n\nConstruction turn\n\nStarting with First Expedition, take turns clockwise. You must either Build one Structure from hand, paying its resource cost and already meeting all printed Flag requirements, or Assimilate one Structure by placing it on the discard pile and taking its trash-can reward.\nBefore or after that mandatory action, each of these optional actions may be used once: use the Expedition card’s bonus action, park one Rover, claim one Reputation card, and flip one pink Structure.\nA Rover parks only on another player’s blue or yellow Structure. On blue, take its production immediately; on yellow, use its Flags for this turn’s Build requirement. The parking space remains blocked until Era end, when the Rover becomes that Structure owner’s Rover.\nA Reputation card may be claimed only when its requirement is met; take its immediate or ongoing effect and keep it. Pink Structures are flipped for their once-per-Era effects.\nAfter everyone has taken a turn, pass complete hands, including Expedition cards, left. Repeat until only Expedition cards remain. In a two-player game, the same player leads throughout Construction, then the other player leads next Era.\nEnd Construction by passing First Expedition left, returning the other Expedition cards, taking parked Rovers into the owning players’ supplies, flipping pink cards back, and shuffling the discard pile back into the current Era deck.\n\n\n\nImportant exception\nFlag requirements must already be in your Settlement, but a Rover parked on another player’s yellow Structure can supply Flags only for the Build made that turn. A Rover cannot park on your own cards, and one card has room for only one Rover (the Base has one blue and one yellow space)."
   },
   {
     "objectID": "posts/games/moon/index.html#scoring",
     "href": "posts/games/moon/index.html#scoring",
     "title": "Moon",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nResolve each Flag reward in order. The player with the most of that Flag in their Settlement takes all Hearts below it. A tie goes to the tied player with more Rovers in their supply; if still tied, nobody takes the reward and the Hearts remain. Then each player gains Hearts equal to the Heart tokens on their Structures and Reputation cards, leaving those tokens in place.\n\nEnd of an Era\n\nAward all five Flag rewards, then score Heart tokens already placed on cards.\nRemove one Heart from X, reducing the Excitement Value from 3 in Era I to 2 in Era II and 1 in Era III.\nAfter Era I, put four Hearts below every Flag; after Era II, put five below every Flag. Unclaimed Hearts remain and add to the refill.\nAfter Era III, do not refill. Add the Hearts already earned during the game to the printed Hearts on grey Structures and Reputation cards. Do not score Heart tokens on cards again.\nThe highest total wins. Ties go to the player with more Rovers, then fewer Reputation cards; a remaining tie is shared."
   },
   {
     "objectID": "posts/games/moon/index.html#terminology",
     "href": "posts/games/moon/index.html#terminology",
     "title": "Moon",
     "section": "Terminology",
-    "text": "Terminology\n\nGeneral Supply: Collection of Hearts, Rovers and Resources.\nSettlement: The Base Card and Structure Cards of a player.\nEra: A round of the game.\nBuild: Take a Structure Card from your hand and place it in your Settlement. Resource costs must be paid and Flag Requirements must be fulfilled.\nAssimilate: Place a Structure Card from your hand onto the discard pile. Take the Resources, Rovers or Hearts depicted on the card into your Supply.\n\n\nStructure Card Types\n\nBlue Cards:\nYellow Cards:\nPink Cards:\nGrey Cards:\nRed Cards:"
+    "text": "Terminology\n\nSettlement: Your Base, built Structures, and Hearts and Rovers on them; resources and Reputation cards are not part of it.\nBuild: Put a Structure into the appropriate Settlement area after paying costs and satisfying Flag requirements.\nAssimilate: Discard a Structure from hand for its trash-can reward.\nRover: A token that can use another player’s blue production or yellow Flags for the turn.\nReputation card: A public, claimable card with a requirement, an effect, and printed endgame Hearts."
   },
   {
-    "objectID": "posts/games/chrononauts/index.html#setting-up",
-    "href": "posts/games/chrononauts/index.html#setting-up",
-    "title": "Chrononauts",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/moon/index.html#official-rules",
+    "href": "posts/games/moon/index.html#official-rules",
+    "title": "Moon",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach covers multiplayer; the rulebook’s GURPS opponent is a separate solo mode."
   },
   {
-    "objectID": "posts/games/chrononauts/index.html#rounds",
-    "href": "posts/games/chrononauts/index.html#rounds",
+    "objectID": "posts/games/chrononauts/index.html",
+    "href": "posts/games/chrononauts/index.html",
     "title": "Chrononauts",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "You are a time traveller changing history, collecting lost objects, and trying to reach the reality your Identity calls home.\n\n\nYou can win by restoring the reality on your Identity, putting the Artifacts named by your Mission on the table, or ending your turn with ten cards in hand. Watch all three routes because opponents can change the TimeLine under you."
+  },
+  {
+    "objectID": "posts/games/chrononauts/index.html#theming-whats-the-point",
+    "href": "posts/games/chrononauts/index.html#theming-whats-the-point",
+    "title": "Chrononauts",
+    "section": "",
+    "text": "You are a time traveller changing history, collecting lost objects, and trying to reach the reality your Identity calls home.\n\n\nYou can win by restoring the reality on your Identity, putting the Artifacts named by your Mission on the table, or ending your turn with ten cards in hand. Watch all three routes because opponents can change the TimeLine under you."
+  },
+  {
+    "objectID": "posts/games/chrononauts/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/chrononauts/index.html#setting-up-how-to-get-started",
+    "title": "Chrononauts",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nBuild the table\n\nArrange the 32 double-sided TimeLine cards in the 8-by-4 Time Index grid, A1-8 through D1-8, with every card on its True History side: Ripplepoints blue and Linchpins purple.\nMake separate shuffled piles for the other card types. Give each player one secret Identity, one secret Mission, and three cards from the main deck.\nEveryone guesses the current time; the closest starts, then play proceeds clockwise.\n\nKeep Identities and Missions secret until claiming victory. The TimeLine remains public and fixed in its indexed grid; its cards are flipped, not removed."
+  },
+  {
+    "objectID": "posts/games/chrononauts/index.html#rounds-and-phases",
+    "href": "posts/games/chrononauts/index.html#rounds-and-phases",
+    "title": "Chrononauts",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nTake a turn\n\nDraw one card from the main deck.\nPlay one card from hand, or discard one if it cannot or should not be played. Resolve the card fully.\nIf the card was discarded instead of played, the player may discard a second card and draw one replacement: this is Killing Time.\nCheck only that active player’s victory conditions at the end of their turn. Shuffle the discard pile to form a draw deck only when a draw is required and the deck is empty.\n\n\n\nChanging history\n\nAn Inverter flips a Linchpin, then all affected Ripplepoints are adjusted. Inverters never directly flip Ripplepoints.\nA changed dependency creates a Paradox. A Patch may be played only on its matching Paradox, covering it; playing a Patch immediately draws one card.\nFollow a Patch’s nullification icons whenever history changes. A nullified Patch is discarded; the underlying TimeLine card remains.\nArtifacts and Gadgets stay face-up before their owner; Actions and Timewarps resolve then discard. A Memo From Your Future Self is the exception to turn ownership: it can cancel a card as it is played.\n\nIf 13 Paradoxes are visible at once, the game ends immediately and everybody loses. The 1962’ Patch creates the UberParadox: nothing after 1962 can be accessed, changed or collected from the future until it is cleared; later Paradoxes count as part of that one large Paradox. The 1945 Nexus can have three dependencies and four possible Patches, so check its playable and nullification icons especially carefully."
   },
   {
     "objectID": "posts/games/chrononauts/index.html#scoring",
     "href": "posts/games/chrononauts/index.html#scoring",
     "title": "Chrononauts",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nEnd of the game\nThere is no points total. Claim victory only at the end of your own turn by meeting one condition:\n\nGoing Home: all three headlines on the Identity appear on the TimeLine; a Paradox blocks this route.\nMission: the three named Artifacts are face-up in front of the player, not merely in hand. Some Missions name any three from four.\nPower and Success: the player has ten cards in hand, excluding Identity and Mission cards."
   },
   {
     "objectID": "posts/games/chrononauts/index.html#terminology",
     "href": "posts/games/chrononauts/index.html#terminology",
     "title": "Chrononauts",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nTimeLine: the shared chronological row of events.\nLinchpin: a two-sided pivotal event, changed by an Inverter.\nRipplepoint: a dependent event that becomes a Paradox when its condition fails.\nPatch: a card that covers its matching Paradox and grants an immediate draw.\nParadox: a contradiction created by the current TimeLine.\nArtifact: a collectable object used by Missions.\nIdentity: your secret home-reality objective.\nMission: your secret list of three Artifacts."
+  },
+  {
+    "objectID": "posts/games/chrononauts/index.html#official-rules",
+    "href": "posts/games/chrononauts/index.html#official-rules",
+    "title": "Chrononauts",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Chrononauts rules sheet."
   },
   {
     "objectID": "posts/games/monopoly_deal/index.html",
@@ -539,32 +665,53 @@
     "text": "Official rules\nMonopoly Deal instructions (PDF)"
   },
   {
-    "objectID": "posts/games/rove/index.html#setting-up",
-    "href": "posts/games/rove/index.html#setting-up",
+    "objectID": "posts/games/rove/index.html",
+    "href": "posts/games/rove/index.html",
     "title": "ROVE",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "You are a damaged exploration robot, reconfiguring six modules to complete seven missions.\n\n\n\nROVE is a one-player spatial puzzle.\nComplete seven missions to win; there is no points comparison."
   },
   {
-    "objectID": "posts/games/rove/index.html#rounds",
-    "href": "posts/games/rove/index.html#rounds",
+    "objectID": "posts/games/rove/index.html#theming-whats-the-point",
+    "href": "posts/games/rove/index.html#theming-whats-the-point",
     "title": "ROVE",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "You are a damaged exploration robot, reconfiguring six modules to complete seven missions.\n\n\n\nROVE is a one-player spatial puzzle.\nComplete seven missions to win; there is no points comparison."
+  },
+  {
+    "objectID": "posts/games/rove/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/rove/index.html#setting-up-how-to-get-started",
+    "title": "ROVE",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nShuffle the six Module cards and deal them active-side up in a two-row, three-column layout.\nShuffle the 12 double-sided Mission/Movement cards mission-side up. Reveal the top card above the modules as the first mission.\nDraw five cards and turn them to their Movement side for your hand. For a harder game start with four; for Impossible, start with three. Your maximum hand size remains five.\nLeave space for a discard pile."
+  },
+  {
+    "objectID": "posts/games/rove/index.html#rounds-and-phases",
+    "href": "posts/games/rove/index.html#rounds-and-phases",
+    "title": "ROVE",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nSolve the current mission\n\nEarn movement points either by playing a Movement card from hand for the points at its top, or by matching its printed pattern before playing it to earn the points beneath that pattern.\nSpend the points to move modules according to their arrows, resolving module abilities when useful.\nAfter every move and ability, keep all modules unstacked, on an imaginary grid, and in one contiguous group. Corner contact counts as adjacent.\nComplete the mission when the modules match its pattern. The named module must occupy its shown space; the other shown spaces can hold any modules. Patterns cannot be rotated or flipped, and may require only a subset of modules.\nCover the completed mission with the next mission card and draw one card if below five. Continue from the current layout.\n\n\n\nMovement and abilities\n\nThe standard arrow moves its module any distance in a shown direction and may pass over modules. The short arrow moves it one space. The jumping arrow moves any distance in a shown direction but must pass over at least one module. The pushing arrow moves one space and pushes any module in its destination, and any chain beyond it, one space as well.\nEach module ability is single-use: flip that module to its spent side before resolving it. Brain repositions another module adjacent to Brain; Coil repositions itself to any valid location; Gripper activates an adjacent module’s ability; Laser swaps two modules; Motor shifts any module one space in any direction; Sensor draws a card if below five.\nA Movement card stays current while it has points. Discard it, losing unspent points, when its last point is spent, when another Movement card is played, or when a mission is completed.\n\n\n\nDeck pressure\nWhen the deck is empty, turn the discard pile mission-side up to form a new deck without shuffling it. If you cannot complete the current mission, you lose."
   },
   {
     "objectID": "posts/games/rove/index.html#scoring",
     "href": "posts/games/rove/index.html#scoring",
     "title": "ROVE",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nROVE has no score or tiebreak. Complete seven missions to win; fail to complete the current mission to lose."
   },
   {
     "objectID": "posts/games/rove/index.html#terminology",
     "href": "posts/games/rove/index.html#terminology",
     "title": "ROVE",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nModule: one of the six robot cards.\nMission: the current target pattern.\nMovement point: a point earned from the current Movement card and spent to move a module.\nAdjacent: modules touching edge-to-edge or corner-to-corner.\nSpent: a module whose one-use ability has been used."
+  },
+  {
+    "objectID": "posts/games/rove/index.html#official-rules",
+    "href": "posts/games/rove/index.html#official-rules",
+    "title": "ROVE",
+    "section": "Official rules",
+    "text": "Official rules\nButton Shy: ROVE is the publisher’s official product page. No public publisher-hosted rulebook PDF was available during research."
   },
   {
     "objectID": "posts/games/hunters_of_the_lost_creatures/index.html#setting-up",
@@ -644,32 +791,53 @@
     "text": "Official rules\nFluxx Remixx rules (PDF)"
   },
   {
-    "objectID": "posts/games/radlands/index.html#setting-up",
-    "href": "posts/games/radlands/index.html#setting-up",
+    "objectID": "posts/games/radlands/index.html",
+    "href": "posts/games/radlands/index.html",
     "title": "Radlands",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Radlands is a two-player duel. Each player protects three camps, recruits people and schedules events, spending a short-lived supply of water to destroy the opponent’s camps first.\n\n\nPeople occupy columns in front of camps and can protect cards behind them. Events enter a three-space queue and count down to resolution. Cards in hand can instead be discarded for their printed junk effect, so every draw is a choice between an immediate effect and a future play."
   },
   {
-    "objectID": "posts/games/radlands/index.html#rounds",
-    "href": "posts/games/radlands/index.html#rounds",
+    "objectID": "posts/games/radlands/index.html#theming-whats-the-point",
+    "href": "posts/games/radlands/index.html#theming-whats-the-point",
     "title": "Radlands",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Radlands is a two-player duel. Each player protects three camps, recruits people and schedules events, spending a short-lived supply of water to destroy the opponent’s camps first.\n\n\nPeople occupy columns in front of camps and can protect cards behind them. Events enter a three-space queue and count down to resolution. Cards in hand can instead be discarded for their printed junk effect, so every draw is a choice between an immediate effect and a future play."
+  },
+  {
+    "objectID": "posts/games/radlands/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/radlands/index.html#setting-up-how-to-get-started",
+    "title": "Radlands",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nBuild each tribe\n\nShuffle the camp deck, then each player draws six camps and secretly chooses three. Put the three chosen camps face down in a row, leaving room for two people in front of each; reveal them together. Return the unchosen camps and camp deck to the box.\nEach player takes a Water Silo, a Raiders card, a player aid, and three white water discs. Shuffle the shared draw deck, make space for its discard pile, and put black extra-water discs in a central supply.\nEach player draws a starting hand equal to the sum of the black-box values on their three camps. Flip a water disc to choose the start player.\n\nFor a recommended first game, the experienced player uses Arcade, Victory Totem, and Mercenary Camp; the other uses Garage, Railgun, and Supply Depot."
+  },
+  {
+    "objectID": "posts/games/radlands/index.html#rounds-and-phases",
+    "href": "posts/games/radlands/index.html#rounds-and-phases",
+    "title": "Radlands",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nTake a turn\nStarting with the start player, take turns until the game ends. Complete these phases in order:\n\nEvents: if an event occupies the front space of your queue, resolve it and discard it. Then advance every event in your queue one space towards the front.\nReplenish: draw one card, then collect three white water discs. The start player collects only one water on their first turn. Water never carries between turns.\nActions: take any number of actions, in any order. When finished, return all white and black water discs to their supplies.\n\n\n\nSpend water on actions\nYou may repeat these actions while you can pay their costs:\n\nPlay a person: pay its cost and place it in front of any camp, even a destroyed camp. A column holds at most two people; place the new person in front of or behind an existing one. If every column is full, first destroy one of your people to make room. A newly played person is not ready.\nPlay an event: pay its cost and place it in its numbered queue space; if occupied, use the first available space behind it. If none is available, it cannot be played. A zero-time event resolves immediately, then is discarded with its payment.\nDraw a card: spend two water to draw one card.\nJunk a card: discard a hand card to resolve the junk icon at its top left.\nTake Water Silo: spend one water to take it into hand. Junking it grants extra water, then returns it to your play area instead of the discard pile.\nUse an ability: pay the printed cost on one ready camp or person, resolve all its text and icons, then mark it not ready.\n\n\n\nDamage, readiness, and Raiders\nDamage turns a person or camp sideways; damage it again to destroy it. A damaged person is not ready, while a damaged camp may still be ready. Unless an effect says otherwise, damage, injure, and destroy target an opponent’s unprotected card: a card with no card in front of it. Destroyed people are discarded, and destroyed camps are flipped. A punk is a face-down person with no abilities; it is destroyed by damage and returns face down to the top of the draw deck.\nCamps are ready unless their ability was used this turn. A person is not ready if it entered play, was restored, used an ability, or is damaged this turn. Water on a card also marks it not ready; use a black disc to mark a zero-cost card or ability not ready.\nWhen an effect raids, put Raiders into the third queue space if absent; otherwise advance it one space if the space ahead is empty, resolving it if it is already at the front. When Raiders resolves, the opponent chooses one camp to damage, even if protected, then returns Raiders to its owner."
   },
   {
     "objectID": "posts/games/radlands/index.html#scoring",
     "href": "posts/games/radlands/index.html#scoring",
     "title": "Radlands",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nWin, draw, or lose\nThere are no victory points. You win immediately when all three opponent camps are destroyed. If the draw deck empties, shuffle the discard pile to make a new deck. If it empties a second time, the game is a draw."
   },
   {
     "objectID": "posts/games/radlands/index.html#terminology",
     "href": "posts/games/radlands/index.html#terminology",
     "title": "Radlands",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nCamp: one of the three objectives a player protects.\nColumn: a camp and up to two people in front of it.\nPerson: a persistent, white-bordered card in a column.\nEvent: a card that waits in an event queue unless it has zero time.\nReady: able to use an ability.\nWater: the resource spent during one turn; unspent water is returned at cleanup.\nJunk: discard a hand card for its printed instant effect.\nUnprotected: a camp or person with no card in front of it."
+  },
+  {
+    "objectID": "posts/games/radlands/index.html#official-rules",
+    "href": "posts/games/radlands/index.html#official-rules",
+    "title": "Radlands",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Radlands Rules of Play v2.0 rulebook."
   },
   {
     "objectID": "posts/games/wyrmspan/index.html",
@@ -721,60 +889,102 @@
     "text": "Official rules\nStonemaier Games: Wyrmspan Rules and FAQ links to the official rulebook, solo rules, and rulings answers."
   },
   {
-    "objectID": "posts/games/micro_architects/index.html#setting-up",
-    "href": "posts/games/micro_architects/index.html#setting-up",
+    "objectID": "posts/games/micro_architects/index.html",
+    "href": "posts/games/micro_architects/index.html",
     "title": "Micro Architects",
-    "section": "Setting up",
-    "text": "Setting up\n\nPlace the Architects board in the middle of the table.\nProvide each player with the following:\n\n\n1 City board\nA Scoring token (of the player’s chosen colour)\n6 Action tokens (of the player’s chosen colour)\n\n\nPlayers place 2 of their Action tokens in their player area (i.e. near their City board), and place the remaining tokens aside.\nPlayers place their Scoring tokens on the Architects board.\nPlace all buildings in the bag, shake well and draw the appropriate number, placing them in rows below the Architects board (see Table 1).\nDraw 6 additional buildings from the bag and place them in the Backup Plans section of the Architects board.\nPlace the following cards around the board:\n\n\nGoal cards: Place 3 pairs of cards above the Architects board\nService cards: Place 3 cards left of the Architects board\nRequirement cards: Place \\(x = l_{building} + l_{backup}\\) cards right of the Architects board, where \\(l_{building}\\) is the number of Landmarks in the first row of the Building Plans and \\(l_{backup}\\) is the number of Landmarks in Backup Plans.\n\n\nPlace boats nearby in reach of all players.\nThe First Player card goes to the person who last held a hammer.\n\n\n\n\nTable 1: Table of number of rows of buildings based on number of players (Round 1).\n\n\n\n\n\nNumber of Players\nNumber of Rows\nBuildings per Row\n\n\n\n\n2\n2\n10\n\n\n3\n3\n9\n\n\n4\n4\n8"
+    "section": "",
+    "text": "In this 2-4 player city-building game, make the highest-scoring city over three rounds. You place Buildings into the eight four-space blocks of your personal City board, then score the two current Goals, your Landmarks, and your Services each round.\n\n\n\nTake from the current topmost non-empty Building row: everyone gets one Building on every turn.\nA completed block gives its owner a Boat, which pays for Services and can recover spent Action tokens.\nLandmarks need a Requirement tile. Its placement preference and neighbouring-Building preference determine its score every round."
   },
   {
-    "objectID": "posts/games/micro_architects/index.html#rounds",
-    "href": "posts/games/micro_architects/index.html#rounds",
+    "objectID": "posts/games/micro_architects/index.html#theming-whats-the-point",
+    "href": "posts/games/micro_architects/index.html#theming-whats-the-point",
     "title": "Micro Architects",
-    "section": "Rounds",
-    "text": "Rounds\n\nA Game is divided into 3 rounds.\nA Round consists of 3 phases:\n\nAction phase\nScoring phase\nCleanup phase\n\n\n\nPhases\n\nAction phase:\n\nTaking buildings\nPerforming actions:\n\nOverhaul\nBackup Plan\nRelocation\nDemanding Residents\n\nAcquiring services\n\nScoring phase:\n\nGoals\nLandmarks\nServices\n\nCleanup phase:\n\nIf this is the end of Round 3, skip the Cleanup phase.\nFlip both scored Goal cards face down. In the following round, your will score based on the next two Goal cards.\nPut the buildings from the Backup Plans section back in the bag, shake well and draw 6 new Buildings to place in the Backup Plans section.\nDraw new Buildings and place them below the Architects board according to the player count (see Table 2 and Table 3).\nDiscard the remaining Requirement tiles and replace them with as many new ones as there are Landmarks in the first row of the Building Plans and Backup Plans combined. If there are non, then no Requirement tiles are placed.\nEach players receives 2 Action tokens.\nPass the First Player card to the left.\n\n\n\n\n\nTable 2: Table of number of rows of buildings based on number of players (Round 2).\n\n\n\n\n\n\n\n\n\n\nNumber of players\nNumber of rows\nNumber of buildings per row\n\n\n\n\n2\n2\n8\n\n\n3\n3\n9\n\n\n4\n4\n12\n\n\n\n\n\n\n\n\n\nTable 3: Table of number of rows of buildings based on number of players (Round 3).\n\n\n\n\n\n\n\n\n\n\nNumber of players\nNumber of rows\nNumber of buildings per row\n\n\n\n\n2\n2\n10\n\n\n3\n3\n9\n\n\n4\n4\n8"
+    "section": "",
+    "text": "In this 2-4 player city-building game, make the highest-scoring city over three rounds. You place Buildings into the eight four-space blocks of your personal City board, then score the two current Goals, your Landmarks, and your Services each round.\n\n\n\nTake from the current topmost non-empty Building row: everyone gets one Building on every turn.\nA completed block gives its owner a Boat, which pays for Services and can recover spent Action tokens.\nLandmarks need a Requirement tile. Its placement preference and neighbouring-Building preference determine its score every round."
+  },
+  {
+    "objectID": "posts/games/micro_architects/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/micro_architects/index.html#setting-up-how-to-get-started",
+    "title": "Micro Architects",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nPlace the Architects board centrally. Shuffle the Goal cards and lay out three pairs above it; only these six Goals are used. Shuffle the Service deck, reveal three cards, put all Buildings in the bag, and make the round-one Building rows: two rows of 10 for two players, three rows of 9 for three, or four rows of 8 for four. Draw six Buildings for Backup Plans.\n\nTable checklist\n\nShuffle the Requirement tiles. Reveal one for every Landmark in the first Building row and Backup Plans combined; leave the rest facedown as a stack.\nGive each player a City board, scoring token, and six Action tokens. Put two tokens in their play area and four aside for later rounds.\nPut Boats within reach. Give the First Player card to whoever most recently held a hammer.\nEach City block has four spaces: two by the river and two by the mountains, and is either green or grey. Buildings may go in any free space.\nWhen taking a Landmark, choose an available Requirement tile and put it beside that Landmark’s block. A block can hold at most four Buildings, irrespective of type."
+  },
+  {
+    "objectID": "posts/games/micro_architects/index.html#rounds-and-phases",
+    "href": "posts/games/micro_architects/index.html#rounds-and-phases",
+    "title": "Micro Architects",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nPlay three rounds, each with an Action, Scoring, and Cleanup phase. Beginning with the first player and proceeding clockwise, a player must take one Building from the current topmost non-empty row and place it. When that row empties, reveal Requirement tiles for the Landmarks in the next row and Backup Plans, pass first player left, and continue with that new first player. Scoring begins once the final row is empty.\n\nAction phase order\n\nOn a turn, take and place one Building from the current row. Filling the final space of a block gives you one Boat; put it by that block.\nBefore or after taking that Building, spend up to two Action tokens, one per action. Overhaul swaps two City Buildings; if a Landmark moves, move one Requirement tile from its old block to its new block.\nBackup Plan swaps one City Building with a displayed Backup Plan Building. Take a Requirement tile if the incoming Building is a Landmark; return one from its block if the outgoing Building is a Landmark.\nRelocation moves one Building to a free City space. If this newly fills a block without a Boat, gain that Boat.\nDemanding Residents reveals two extra Services. You may then spend two Boats for one of the five; discard or refill the other extra cards as directed by which card you take.\nAt any time on your turn, spend two Boats for one available Service, immediately refilling the three-card offer. You cannot own duplicate Services. Alternatively, spend one Boat to recover two used Action tokens; both Boat options may be used any number of times.\n\n\n\nCleanup\nAfter rounds one and two, turn the scored Goals facedown, return all Backup Plan Buildings to the bag and draw six replacements, then create the next round’s Building rows. Round two uses 2x8, 3x9, or 4x12 Buildings; round three uses 2x10, 3x9, or 4x8. Discard leftover Requirement tiles, reveal replacements for Landmarks in the new first row and Backup Plans, give every player two Action tokens, and pass first player left. Skip Cleanup after round three."
   },
   {
     "objectID": "posts/games/micro_architects/index.html#scoring",
     "href": "posts/games/micro_architects/index.html#scoring",
     "title": "Micro Architects",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nScore at the end of every round, in the same order. Goals award their printed points for every qualifying block or set of blocks. Each Landmark Requirement scores separately: one point for its Landmark’s correct block/location preference, plus up to three points for Buildings of either indicated type in that Landmark’s block. A Landmark can score only its own Requirement tile. Each Service scores two points per indicated pair of Building types anywhere in your city; the same Building can contribute to several Services.\n\nScoring order\n\nScore both face-up Goals for the round.\nScore every Landmark Requirement tile.\nScore every Service.\nAfter round three, add two points per unused Boat and one point per unused Action token.\nThe highest total wins. On a tie, the player with fewer Landmarks wins; any remaining tie is shared."
   },
   {
     "objectID": "posts/games/micro_architects/index.html#terminology",
     "href": "posts/games/micro_architects/index.html#terminology",
     "title": "Micro Architects",
     "section": "Terminology",
-    "text": "Terminology\n\nLandmarks: Black buildings\nBuilding Plans: The rows of buildings placed below the Architects board\nOverhaul:\n\nSwap two Buildings of your choice in your City.\nIf you are swapping a Landmark, you must also take one of the Requirement tiles beside that black and place it beside the new black.\n\nBackup Plan:\n\nSwap a chosen Building from your City with one of the available ones in the Backup Plans section of the Architects board.\nIf you choose a Landmark from the Backup Plans section, your must also choose one of the available Requirements tiles and place it beside the black where your place the new Landmark.\nIf you swap a Landmark from your City with another Building from the Backup Plans section, remove any one of the Requirement tiles from that Landmark’s block and put it back with the Landmark Requirements tiles next to the Architects board.\n\nRelocation:\n\nMove a Building to any other available space in your City.\nIf this would result in filling a black with no Boat token beside it, draw one Boat token and place it on the Life Ring by that block.\n\nDemanding Residents:\n\nDraw 2 additional Services cards and place them face up beside the others.\nYou can now decide if you want to spend 2 Boat tokens and pick one of the available 5 Service cards.\nIf you pick one of the extra 2 Services cards, place the remaining one into the discard pile.\nIf you decide to take one of the basic 3 Service cards, refill the offer with a new card from the top of the Service deck and discard 2 previously drawn Service cards."
+    "text": "Terminology\n\nBuilding Plans: The rows of Buildings from which players must currently choose.\nLandmark: A black Building that receives a Requirement tile when taken.\nBackup Plans: The six-Building alternative display used by the Backup Plan action.\nBoat: A token earned for completing blocks and spent on Services or recovering Action tokens.\nService: A scoring card bought with two Boats."
   },
   {
-    "objectID": "posts/games/dobble/index.html#setting-up",
-    "href": "posts/games/dobble/index.html#setting-up",
-    "title": "Dobble",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/micro_architects/index.html#official-rules",
+    "href": "posts/games/micro_architects/index.html#official-rules",
+    "title": "Micro Architects",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach covers the base multiplayer game; the Residents, Events, scenario, and solo material are separate rulebook variants."
   },
   {
-    "objectID": "posts/games/dobble/index.html#rounds",
-    "href": "posts/games/dobble/index.html#rounds",
+    "objectID": "posts/games/dobble/index.html",
+    "href": "posts/games/dobble/index.html",
     "title": "Dobble",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Dobble is a simultaneous visual-recognition game for 2-8 players. Any two cards share exactly one symbol: spot it and name it first.\n\n\nThe matching symbol may differ in size, position, or orientation. A player must name the shared picture to claim or move a card."
+  },
+  {
+    "objectID": "posts/games/dobble/index.html#theming-whats-the-point",
+    "href": "posts/games/dobble/index.html#theming-whats-the-point",
+    "title": "Dobble",
+    "section": "",
+    "text": "Dobble is a simultaneous visual-recognition game for 2-8 players. Any two cards share exactly one symbol: spot it and name it first.\n\n\nThe matching symbol may differ in size, position, or orientation. A player must name the shared picture to claim or move a card."
+  },
+  {
+    "objectID": "posts/games/dobble/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/dobble/index.html#setting-up-how-to-get-started",
+    "title": "Dobble",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nShuffle the 55-card deck and choose one of the five games below before dealing. All players search simultaneously; there are no turns.\n\nTowering Inferno\nDeal each player one face-down card. Make a face-up centre draw pile from the rest. Everyone reveals their card; the first player to name its match with the centre card takes that centre card onto their own face-up pile. The newly exposed centre card starts the next search.\n\n\nThe Well\nSet one card aside face down. Deal the remaining cards equally into face-down personal draw piles, then turn the set-aside card, or an undealt extra, face up in the centre. Everyone reveals the top card of their own pile."
+  },
+  {
+    "objectID": "posts/games/dobble/index.html#rounds-and-phases",
+    "href": "posts/games/dobble/index.html#rounds-and-phases",
+    "title": "Dobble",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nPlay The Well\n\nCompare your top personal card with the centre card.\nFirst to name their shared symbol places their personal card on the centre card and reveals their next personal card.\nContinue until a player exhausts their personal draw pile; that player wins.\n\n\n\nThe other games\n\nTowering Inferno: continue claiming centre cards until its draw pile is empty. The player with the most claimed cards wins.\nHot Potato: give every player one face-down card to hold, then reveal together. Name a match with another player’s card and put every card in your hand into that player’s hand. Continue until one player holds all cards; put them before that player and deal another round. After the agreed fixed number of rounds, at least five, the player with the most cards loses.\nCatch Them All!: put one card face up in the centre and deal one face-down card to each player. Reveal together, then name a match between the centre card and any revealed card to claim that revealed card face down. When all are claimed, put the centre card on the bottom of the draw pile and deal again. When the draw pile is exhausted, most claimed cards wins.\nThe Poisoned Gift: deal one face-down card to each player and make a face-up centre draw pile from the rest. Reveal personal cards together. Name a match between the centre card and another player’s card to put the centre card on that player’s pile; the next exposed centre card continues play. When the draw pile is empty, fewest cards wins.\n\n\n\nQuick teaching tip\nChoose a symbol on one card and scan the other for it; never expect a match to occupy the same place or size."
   },
   {
     "objectID": "posts/games/dobble/index.html#scoring",
     "href": "posts/games/dobble/index.html#scoring",
     "title": "Dobble",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nEach mini-game’s end condition and winner are given above. The supplied rules do not specify a separate tiebreak; a tied result remains a tie unless players agree otherwise before play."
   },
   {
     "objectID": "posts/games/dobble/index.html#terminology",
     "href": "posts/games/dobble/index.html#terminology",
     "title": "Dobble",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nSymbol: a picture on a card.\nMatch: the one symbol shared by two cards.\nCentre card: the face-up card used for the current comparison.\nMini-game: one of Dobble’s five setups and victory conditions."
+  },
+  {
+    "objectID": "posts/games/dobble/index.html#official-rules",
+    "href": "posts/games/dobble/index.html#official-rules",
+    "title": "Dobble",
+    "section": "Official rules",
+    "text": "Official rules\nDobble official game site"
   },
   {
     "objectID": "posts/games/tuki/index.html#setting-up",
@@ -805,32 +1015,53 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/kelp/index.html#setting-up",
-    "href": "posts/games/kelp/index.html#setting-up",
+    "objectID": "posts/games/kelp/index.html",
+    "href": "posts/games/kelp/index.html",
     "title": "Kelp: Shark vs Octopus",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "This asymmetric duel takes place in a kelp forest. The Octopus hides, moves blocks and develops its deck; the Shark patrols with dice, searches blocks and tries to strike the Octopus.\n\n\n\nKelp is strictly a two-player game.\nOne player is the Octopus; one is the Shark. The Octopus takes the first turn.\nThe Octopus wins by placing all four food blocks on the Food Track, or when the Shark places a seventh die on the Hunger Track. The Shark wins only by striking the Octopus with a red die and matching its confrontation choice."
   },
   {
-    "objectID": "posts/games/kelp/index.html#rounds",
-    "href": "posts/games/kelp/index.html#rounds",
+    "objectID": "posts/games/kelp/index.html#theming-whats-the-point",
+    "href": "posts/games/kelp/index.html#theming-whats-the-point",
     "title": "Kelp: Shark vs Octopus",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "This asymmetric duel takes place in a kelp forest. The Octopus hides, moves blocks and develops its deck; the Shark patrols with dice, searches blocks and tries to strike the Octopus.\n\n\n\nKelp is strictly a two-player game.\nOne player is the Octopus; one is the Shark. The Octopus takes the first turn.\nThe Octopus wins by placing all four food blocks on the Food Track, or when the Shark places a seventh die on the Hunger Track. The Shark wins only by striking the Octopus with a red die and matching its confrontation choice."
+  },
+  {
+    "objectID": "posts/games/kelp/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/kelp/index.html#setting-up-how-to-get-started",
+    "title": "Kelp: Shark vs Octopus",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nSeat the players on their named sides. Put 7 blue Current dice, 3 yellow Search dice and 1 red Strike die in the Shark bag; make four face-up Shark cards, the deck, and four unflipped Growth tiles. Put both sets of three confrontation cards face-down beside the board.\nSeparate the non-starter Octopus cards into face-up Move, Hide, Learn and Eat piles. Put the matching food block on the top Eat card; put the other food, three named traps, a shell and a double shell beside the piles.\nPut the Octopus, one trap and seven shells in the Octopus bag. The Octopus secretly draws and places all nine blocks upright in the board spaces, then puts the bag aside. Hidden blocks show their icons only to the Octopus.\nSet aside Fast Learning. Shuffle the remaining starter cards as the Octopus draw pile; take Fast Learning plus three cards, set hand size to four, and have the Octopus place the Shark on any den Current space facing the centre."
+  },
+  {
+    "objectID": "posts/games/kelp/index.html#rounds-and-phases",
+    "href": "posts/games/kelp/index.html#rounds-and-phases",
+    "title": "Kelp: Shark vs Octopus",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nAlternating turns\nPlayers alternate whole turns, beginning with the Octopus, until an immediate win condition is met.\n\n\nThe Octopus turn\nTake exactly two actions; the same action may be chosen twice.\n\nPlay a card: reveal the stated number of hidden blocks as its cost (the double shell counts as two), complete its effect, and put it in an action slot. A card cannot be played unless its full effect can happen.\nDraw: if below hand size, draw up to it; an empty hand must use this action. Shuffle the discard pile only when a draw is required and the draw pile is empty.\nDiscard and hide: discard one card, then hide one revealed block if possible.\n\nAt turn end, discard played cards. Move swaps orthogonally adjacent blocks without changing their hidden/revealed state; a shuffle returns chosen hidden blocks to the bag and the Shark chooses their replacement empty spaces. Learn gains the stated mix of top cards and blocks: gained cards usually go to discard, while each gained block replaces a revealed board block and enters revealed. An Eat card comes with its matching food block as one Learn gain.\nTo eat, the Octopus and matching food must be orthogonally adjacent, then play the matching Eat card as an action, reveal both blocks, replace the food with a revealed spare shell, put the food on the next Food Track space, and trash the Eat card. Its one-time food effect may be used before, between or after actions.\n\n\nThe Shark turn\nPerform these steps in order; only Draw & Roll and Move are compulsory.\n\nDraw & Roll: draw and roll two dice (plus unlocked bonuses). Blue dice may be placed on any empty Current space.\nMove: move forward to an empty Current space. The Shark cannot stand still, reverse, or move backwards; it may choose a direction when starting at a den. It may skip a Current or a connected chain whose values strictly decrease, moving only the first skipped Current to Growth.\nSearch/Strike: use yellow and/or red dice on up to two orthogonally adjacent zones, each die at least the zone value and with only one die per space. Search reveals a hidden block; Strike reveals a block and attacks it. Used yellow dice go to Growth; a red die goes to Hunger after a miss, trap, or escaped confrontation. Unused dice remain for Energy.\nGrowth: place used yellow dice and the first Current used from left to right. When a tile receives its third die, return those dice to the bag and flip it for its permanent ability. Red dice never go here.\nEnergy: place all remaining pool dice in stored Energy. With one or two dice the Shark may buy; with three it must buy if able. Buy any number of face-up cards up to the total pips, add their dice to the bag immediately, refill the display, and return unspent dice to the bag. Spending Energy moves exactly one stored die to Hunger; if no displayed card is affordable, return all dice without Hunger.\n\n\n\nAttacking\n\nA red Strike die that reveals the Octopus starts a confrontation.\nBoth players secretly choose one remaining coloured confrontation card and reveal together.\nIf colours match, the Shark wins immediately. Otherwise the Octopus performs its escape effect, then trashes its used card and the Shark card of that matching colour.\nThus the second confrontation is a 50/50 choice; by the third the remaining colours must match.\n\n\n\nImportant exceptions\n\nA Search can reveal the Octopus but does not attack it; shells and food have no search effect, while traps trigger on Search or Strike.\nIf the Shark’s bag is empty when dice are needed, remove Current dice from the board until two dice can be drawn. If a second chosen Search/Strike zone ceases to be adjacent after the first reveal, return its die to the bag.\nThe seventh Hunger die ends the game immediately in the Octopus’s favour. This includes a die moved there after a Strike or spent Energy."
   },
   {
     "objectID": "posts/games/kelp/index.html#scoring",
     "href": "posts/games/kelp/index.html#scoring",
     "title": "Kelp: Shark vs Octopus",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nThere is no points total. The Octopus wins immediately by eating its fourth food block or exhausting the Shark with the seventh Hunger die. The Shark wins immediately on the first confrontation in which its colour matches the Octopus’s choice."
   },
   {
     "objectID": "posts/games/kelp/index.html#terminology",
     "href": "posts/games/kelp/index.html#terminology",
     "title": "Kelp: Shark vs Octopus",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nEnergy: unspent rolled dice whose pips buy Shark cards.\nLearn: an Octopus card that gains a new option and its matching food block.\nEat: the matching card/food pairing acquired through Learn.\nConfrontation cards: simultaneous coloured choices; matching colours win the attack.\nHunger Track: permanent dice from Strikes and Energy spending; seven exhaust the Shark."
+  },
+  {
+    "objectID": "posts/games/kelp/index.html#official-rules",
+    "href": "posts/games/kelp/index.html#official-rules",
+    "title": "Kelp: Shark vs Octopus",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Kelp Rulebook v1.2, including its FAQ and card clarifications."
   },
   {
     "objectID": "projects.html",
@@ -840,32 +1071,53 @@
     "text": "Bio\nThis is me."
   },
   {
-    "objectID": "posts/games/cytress/index.html#setting-up",
-    "href": "posts/games/cytress/index.html#setting-up",
+    "objectID": "posts/games/cytress/index.html",
+    "href": "posts/games/cytress/index.html",
     "title": "Cytress",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Cytress is a 1-5 player engine-builder. In the standard 2-5 player game, build faction lifepaths, deploy crews onto the Cytress mini-map, then ascend them through waste tubes to the three levels of Stratos. When the tube supply runs out, score Prestige for crews, majorities, controlled tubes, and bounties.\n\n\n\nCorpocrat lifepaths provide Phase 1 income, Privateer lifepaths reward rivals’ scouting, Rover lifepaths improve trade ratios, and Hooligang lifepaths discount matching costs.\nCrews left on the mini-map compete to control tubes; crews sent higher into Stratos score more directly.\nFaction intel cards have both a faction colour, which governs crew placement, and a target faction icon, which matters for bounties and level-3 majorities."
   },
   {
-    "objectID": "posts/games/cytress/index.html#rounds",
-    "href": "posts/games/cytress/index.html#rounds",
+    "objectID": "posts/games/cytress/index.html#theming-whats-the-point",
+    "href": "posts/games/cytress/index.html#theming-whats-the-point",
     "title": "Cytress",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Cytress is a 1-5 player engine-builder. In the standard 2-5 player game, build faction lifepaths, deploy crews onto the Cytress mini-map, then ascend them through waste tubes to the three levels of Stratos. When the tube supply runs out, score Prestige for crews, majorities, controlled tubes, and bounties.\n\n\n\nCorpocrat lifepaths provide Phase 1 income, Privateer lifepaths reward rivals’ scouting, Rover lifepaths improve trade ratios, and Hooligang lifepaths discount matching costs.\nCrews left on the mini-map compete to control tubes; crews sent higher into Stratos score more directly.\nFaction intel cards have both a faction colour, which governs crew placement, and a target faction icon, which matters for bounties and level-3 majorities."
+  },
+  {
+    "objectID": "posts/games/cytress/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/cytress/index.html#setting-up-how-to-get-started",
+    "title": "Cytress",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nUse one random mini-map tile per player, the matching 1-3 or 4+ player sides of the faction boards, and the relevant bounty cards. Construct Stratos, randomise the Cytress board side, reveal three cards from each faction deck and five Stratolites, and place seven tube sections per player near Stratos. The remaining tubes stay out of reach until game end is triggered.\n\nSetup discipline\n\nEach player chooses a side of a randomly dealt rebel board and receives its leader, three transports, twelve crews, and a resource tracker.\nStart every resource at 2, with a maximum of 25. The resources are Creds, Tech, Glow, and Ammo.\nThe most recent cyberpunk-film viewer takes the first-player marker.\nIn a 2-player game, only the designated 3-resource scout spot is available in each district. In 2-3 players, every player scouts twice each round; in 4-5 players, each scouts once."
+  },
+  {
+    "objectID": "posts/games/cytress/index.html#rounds-and-phases",
+    "href": "posts/games/cytress/index.html#rounds-and-phases",
+    "title": "Cytress",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nPlay repeated rounds of four phases. Phase 3 has a normal Travel stage followed by Extra Travel for transports that visited Stratos. Players can still gain intel cards after their crews are gone, but a tube can only be placed on a hex containing their own crew.\n\nHow to teach a turn\n\nIncome, simultaneously: gain every resource icon in your Corpocrat lifepath.\nScout Districts: in first-player order, put your leader on an empty scout spot of a faction and gain its printed resource plus one matching resource for each of your crews already on Stratos. Every other player gains matching resources shown in their Privateer lifepath; the active scout does not. In 2-3 players, repeat the process with a different faction.\nTravel: players alternate moving one of their three transports to a landing pad until all have moved. Meeting a faction pays its cost, takes and refills one intel card, adds it to the matching lifepath, places a crew on an empty matching-colour mini-map hex, and may spy on one adjacent rival for resources matching all hex colours occupied by that rival’s adjacent crews.\nOther Travel actions are: Stratolite or Renegade to pay for a 1-, 2-, or 3-high tube (cost 5, 11, or 18) and ascend that crew to the matching Stratos level; Enforcer for a bounty and one optional immediate benefit; Fixer for free intel without crew placement, one reserved Stratolite, and next phase’s first-player marker; or Merchant for up to two directed trades. A Stratolite requires its shown resource and hex type; Renegade accepts any one resource type and any hex with your crew. Hooligang discounts apply to the matching resource cost.\nExtra Travel: in turn order, each transport left on Stratos after meeting a Stratolite takes one more Travel action, but must leave Stratos and cannot meet another Stratolite. Reset: discard the rightmost Stratolite, shift the rest right, refill the leftmost slot, and return leaders and transports.\n\n\n\nVersion warning\nThe game enters its final round when the allocated tube sections are exhausted in Travel or Extra Travel. Use extra tubes from the box to finish that round, then score rather than resetting."
   },
   {
     "objectID": "posts/games/cytress/index.html#scoring",
     "href": "posts/games/cytress/index.html#scoring",
     "title": "Cytress",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nAdd Prestige for each crew on Stratos: 5 on level 1, 10 on level 2, and 15 on level 3. On each level, every player tied for the most crews also earns its majority award: level 1 is 3 per crew on all of Stratos, level 2 is 3 per card in the longest lifepath, and level 3 is 6 per complete set of the four faction target icons across lifepaths. Control each tube with a strict majority of crews on its adjacent mini-map hexes; tied tubes score nobody. Controlled tubes score 3, 5, or 7 for heights 1, 2, or 3. Finally score bounties for matching target icons: 2 Prestige each in 2-3 players; in 4-5 players use each bounty’s printed 1- or 2-Prestige rate. Highest total wins; ties share victory."
   },
   {
     "objectID": "posts/games/cytress/index.html#terminology",
     "href": "posts/games/cytress/index.html#terminology",
     "title": "Cytress",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nLifepath: One of four engine rows receiving faction intel cards.\nCrew: A token placed on the mini-map or ascended to Stratos.\nWaste tube: A 1-3 section route that moves one crew to its matching Stratos level.\nStratolite: A card that fixes the resource and mini-map hex type for a tube drop.\nBounty: A faction-target scoring card taken from the Enforcers."
+  },
+  {
+    "objectID": "posts/games/cytress/index.html#official-rules",
+    "href": "posts/games/cytress/index.html#official-rules",
+    "title": "Cytress",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Cytress rulebook for multiplayer play."
   },
   {
     "objectID": "posts/games/hideous_abominations/index.html#setting-up",
@@ -896,60 +1148,102 @@
     "text": "Terminology\n\nGrand Prizes: Score cards for “Completed Abomination”, “Most Colors” and “Fewest Tiles”.\nBuffet: Selection of Body Part cards in the middle of the table.\nStealing:\nBolting:\nLoose End: Any side of a tile where the artwork meets the edge."
   },
   {
-    "objectID": "posts/games/innovation/index.html#setting-up",
-    "href": "posts/games/innovation/index.html#setting-up",
+    "objectID": "posts/games/innovation/index.html",
+    "href": "posts/games/innovation/index.html",
     "title": "Innovation",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Innovation Third Edition is a 2-4 player civilisation-building card game. Build coloured stacks of innovations, use their dogma effects, score cards, and claim enough achievements to win before history runs out.\n\n\nYour board has up to five colour stacks. Their top cards are available for Dogma actions, while splaying a stack exposes icons on covered cards. Icons decide who shares non-demand effects and who is protected from demands. A card’s value is its age, from 1 to 10."
   },
   {
-    "objectID": "posts/games/innovation/index.html#rounds",
-    "href": "posts/games/innovation/index.html#rounds",
+    "objectID": "posts/games/innovation/index.html#theming-whats-the-point",
+    "href": "posts/games/innovation/index.html#theming-whats-the-point",
     "title": "Innovation",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Innovation Third Edition is a 2-4 player civilisation-building card game. Build coloured stacks of innovations, use their dogma effects, score cards, and claim enough achievements to win before history runs out.\n\n\nYour board has up to five colour stacks. Their top cards are available for Dogma actions, while splaying a stack exposes icons on covered cards. Icons decide who shares non-demand effects and who is protected from demands. A card’s value is its age, from 1 to 10."
+  },
+  {
+    "objectID": "posts/games/innovation/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/innovation/index.html#setting-up-how-to-get-started",
+    "title": "Innovation",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nPrepare the ages\n\nSeparate and shuffle cards into the ten age supply piles. Without looking, set aside one card from each age 1-9 as the nine normal Achievements; place the five Special Achievements nearby.\nEach player draws two age-1 cards, simultaneously melds one as their first board card, and keeps the other in hand.\nThe player whose melded card title is closest to A alphabetically goes first. In a four-player game, the first two players take only one action on their first turns; otherwise, every turn has two actions."
+  },
+  {
+    "objectID": "posts/games/innovation/index.html#rounds-and-phases",
+    "href": "posts/games/innovation/index.html#rounds-and-phases",
+    "title": "Innovation",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nTake two actions\nOn your turn take exactly two actions, in any order, and you may repeat one. Choose from:\n\nDraw: draw into hand from the pile matching the highest-value top card on your board. If that pile is empty, use the next higher non-empty pile.\nMeld: place a hand card on top of the matching-colour stack, continuing its current splay if any.\nDogma: activate one top card and resolve all its effects in order.\nAchieve: claim an available normal Achievement if your score is at least five times its age and you have a top card of at least that value. Score is a threshold, not a cost.\n\n\n\nResolve dogma carefully\nAt the start of a Dogma action, count the featured icon on every player’s board; do not recount during the action. For each non-demand effect, eligible opponents with at least as many of that icon perform it clockwise before the active player. For each “I Demand” effect, opponents with fewer icons perform it clockwise; those with at least as many are immune.\nComplete one effect before the next and do as much as possible. If any opponent’s shared effect changed the game, the active player takes one free Draw action after the whole Dogma action. Effects marked for yourself only are not shared.\n\n\nSplaying and card procedures\nSplay a colour left, right, or up to expose respectively one, two, or three icons from each covered card. Unsplay before changing direction. A stack of zero or one card is unsplayed. To tuck, place a card at the bottom of its colour stack; to score, place it face down in the score pile; to return, place it face down at the bottom of its supply pile.\nIf a draw needs an empty age, draw from the next higher available age. If a draw requires an age higher than 10, the game ends immediately. An effect that says a player wins does so immediately; one requiring a single player with the most of something fails entirely on a tie."
   },
   {
     "objectID": "posts/games/innovation/index.html#scoring",
     "href": "posts/games/innovation/index.html#scoring",
     "title": "Innovation",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nAchievements and endgame\nEach scored card is worth its age in points. Claiming a normal Achievement does not spend those points. Claim Special Achievements immediately when their printed condition is met; if players become eligible simultaneously, resolve the tie in clockwise turn order from the current player.\nWin immediately with six achievements in a two-player game, five with three players, or four with four players; normal and special achievements both count. If nobody has won when a card above age 10 must be drawn, highest score wins; then most achievements; a remaining tie is a draw."
   },
   {
     "objectID": "posts/games/innovation/index.html#terminology",
     "href": "posts/games/innovation/index.html#terminology",
     "title": "Innovation",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nBoard: all cards a player has in play.\nTop card: the completely visible card of a colour stack.\nMeld: play a hand card onto its colour stack.\nDogma: activate a top card’s effects.\nShare: an eligible opponent performs a non-demand effect before the active player.\nDemand: an effect performed by opponents with fewer featured icons.\nSplay: offset a stack to expose icons on cards beneath.\nScore pile: face-down scored cards, whose total age is your score."
   },
   {
-    "objectID": "posts/games/my_city/index.html#setting-up",
-    "href": "posts/games/my_city/index.html#setting-up",
-    "title": "My City",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/innovation/index.html#official-rules",
+    "href": "posts/games/innovation/index.html#official-rules",
+    "title": "Innovation",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Innovation Base: Edition III rulebook."
   },
   {
-    "objectID": "posts/games/my_city/index.html#rounds",
-    "href": "posts/games/my_city/index.html#rounds",
+    "objectID": "posts/games/my_city/index.html",
+    "href": "posts/games/my_city/index.html",
     "title": "My City",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Build a city from its first settlement to industrialisation. My City is a 2-4 player legacy game of 24 episodes: your board is permanently altered as the campaign develops. Three episodes make a chapter, and each chapter introduces rules and components through a sealed envelope. The same group is best, but a new player may take over a departed player’s city.\n\n\n\nIn the legacy campaign, each player keeps one animal board for all 24 episodes. At the end of every episode, remove the buildings, reset the score marker to 10, then make only the permanent changes the current chapter instructs.\nDo not open a later envelope. Each episode can be played separately, but the three episodes in a chapter are designed to be played together.\nThe reverse side offers the repeatable Eternity mode. It is a later-game configuration; at least one player should already know episodes 1-5. It uses identical boards and is suitable for players who have not played the campaign."
+  },
+  {
+    "objectID": "posts/games/my_city/index.html#theming-whats-the-point",
+    "href": "posts/games/my_city/index.html#theming-whats-the-point",
+    "title": "My City",
+    "section": "",
+    "text": "Build a city from its first settlement to industrialisation. My City is a 2-4 player legacy game of 24 episodes: your board is permanently altered as the campaign develops. Three episodes make a chapter, and each chapter introduces rules and components through a sealed envelope. The same group is best, but a new player may take over a departed player’s city.\n\n\n\nIn the legacy campaign, each player keeps one animal board for all 24 episodes. At the end of every episode, remove the buildings, reset the score marker to 10, then make only the permanent changes the current chapter instructs.\nDo not open a later envelope. Each episode can be played separately, but the three episodes in a chapter are designed to be played together.\nThe reverse side offers the repeatable Eternity mode. It is a later-game configuration; at least one player should already know episodes 1-5. It uses identical boards and is suitable for players who have not played the campaign."
+  },
+  {
+    "objectID": "posts/games/my_city/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/my_city/index.html#setting-up-how-to-get-started",
+    "title": "My City",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nLegacy play\n\nGive each player their animal-side board, matching 24 buildings, and a score marker on 10. Put buildings face-up beside their owner. The three building colours are residential (yellow), administrative (red), and industrial (blue).\nShuffle the 24 Construction cards into a face-down deck. Open only the envelope for the current chapter; read its rules and keep its scoring/allocation sheet visible.\nApply all current episode instructions, including any stickers or extra components. Unless told otherwise, stickers go on empty, undecorated meadow squares with a small central square, after all buildings have been removed.\n\n\n\nRepeatable play\n\nUse the reverse side of each board, with score markers on 10. Each player takes 27 buildings: eight of each colour plus three churches. Ignore campaign stickers and extra campaign buildings.\nShuffle the 24 basic Construction cards, the three church cards, and the Prohibition card: 28 cards in all. Do not add campaign-only cards.\nThe Eternity board also includes wells and two gold deposits. These, churches, and the Prohibition card are specific to this mode."
+  },
+  {
+    "objectID": "posts/games/my_city/index.html#rounds-and-phases",
+    "href": "posts/games/my_city/index.html#rounds-and-phases",
+    "title": "My City",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nA building step\n\nReveal the next Construction card. All active players take the pictured building and place it immediately and simultaneously; there is no holding a piece for a later turn.\nA building may cover empty meadow, rocks, trees, and (in Eternity mode) wells or gold deposits. It may not cover mountain or forest, overlap another building, or straddle the river. It may cover part of the river while remaining entirely on one bank.\nYour first building must run along the river, not merely touch it at a corner. Every later building must share at least one edge with an existing building. Corner contact is not adjacency; buildings on opposite banks do count as adjacent if their edges meet across the river.\nOnce placed, a building never moves. If you cannot or do not wish to place the revealed building, either pass or leave the episode/game. Passing turns that building face-down and costs 1 point, but you remain active. Leaving turns it face-down at no cost and means you place no more buildings.\n\n\n\nImportant exceptions\n\nYou cannot pass while your score marker is at 0. If you cannot or will not build then, you must leave the episode/game.\nIn Eternity mode, churches must be built. If you cannot build a revealed church, you must leave rather than pass.\nWhen Prohibition appears in Eternity mode, immediately reveal one further card. Its building is forbidden: nobody builds it, everyone turns that piece face-down, and play continues with the following card. This also applies if the forbidden piece is a church.\nIn Eternity mode, the first player to cover both gold deposits announces it and gains 3 points immediately; all players who achieve this in the same turn gain the 3 points.\n\n\n\nEnd of an episode\nThe episode or Eternity game ends when every player has left it or all Construction cards have been revealed. In the campaign, score the episode, award progress circles and the instructed stickers, then clear buildings and reset score markers before the next episode."
   },
   {
     "objectID": "posts/games/my_city/index.html#scoring",
     "href": "posts/games/my_city/index.html#scoring",
     "title": "My City",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nLegacy episode scoring\nStart from the score marker, including any points gained or lost during the episode, then score the current episode sheet in its stated order. The base scoring is +1 per visible tree, -1 per visible rock, and -1 per empty meadow square. A square with two trees or rocks is worth two points; later single-tree squares are worth one. A player reaching 50 immediately checks one progress circle, stops scoring, and remains on 50; negative points below 0 are remembered and offset later positive points in that episode.\nFor the episode ranking, at 3-4 players first place checks two progress circles and second place checks one. At 2 players, only first place checks two. Break a tied score by comparing the number of empty meadow squares in the top row, then each lower row until one player has fewer. Check progress circles from left to right, top row first. After episode 24, the player with the most progress circles wins the campaign.\n\n\nEternity scoring\nScore in this order:\n\nEach visible double-tree meadow square: +2.\nEach visible double-rock meadow square: -2.\nFor each building colour, score the size of its largest edge-adjacent group.\nEach church with at least one adjacent building of each of the three colours: +3. Churches are not a colour.\nEach well with a building on all four sides: +4.\nEach empty meadow square: -1.\n\nThe highest total wins. Resolve a tie by the same row-by-row fewest-empty-meadows comparison used in the campaign."
   },
   {
     "objectID": "posts/games/my_city/index.html#terminology",
     "href": "posts/games/my_city/index.html#terminology",
     "title": "My City",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nEpisode: One game in the 24-part legacy campaign; three episodes form a chapter.\nConstruction card: The shared card that tells every active player which building to place.\nAdjacent: Sharing an edge, including across the river; corner contact does not count.\nProgress circle: A permanent campaign award. The most after episode 24 wins.\nLeave: Stop placing buildings for the current episode/game without losing a point for the revealed building.\nPass: Decline one revealed building, lose 1 point, and remain active."
+  },
+  {
+    "objectID": "posts/games/my_city/index.html#official-rules",
+    "href": "posts/games/my_city/index.html#official-rules",
+    "title": "My City",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach is based on the supplied My City rulebook, including its Eternity-mode rules."
   },
   {
     "objectID": "posts/games/micro_cosmos/index.html#setting-up",
@@ -980,32 +1274,53 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/tussie_mussie/index.html#setting-up",
-    "href": "posts/games/tussie_mussie/index.html#setting-up",
+    "objectID": "posts/games/tussie_mussie/index.html",
+    "href": "posts/games/tussie_mussie/index.html",
     "title": "Tussie Mussie",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Build the highest-scoring Victorian bouquet by making difficult visible-or-hidden flower offers.\n\n\nDraw two flowers, offer one face up and one face down, let the recipient choose, and keep the other card in its original orientation.\n\n\n\nYour arrangement is built from left to right and cannot be rearranged. Face-up cards are your Bouquet; face-down cards are your Keepsakes. You may inspect your own Keepsakes but not another player’s."
   },
   {
-    "objectID": "posts/games/tussie_mussie/index.html#rounds",
-    "href": "posts/games/tussie_mussie/index.html#rounds",
+    "objectID": "posts/games/tussie_mussie/index.html#theming-whats-the-point",
+    "href": "posts/games/tussie_mussie/index.html#theming-whats-the-point",
     "title": "Tussie Mussie",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Build the highest-scoring Victorian bouquet by making difficult visible-or-hidden flower offers.\n\n\nDraw two flowers, offer one face up and one face down, let the recipient choose, and keep the other card in its original orientation.\n\n\n\nYour arrangement is built from left to right and cannot be rearranged. Face-up cards are your Bouquet; face-down cards are your Keepsakes. You may inspect your own Keepsakes but not another player’s."
+  },
+  {
+    "objectID": "posts/games/tussie_mussie/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/tussie_mussie/index.html#setting-up-how-to-get-started",
+    "title": "Tussie Mussie",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nShuffle all 18 Flower cards into a face-down deck and leave room for a discard pile.\nThe player who most recently smelled a flower is the first player.\nPlay three rounds. Each player will collect four cards per round."
+  },
+  {
+    "objectID": "posts/games/tussie_mussie/index.html#rounds-and-phases",
+    "href": "posts/games/tussie_mussie/index.html#rounds-and-phases",
+    "title": "Tussie Mussie",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nMake an offer\n\nThe active offerer draws two cards, looks at them, and places one face up and one face down as an offer to the recipient. The recipient may not inspect the face-down card.\nThe recipient chooses one card and adds it as the rightmost card in their arrangement, preserving its orientation.\nThe offerer adds the other card as the rightmost card in their own arrangement, also preserving its orientation.\n\n\n\nComplete the round\n\nWith two players, alternate making offers until both arrangements contain four cards.\nWith three or four players, the first player offers left and offers continue clockwise until everyone has two cards. The first player then offers right and offers continue counterclockwise until everyone has four.\nAt round end, move each player’s Keepsakes toward them into a second row in their original columns, then reveal them face up. Cards remain adjacent to the cards immediately left and right, whether in Bouquet or Keepsakes.\nPlayers simultaneously resolve any card effects labelled “Before Scoring,” in any order each player chooses."
   },
   {
     "objectID": "posts/games/tussie_mussie/index.html#scoring",
     "href": "posts/games/tussie_mussie/index.html#scoring",
     "title": "Tussie Mussie",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nScore each arrangement from left to right after Before Scoring actions. Every heart icon is worth one point, plus each flower’s own scoring condition.\nRecord the round scores. If fewer than three rounds have been completed, shuffle all 18 cards together and begin again; the first player rotates clockwise.\nAfter round three, the highest combined total wins.\n\n\nTie handling\nTied players compare the flowers in their final-round arrangements. The player with the first flower name alphabetically wins the tie."
   },
   {
     "objectID": "posts/games/tussie_mussie/index.html#terminology",
     "href": "posts/games/tussie_mussie/index.html#terminology",
     "title": "Tussie Mussie",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nOffer: two cards, one face up and one face down, presented to a recipient.\nArrangement: the left-to-right cards a player has collected this round.\nBouquet: the face-up cards in an arrangement.\nKeepsakes: the face-down cards in an arrangement."
+  },
+  {
+    "objectID": "posts/games/tussie_mussie/index.html#official-rules",
+    "href": "posts/games/tussie_mussie/index.html#official-rules",
+    "title": "Tussie Mussie",
+    "section": "Official rules",
+    "text": "Official rules\nButton Shy’s official product page gives the core sequence and scoring structure. Use the included rules for individual flower effects."
   },
   {
     "objectID": "posts/games/cosmic_voyage/index.html#setting-up",
@@ -1064,32 +1379,53 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/stellar_expedition/index.html#setting-up",
-    "href": "posts/games/stellar_expedition/index.html#setting-up",
+    "objectID": "posts/games/stellar_expedition/index.html",
+    "href": "posts/games/stellar_expedition/index.html",
     "title": "Stellar Expedition",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "In this 2-4 player exploration game, take a faction through a Space Gate and earn Expedition points across eight rounds. Discover locations, recruit a crew by building Embassies, meet Expedition requirements, and make the most of limited movement and resources before the Gate closes.\n\n\n\nThe first three rounds are Exploration rounds: the first Embassy on a new Location is discounted by 3, then 2, then 1 Raw Material.\nCrew used for an Expedition or Encounter go to Transit and cannot be used again that round.\nThree Embassies at one Recruiting Location double its production from the following round and immediately award one Expedition point."
   },
   {
-    "objectID": "posts/games/stellar_expedition/index.html#rounds",
-    "href": "posts/games/stellar_expedition/index.html#rounds",
+    "objectID": "posts/games/stellar_expedition/index.html#theming-whats-the-point",
+    "href": "posts/games/stellar_expedition/index.html#theming-whats-the-point",
     "title": "Stellar Expedition",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "In this 2-4 player exploration game, take a faction through a Space Gate and earn Expedition points across eight rounds. Discover locations, recruit a crew by building Embassies, meet Expedition requirements, and make the most of limited movement and resources before the Gate closes.\n\n\n\nThe first three rounds are Exploration rounds: the first Embassy on a new Location is discounted by 3, then 2, then 1 Raw Material.\nCrew used for an Expedition or Encounter go to Transit and cannot be used again that round.\nThree Embassies at one Recruiting Location double its production from the following round and immediately award one Expedition point."
+  },
+  {
+    "objectID": "posts/games/stellar_expedition/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/stellar_expedition/index.html#setting-up-how-to-get-started",
+    "title": "Stellar Expedition",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\nPut the Space Gate in the middle. Each player chooses a faction, takes its Dashboard, 12 Embassy cubes and Location card, then places its matching Starting Location adjacent to the Gate. Put a Spaceship and one Embassy on that Starting Location; take its Captain and level-one Crew card, leaving the level-two and level-three cards on the table. Every player starts with five Raw Materials, two Crystals, and one Influence.\n\nTable checklist\n\nCombine the corresponding face-up Location and Crew decks, shuffle the remaining Location tiles, and place the Gate token on round 1.\nShuffle the Bronze, Silver, and Gold Expedition decks. Draft starting Expeditions by taking two cards of each type, choosing and passing until each player has one Expedition of each type; reshuffle the rest into their decks.\nShuffle Encounter, Upgrade, and Damage decks. Reveal six Upgrades as the store.\nChoose a first player and give them the First Player token. The player to their left will become first player after every round.\nStarting Locations are Recruiting Locations with one prebuilt Embassy. Recruiting Locations can produce resources and support Embassies; Anomalies cannot support either."
+  },
+  {
+    "objectID": "posts/games/stellar_expedition/index.html#rounds-and-phases",
+    "href": "posts/games/stellar_expedition/index.html#rounds-and-phases",
+    "title": "Stellar Expedition",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nPlay eight rounds. Work through all four phases in order, with the first player and then clockwise order where needed. Round one skips Production.\n\nRound structure\n\nProduction: Collect resources from your Starting Location and from your current Location if you have an Embassy there. Put a Collection token on each other Embassy Location to show it may be collected later in Command. A Location can be collected only once each round; three Embassies there produce double.\nDiscovery: Beginning with the first player, each player at the map edge places up to two tiles adjacent to their current Location (up to three in a two-player game). Take only as many as can legally be placed. Recruiting Locations offer crew, resources, and Embassies; Anomalies instead have their printed effects.\nSensor: Each player rolls two Sensor dice and resolves the result. With two reward faces, choose one; with two blanks, optionally reroll one die. One Encounter icon draws one Encounter, while two let you draw two and choose one. Once per round, spend one Influence to reroll a Sensor die.\nCommand: In any order, and as often as resources and available Crew permit, move, recruit, build Embassies, complete Expeditions, collect marked Locations, and spend resources or Influence. Each Ship has one normal move; each Warp Jump costs two Raw Materials or one Crystal for one extra move.\n\n\n\nTeaching priorities\n\nBuild an Embassy only while your Ship is at that Recruiting Location and you can pay its printed cost. The first Embassy gives its Location card, level-one Crew, and one Influence; the second gives level-two Crew; the third gives level-three Crew and one point. New Crew enters Transit and is available next round.\nYou may build one Embassy at another player’s non-starting Location, but do not receive its Location or Crew. Both players still produce its full resources.\nComplete as many Expeditions as you can meet. Play the required Crew to Transit, score the card’s points, and take its bonus if its extra requirement is also met. At round end, replace completed regular Expeditions until you have three non-secret ones, choosing any difficulty.\nCrew skill, level, Embassy, and Location Expeditions have different requirements. Used Crew cannot complete another Expedition or Encounter that round. Secret Expeditions cost three Influence, stay hidden, and are not replaced.\nSpend two Raw Materials on an Upgrade, place it in the next Dashboard slot, and refill the six-card store. Influence can also replace an Expedition, add a Location beside your current location, trade resources 2:1 for the round, reroll a Sensor die, or buy a Secret Expedition.\n\n\n\nPlayer variants\nThe rulebook’s solo game uses a Nameless drone and its own movement/action decks. Optional modules, including objectives and events, change scoring or round procedures and are not part of this base-game teach."
   },
   {
     "objectID": "posts/games/stellar_expedition/index.html#scoring",
     "href": "posts/games/stellar_expedition/index.html#scoring",
     "title": "Stellar Expedition",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nThere is no separate final scoring phase. Expedition points are earned when Expeditions are completed and when a third Embassy is built on a Recruiting Location. After the eighth round ends, total those points.\n\nEndgame\n\nAfter all players finish the round-eight Command phase, return Transit Crew, move Sickbay and Solo Mission Crew to Transit, retrieve unused Collection tokens, and advance the Gate marker as usual.\nAdd Expedition points from completed Expeditions and from Locations where you built three Embassies.\nThe highest total wins. Ties go first to the highest combined Crew levels, then to the most Location cards; any remaining tie is shared."
   },
   {
     "objectID": "posts/games/stellar_expedition/index.html#terminology",
     "href": "posts/games/stellar_expedition/index.html#terminology",
     "title": "Stellar Expedition",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nGate: The central starting point and the eight-round timer’s theme.\nNameless: The ancient aliens associated with the Gate; their drone appears only in solo play.\nCrew: Cards with skills and levels, recruited through Embassies and committed to Expeditions or Encounters.\nEmbassy: A cube on a Recruiting Location that unlocks crew, production, and Influence.\nExpedition Point: The victory-point currency, chiefly earned from Expeditions and completed three-Embassy Locations."
+  },
+  {
+    "objectID": "posts/games/stellar_expedition/index.html#official-rules",
+    "href": "posts/games/stellar_expedition/index.html#official-rules",
+    "title": "Stellar Expedition",
+    "section": "Official rules",
+    "text": "Official rules\nThis page teaches the base multiplayer game only."
   },
   {
     "objectID": "posts/games/string_railway_collection/index.html#setting-up",
@@ -1225,32 +1561,53 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/agropolis/index.html#setting-up",
-    "href": "posts/games/agropolis/index.html#setting-up",
+    "objectID": "posts/games/agropolis/index.html",
+    "href": "posts/games/agropolis/index.html",
     "title": "Agropolis",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Work together to turn 15 landscape cards into a productive farm and meet three revealed scoring conditions.\n\n\n\nAgropolis is a cooperative game for 1-4 players.\nDiscuss placement freely, but never show cards in hand. Once a player reveals a chosen card, it must be placed."
   },
   {
-    "objectID": "posts/games/agropolis/index.html#rounds",
-    "href": "posts/games/agropolis/index.html#rounds",
+    "objectID": "posts/games/agropolis/index.html#theming-whats-the-point",
+    "href": "posts/games/agropolis/index.html#theming-whats-the-point",
     "title": "Agropolis",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Work together to turn 15 landscape cards into a productive farm and meet three revealed scoring conditions.\n\n\n\nAgropolis is a cooperative game for 1-4 players.\nDiscuss placement freely, but never show cards in hand. Once a player reveals a chosen card, it must be placed."
+  },
+  {
+    "objectID": "posts/games/agropolis/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/agropolis/index.html#setting-up-how-to-get-started",
+    "title": "Agropolis",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nShuffle all 18 cards and set three aside scoring-condition side up. Add their numbers: this is the target score.\nChoose a start player. Deal that player three cards, block side down, and each other player one card, also block side down.\nPut the remaining cards to one side, block side up, as the draw deck. Put its top card face up in the build area to begin the map.\nThe start player takes the first turn; play proceeds clockwise."
+  },
+  {
+    "objectID": "posts/games/agropolis/index.html#rounds-and-phases",
+    "href": "posts/games/agropolis/index.html#rounds-and-phases",
+    "title": "Agropolis",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nA placement turn\n\nChoose one of your cards, reveal its block side, and add it to the map.\nPass every card still in your hand to the player on your left. They become the active player.\nDraw the top card of the draw deck, if any, so you hold one card. When you have fewer than two cards to pass, pass what remains after your turn.\nContinue until all 15 non-scoring cards have been added.\n\n\n\nPlacement constraints\n\nPlace every card horizontally; it may be rotated 180 degrees but not otherwise rotated or flipped.\nA new card must either have a block edge touching an existing block edge or cover one or more existing blocks.\nNever tuck a card under another card and never join the map only at a corner. Gaps are allowed if these rules are met.\n\n\n\nFarm planning\n\nA block is one rectangular quarter of a card. The four types are cornfield, orchard, vineyard, and livestock.\nA group is matching blocks connected by at least one edge. Build large groups, but inspect the three scoring conditions before committing space.\nA road is a continuous stretch of roadway. Keeping roads together reduces the final penalty."
   },
   {
     "objectID": "posts/games/agropolis/index.html#scoring",
     "href": "posts/games/agropolis/index.html#scoring",
     "title": "Agropolis",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nWhen the fifteenth map card is placed, score as follows:\n\nScore one point for every block in your largest group of each of the four types. For a tie, choose one tied largest group.\nSubtract one point for every separate road.\nAdd or subtract the result of each revealed scoring condition.\nWin if the final total equals or exceeds the target score; otherwise the team loses.\n\n\nFeed Fees\nFeed Fees are an optional harder-game rule. For every matching livestock symbol beneath the three selected scoring conditions, add one to the target score. A game can have more than one fee."
   },
   {
     "objectID": "posts/games/agropolis/index.html#terminology",
     "href": "posts/games/agropolis/index.html#terminology",
     "title": "Agropolis",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nBlock: one rectangular zone on a card.\nGroup: matching blocks joined edge-to-edge.\nRoad: a continuous roadway, from one block to the map edge or across several blocks.\nScoring condition: one of the three set-aside cards; its number contributes to the target and its text modifies scoring."
+  },
+  {
+    "objectID": "posts/games/agropolis/index.html#official-rules",
+    "href": "posts/games/agropolis/index.html#official-rules",
+    "title": "Agropolis",
+    "section": "Official rules",
+    "text": "Official rules\nButton Shy: Agropolis is the publisher’s official product page. No public publisher-hosted standalone rulebook URL was available during research."
   },
   {
     "objectID": "posts/games/the_mind/index.html",
@@ -1302,60 +1659,102 @@
     "text": "Official rules\nThe Mind official product page and rulebook link"
   },
   {
-    "objectID": "posts/games/sprawlopolis/index.html#setting-up",
-    "href": "posts/games/sprawlopolis/index.html#setting-up",
+    "objectID": "posts/games/sprawlopolis/index.html",
+    "href": "posts/games/sprawlopolis/index.html",
     "title": "Sprawlopolis",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "Work together to build a city from 15 cards that meets three changing civic demands.\n\n\n\nSprawlopolis is cooperative for 1-4 players.\nTable talk is encouraged, but do not show cards in hand. A card must be placed after its owner chooses and reveals it."
   },
   {
-    "objectID": "posts/games/sprawlopolis/index.html#rounds",
-    "href": "posts/games/sprawlopolis/index.html#rounds",
+    "objectID": "posts/games/sprawlopolis/index.html#theming-whats-the-point",
+    "href": "posts/games/sprawlopolis/index.html#theming-whats-the-point",
     "title": "Sprawlopolis",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Work together to build a city from 15 cards that meets three changing civic demands.\n\n\n\nSprawlopolis is cooperative for 1-4 players.\nTable talk is encouraged, but do not show cards in hand. A card must be placed after its owner chooses and reveals it."
+  },
+  {
+    "objectID": "posts/games/sprawlopolis/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/sprawlopolis/index.html#setting-up-how-to-get-started",
+    "title": "Sprawlopolis",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nShuffle the 18 cards and set three aside scoring-condition side up. Their numbers added together are the target score.\nChoose a start player. Deal them three block-side-down cards and deal every other player one block-side-down card.\nMake a block-side-up draw deck from the remaining cards. Place its top card face up in the build area to start the city.\nThe start player begins; turns proceed clockwise."
+  },
+  {
+    "objectID": "posts/games/sprawlopolis/index.html#rounds-and-phases",
+    "href": "posts/games/sprawlopolis/index.html#rounds-and-phases",
+    "title": "Sprawlopolis",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nA placement turn\n\nChoose and reveal one card from your hand, then add it to the city.\nPass all cards remaining in hand to the player on your left. They take the next turn.\nDraw one card from the deck, if possible, so you have one card to pass. If fewer than two cards remain in hand when it is time to pass, pass those remaining cards.\nStop when all 15 city cards have been placed.\n\n\n\nPlacement constraints\n\nPlace cards horizontally and rotate them only 180 degrees; do not flip them.\nA card must have at least one block edge meeting an existing block edge, or overlap and cover one or more blocks.\nDo not tuck a card under another, and a corner-only connection is illegal. Open spaces are allowed.\n\n\n\nCity-building priorities\n\nA block is a rectangular quarter of a card: commercial, park, industrial, or residential.\nA group is matching blocks joined by an edge. Make large groups while accommodating the scoring conditions.\nA road is a continuous roadway. Separate roads each cost a point."
   },
   {
     "objectID": "posts/games/sprawlopolis/index.html#scoring",
     "href": "posts/games/sprawlopolis/index.html#scoring",
     "title": "Sprawlopolis",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nAfter the final card is placed:\n\nScore one point per block in the largest group of each zone type. If tied groups are largest, choose one.\nSubtract one point for every road.\nApply the positive or negative result of all three scoring conditions.\nThe team wins if its final score equals or exceeds the target; otherwise it loses.\n\nFor an easier game, ignore road penalties. For a harder game, score only the largest group of one zone type."
   },
   {
     "objectID": "posts/games/sprawlopolis/index.html#terminology",
     "href": "posts/games/sprawlopolis/index.html#terminology",
     "title": "Sprawlopolis",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nBlock: one rectangular zone on a card.\nGroup: matching blocks connected edge-to-edge.\nRoad: a continuous roadway, from one block to the city edge or across several blocks.\nScoring condition: one of the three set-aside cards; its number sets part of the target and its text changes final scoring."
   },
   {
-    "objectID": "posts/games/turing_machine/index.html#setting-up",
-    "href": "posts/games/turing_machine/index.html#setting-up",
-    "title": "Turing Machine",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/sprawlopolis/index.html#official-rules",
+    "href": "posts/games/sprawlopolis/index.html#official-rules",
+    "title": "Sprawlopolis",
+    "section": "Official rules",
+    "text": "Official rules\nButton Shy: Sprawlopolis is the publisher’s official product page. No public publisher-hosted standalone rulebook URL was available during research."
   },
   {
-    "objectID": "posts/games/turing_machine/index.html#rounds",
-    "href": "posts/games/turing_machine/index.html#rounds",
+    "objectID": "posts/games/turing_machine/index.html",
+    "href": "posts/games/turing_machine/index.html",
     "title": "Turing Machine",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "Turing Machine is a deduction game for 1-4 players. Everyone investigates the same unique three-digit code, composed of one number from 1-5 in each of three colours. Be the first to identify the code that passes every verifier’s hidden criterion.\n\n\nEach verifier checks exactly one criterion, selected from the possibilities on its Criteria card. A verification result says only whether the current proposal passes that criterion; it does not directly reveal the answer code or the criterion itself. Every verifier is necessary and no verifier duplicates another’s information."
+  },
+  {
+    "objectID": "posts/games/turing_machine/index.html#theming-whats-the-point",
+    "href": "posts/games/turing_machine/index.html#theming-whats-the-point",
+    "title": "Turing Machine",
+    "section": "",
+    "text": "Turing Machine is a deduction game for 1-4 players. Everyone investigates the same unique three-digit code, composed of one number from 1-5 in each of three colours. Be the first to identify the code that passes every verifier’s hidden criterion.\n\n\nEach verifier checks exactly one criterion, selected from the possibilities on its Criteria card. A verification result says only whether the current proposal passes that criterion; it does not directly reveal the answer code or the criterion itself. Every verifier is necessary and no verifier duplicates another’s information."
+  },
+  {
+    "objectID": "posts/games/turing_machine/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/turing_machine/index.html#setting-up-how-to-get-started",
+    "title": "Turing Machine",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nPrepare a problem\n\nPlace the Machine tile centrally and assemble the punch-card support. Sort the punch cards in the support by number, with all 1s first, then all 2s, and so on.\nChoose one printed problem. Problems 1-16 are introductory. Its entry specifies the verifiers, their Criteria cards, and the matching Verification cards.\nPut each specified Criteria card before its verifier and its Verification card face down beside it. Mark each Verification card’s back with its verifier letter to prevent mix-ups. Cross out unused verifier columns on every note sheet.\nGive every player a player aid and note sheet. The player aids screen private notes; proposals and the verifiers chosen are public, but answers and deductions are secret."
+  },
+  {
+    "objectID": "posts/games/turing_machine/index.html#rounds-and-phases",
+    "href": "posts/games/turing_machine/index.html#rounds-and-phases",
+    "title": "Turing Machine",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nMake and test a proposal\nAll players perform each round simultaneously:\n\nCompose: overlay three differently coloured punch cards to make a single three-digit proposal, then record it on the current round of the note sheet.\nQuestion: test that unchanged proposal with up to three verifiers, or fewer if preferred. Slide each chosen verifier’s Verification card beneath the aligned punch cards and record its pass or fail result in the matching verifier column. Return the card face down to its verifier immediately.\nDeduce: return the punch cards to the support, analyse the results, and update private deductions. Recording every proposal and every result is compulsory because questions break ties.\nEnd the round: all players simultaneously indicate whether they think they have found the code. If nobody does, begin another round.\n\n\n\nRead a verifier correctly\nThe hole visible through the aligned cards shows a pass or fail for that proposal against one criterion. Keep the same proposal for every question in the round. A pass proves only that the proposal meets a possible criterion, not that any tested digit is part of the answer. If a needed punch card is temporarily in use, wait until the other player has finished with it.\n\n\nSolo, cooperative, and handicap play\nSolo or cooperative players use one note sheet and try to solve the chosen problem in as few rounds and questions as possible, still asking at most three questions each round. To handicap an experienced competitive player, pre-fill one or two answer spaces on that player’s first-round sheet; each counts as a question already used."
   },
   {
     "objectID": "posts/games/turing_machine/index.html#scoring",
     "href": "posts/games/turing_machine/index.html#scoring",
     "title": "Turing Machine",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nVerify and end the game\nWhen one or more players declare, each secretly writes a proposed code, then checks it against the problem solution. A correct declaration must also be demonstrable by composing that code and showing it passes every verifier.\nIf several players are correct, the player who asked the fewest questions wins; equal totals share the win. Incorrect declarers are eliminated and the remaining players continue. If that leaves one player, that player wins by default."
   },
   {
     "objectID": "posts/games/turing_machine/index.html#terminology",
     "href": "posts/games/turing_machine/index.html#terminology",
     "title": "Turing Machine",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nCode: the unique three-colour, three-digit solution.\nProposal: a three-digit combination submitted to verifiers during one round.\nVerifier: the machine component that checks one hidden criterion.\nCriteria card: the public list of possible criteria for a verifier.\nVerification card: the face-down card used with punch cards to show pass or fail.\nPunch card: one coloured number card used to construct a proposal.\nQuestion: one consultation of one verifier; at most three per round."
+  },
+  {
+    "objectID": "posts/games/turing_machine/index.html#official-rules",
+    "href": "posts/games/turing_machine/index.html#official-rules",
+    "title": "Turing Machine",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Turing Machine English rules booklet."
   },
   {
     "objectID": "posts/games/luddite/index.html#setting-up",
@@ -1386,130 +1785,200 @@
     "text": "Terminology"
   },
   {
-    "objectID": "posts/games/old_kings_crown/index.html#setting-up",
-    "href": "posts/games/old_kings_crown/index.html#setting-up",
+    "objectID": "posts/games/old_kings_crown/index.html",
+    "href": "posts/games/old_kings_crown/index.html",
     "title": "The Old King’s Crown",
-    "section": "Setting up",
-    "text": "Setting up"
+    "section": "",
+    "text": "In this 2-4 player game, lead one of four factions vying to replace the old king. Accumulate Influence over a fixed number of years by bidding for useful Kingdom cards, committing forces to three regions, and winning their clashes. Influence in your supply, rather than territorial control, wins the crown.\n\n\n\nA Faction card can bid, occupy a Kingdom card, fight in a region, supply votes to a Council, or be sent on a Journey for Lore. Each use closes off the others.\nYou secretly place one card at each region before Summer, then can reinforce, retreat, move, or eliminate cards through Actions, Commands, and effects.\nHeralds choose the exact location whose reward you hope to claim; Supporters add strength to a region’s first clash. Neither stays on the map indefinitely."
   },
   {
-    "objectID": "posts/games/old_kings_crown/index.html#rounds",
-    "href": "posts/games/old_kings_crown/index.html#rounds",
+    "objectID": "posts/games/old_kings_crown/index.html#theming-whats-the-point",
+    "href": "posts/games/old_kings_crown/index.html#theming-whats-the-point",
     "title": "The Old King’s Crown",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "In this 2-4 player game, lead one of four factions vying to replace the old king. Accumulate Influence over a fixed number of years by bidding for useful Kingdom cards, committing forces to three regions, and winning their clashes. Influence in your supply, rather than territorial control, wins the crown.\n\n\n\nA Faction card can bid, occupy a Kingdom card, fight in a region, supply votes to a Council, or be sent on a Journey for Lore. Each use closes off the others.\nYou secretly place one card at each region before Summer, then can reinforce, retreat, move, or eliminate cards through Actions, Commands, and effects.\nHeralds choose the exact location whose reward you hope to claim; Supporters add strength to a region’s first clash. Neither stays on the map indefinitely."
+  },
+  {
+    "objectID": "posts/games/old_kings_crown/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/old_kings_crown/index.html#setting-up-how-to-get-started",
+    "title": "The Old King’s Crown",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nChoose the standard five-round game (recommended), or a four-round short game or six-round extended game. Put the round marker on 1, the season marker on Spring, and stack the three clash markers I, II, III with I on top.\nPut the Kingdom board and Councils tile in reach. Shuffle the Kingdom deck onto the Great Road, fill its three spaces from right to left with face-up cards, then reveal the top deck card: four Kingdom cards are available. Make a common reserve of Influence and Lore, and put the Kingdom’s Favour on the Harvest Field.\nEach player chooses a faction and takes its board, Herald, five Supporters, four unexhausted Tactics, markers, Site of Power, and hand-size marker at its printed starting value. Put that faction’s advanced cards and HQ cards face-up at its Site of Power.\nFind the faction’s Heir, put it in hand, shuffle the remaining basic Faction cards into its deck, and draw to six cards. Determine starting order by age or randomly; the first player takes the active-player marker."
+  },
+  {
+    "objectID": "posts/games/old_kings_crown/index.html#rounds-and-phases",
+    "href": "posts/games/old_kings_crown/index.html#rounds-and-phases",
+    "title": "The Old King’s Crown",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\nThe game has five phases per round. Resolve simultaneous steps together; resolve turn-order steps from the top of the Order track down. Actions are optional and normally usable once per round; mandatory effects resolve simultaneously in their indicated effects step. Card text overrides the general rules.\n\nStart of the year\nSkip this phase in round 1. Everyone draws up to hand size, then reorder players by Influence in supply, highest first. A tie reverses the tied players’ previous order. If you must draw from an empty deck, shuffle your discard pile into a new deck, reduce hand size by one, and draw to the new size; hand size cannot fall below three or rise above eight.\n\n\nSpring: bid, commit, and prepare\n\nEveryone secretly places one Faction card as a bid, then reveals. Bid strength is the card’s Strength plus effects that modify bids; ignore its other attributes unless an effect says otherwise. Resolve bids from highest strength down, breaking ties by Order track.\nOn resolving a bid, either take a face-up Great Road Kingdom card and occupy it with the bidding card, steal an opponent’s occupied Kingdom card if your bid is strictly stronger than its occupying card, or return your bidding card to hand. You may have only two occupied Kingdom cards; replacing one discards its Kingdom card and returns its former occupying card to hand.\nRefresh the Great Road. If cards were taken from it, discard its rightmost remaining card, slide the rest right, refill from the deck, then reveal the top deck card. If none were taken, discard the two rightmost cards first. A card removed from the Road outside bidding is simply replaced, without that discard.\nIn turn order, each player places their Herald on any location. Then everyone secretly places one card from hand next to each of the three regions. Those cards remain private until their region’s clash.\nIn turn order, each player may use any available Spring Actions and Commands, including placing any number of Supporters from their board into regions. Each Supporter adds 1 strength only in that region’s first clash this round.\n\n\n\nSummer: resolve the three clashes\nThe last player on the Order track assigns clash markers I-III to the regions, setting the resolution order. For each region:\n\nReveal all cards there. Face-up cards next to a region are Active.\nIn turn order, players use any available Day Actions and Commands. An Active card may Ambush a further face-down card into the clash; reveal new cards after everyone has acted, then only Actions and Commands on those newly revealed cards may be used in another turn-order pass.\nResolve all mandatory Night effects simultaneously. Deadly eliminates opponents’ Active cards in the clash; Invulnerable cards cannot be eliminated, while Resilient cards go to their owner’s discard instead of the Lost Pile.\nTotal each player’s strength: unused Active-card strength in that region, +1 for each unused Supporter there, plus modifiers. Highest total wins. If tied players all pass when offered the choice to add a face-down card, the region is tied and nobody receives rewards; otherwise begin a new clash among the tied players. Cards and Supporters used in an earlier clash in that region do not count in the new one.\nThe winner chooses either location in that region. If their Herald is there, they gain 1 Influence and steal 1 Influence, if possible, from each opponent Herald there. Then take the location’s printed Influence and may take its additional reward. A resolved region cannot clash again that round.\n\n\n\nAutumn and Winter\nIn Autumn, each player acts in turn order and may interleave any number of available Actions/Commands with one Govern and one Journey. Govern moves a hand card with at least one vote to a chosen Council. Journey moves a hand card with Lore to the Lost Pile and gains Lore equal to its icons; when you gain Lore, you may immediately spend any amount of Lore to acquire advanced cards to hand or HQ cards to supply from your Site of Power.\nIn Winter, resolve mandatory effects, then clean up simultaneously: return Heralds to player boards, move map Supporters to the Lost Pile, return clash markers, and discard remaining Active cards with no Influence on them. For an Active card bearing Influence, remove one Influence instead. Advance the round marker; after the selected final round, end the game."
   },
   {
     "objectID": "posts/games/old_kings_crown/index.html#scoring",
     "href": "posts/games/old_kings_crown/index.html#scoring",
     "title": "The Old King’s Crown",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nWinning the crown\nAfter the final round, first convert Lore to Influence if your Site of Power is empty: gain 1 Influence for every 2 Lore in supply. Then the player with the most Influence in supply wins. A tie goes first to a tied player holding the Kingdom’s Favour; if none does, the tied player highest on the Order track wins.\n\n\nKey exception\nThe Kingdom’s Favour is claimed whenever a player takes the Harvest Field’s location reward, even if another player holds it. It provides the holder’s faction-specific Action and begins with three uses; rotate it after each use and return it to the Harvest Field after the third. Reclaiming it resets it to three uses. Holding it is also the first endgame tie-breaker."
   },
   {
     "objectID": "posts/games/old_kings_crown/index.html#terminology",
     "href": "posts/games/old_kings_crown/index.html#terminology",
     "title": "The Old King’s Crown",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nInfluence: The victory currency. Keep it in your supply; the most at game end wins.\nLore: Currency gained chiefly by Journeying and spent only when you gain Lore, to acquire Site of Power cards.\nHerald / Supporter: A Herald occupies one location for potential reward; a Supporter occupies a whole region and adds 1 strength to its first clash.\nKingdom card: A shared Great Road card that must normally be occupied by the Faction card used to bid for it.\nActive card: A face-up Faction card next to a region.\nClash: The Summer contest in one region. The winner chooses one of its two locations for rewards.\nLost Pile: The public shared pile for eliminated cards, Journey cards, and spent Supporters."
   },
   {
-    "objectID": "posts/games/mysterium/index.html#setting-up",
-    "href": "posts/games/mysterium/index.html#setting-up",
-    "title": "Mysterium",
-    "section": "Setting up",
-    "text": "Setting up"
+    "objectID": "posts/games/old_kings_crown/index.html#official-rules",
+    "href": "posts/games/old_kings_crown/index.html#official-rules",
+    "title": "The Old King’s Crown",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach is based on the supplied The Old King’s Crown rulebook."
   },
   {
-    "objectID": "posts/games/mysterium/index.html#rounds",
-    "href": "posts/games/mysterium/index.html#rounds",
+    "objectID": "posts/games/mysterium/index.html",
+    "href": "posts/games/mysterium/index.html",
     "title": "Mysterium",
-    "section": "Rounds",
-    "text": "Rounds"
+    "section": "",
+    "text": "One player is the Ghost, communicating only through surreal vision cards. The psychics must interpret those visions to reconstruct the murder and identify the culprit.\n\n\nThe Ghost knows every answer but may not explain, gesture, or react to guesses. Psychics may discuss their theories freely, but must make their own final choices. Treat the Ghost’s visions as associative clues, not literal evidence."
+  },
+  {
+    "objectID": "posts/games/mysterium/index.html#theming-whats-the-point",
+    "href": "posts/games/mysterium/index.html#theming-whats-the-point",
+    "title": "Mysterium",
+    "section": "",
+    "text": "One player is the Ghost, communicating only through surreal vision cards. The psychics must interpret those visions to reconstruct the murder and identify the culprit.\n\n\nThe Ghost knows every answer but may not explain, gesture, or react to guesses. Psychics may discuss their theories freely, but must make their own final choices. Treat the Ghost’s visions as associative clues, not literal evidence."
+  },
+  {
+    "objectID": "posts/games/mysterium/index.html#setting-up-how-to-get-started",
+    "href": "posts/games/mysterium/index.html#setting-up-how-to-get-started",
+    "title": "Mysterium",
+    "section": "Setting up: How to get started?",
+    "text": "Setting up: How to get started?\n\nPrepare the investigation\n\nChoose one player as the Ghost; everyone else is a psychic.\nUse the player-count setup on the Ghost screen to lay out the required character, location, and object cards.\nGive each psychic an intuition token and sleeve. For 4-7 players, also give a clairvoyancy marker at 0 and four tokens at 4-5 players or six at 6-7; 2-3 players do not use clairvoyancy.\nChoose difficulty and lay out the required number of each card type: Easy 4/5/5/6/6/7, Medium 5/6/6/7/8/8, Hard 6/7/7/8/9/9 for 2-7 players. Give the Ghost the correspondingly numbered ghost cards, who secretly assigns one character, location and object to each psychic.\nSet the clock to hour 1. The Ghost draws seven vision cards and takes crows according to difficulty: one discard per turn at Easy, three per game at Medium, or one per game at Hard.\n\nThe Ghost must keep each psychic’s solution secret. Psychics should see only the public suspect displays and their own tokens."
+  },
+  {
+    "objectID": "posts/games/mysterium/index.html#rounds-and-phases",
+    "href": "posts/games/mysterium/index.html#rounds-and-phases",
+    "title": "Mysterium",
+    "section": "Rounds and Phases",
+    "text": "Rounds and Phases\n\nEach of the seven hours\n\nEach unresolved psychic is on character, then location, then object, in that order. The Ghost gives each at least one vision card, marks that psychic as served, and redraws to seven after each vision; the Ghost may not speak, gesture or otherwise signal.\nStart the two-minute timer. Psychics may discuss and move their intuition tokens until it expires; more than one may choose the same public card.\nBefore time expires, a psychic may put one agree or disagree clairvoyancy token on another psychic’s intuition token, never their own. Tokens are discarded after use and returned at the start of hour four.\nThe Ghost reveals each result. A correct psychic discards their visions, puts the correct card in their sleeve, and advances to the next category. An incorrect psychic keeps their visions and remains on that category, receiving additional visions in later hours.\nSuccessful clairvoyancy predictions advance their owners one space. A psychic completing all three cards moves to the mission space and gains one clairvoyancy space per hour remaining, but keeps helping and may spend remaining tokens. Advance the clock.\n\n\n\nGhost tools and final phase\nThe group loses if anybody remains unresolved when hour seven ends. Otherwise, make one numbered group from each completed character-location-object set. The Ghost secretly chooses the culprit group, selects three vision cards, one pointing to each element of that group, shuffles them face-down as the shared vision, and records its group number.\nReveal the shared vision one card at a time. Psychics vote secretly for a group when their clairvoyancy level permits them to see one, two, or all three cards; they may not discuss the vote. Reveal votes when all have voted. The group with most votes is chosen; a tie goes to the choice of the furthest clairvoyant, then the eldest player if still tied. For 2-3 players, each player runs two psychics, no clairvoyancy is used, three shared visions are face-up, two random extra groups bring the total to four, and the psychics agree openly on a vote."
   },
   {
     "objectID": "posts/games/mysterium/index.html#scoring",
     "href": "posts/games/mysterium/index.html#scoring",
     "title": "Mysterium",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nWin or lose together\nMysterium has no individual score. The group loses if all psychics have not completed their three-card combinations within seven hours, or if its final selected group is not the Ghost’s culprit. It wins only if the final group is correct. Clairvoyancy determines how much of the shared vision a psychic sees, not points."
   },
   {
     "objectID": "posts/games/mysterium/index.html#terminology",
     "href": "posts/games/mysterium/index.html#terminology",
     "title": "Mysterium",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nKey terms\n\nGhost: gives vision cards but never explains their meaning.\nPsychic: an investigator interpreting visions.\nVision card: an illustrated, associative clue.\nHour: one timed investigation round.\nIntuition token: marks a psychic’s current guess.\nClairvoyancy: predictions of others’ guesses that unlock more shared-vision cards for the final vote.\nCrow: lets the Ghost cycle unhelpful vision cards.\nCulprit: the correct completed solution in the final vote."
+  },
+  {
+    "objectID": "posts/games/mysterium/index.html#official-rules",
+    "href": "posts/games/mysterium/index.html#official-rules",
+    "title": "Mysterium",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Mysterium game rules."
+  },
+  {
+    "objectID": "posts/games/oceans/index.html",
+    "href": "posts/games/oceans/index.html",
+    "title": "Oceans",
+    "section": "",
+    "text": "Evolve marine species in a connected ecosystem. Feed your species, adapt to rivals, and finish with the most points.\n\n\n\nOceans supports 2-4 players in this supplied quick-rules guide.\nEach player maintains their own species, but every feeding and attack changes a shared food web."
+  },
+  {
+    "objectID": "posts/games/oceans/index.html#theming-whats-the-point",
+    "href": "posts/games/oceans/index.html#theming-whats-the-point",
+    "title": "Oceans",
+    "section": "",
+    "text": "Evolve marine species in a connected ecosystem. Feed your species, adapt to rivals, and finish with the most points.\n\n\n\nOceans supports 2-4 players in this supplied quick-rules guide.\nEach player maintains their own species, but every feeding and attack changes a shared food web."
   },
   {
     "objectID": "posts/games/oceans/index.html#setting-up-how-to-get-started",
     "href": "posts/games/oceans/index.html#setting-up-how-to-get-started",
     "title": "Oceans",
     "section": "Setting up: How to get started?",
-    "text": "Setting up: How to get started?"
+    "text": "Setting up: How to get started?\n\nPrepare the ecosystem\n\nPut the Reef and three Ocean Zones together; shuffle Scenario cards and put one beneath Zones 1 and 2. Put the Cambrian Explosion card, Reef Variant face-down, in Zone 1. For a gentler beginner game, use the Reef Variant and do not use Deep cards.\nDeal six Surface cards to each player. Shuffle the Deep deck and reveal two cards as the Gene Pool. Set aside 60 population in reserve, then distribute 100/120/140 population among the Reef and three Ocean Zones for 2/3/4 players.\nReveal and discard the top Surface card; move its migration number from both the Reef and Zone 1 into Zone 3. Give players screens and choose a first player. Award end-game point tokens: 4/0 for 2 players, 6/4/0 for 3, or 7/6/4/0 for 4.\n\n\n\nWhat you are building\n\nA species board holds its population as fish and its trait cards.\nTraits can help a species feed, defend itself, attack, migrate, or change other rules.\nKeep your hand behind the player screen unless a card instructs otherwise."
   },
   {
     "objectID": "posts/games/oceans/index.html#rounds-and-phases",
     "href": "posts/games/oceans/index.html#rounds-and-phases",
     "title": "Oceans",
     "section": "Rounds and Phases",
-    "text": "Rounds and Phases"
+    "text": "Rounds and Phases\n\nTake a turn\nTake the following four phases, then pass play clockwise.\n\nPlaying Cards: before the Cambrian Explosion, play one Surface card; after it, play any two cards one at a time. Each card either evolves a species or migrates population. To evolve, start a new species or add the card beside an existing one; a species normally has at most three traits, but there is no species limit. Traits are active immediately and may be removed during this phase. To migrate, discard a card and move up to its migration number from one water zone to one other water zone.\nFeeding: choose one species to forage from the Reef or attack one species, including your own. It must have an empty space and be able to take at least one population. Use total green forage or red attack value, defaulting to one if no value is shown; the defender’s shell value saves that many population. Take the full possible amount, subject to board capacity. Resolve all triggered traits, then overpopulation: a species with population on its fishbone space falls to five and returns the excess to one water zone.\nAging: move one population from each species to your score pile, or two after the Cambrian Explosion. A species goes extinct only if it cannot remove the full required aging amount: score what remains, then remove its board and traits.\nDrawing Cards: optionally take one Deep card, either from the Gene Pool or by drawing three and keeping one, putting the other two face-up on the Gene Pool. Discard any number of Surface cards, then draw Surface cards to a hand of six.\n\n\n\nSurface and Deep\n\nThe Cambrian Explosion occurs when Zone 1 first empties, even if population later returns. From then on, play two cards, age two population, and Deep traits may be played.\nA Deep card played as a trait costs population from the player’s score pile equal to its migration number, returned to one water zone. A Deep card used for migration costs nothing but is removed from the game. Deep cards are not used in the Reef Variant.\nA blue Scenario remains active while its corresponding empty zone remains empty; a purple Scenario resolves each time that zone empties. Resolve trait triggers and overpopulation before the Scenario.\n\n\n\nEnd-of-round care\nThe game continues until all three Ocean Zones are empty. Then put the 60 reserve population into Zone 3 and continue only until the last player in turn order, the player with the zero-point token, finishes their turn. Population and species boards are unlimited; use substitutes if needed after the end-game trigger."
   },
   {
     "objectID": "posts/games/oceans/index.html#scoring",
     "href": "posts/games/oceans/index.html#scoring",
     "title": "Oceans",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\n\nEnd of game\nAt game end, score:\n\npopulation in your score pile behind the screen;\npopulation currently on species boards; and\nthe setup point token.\n\nThe highest total wins; ties go to the player with the most traits currently in play."
   },
   {
     "objectID": "posts/games/oceans/index.html#terminology",
     "href": "posts/games/oceans/index.html#terminology",
     "title": "Oceans",
     "section": "Terminology",
-    "text": "Terminology"
+    "text": "Terminology\n\nSpecies: one of your evolving animals.\nPopulation: fish on a species board.\nSurface trait: a card used to evolve a species or discarded to migrate.\nDeep trait: a unique trait, playable after the Cambrian Explosion by paying scored population.\nReef / Ocean: the shared fish supplies from which population and effects draw.\nExtinction: removal during Aging when a species cannot pay its full aging amount."
+  },
+  {
+    "objectID": "posts/games/oceans/index.html#official-rules",
+    "href": "posts/games/oceans/index.html#official-rules",
+    "title": "Oceans",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Oceans Quick Rules Guide."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html",
     "href": "posts/games/evolution_climate/index.html",
     "title": "Evolution: Climate",
     "section": "",
-    "text": "In Evolution Climate, players take responsibility for species evolving in an ever-changing ecosystem.\nThe game involves:\n\nCreating and evolving species with different traits,\nAdapting species to withstand challenges posed by the changing climate,\nManaging populations, and\nCompeting for limited resources.\n\nThe goal is to have the most successful and well-adapted species by the end of the game.\nThis is achieved by scoring points at the end of the game based on:\n\nThe food that a player’s species have eaten over the course of the game.\nThe population of a player’s surviving species.\nThe traits attached to a player’s surviving species."
+    "text": "Evolution: Climate supports 2-6 players. Feed species, adapt them to predators and temperature, and preserve population for final scoring. Food eaten is banked as points; surviving population and traits score too.\n\n\n\nFood cards jointly determine both plant food and whether climate moves one zone warmer or colder.\nThe climate can reduce population before anyone feeds; protective traits stack where applicable.\nA hungry carnivore feeds only through legal attacks, while non-carnivores normally use the Watering Hole."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html#theming-whats-the-point",
     "href": "posts/games/evolution_climate/index.html#theming-whats-the-point",
     "title": "Evolution: Climate",
     "section": "",
-    "text": "In Evolution Climate, players take responsibility for species evolving in an ever-changing ecosystem.\nThe game involves:\n\nCreating and evolving species with different traits,\nAdapting species to withstand challenges posed by the changing climate,\nManaging populations, and\nCompeting for limited resources.\n\nThe goal is to have the most successful and well-adapted species by the end of the game.\nThis is achieved by scoring points at the end of the game based on:\n\nThe food that a player’s species have eaten over the course of the game.\nThe population of a player’s surviving species.\nThe traits attached to a player’s surviving species."
+    "text": "Evolution: Climate supports 2-6 players. Feed species, adapt them to predators and temperature, and preserve population for final scoring. Food eaten is banked as points; surviving population and traits score too.\n\n\n\nFood cards jointly determine both plant food and whether climate moves one zone warmer or colder.\nThe climate can reduce population before anyone feeds; protective traits stack where applicable.\nA hungry carnivore feeds only through legal attacks, while non-carnivores normally use the Watering Hole."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html#setting-up-how-to-get-started",
     "href": "posts/games/evolution_climate/index.html#setting-up-how-to-get-started",
     "title": "Evolution: Climate",
     "section": "Setting up: How to get started?",
-    "text": "Setting up: How to get started?\n\nAssemble the board.\n\nChoose the appropriate side (2-3 vs 4-6).\n\nClimate marker: Place the climate marker in the temperate zone.\nClimate event cards:\n\nShuffle each of the cold and hot decks.\nPlace them face-down in their respective zones on the board.\nDraw the top card from each deck and place it in the climate zone on the card.\n\nDeck of trait cards:\n\nAdjust the deck size according to the table below.\nShuffle the deck.\nPlace the deck face-down on the table.\n\nFor each player:\n\nGive one food bag.\nGive one species board with wooden markers (portrait or landscape); all species start with 1 population and 1 body size.\n\nFood bank:\n\nPut the food tokens in pile on the table.\n\n\n\nDeck sizing:\n\n\n\n\nNumber of players\nNumber of cards to remove\n\n\n\n\n2\nHalf\n\n\n3\n60\n\n\n4\n30\n\n\n5-6\n0"
+    "text": "Setting up: How to get started?\nUse the 2-3 player side of the climate board for 2-3 players and the 4-6 player side otherwise. Put the marker in Temperate, make the Food Bank, give each player a food bag, shuffle the trait deck, and deal no starting hand. Reveal one cold and one hot Climate Event under the named zones, then randomly choose the first player.\n\nTable checklist\n\nRemove and set aside roughly 88 trait cards for 2 players, 60 for 3, 30 for 4, and none for 5-6. The set-aside cards become the replacement draw deck in smaller games.\nEach player begins their first Deal Cards phase with one Species board at population 1 and body size 1.\nUse the 2-player exception of at most three traits per species. Six players use the Quick Play variant, in which all players play Phase 3 simultaneously."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html#rounds-and-phases",
     "href": "posts/games/evolution_climate/index.html#rounds-and-phases",
     "title": "Evolution: Climate",
     "section": "Rounds and Phases",
-    "text": "Rounds and Phases\n\nA game is made up of 5-7 rounds.\nA round consists of 5 phases:\n\nDealing cards\nSelecting food cards\nPlaying trait cards\nModifying the environment\nFeeding\n\n\n\nDealing cards\n\nFor any players who don’t have any species boards, place a species board in front of them.\nDeal cards from the draw deck:\n\nDeal 4 cards to each player + 1 card for each species they have.\n\nIf the draw deck runs out, this is the final round of the game; shuffle the discard pile and use this to finish dealing.\n\n\n\nSelecting food cards\n\nEach player chooses one of the trait cards from their hand\n\n\n\nPlaying trait cards\n\nIf playing with 6 players, all players play their cards at the same time without looking at what their opponents are doing.\n\n\n\nModifying the environment\n\n\nFeeding"
+    "text": "Rounds and Phases\nThe game normally lasts five to seven rounds. Each round has five phases: Deal Cards, Select Food Cards, Play Cards, Modify Environment, and Feeding.\n\nRound sequence\n\nDeal Cards: give each player four cards plus one per existing species. If the deck runs out now, or ran out during an extinction in the prior round, this is the final round. Rebuild it from the discard pile in 5-6 players or the set-aside cards in 2-4 players.\nSelect Food Cards: everyone secretly chooses one hand card for the Watering Hole.\nPlay Cards: starting with first player, each player may add face-down non-duplicate traits to species (maximum four), discard cards to create a new size-1/population-1 species at either end of their row, or discard to increase one species’ body size or population by one, up to six. Reveal new traits after everyone has played. A player may also discard an existing trait during their turn and may cycle hand cards to the bottom of the deck after playing; replacement cards cannot be played until next round.\nModify Environment: first resolve pre-reveal leafy-frame traits; reveal food cards; shift climate one zone toward the majority of Sun or Snowflake icons; resolve an event in the current zone; apply climate population loss; add or remove plant food from the total food-card value adjusted by the climate zone; then replace a triggered event. Only one event can trigger per round.\nFeeding: starting with first player and cycling clockwise, each player must feed one hungry species until all are fed or none can eat. A non-carnivore takes one plant food from the Watering Hole. A hungry carnivore instead attacks a species, including its own, only if it has greater body size and bypasses every defence; reduce prey population by one, then take meat equal to the prey’s body size. Carnivores never eat plant food.\n\n\n\nFeeding reminders\n\nA species is hungry for every population without food, and normally cannot eat above population. At feeding end, lose all hungry population; population zero is extinct.\nPut food from species boards into owners’ bags after feeding; remaining Watering Hole plant food stays for the next round.\nOn extinction, discard its traits, draw one card per discarded trait, bank its food, discard the species board, and close any gap in its row.\nIf the game continues, pass first player left. Climate Event cards are optional for a first game, but this teach otherwise assumes they are used."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html#scoring",
     "href": "posts/games/evolution_climate/index.html#scoring",
     "title": "Evolution: Climate",
     "section": "Scoring",
-    "text": "Scoring"
+    "text": "Scoring\nAfter the final round’s Feeding phase, score 1 point per food token in your bag, plus the population of every surviving species, plus 1 per trait on surviving species. Highest score wins; then compare trait-card points, then population points. If still tied, play again as the rulebook directs.\n\nFinal round\nRunning out of the draw deck does not end the game immediately: create the replacement deck if needed, finish the current round, and then score. An extinction that exhausts the deck makes the next round the final round."
   },
   {
     "objectID": "posts/games/evolution_climate/index.html#terminology",
     "href": "posts/games/evolution_climate/index.html#terminology",
     "title": "Evolution: Climate",
     "section": "Terminology",
-    "text": "Terminology\n\nFood bank: All of the food tokens on the side of the table.\nWatering hole: Collection of food tokens on the board."
+    "text": "Terminology\n\nSpecies: A board with population, body size, and up to four traits (three in 2 players).\nFood card: The secretly chosen trait card determining food and climate pressure.\nWatering Hole: The shared supply of plant food.\nClimate Event: The currently exposed hot- or cold-side effect in a climate zone.\nHungry: A species with fewer food tokens than required by its population."
+  },
+  {
+    "objectID": "posts/games/evolution_climate/index.html#official-rules",
+    "href": "posts/games/evolution_climate/index.html#official-rules",
+    "title": "Evolution: Climate",
+    "section": "Official rules",
+    "text": "Official rules\nThis teach follows the supplied Evolution: Climate rulebook."
   },
   {
     "objectID": "posts/games/fluxx/index.html",

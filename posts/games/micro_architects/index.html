@@ -77,35 +77,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -202,14 +173,25 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#theming" id="toc-theming" class="nav-link active" data-scroll-target="#theming">Theming</a></li>
-  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting up</a></li>
-  <li><a href="#rounds" id="toc-rounds" class="nav-link" data-scroll-target="#rounds">Rounds</a>
+  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a>
   <ul class="collapse">
-  <li><a href="#phases" id="toc-phases" class="nav-link" data-scroll-target="#phases">Phases</a></li>
+  <li><a href="#teaching-focus" id="toc-teaching-focus" class="nav-link" data-scroll-target="#teaching-focus">Teaching focus</a></li>
   </ul></li>
-  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
+  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a>
+  <ul class="collapse">
+  <li><a href="#table-checklist" id="toc-table-checklist" class="nav-link" data-scroll-target="#table-checklist">Table checklist</a></li>
+  </ul></li>
+  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a>
+  <ul class="collapse">
+  <li><a href="#action-phase-order" id="toc-action-phase-order" class="nav-link" data-scroll-target="#action-phase-order">Action phase order</a></li>
+  <li><a href="#cleanup" id="toc-cleanup" class="nav-link" data-scroll-target="#cleanup">Cleanup</a></li>
+  </ul></li>
+  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a>
+  <ul class="collapse">
+  <li><a href="#scoring-order" id="toc-scoring-order" class="nav-link" data-scroll-target="#scoring-order">Scoring order</a></li>
+  </ul></li>
   <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
+  <li><a href="#official-rules" id="toc-official-rules" class="nav-link" data-scroll-target="#official-rules">Official rules</a></li>
   </ul>
 </nav>
     </div>
@@ -220,229 +202,78 @@ window.Quarto = {
 
 
 
-<section id="theming" class="level2">
-<h2 class="anchored" data-anchor-id="theming">Theming</h2>
+<section id="theming-whats-the-point" class="level2">
+<h2 class="anchored" data-anchor-id="theming-whats-the-point">Theming: What’s the point?</h2>
+<p>In this 2-4 player city-building game, make the highest-scoring city over three rounds. You place Buildings into the eight four-space blocks of your personal City board, then score the two current Goals, your Landmarks, and your Services each round.</p>
+<section id="teaching-focus" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-focus">Teaching focus</h3>
+<ul>
+<li>Take from the current topmost non-empty Building row: everyone gets one Building on every turn.</li>
+<li>A completed block gives its owner a Boat, which pays for Services and can recover spent Action tokens.</li>
+<li>Landmarks need a Requirement tile. Its placement preference and neighbouring-Building preference determine its score every round.</li>
+</ul>
 </section>
-<section id="setting-up" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up">Setting up</h2>
-<ol type="1">
-<li>Place the Architects board in the middle of the table.</li>
-<li>Provide each player with the following:</li>
-</ol>
-<ul>
-<li>1 City board</li>
-<li>A Scoring token (of the player’s chosen colour)</li>
-<li>6 Action tokens (of the player’s chosen colour)</li>
-</ul>
-<ol start="3" type="1">
-<li>Players place 2 of their Action tokens in their player area (i.e.&nbsp;near their City board), and place the remaining tokens aside.</li>
-<li>Players place their Scoring tokens on the Architects board.</li>
-<li>Place all buildings in the bag, shake well and draw the appropriate number, placing them in rows <em>below</em> the Architects board (see <a href="#tbl-players-buildings-rows-1" class="quarto-xref">Table&nbsp;1</a>).</li>
-<li>Draw 6 additional buildings from the bag and place them in the Backup Plans section of the Architects board.</li>
-<li>Place the following cards around the board:</li>
-</ol>
-<ul>
-<li><strong>Goal cards:</strong> Place 3 pairs of cards <em>above</em> the Architects board</li>
-<li><strong>Service cards:</strong> Place 3 cards <em>left</em> of the Architects board</li>
-<li><strong>Requirement cards:</strong> Place <span class="math inline">\(x = l_{building} + l_{backup}\)</span> cards <em>right</em> of the Architects board, where <span class="math inline">\(l_{building}\)</span> is the number of Landmarks in the first row of the Building Plans and <span class="math inline">\(l_{backup}\)</span> is the number of Landmarks in Backup Plans.</li>
-</ul>
-<ol start="6" type="1">
-<li>Place boats nearby in reach of all players.</li>
-<li>The First Player card goes to the person who last held a hammer.</li>
-</ol>
-<div id="tbl-players-buildings-rows-1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-players-buildings-rows-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Table of number of rows of buildings based on number of players (Round 1).
-</figcaption>
-<div aria-describedby="tbl-players-buildings-rows-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;"><strong>Number of Players</strong></th>
-<th style="text-align: center;"><strong>Number of Rows</strong></th>
-<th style="text-align: center;"><strong>Buildings per Row</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">8</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
 </section>
-<section id="rounds" class="level2">
-<h2 class="anchored" data-anchor-id="rounds">Rounds</h2>
-<ul>
-<li>A <strong>Game</strong> is divided into 3 rounds.</li>
-<li>A <strong>Round</strong> consists of 3 phases:
+<section id="setting-up-how-to-get-started" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-how-to-get-started">Setting up: How to get started?</h2>
+<p>Place the Architects board centrally. Shuffle the Goal cards and lay out three pairs above it; only these six Goals are used. Shuffle the Service deck, reveal three cards, put all Buildings in the bag, and make the round-one Building rows: two rows of 10 for two players, three rows of 9 for three, or four rows of 8 for four. Draw six Buildings for Backup Plans.</p>
+<section id="table-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="table-checklist">Table checklist</h3>
 <ol type="1">
-<li>Action phase</li>
-<li>Scoring phase</li>
-<li>Cleanup phase</li>
-</ol></li>
-</ul>
-<section id="phases" class="level3">
-<h3 class="anchored" data-anchor-id="phases">Phases</h3>
-<ol type="1">
-<li>Action phase:
-<ol type="i">
-<li>Taking buildings</li>
-<li>Performing actions:
-<ul>
-<li>Overhaul</li>
-<li>Backup Plan</li>
-<li>Relocation</li>
-<li>Demanding Residents</li>
-</ul></li>
-<li>Acquiring services</li>
-</ol></li>
-<li>Scoring phase:
-<ol type="i">
-<li>Goals</li>
-<li>Landmarks</li>
-<li>Services</li>
-</ol></li>
-<li>Cleanup phase:
-<ul>
-<li>If this is the end of Round 3, skip the Cleanup phase.</li>
-<li>Flip both scored Goal cards face down. In the following round, your will score based on the next two Goal cards.</li>
-<li>Put the buildings from the Backup Plans section back in the bag, shake well and draw 6 new Buildings to place in the Backup Plans section.</li>
-<li>Draw new Buildings and place them below the Architects board according to the player count (see <a href="#tbl-players-buildings-rows-2" class="quarto-xref">Table&nbsp;2</a> and <a href="#tbl-players-buildings-rows-3" class="quarto-xref">Table&nbsp;3</a>).</li>
-<li>Discard the remaining Requirement tiles and replace them with as many new ones as there are Landmarks in the first row of the Building Plans and Backup Plans combined. If there are non, then no Requirement tiles are placed.</li>
-<li>Each players receives 2 Action tokens.</li>
-<li>Pass the First Player card to the left.</li>
-</ul></li>
+<li>Shuffle the Requirement tiles. Reveal one for every Landmark in the first Building row and Backup Plans combined; leave the rest facedown as a stack.</li>
+<li>Give each player a City board, scoring token, and six Action tokens. Put two tokens in their play area and four aside for later rounds.</li>
+<li>Put Boats within reach. Give the First Player card to whoever most recently held a hammer.</li>
+<li>Each City block has four spaces: two by the river and two by the mountains, and is either green or grey. Buildings may go in any free space.</li>
+<li>When taking a Landmark, choose an available Requirement tile and put it beside that Landmark’s block. A block can hold at most four Buildings, irrespective of type.</li>
 </ol>
-<div id="tbl-players-buildings-rows-2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-players-buildings-rows-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Table of number of rows of buildings based on number of players (Round 2).
-</figcaption>
-<div aria-describedby="tbl-players-buildings-rows-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 26%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><strong>Number of players</strong></th>
-<th style="text-align: center;"><strong>Number of rows</strong></th>
-<th style="text-align: center;"><strong>Number of buildings per row</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">12</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-players-buildings-rows-3" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-players-buildings-rows-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;3: Table of number of rows of buildings based on number of players (Round 3).
-</figcaption>
-<div aria-describedby="tbl-players-buildings-rows-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 26%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><strong>Number of players</strong></th>
-<th style="text-align: center;"><strong>Number of rows</strong></th>
-<th style="text-align: center;"><strong>Number of buildings per row</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">8</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
+</section>
+</section>
+<section id="rounds-and-phases" class="level2">
+<h2 class="anchored" data-anchor-id="rounds-and-phases">Rounds and Phases</h2>
+<p>Play three rounds, each with an Action, Scoring, and Cleanup phase. Beginning with the first player and proceeding clockwise, a player must take one Building from the current topmost non-empty row and place it. When that row empties, reveal Requirement tiles for the Landmarks in the next row and Backup Plans, pass first player left, and continue with that new first player. Scoring begins once the final row is empty.</p>
+<section id="action-phase-order" class="level3">
+<h3 class="anchored" data-anchor-id="action-phase-order">Action phase order</h3>
+<ol type="1">
+<li>On a turn, take and place one Building from the current row. Filling the final space of a block gives you one Boat; put it by that block.</li>
+<li>Before or after taking that Building, spend up to two Action tokens, one per action. <strong>Overhaul</strong> swaps two City Buildings; if a Landmark moves, move one Requirement tile from its old block to its new block.</li>
+<li><strong>Backup Plan</strong> swaps one City Building with a displayed Backup Plan Building. Take a Requirement tile if the incoming Building is a Landmark; return one from its block if the outgoing Building is a Landmark.</li>
+<li><strong>Relocation</strong> moves one Building to a free City space. If this newly fills a block without a Boat, gain that Boat.</li>
+<li><strong>Demanding Residents</strong> reveals two extra Services. You may then spend two Boats for one of the five; discard or refill the other extra cards as directed by which card you take.</li>
+<li>At any time on your turn, spend two Boats for one available Service, immediately refilling the three-card offer. You cannot own duplicate Services. Alternatively, spend one Boat to recover two used Action tokens; both Boat options may be used any number of times.</li>
+</ol>
+</section>
+<section id="cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="cleanup">Cleanup</h3>
+<p>After rounds one and two, turn the scored Goals facedown, return all Backup Plan Buildings to the bag and draw six replacements, then create the next round’s Building rows. Round two uses 2x8, 3x9, or 4x12 Buildings; round three uses 2x10, 3x9, or 4x8. Discard leftover Requirement tiles, reveal replacements for Landmarks in the new first row and Backup Plans, give every player two Action tokens, and pass first player left. Skip Cleanup after round three.</p>
 </section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
+<p>Score at the end of every round, in the same order. Goals award their printed points for every qualifying block or set of blocks. Each Landmark Requirement scores separately: one point for its Landmark’s correct block/location preference, plus up to three points for Buildings of either indicated type in that Landmark’s block. A Landmark can score only its own Requirement tile. Each Service scores two points per indicated pair of Building types anywhere in your city; the same Building can contribute to several Services.</p>
+<section id="scoring-order" class="level3">
+<h3 class="anchored" data-anchor-id="scoring-order">Scoring order</h3>
+<ol type="1">
+<li>Score both face-up Goals for the round.</li>
+<li>Score every Landmark Requirement tile.</li>
+<li>Score every Service.</li>
+<li>After round three, add two points per unused Boat and one point per unused Action token.</li>
+<li>The highest total wins. On a tie, the player with fewer Landmarks wins; any remaining tie is shared.</li>
+</ol>
+</section>
 </section>
 <section id="terminology" class="level2">
 <h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
 <ul>
-<li><strong>Landmarks:</strong> Black buildings</li>
-<li><strong>Building Plans:</strong> The rows of buildings placed below the Architects board</li>
-<li><strong>Overhaul:</strong>
-<ul>
-<li>Swap two Buildings of your choice in your City.</li>
-<li>If you are swapping a Landmark, you must also take one of the Requirement tiles beside that black and place it beside the new black.</li>
-</ul></li>
-<li><strong>Backup Plan:</strong>
-<ul>
-<li>Swap a chosen Building from your City with one of the available ones in the Backup Plans section of the Architects board.</li>
-<li>If you choose a Landmark from the Backup Plans section, your must also choose one of the available Requirements tiles and place it beside the black where your place the new Landmark.</li>
-<li>If you swap a Landmark from your City with another Building from the Backup Plans section, remove any one of the Requirement tiles from that Landmark’s block and put it back with the Landmark Requirements tiles next to the Architects board.</li>
-</ul></li>
-<li><strong>Relocation:</strong>
-<ul>
-<li>Move a Building to any other available space in your City.</li>
-<li>If this would result in filling a black with no Boat token beside it, draw one Boat token and place it on the Life Ring by that block.</li>
-</ul></li>
-<li><strong>Demanding Residents:</strong>
-<ul>
-<li>Draw 2 additional Services cards and place them face up beside the others.</li>
-<li>You can now decide if you want to spend 2 Boat tokens and pick one of the available 5 Service cards.</li>
-<li>If you pick one of the extra 2 Services cards, place the remaining one into the discard pile.</li>
-<li>If you decide to take one of the basic 3 Service cards, refill the offer with a new card from the top of the Service deck and discard 2 previously drawn Service cards.</li>
-</ul></li>
+<li><strong>Building Plans:</strong> The rows of Buildings from which players must currently choose.</li>
+<li><strong>Landmark:</strong> A black Building that receives a Requirement tile when taken.</li>
+<li><strong>Backup Plans:</strong> The six-Building alternative display used by the Backup Plan action.</li>
+<li><strong>Boat:</strong> A token earned for completing blocks and spent on Services or recovering Action tokens.</li>
+<li><strong>Service:</strong> A scoring card bought with two Boats.</li>
 </ul>
+</section>
+<section id="official-rules" class="level2">
+<h2 class="anchored" data-anchor-id="official-rules">Official rules</h2>
+<p>This teach covers the base multiplayer game; the Residents, Events, scenario, and solo material are separate rulebook variants.</p>
 
 
 </section>
