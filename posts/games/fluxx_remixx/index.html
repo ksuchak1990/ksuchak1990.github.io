@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,16 @@
 
 <title>Fluxx Remixx – Keiran Suchak</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-7c31c4bfb9a816864da1035f7b152f00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-ce202a5445b4328c5da8f4c64883c09d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,11 +173,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#theming" id="toc-theming" class="nav-link active" data-scroll-target="#theming">Theming</a></li>
-  <li><a href="#setting-up" id="toc-setting-up" class="nav-link" data-scroll-target="#setting-up">Setting up</a></li>
-  <li><a href="#rounds" id="toc-rounds" class="nav-link" data-scroll-target="#rounds">Rounds</a></li>
-  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
-  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
+  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a>
+  <ul class="collapse">
+  <li><a href="#the-remix" id="toc-the-remix" class="nav-link" data-scroll-target="#the-remix">The remix</a></li>
+  </ul></li>
+  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a>
+  <ul class="collapse">
+  <li><a href="#deal-the-game" id="toc-deal-the-game" class="nav-link" data-scroll-target="#deal-the-game">Deal the game</a></li>
+  </ul></li>
+  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a>
+  <ul class="collapse">
+  <li><a href="#take-a-turn" id="toc-take-a-turn" class="nav-link" data-scroll-target="#take-a-turn">Take a turn</a></li>
+  <li><a href="#cards-and-interruptions" id="toc-cards-and-interruptions" class="nav-link" data-scroll-target="#cards-and-interruptions">Cards and interruptions</a></li>
+  </ul></li>
+  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a>
+  <ul class="collapse">
+  <li><a href="#end-of-the-game" id="toc-end-of-the-game" class="nav-link" data-scroll-target="#end-of-the-game">End of the game</a></li>
+  </ul></li>
+  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a>
+  <ul class="collapse">
+  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms">Key terms</a></li>
+  </ul></li>
+  <li><a href="#official-rules" id="toc-official-rules" class="nav-link" data-scroll-target="#official-rules">Official rules</a></li>
   </ul>
 </nav>
     </div>
@@ -182,20 +205,73 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="theming" class="level2">
-<h2 class="anchored" data-anchor-id="theming">Theming</h2>
+<section id="theming-whats-the-point" class="level2">
+<h2 class="anchored" data-anchor-id="theming-whats-the-point">Theming: What’s the point?</h2>
+<p>Fluxx Remixx is a more chaotic version of Fluxx, with music-themed cards, changing rules, and Goals that decide which Keepers win.</p>
+<section id="the-remix" class="level3">
+<h3 class="anchored" data-anchor-id="the-remix">The remix</h3>
+<p>The basic Fluxx structure remains, but Remixx adds <strong>Surprises</strong> that interrupt play at their stated timing. A new Goal, Rule, or Surprise can overturn a good plan immediately.</p>
 </section>
-<section id="setting-up" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up">Setting up</h2>
 </section>
-<section id="rounds" class="level2">
-<h2 class="anchored" data-anchor-id="rounds">Rounds</h2>
+<section id="setting-up-how-to-get-started" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-how-to-get-started">Setting up: How to get started?</h2>
+<section id="deal-the-game" class="level3">
+<h3 class="anchored" data-anchor-id="deal-the-game">Deal the game</h3>
+<ol type="1">
+<li>Shuffle the deck and deal three cards to every player.</li>
+<li>Put the remaining cards face-down as the draw pile and leave room for discards.</li>
+<li>Choose a first player.</li>
+<li>Start with no cards in play and the Basic Rule Draw 1, Play 1.</li>
+</ol>
+<p>If the draw pile is exhausted, shuffle the discard pile into a replacement draw pile. Cards in front of players stay in play.</p>
+</section>
+</section>
+<section id="rounds-and-phases" class="level2">
+<h2 class="anchored" data-anchor-id="rounds-and-phases">Rounds and Phases</h2>
+<section id="take-a-turn" class="level3">
+<h3 class="anchored" data-anchor-id="take-a-turn">Take a turn</h3>
+<ol type="1">
+<li>Draw the required number of cards.</li>
+<li>Play the required number, resolving each card immediately.</li>
+<li>Enforce active Hand and Keeper Limits after playing.</li>
+<li>Check the active Goal before the next player begins.</li>
+</ol>
+</section>
+<section id="cards-and-interruptions" class="level3">
+<h3 class="anchored" data-anchor-id="cards-and-interruptions">Cards and interruptions</h3>
+<ul>
+<li><strong>Keepers</strong> remain in front of their owner.</li>
+<li><strong>Goals</strong> and <strong>New Rules</strong> replace the existing card of the same type.</li>
+<li><strong>Actions</strong> resolve once and are discarded.</li>
+<li>A <strong>Surprise</strong> is playable only at the timing printed on it. Resolve it before returning to the interrupted effect or turn.</li>
+</ul>
+<p>If a new Draw or Play rule appears during your turn, use it immediately when it can still affect that turn. If an instruction cannot be completed, do as much as possible. Latest card text beats a conflicting general rule.</p>
+</section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
+<section id="end-of-the-game" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-the-game">End of the game</h3>
+<p>There is no score. The first time one or more players satisfy the active Goal with their Keepers, those players win immediately. This can happen on any player’s turn, including while resolving an Action or Surprise.</p>
+</section>
 </section>
 <section id="terminology" class="level2">
 <h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<ul>
+<li><strong>Keeper:</strong> a persistent card in front of a player.</li>
+<li><strong>Goal:</strong> the current win condition.</li>
+<li><strong>New Rule:</strong> changes the rules in force.</li>
+<li><strong>Action:</strong> a one-off effect.</li>
+<li><strong>Surprise:</strong> a card playable at the timing printed on it.</li>
+<li><strong>Limit:</strong> a maximum number of cards in hand or Keepers in play.</li>
+</ul>
+</section>
+</section>
+<section id="official-rules" class="level2">
+<h2 class="anchored" data-anchor-id="official-rules">Official rules</h2>
+<p><a href="https://www.looneylabs.com/sites/default/files/literature/FluxxRemixxRules_0.pdf">Fluxx Remixx rules (PDF)</a></p>
 
 
 </section>
@@ -252,13 +328,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

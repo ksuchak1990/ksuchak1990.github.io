@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,16 @@
 
 <title>Sushi Go Party – Keiran Suchak</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-7c31c4bfb9a816864da1035f7b152f00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-ce202a5445b4328c5da8f4c64883c09d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -164,10 +170,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a></li>
-  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a></li>
-  <li><a href="#rounds-and-turns" id="toc-rounds-and-turns" class="nav-link" data-scroll-target="#rounds-and-turns">Rounds and Turns</a></li>
-  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
+  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a>
+  <ul class="collapse">
+  <li><a href="#read-the-menu-first" id="toc-read-the-menu-first" class="nav-link" data-scroll-target="#read-the-menu-first">Read the menu first</a></li>
+  </ul></li>
+  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a>
+  <ul class="collapse">
+  <li><a href="#build-the-menu-and-deck" id="toc-build-the-menu-and-deck" class="nav-link" data-scroll-target="#build-the-menu-and-deck">Build the menu and deck</a></li>
+  </ul></li>
+  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a>
+  <ul class="collapse">
+  <li><a href="#draft-one-card-at-a-time" id="toc-draft-one-card-at-a-time" class="nav-link" data-scroll-target="#draft-one-card-at-a-time">Draft one card at a time</a></li>
+  <li><a href="#end-of-round-cleanup" id="toc-end-of-round-cleanup" class="nav-link" data-scroll-target="#end-of-round-cleanup">End-of-round cleanup</a></li>
+  </ul></li>
+  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a>
+  <ul class="collapse">
+  <li><a href="#score-in-the-right-order" id="toc-score-in-the-right-order" class="nav-link" data-scroll-target="#score-in-the-right-order">Score in the right order</a></li>
+  </ul></li>
+  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a>
+  <ul class="collapse">
+  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms">Key terms</a></li>
+  </ul></li>
+  <li><a href="#official-rules" id="toc-official-rules" class="nav-link" data-scroll-target="#official-rules">Official rules</a></li>
   </ul>
 </nav>
     </div>
@@ -180,125 +204,74 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="theming-whats-the-point" class="level2">
 <h2 class="anchored" data-anchor-id="theming-whats-the-point">Theming: What’s the point?</h2>
-<ul>
-<li>In Sushi Go Party, we are dining at a sushi restaurant, eating a three course meal.</li>
-<li>For each course, we will be collecting pieces of sushi on our plates as their travel around on the conveyor belt, and gaining points for the sushi combinations that we accumulate.</li>
-</ul>
+<p>Build the best sushi meal by drafting cards that score well together. The selected menu changes which combinations are available each game.</p>
+<section id="read-the-menu-first" class="level3">
+<h3 class="anchored" data-anchor-id="read-the-menu-first">Read the menu first</h3>
+<p>Every selected dish scores differently. Before dealing, read all eight menu tiles aloud, especially the roll, appetizer, special, and dessert choices. Some cards score only in a round; desserts remain in play and score after round 3.</p>
+</section>
 </section>
 <section id="setting-up-how-to-get-started" class="level2">
 <h2 class="anchored" data-anchor-id="setting-up-how-to-get-started">Setting up: How to get started?</h2>
+<section id="build-the-menu-and-deck" class="level3">
+<h3 class="anchored" data-anchor-id="build-the-menu-and-deck">Build the menu and deck</h3>
 <ol type="1">
-<li>Place game board.</li>
-<li>Initial choices:
-<ol type="1">
-<li>Choose player pieces.</li>
-<li>Choose menu; place menu tiles on board.</li>
-</ol></li>
-<li>Collect cards pertaining to the chosen menu:
-<ol type="1">
-<li>Shuffle desert cards and place them to the side (face-down).</li>
-<li>Shuffler all other menu cards and place them to the side (face-down).</li>
-</ol></li>
-<li>Play 3 rounds. For each round, deal out the cards according to the tables below:</li>
+<li>Place the board and select eight menu tiles: 1 nigiri, 1 roll, 3 appetizers, 2 specials, and 1 dessert.</li>
+<li>Put the chosen tiles on the board and collect only their matching cards.</li>
+<li>Shuffle non-dessert cards into the draw deck; shuffle desserts separately.</li>
+<li>Add desserts to the deck before each round, then shuffle: 5, 3, and 2 for 2-5 players, or 7, 5, and 3 for 6-8 players.</li>
+<li>Deal 10 cards each for 2-3 players, 9 for 4-5, 8 for 6-7, or 7 for 8.</li>
 </ol>
-<ul>
-<li>Desserts to add to deck each round:</li>
-</ul>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th></th>
-<th style="text-align: center;"><strong>2-5 Players</strong></th>
-<th style="text-align: center;"><strong>6-8 Players</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Round 1</strong></td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="even">
-<td><strong>Round 2</strong></td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">5</td>
-</tr>
-<tr class="odd">
-<td><strong>Round 3</strong></td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">3</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Cards to deal to players:</li>
-</ul>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: center;"><strong>Players</strong></th>
-<th style="text-align: center;"><strong>Cards</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">2-3</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">4-5</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">6-7</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">7</td>
-</tr>
-</tbody>
-</table>
+<p>The game always has three rounds. Keep the remaining dessert cards separate until the next round.</p>
 </section>
-<section id="rounds-and-turns" class="level2">
-<h2 class="anchored" data-anchor-id="rounds-and-turns">Rounds and Turns</h2>
-<ul>
-<li><strong>A turn</strong>:
-<ul>
-<li>This consists of players placing one card from their hand in front of them face-down.</li>
-<li>All players place these cards <strong>simultaneously</strong>.</li>
-<li>When all players have placed their cards, all players simultaneously reveal their card and add it to their collection.
-<ul>
-<li>Group cards of the same colour/type together.</li>
-</ul></li>
-<li>After each turn, players pass their hand to the player to their left.</li>
-</ul></li>
-<li><strong>A round</strong>:
-<ul>
-<li>This consists of players playing cards in front of them until their hands are empty.</li>
-<li>After each round:
-<ul>
-<li>Players score their collections (according to the process below;</li>
-<li>All cards are collected (<strong>except the played desserts</strong>);</li>
-<li>Extra desserts are added to the deck;</li>
-<li>The deck is shuffled;</li>
-<li>Cards are dealt for the next round.</li>
-</ul></li>
-</ul></li>
-<li><strong>A game</strong> consists of 3 rounds.</li>
-</ul>
+</section>
+<section id="rounds-and-phases" class="level2">
+<h2 class="anchored" data-anchor-id="rounds-and-phases">Rounds and Phases</h2>
+<section id="draft-one-card-at-a-time" class="level3">
+<h3 class="anchored" data-anchor-id="draft-one-card-at-a-time">Draft one card at a time</h3>
+<ol type="1">
+<li>Choose one card from hand and place it face-down.</li>
+<li>All players reveal together and add that card to their tableau.</li>
+<li>Pass the remaining hand left in rounds 1 and 3, and right in round 2.</li>
+<li>Repeat until every hand is empty.</li>
+</ol>
+<p>Some cards change this flow. Chopsticks lets you take a second card from the same hand, then return Chopsticks to that hand before passing it. Spoon lets you call for a matching card from another player after cards are revealed; follow the tile’s exact timing and fallback rule.</p>
+</section>
+<section id="end-of-round-cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-round-cleanup">End-of-round cleanup</h3>
+<ol type="1">
+<li>Score every non-dessert card using the selected menu tiles.</li>
+<li>Move pawns on the score track.</li>
+<li>Discard all non-dessert cards from tableaux, including used special cards.</li>
+<li>Leave desserts in front of their owners; they carry into later rounds.</li>
+<li>Add the next round’s desserts, shuffle the deck, and deal again.</li>
+</ol>
+</section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
+<section id="score-in-the-right-order" class="level3">
+<h3 class="anchored" data-anchor-id="score-in-the-right-order">Score in the right order</h3>
+<p>Score the menu tiles in their printed order at each round’s end. Resolve shared awards and penalties exactly as the tile says; tied players usually share the listed points or receive no points, depending on that dish. Do not score desserts until after round 3.</p>
+<p>After the third round, score each player’s retained desserts, add them to the score track totals, and compare totals. Highest score wins. If players tie for highest score, they share the victory.</p>
+</section>
+</section>
+<section id="terminology" class="level2">
+<h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
 <ul>
-<li>Scoring takes place at the end of each round.</li>
-<li>When scoring each round, <strong>exclude dessert cards</strong> and set them aside - these will be scored after all rounds have been completed.</li>
-<li>Add up the scores from the round based on the rules on the menu tiles.</li>
-<li>Players move their pieces around the scoring track accordingly.</li>
-<li>After scoring the third round, score the dessert cards.</li>
-<li>The person with the most points wins.</li>
-<li>If scores are tied, the player with the most dessert cards wins.</li>
+<li><strong>Menu:</strong> the eight selected dish types and their scoring rules.</li>
+<li><strong>Draft:</strong> choose one card, then pass the remaining hand.</li>
+<li><strong>Tableau:</strong> cards you have played in front of you.</li>
+<li><strong>Round:</strong> one complete draft of the dealt hands.</li>
+<li><strong>Dessert:</strong> a card retained between rounds and scored after round 3.</li>
+<li><strong>Special:</strong> a menu card with a timing or scoring exception.</li>
 </ul>
+</section>
+</section>
+<section id="official-rules" class="level2">
+<h2 class="anchored" data-anchor-id="official-rules">Official rules</h2>
+<p><a href="https://gamewright.com/pdfs/Rules/SushiGoPartyTM-RULES.pdf">Sushi Go Party! rules (PDF)</a></p>
 
 
 </section>
@@ -355,13 +328,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

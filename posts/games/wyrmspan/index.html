@@ -2,20 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Keiran Suchak">
-<meta name="dcterms.date" content="2025-08-11">
+<meta name="dcterms.date" content="2026-08-14">
 <meta name="description" content="Build a cavernous sanctuary for dragons of all shapes and sizes!">
 
 <title>Wyrmspan – Keiran Suchak</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-7c31c4bfb9a816864da1035f7b152f00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-ce202a5445b4328c5da8f4c64883c09d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -148,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 11, 2025</p>
+        <p class="date">August 14, 2026</p>
       </div>
     </div>
     
@@ -164,11 +170,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a></li>
-  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a></li>
-  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a></li>
-  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a></li>
+  <li><a href="#theming-whats-the-point" id="toc-theming-whats-the-point" class="nav-link active" data-scroll-target="#theming-whats-the-point">Theming: What’s the point?</a>
+  <ul class="collapse">
+  <li><a href="#players" id="toc-players" class="nav-link" data-scroll-target="#players">Players</a></li>
+  </ul></li>
+  <li><a href="#setting-up-how-to-get-started" id="toc-setting-up-how-to-get-started" class="nav-link" data-scroll-target="#setting-up-how-to-get-started">Setting up: How to get started?</a>
+  <ul class="collapse">
+  <li><a href="#build-the-shared-display" id="toc-build-the-shared-display" class="nav-link" data-scroll-target="#build-the-shared-display">Build the shared display</a></li>
+  <li><a href="#choose-a-start" id="toc-choose-a-start" class="nav-link" data-scroll-target="#choose-a-start">Choose a start</a></li>
+  </ul></li>
+  <li><a href="#rounds-and-phases" id="toc-rounds-and-phases" class="nav-link" data-scroll-target="#rounds-and-phases">Rounds and Phases</a>
+  <ul class="collapse">
+  <li><a href="#start-of-a-round" id="toc-start-of-a-round" class="nav-link" data-scroll-target="#start-of-a-round">Start of a round</a></li>
+  <li><a href="#take-turns" id="toc-take-turns" class="nav-link" data-scroll-target="#take-turns">Take turns</a></li>
+  <li><a href="#passing-and-cleanup" id="toc-passing-and-cleanup" class="nav-link" data-scroll-target="#passing-and-cleanup">Passing and cleanup</a></li>
+  <li><a href="#important-exceptions" id="toc-important-exceptions" class="nav-link" data-scroll-target="#important-exceptions">Important exceptions</a></li>
+  </ul></li>
+  <li><a href="#scoring" id="toc-scoring" class="nav-link" data-scroll-target="#scoring">Scoring</a>
+  <ul class="collapse">
+  <li><a href="#end-of-game" id="toc-end-of-game" class="nav-link" data-scroll-target="#end-of-game">End of game</a></li>
+  </ul></li>
   <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
+  <li><a href="#official-rules" id="toc-official-rules" class="nav-link" data-scroll-target="#official-rules">Official rules</a></li>
   </ul>
 </nav>
     </div>
@@ -181,18 +204,103 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="theming-whats-the-point" class="level2">
 <h2 class="anchored" data-anchor-id="theming-whats-the-point">Theming: What’s the point?</h2>
+<p>You are a dracologist building a cavern sanctuary and attracting dragons to live in it. Over four rounds, build an engine in three caves and score the most victory points.</p>
+<section id="players" class="level3">
+<h3 class="anchored" data-anchor-id="players">Players</h3>
+<ul>
+<li>The standard game is for 1-5 players; the solo game uses the included Automa rules.</li>
+<li>In a multiplayer game, players share the card displays, the Dragon Guild, and round-end goals.</li>
+<li>Guild spaces and the guild’s player-count side depend on the number of players.</li>
+</ul>
+</section>
 </section>
 <section id="setting-up-how-to-get-started" class="level2">
 <h2 class="anchored" data-anchor-id="setting-up-how-to-get-started">Setting up: How to get started?</h2>
+<section id="build-the-shared-display" class="level3">
+<h3 class="anchored" data-anchor-id="build-the-shared-display">Build the shared display</h3>
+<ol type="1">
+<li>Choose one Dragon Guild and use the correct player-count side.</li>
+<li>Reveal the round-end objective tiles and prepare the cave-card and dragon-card displays.</li>
+<li>Each player takes a mat, adventurer, Guild marker, starting egg, and starting cards.</li>
+</ol>
+</section>
+<section id="choose-a-start" class="level3">
+<h3 class="anchored" data-anchor-id="choose-a-start">Choose a start</h3>
+<ul>
+<li>Your mat starts with the leftmost space of each cave excavated.</li>
+<li>Choose four cards from three dragon cards and three cave cards.</li>
+<li>Choose any three food resources. Keep your choices hidden until play begins.</li>
+</ul>
+</section>
 </section>
 <section id="rounds-and-phases" class="level2">
 <h2 class="anchored" data-anchor-id="rounds-and-phases">Rounds and Phases</h2>
+<section id="start-of-a-round" class="level3">
+<h3 class="anchored" data-anchor-id="start-of-a-round">Start of a round</h3>
+<ul>
+<li>The game has exactly four rounds.</li>
+<li>At the start of every round, gain 6 coins and 1 egg.</li>
+<li>Coins may be saved from an earlier round, subject to the end-of-turn limit.</li>
+</ul>
+</section>
+<section id="take-turns" class="level3">
+<h3 class="anchored" data-anchor-id="take-turns">Take turns</h3>
+<p>On a turn, spend coins to take one action. The main actions are:</p>
+<ol type="1">
+<li><strong>Excavate:</strong> play a cave card into an available cave space, pay its placement cost if any, and take its when-played benefit.</li>
+<li><strong>Entice:</strong> play a dragon into an excavated, unoccupied space, paying the resources and any egg shown on that dragon.</li>
+<li><strong>Explore:</strong> send your adventurer through one cave from left to right. Resolve each dragon encountered in order and take the benefit at the cave’s end if reached.</li>
+<li><strong>Advance on the Dragon Guild:</strong> pay the listed cost to claim an available Guild benefit and move your marker.</li>
+</ol>
+</section>
+<section id="passing-and-cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="passing-and-cleanup">Passing and cleanup</h3>
+<ul>
+<li>When you cannot or do not wish to take another action, pass for the round.</li>
+<li>Once everyone has passed, resolve the round-end goal, then refresh the shared cave and dragon displays for the next round.</li>
+<li>At the end of each of your turns, discard down to at most 9 cards, 9 coins, and 9 resource tokens.</li>
+</ul>
+</section>
+<section id="important-exceptions" class="level3">
+<h3 class="anchored" data-anchor-id="important-exceptions">Important exceptions</h3>
+<ul>
+<li>Most card abilities are optional. An ability that offers something to other players must activate, but each player chooses whether to take the benefit.</li>
+<li>A dragon that says “in this cave” means its own row, not all three caves.</li>
+<li>Reaching a stop sign or the end of an explored cave sends the adventurer back to Base Camp and ends that turn.</li>
+<li>You may exchange two resources for one resource of your choice at any time.</li>
+</ul>
+</section>
 </section>
 <section id="scoring" class="level2">
 <h2 class="anchored" data-anchor-id="scoring">Scoring</h2>
+<section id="end-of-game" class="level3">
+<h3 class="anchored" data-anchor-id="end-of-game">End of game</h3>
+<p>After round four’s goal is scored, add:</p>
+<ul>
+<li>victory points printed on dragons;</li>
+<li>eggs in nests;</li>
+<li>tucked dragon cards and cached resources where the relevant effect scores them;</li>
+<li>objective-tile points;</li>
+<li>Dragon Guild end-game benefits; and</li>
+<li>end-game card abilities.</li>
+</ul>
+<p>The highest total wins. Ties for a round-end goal are friendly: tied players receive the full points for that place, then the next player receives the next lower place.</p>
+</section>
 </section>
 <section id="terminology" class="level2">
 <h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
+<ul>
+<li><strong>Excavate:</strong> add a cave card and make a space available for a dragon.</li>
+<li><strong>Entice:</strong> play a dragon into an excavated space.</li>
+<li><strong>Explore:</strong> move the adventurer through one cave, activating dragons in order.</li>
+<li><strong>Hatchling:</strong> a baby dragon with an egg cost, a feeding effect, and a later growth effect.</li>
+<li><strong>Tuck / cache:</strong> store a card beneath a dragon or a resource on it.</li>
+<li><strong>Dragon Guild:</strong> a shared progression board with limited benefits and end-game scoring.</li>
+</ul>
+</section>
+<section id="official-rules" class="level2">
+<h2 class="anchored" data-anchor-id="official-rules">Official rules</h2>
+<p><a href="https://stonemaiergames.com/games/wyrmspan/rules-faq/">Stonemaier Games: Wyrmspan Rules and FAQ</a> links to the official rulebook, solo rules, and rulings answers.</p>
 
 
 </section>
@@ -249,13 +357,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
