@@ -8,14 +8,54 @@ description: "Victorians knew every flower has a meaning. Which flowers will you
 choose?"
 ---
 
-## Theming
+## Theming: What's the point?
+Build the highest-scoring Victorian bouquet by making difficult visible-or-hidden flower offers.
 
-## Setting up
+### The teaching sentence
 
-## Rounds
+Draw two flowers, offer one face up and one face down, let the recipient choose, and keep the other card in its original orientation.
+
+### What matters
+
+Your arrangement is built from left to right and cannot be rearranged. Face-up cards are your Bouquet; face-down cards are your Keepsakes. You may inspect your own Keepsakes but not another player's.
+
+## Setting up: How to get started?
+
+1. Shuffle all 18 Flower cards into a face-down deck and leave room for a discard pile.
+2. The player who most recently smelled a flower is the first player.
+3. Play three rounds. Each player will collect four cards per round.
+
+## Rounds and Phases
+
+### Make an offer
+
+1. The active offerer draws two cards, looks at them, and places one face up and one face down as an offer to the recipient. The recipient may not inspect the face-down card.
+2. The recipient chooses one card and adds it as the rightmost card in their arrangement, preserving its orientation.
+3. The offerer adds the other card as the rightmost card in their own arrangement, also preserving its orientation.
+
+### Complete the round
+
+- With two players, alternate making offers until both arrangements contain four cards.
+- With three or four players, the first player offers left and offers continue clockwise until everyone has two cards. The first player then offers right and offers continue counterclockwise until everyone has four.
+- At round end, move each player's Keepsakes toward them into a second row in their original columns, then reveal them face up. Cards remain adjacent to the cards immediately left and right, whether in Bouquet or Keepsakes.
+- Players simultaneously resolve any card effects labelled "Before Scoring," in any order each player chooses.
 
 ## Scoring
 
+1. Score each arrangement from left to right after Before Scoring actions. Every heart icon is worth one point, plus each flower's own scoring condition.
+2. Record the round scores. If fewer than three rounds have been completed, shuffle all 18 cards together and begin again; the first player rotates clockwise.
+3. After round three, the highest combined total wins.
+
+### Tie handling
+
+Tied players compare the flowers in their final-round arrangements. The player with the first flower name alphabetically wins the tie.
+
 ## Terminology
 
+- **Offer:** two cards, one face up and one face down, presented to a recipient.
+- **Arrangement:** the left-to-right cards a player has collected this round.
+- **Bouquet:** the face-up cards in an arrangement.
+- **Keepsakes:** the face-down cards in an arrangement.
 
+## Official rules
+[Button Shy's official product page](https://buttonshygames.com/products/tussie-mussie) gives the core sequence and scoring structure. Use the included rules for individual flower effects.

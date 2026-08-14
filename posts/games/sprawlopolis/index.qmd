@@ -8,14 +8,59 @@ description: "Build the best metropolis by following the planning rules with
 this 18-card deck."
 ---
 
-## Theming
+## Theming: What's the point?
+Work together to build a city from 15 cards that meets three changing civic demands.
 
-## Setting up
+### Players
 
-## Rounds
+- Sprawlopolis is cooperative for 1-4 players.
+- Table talk is encouraged, but do not show cards in hand. A card must be placed after its owner chooses and reveals it.
+
+## Setting up: How to get started?
+
+1. Shuffle the 18 cards and set three aside scoring-condition side up. Their numbers added together are the target score.
+2. Choose a start player. Deal them three block-side-down cards and deal every other player one block-side-down card.
+3. Make a block-side-up draw deck from the remaining cards. Place its top card face up in the build area to start the city.
+4. The start player begins; turns proceed clockwise.
+
+## Rounds and Phases
+
+### A placement turn
+
+1. Choose and reveal one card from your hand, then add it to the city.
+2. Pass all cards remaining in hand to the player on your left. They take the next turn.
+3. Draw one card from the deck, if possible, so you have one card to pass. If fewer than two cards remain in hand when it is time to pass, pass those remaining cards.
+4. Stop when all 15 city cards have been placed.
+
+### Placement constraints
+
+- Place cards horizontally and rotate them only 180 degrees; do not flip them.
+- A card must have at least one block edge meeting an existing block edge, or overlap and cover one or more blocks.
+- Do not tuck a card under another, and a corner-only connection is illegal. Open spaces are allowed.
+
+### City-building priorities
+
+- A block is a rectangular quarter of a card: commercial, park, industrial, or residential.
+- A group is matching blocks joined by an edge. Make large groups while accommodating the scoring conditions.
+- A road is a continuous roadway. Separate roads each cost a point.
 
 ## Scoring
 
+After the final card is placed:
+
+1. Score one point per block in the largest group of each zone type. If tied groups are largest, choose one.
+2. Subtract one point for every road.
+3. Apply the positive or negative result of all three scoring conditions.
+4. The team wins if its final score equals or exceeds the target; otherwise it loses.
+
+For an easier game, ignore road penalties. For a harder game, score only the largest group of one zone type.
+
 ## Terminology
 
+- **Block:** one rectangular zone on a card.
+- **Group:** matching blocks connected edge-to-edge.
+- **Road:** a continuous roadway, from one block to the city edge or across several blocks.
+- **Scoring condition:** one of the three set-aside cards; its number sets part of the target and its text changes final scoring.
 
+## Official rules
+[Button Shy: Sprawlopolis](https://buttonshygames.com/products/sprawlopolis) is the publisher's official product page. No public publisher-hosted standalone rulebook URL was available during research.

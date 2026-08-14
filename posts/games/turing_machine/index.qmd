@@ -7,14 +7,62 @@ image: "https://cf.geekdo-images.com/un5yundwtC6q1U9gWTY8Yw__itemrep/img/dmF4UID
 description: "Crack codes using a real analog computer."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Turing Machine is a deduction game for 1-4 players. Everyone investigates the same unique three-digit code, composed of one number from 1-5 in each of three colours. Be the first to identify the code that passes every verifier's hidden criterion.
 
-## Rounds
+### What the machine tells you
+
+Each verifier checks exactly one criterion, selected from the possibilities on its Criteria card. A verification result says only whether the current proposal passes that criterion; it does not directly reveal the answer code or the criterion itself. Every verifier is necessary and no verifier duplicates another's information.
+
+## Setting up: How to get started?
+
+### Prepare a problem
+
+1. Place the Machine tile centrally and assemble the punch-card support. Sort the punch cards in the support by number, with all 1s first, then all 2s, and so on.
+2. Choose one printed problem. Problems 1-16 are introductory. Its entry specifies the verifiers, their Criteria cards, and the matching Verification cards.
+3. Put each specified Criteria card before its verifier and its Verification card face down beside it. Mark each Verification card's back with its verifier letter to prevent mix-ups. Cross out unused verifier columns on every note sheet.
+4. Give every player a player aid and note sheet. The player aids screen private notes; proposals and the verifiers chosen are public, but answers and deductions are secret.
+
+## Rounds and Phases
+
+### Make and test a proposal
+
+All players perform each round simultaneously:
+
+1. **Compose:** overlay three differently coloured punch cards to make a single three-digit proposal, then record it on the current round of the note sheet.
+2. **Question:** test that unchanged proposal with up to three verifiers, or fewer if preferred. Slide each chosen verifier's Verification card beneath the aligned punch cards and record its pass or fail result in the matching verifier column. Return the card face down to its verifier immediately.
+3. **Deduce:** return the punch cards to the support, analyse the results, and update private deductions. Recording every proposal and every result is compulsory because questions break ties.
+4. **End the round:** all players simultaneously indicate whether they think they have found the code. If nobody does, begin another round.
+
+### Read a verifier correctly
+
+The hole visible through the aligned cards shows a pass or fail for that proposal against one criterion. Keep the same proposal for every question in the round. A pass proves only that the proposal meets a possible criterion, not that any tested digit is part of the answer. If a needed punch card is temporarily in use, wait until the other player has finished with it.
+
+### Solo, cooperative, and handicap play
+
+Solo or cooperative players use one note sheet and try to solve the chosen problem in as few rounds and questions as possible, still asking at most three questions each round. To handicap an experienced competitive player, pre-fill one or two answer spaces on that player's first-round sheet; each counts as a question already used.
 
 ## Scoring
 
+### Verify and end the game
+
+When one or more players declare, each secretly writes a proposed code, then checks it against the problem solution. A correct declaration must also be demonstrable by composing that code and showing it passes every verifier.
+
+If several players are correct, the player who asked the fewest questions wins; equal totals share the win. Incorrect declarers are eliminated and the remaining players continue. If that leaves one player, that player wins by default.
+
 ## Terminology
 
+### Key terms
 
+- **Code:** the unique three-colour, three-digit solution.
+- **Proposal:** a three-digit combination submitted to verifiers during one round.
+- **Verifier:** the machine component that checks one hidden criterion.
+- **Criteria card:** the public list of possible criteria for a verifier.
+- **Verification card:** the face-down card used with punch cards to show pass or fail.
+- **Punch card:** one coloured number card used to construct a proposal.
+- **Question:** one consultation of one verifier; at most three per round.
+
+## Official rules
+
+This teach follows the supplied *Turing Machine* English rules booklet.

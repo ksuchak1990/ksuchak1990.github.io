@@ -8,14 +8,72 @@ description: "Post-apocalyptic bands of punks fight to destroy the rival tribe's
 camps."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Radlands is a two-player duel. Each player protects three camps, recruits people and schedules events, spending a short-lived supply of water to destroy the opponent's camps first.
 
-## Rounds
+### What matters on the table
+
+People occupy columns in front of camps and can protect cards behind them. Events enter a three-space queue and count down to resolution. Cards in hand can instead be discarded for their printed junk effect, so every draw is a choice between an immediate effect and a future play.
+
+## Setting up: How to get started?
+
+### Build each tribe
+
+1. Shuffle the camp deck, then each player draws six camps and secretly chooses three. Put the three chosen camps face down in a row, leaving room for two people in front of each; reveal them together. Return the unchosen camps and camp deck to the box.
+2. Each player takes a Water Silo, a Raiders card, a player aid, and three white water discs. Shuffle the shared draw deck, make space for its discard pile, and put black extra-water discs in a central supply.
+3. Each player draws a starting hand equal to the sum of the black-box values on their three camps. Flip a water disc to choose the start player.
+
+For a recommended first game, the experienced player uses Arcade, Victory Totem, and Mercenary Camp; the other uses Garage, Railgun, and Supply Depot.
+
+## Rounds and Phases
+
+### Take a turn
+
+Starting with the start player, take turns until the game ends. Complete these phases in order:
+
+1. **Events:** if an event occupies the front space of your queue, resolve it and discard it. Then advance every event in your queue one space towards the front.
+2. **Replenish:** draw one card, then collect three white water discs. The start player collects only one water on their first turn. Water never carries between turns.
+3. **Actions:** take any number of actions, in any order. When finished, return all white and black water discs to their supplies.
+
+### Spend water on actions
+
+You may repeat these actions while you can pay their costs:
+
+- **Play a person:** pay its cost and place it in front of any camp, even a destroyed camp. A column holds at most two people; place the new person in front of or behind an existing one. If every column is full, first destroy one of your people to make room. A newly played person is not ready.
+- **Play an event:** pay its cost and place it in its numbered queue space; if occupied, use the first available space behind it. If none is available, it cannot be played. A zero-time event resolves immediately, then is discarded with its payment.
+- **Draw a card:** spend two water to draw one card.
+- **Junk a card:** discard a hand card to resolve the junk icon at its top left.
+- **Take Water Silo:** spend one water to take it into hand. Junking it grants extra water, then returns it to your play area instead of the discard pile.
+- **Use an ability:** pay the printed cost on one ready camp or person, resolve all its text and icons, then mark it not ready.
+
+### Damage, readiness, and Raiders
+
+Damage turns a person or camp sideways; damage it again to destroy it. A damaged person is not ready, while a damaged camp may still be ready. Unless an effect says otherwise, damage, injure, and destroy target an opponent's unprotected card: a card with no card in front of it. Destroyed people are discarded, and destroyed camps are flipped. A punk is a face-down person with no abilities; it is destroyed by damage and returns face down to the top of the draw deck.
+
+Camps are ready unless their ability was used this turn. A person is not ready if it entered play, was restored, used an ability, or is damaged this turn. Water on a card also marks it not ready; use a black disc to mark a zero-cost card or ability not ready.
+
+When an effect raids, put Raiders into the third queue space if absent; otherwise advance it one space if the space ahead is empty, resolving it if it is already at the front. When Raiders resolves, the opponent chooses one camp to damage, even if protected, then returns Raiders to its owner.
 
 ## Scoring
 
+### Win, draw, or lose
+
+There are no victory points. You win immediately when all three opponent camps are destroyed. If the draw deck empties, shuffle the discard pile to make a new deck. If it empties a second time, the game is a draw.
+
 ## Terminology
 
+### Key terms
 
+- **Camp:** one of the three objectives a player protects.
+- **Column:** a camp and up to two people in front of it.
+- **Person:** a persistent, white-bordered card in a column.
+- **Event:** a card that waits in an event queue unless it has zero time.
+- **Ready:** able to use an ability.
+- **Water:** the resource spent during one turn; unspent water is returned at cleanup.
+- **Junk:** discard a hand card for its printed instant effect.
+- **Unprotected:** a camp or person with no card in front of it.
+
+## Official rules
+
+This teach follows the supplied *Radlands Rules of Play v2.0* rulebook.

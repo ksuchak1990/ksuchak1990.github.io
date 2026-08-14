@@ -7,13 +7,61 @@ image: "https://cf.geekdo-images.com/KcE2t-zmo-p-POO8fPTUmA__itemrep/img/SfUoSZW
 description: "Add farms to the card-laying experience of Sprawlopolis."
 ---
 
-## Theming
+## Theming: What's the point?
+Work together to turn 15 landscape cards into a productive farm and meet three revealed scoring conditions.
 
-## Setting up
+### Players
 
-## Rounds
+- Agropolis is a cooperative game for 1-4 players.
+- Discuss placement freely, but never show cards in hand. Once a player reveals a chosen card, it must be placed.
+
+## Setting up: How to get started?
+
+1. Shuffle all 18 cards and set three aside scoring-condition side up. Add their numbers: this is the target score.
+2. Choose a start player. Deal that player three cards, block side down, and each other player one card, also block side down.
+3. Put the remaining cards to one side, block side up, as the draw deck. Put its top card face up in the build area to begin the map.
+4. The start player takes the first turn; play proceeds clockwise.
+
+## Rounds and Phases
+
+### A placement turn
+
+1. Choose one of your cards, reveal its block side, and add it to the map.
+2. Pass every card still in your hand to the player on your left. They become the active player.
+3. Draw the top card of the draw deck, if any, so you hold one card. When you have fewer than two cards to pass, pass what remains after your turn.
+4. Continue until all 15 non-scoring cards have been added.
+
+### Placement constraints
+
+- Place every card horizontally; it may be rotated 180 degrees but not otherwise rotated or flipped.
+- A new card must either have a block edge touching an existing block edge or cover one or more existing blocks.
+- Never tuck a card under another card and never join the map only at a corner. Gaps are allowed if these rules are met.
+
+### Farm planning
+
+- A block is one rectangular quarter of a card. The four types are cornfield, orchard, vineyard, and livestock.
+- A group is matching blocks connected by at least one edge. Build large groups, but inspect the three scoring conditions before committing space.
+- A road is a continuous stretch of roadway. Keeping roads together reduces the final penalty.
 
 ## Scoring
 
+When the fifteenth map card is placed, score as follows:
+
+1. Score one point for every block in your largest group of each of the four types. For a tie, choose one tied largest group.
+2. Subtract one point for every separate road.
+3. Add or subtract the result of each revealed scoring condition.
+4. Win if the final total equals or exceeds the target score; otherwise the team loses.
+
+### Feed Fees
+
+Feed Fees are an optional harder-game rule. For every matching livestock symbol beneath the three selected scoring conditions, add one to the target score. A game can have more than one fee.
+
 ## Terminology
 
+- **Block:** one rectangular zone on a card.
+- **Group:** matching blocks joined edge-to-edge.
+- **Road:** a continuous roadway, from one block to the map edge or across several blocks.
+- **Scoring condition:** one of the three set-aside cards; its number contributes to the target and its text modifies scoring.
+
+## Official rules
+[Button Shy: Agropolis](https://buttonshygames.com/products/agropolis) is the publisher's official product page. No public publisher-hosted standalone rulebook URL was available during research.

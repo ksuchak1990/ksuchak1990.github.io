@@ -8,14 +8,66 @@ description: "Guide your civilization with inventions from the stone age through
 to the modern era."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Innovation Third Edition is a 2-4 player civilisation-building card game. Build coloured stacks of innovations, use their dogma effects, score cards, and claim enough achievements to win before history runs out.
 
-## Rounds
+### What matters on the table
+
+Your board has up to five colour stacks. Their top cards are available for Dogma actions, while splaying a stack exposes icons on covered cards. Icons decide who shares non-demand effects and who is protected from demands. A card's value is its age, from 1 to 10.
+
+## Setting up: How to get started?
+
+### Prepare the ages
+
+1. Separate and shuffle cards into the ten age supply piles. Without looking, set aside one card from each age 1-9 as the nine normal Achievements; place the five Special Achievements nearby.
+2. Each player draws two age-1 cards, simultaneously melds one as their first board card, and keeps the other in hand.
+3. The player whose melded card title is closest to A alphabetically goes first. In a four-player game, the first two players take only one action on their first turns; otherwise, every turn has two actions.
+
+## Rounds and Phases
+
+### Take two actions
+
+On your turn take exactly two actions, in any order, and you may repeat one. Choose from:
+
+1. **Draw:** draw into hand from the pile matching the highest-value top card on your board. If that pile is empty, use the next higher non-empty pile.
+2. **Meld:** place a hand card on top of the matching-colour stack, continuing its current splay if any.
+3. **Dogma:** activate one top card and resolve all its effects in order.
+4. **Achieve:** claim an available normal Achievement if your score is at least five times its age and you have a top card of at least that value. Score is a threshold, not a cost.
+
+### Resolve dogma carefully
+
+At the start of a Dogma action, count the featured icon on every player's board; do not recount during the action. For each non-demand effect, eligible opponents with at least as many of that icon perform it clockwise before the active player. For each “I Demand” effect, opponents with fewer icons perform it clockwise; those with at least as many are immune.
+
+Complete one effect before the next and do as much as possible. If any opponent's shared effect changed the game, the active player takes one free Draw action after the whole Dogma action. Effects marked for yourself only are not shared.
+
+### Splaying and card procedures
+
+Splay a colour left, right, or up to expose respectively one, two, or three icons from each covered card. Unsplay before changing direction. A stack of zero or one card is unsplayed. To tuck, place a card at the bottom of its colour stack; to score, place it face down in the score pile; to return, place it face down at the bottom of its supply pile.
+
+If a draw needs an empty age, draw from the next higher available age. If a draw requires an age higher than 10, the game ends immediately. An effect that says a player wins does so immediately; one requiring a single player with the most of something fails entirely on a tie.
 
 ## Scoring
 
+### Achievements and endgame
+
+Each scored card is worth its age in points. Claiming a normal Achievement does not spend those points. Claim Special Achievements immediately when their printed condition is met; if players become eligible simultaneously, resolve the tie in clockwise turn order from the current player.
+
+Win immediately with six achievements in a two-player game, five with three players, or four with four players; normal and special achievements both count. If nobody has won when a card above age 10 must be drawn, highest score wins; then most achievements; a remaining tie is a draw.
+
 ## Terminology
 
+### Key terms
 
+- **Board:** all cards a player has in play.
+- **Top card:** the completely visible card of a colour stack.
+- **Meld:** play a hand card onto its colour stack.
+- **Dogma:** activate a top card's effects.
+- **Share:** an eligible opponent performs a non-demand effect before the active player.
+- **Demand:** an effect performed by opponents with fewer featured icons.
+- **Splay:** offset a stack to expose icons on cards beneath.
+- **Score pile:** face-down scored cards, whose total age is your score.
+
+## Official rules
+
+This teach follows the supplied *Innovation Base: Edition III* rulebook.

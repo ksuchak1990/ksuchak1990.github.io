@@ -8,14 +8,55 @@ description: "Quick! Which symbol is on both cards? Race others to gather or
 dump your cards."
 ---
 
-## Theming
+## Theming: What's the point?
+Dobble is a simultaneous visual-recognition game for 2-8 players. Any two cards share exactly one symbol: spot it and name it first.
 
-## Setting up
+### What everyone is looking for
 
-## Rounds
+The matching symbol may differ in size, position, or orientation. A player must name the shared picture to claim or move a card.
+
+## Setting up: How to get started?
+
+Shuffle the 55-card deck and choose one of the five games below before dealing. All players search simultaneously; there are no turns.
+
+### Towering Inferno
+
+Deal each player one face-down card. Make a face-up centre draw pile from the rest. Everyone reveals their card; the first player to name its match with the centre card takes that centre card onto their own face-up pile. The newly exposed centre card starts the next search.
+
+### The Well
+
+Set one card aside face down. Deal the remaining cards equally into face-down personal draw piles, then turn the set-aside card, or an undealt extra, face up in the centre. Everyone reveals the top card of their own pile.
+
+## Rounds and Phases
+
+### Play The Well
+
+1. Compare your top personal card with the centre card.
+2. First to name their shared symbol places their personal card on the centre card and reveals their next personal card.
+3. Continue until a player exhausts their personal draw pile; that player wins.
+
+### The other games
+
+- **Towering Inferno:** continue claiming centre cards until its draw pile is empty. The player with the most claimed cards wins.
+- **Hot Potato:** give every player one face-down card to hold, then reveal together. Name a match with another player's card and put every card in your hand into that player's hand. Continue until one player holds all cards; put them before that player and deal another round. After the agreed fixed number of rounds, at least five, the player with the most cards loses.
+- **Catch Them All!:** put one card face up in the centre and deal one face-down card to each player. Reveal together, then name a match between the centre card and any revealed card to claim that revealed card face down. When all are claimed, put the centre card on the bottom of the draw pile and deal again. When the draw pile is exhausted, most claimed cards wins.
+- **The Poisoned Gift:** deal one face-down card to each player and make a face-up centre draw pile from the rest. Reveal personal cards together. Name a match between the centre card and another player's card to put the centre card on that player's pile; the next exposed centre card continues play. When the draw pile is empty, fewest cards wins.
+
+### Quick teaching tip
+
+Choose a symbol on one card and scan the other for it; never expect a match to occupy the same place or size.
 
 ## Scoring
 
+Each mini-game's end condition and winner are given above. The supplied rules do not specify a separate tiebreak; a tied result remains a tie unless players agree otherwise before play.
+
 ## Terminology
 
+- **Symbol:** a picture on a card.
+- **Match:** the one symbol shared by two cards.
+- **Centre card:** the face-up card used for the current comparison.
+- **Mini-game:** one of Dobble's five setups and victory conditions.
 
+## Official rules
+
+[Dobble official game site](https://www.dobblegame.com/)

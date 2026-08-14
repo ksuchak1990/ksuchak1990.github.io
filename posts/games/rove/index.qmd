@@ -8,14 +8,51 @@ ROVE is deployed."
 image: "https://cf.geekdo-images.com/-BTMmbHaR16DRt0OEh5arA__itemrep/img/pExHgxOLM7ypdg4mSeHi0PbvXus=/fit-in/246x300/filters:strip_icc()/pic6494257.png"
 ---
 
-## Theming
+## Theming: What's the point?
+You are a damaged exploration robot, reconfiguring six modules to complete seven missions.
 
-## Setting up
+### Players
 
-## Rounds
+- ROVE is a one-player spatial puzzle.
+- Complete seven missions to win; there is no points comparison.
+
+## Setting up: How to get started?
+
+1. Shuffle the six Module cards and deal them active-side up in a two-row, three-column layout.
+2. Shuffle the 12 double-sided Mission/Movement cards mission-side up. Reveal the top card above the modules as the first mission.
+3. Draw five cards and turn them to their Movement side for your hand. For a harder game start with four; for Impossible, start with three. Your maximum hand size remains five.
+4. Leave space for a discard pile.
+
+## Rounds and Phases
+
+### Solve the current mission
+
+1. Earn movement points either by playing a Movement card from hand for the points at its top, or by matching its printed pattern before playing it to earn the points beneath that pattern.
+2. Spend the points to move modules according to their arrows, resolving module abilities when useful.
+3. After every move and ability, keep all modules unstacked, on an imaginary grid, and in one contiguous group. Corner contact counts as adjacent.
+4. Complete the mission when the modules match its pattern. The named module must occupy its shown space; the other shown spaces can hold any modules. Patterns cannot be rotated or flipped, and may require only a subset of modules.
+5. Cover the completed mission with the next mission card and draw one card if below five. Continue from the current layout.
+
+### Movement and abilities
+
+- The standard arrow moves its module any distance in a shown direction and may pass over modules. The short arrow moves it one space. The jumping arrow moves any distance in a shown direction but must pass over at least one module. The pushing arrow moves one space and pushes any module in its destination, and any chain beyond it, one space as well.
+- Each module ability is single-use: flip that module to its spent side before resolving it. Brain repositions another module adjacent to Brain; Coil repositions itself to any valid location; Gripper activates an adjacent module's ability; Laser swaps two modules; Motor shifts any module one space in any direction; Sensor draws a card if below five.
+- A Movement card stays current while it has points. Discard it, losing unspent points, when its last point is spent, when another Movement card is played, or when a mission is completed.
+
+### Deck pressure
+
+When the deck is empty, turn the discard pile mission-side up to form a new deck without shuffling it. If you cannot complete the current mission, you lose.
 
 ## Scoring
+ROVE has no score or tiebreak. Complete seven missions to win; fail to complete the current mission to lose.
 
 ## Terminology
 
+- **Module:** one of the six robot cards.
+- **Mission:** the current target pattern.
+- **Movement point:** a point earned from the current Movement card and spent to move a module.
+- **Adjacent:** modules touching edge-to-edge or corner-to-corner.
+- **Spent:** a module whose one-use ability has been used.
 
+## Official rules
+[Button Shy: ROVE](https://buttonshygames.com/products/rove) is the publisher's official product page. No public publisher-hosted rulebook PDF was available during research.

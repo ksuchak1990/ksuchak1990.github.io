@@ -8,14 +8,67 @@ description: "Go on many planet-discovering space missions in this cooperative
 trick-taking game."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+The Crew is a cooperative campaign of 50 trick-taking missions for 3-5 players; a two-player variant uses the simulated third player JARVIS. The crew must make the right player win each required card, usually without discussing the cards in their hands.
 
-## Rounds
+### What you are trying to do
+
+Most missions assign coloured-card tasks. A task is complete when its owner wins a trick containing the matching playing card. The mission logbook sets the number of tasks, any task order, and any special rule; play the missions in order for the campaign.
+
+## Setting up: How to get started?
+
+### Prepare a mission
+
+1. Choose the mission and read its instructions. Shuffle the 40 playing cards and deal them as evenly as possible. With three players, one card is left unplayed after the final trick.
+2. Give each player a communication token green-side up and a reminder card. Put the distress-signal token inactive, shuffle the task cards face down, and keep task tokens available.
+3. If the mission uses task cards, place the specified number face up. The holder of the 4 rocket becomes Commander, takes the Commander token, and chooses first; players then take tasks clockwise until they are all assigned. Take any attached task token with its task.
+4. If the mission specifies task tokens, lay them out first and place task cards against them from left to right. The token’s condition travels with the task when it is chosen.
+5. After task distribution but before any communication, the crew may activate a distress signal. Everyone passes one non-rocket card to the adjacent player in one agreed direction. The signal remains active for every retry of that mission, and adds one to the logged attempt total on success.
+
+### Two players
+
+Set the rockets aside. Make JARVIS from seven face-down cards with seven face-up cards directly over them, then shuffle the rockets into the remaining cards and deal 13 cards to each player. JARVIS counts as a third crew member. The Commander chooses JARVIS's tasks and plays one of its face-up cards on its turns without discussion; reveal the card beneath only after the trick ends.
+
+## Rounds and Phases
+
+### Play a trick
+
+1. The Commander leads the first trick; thereafter, the previous trick winner leads. The leader may play any card, which establishes the suit, including a rocket.
+2. In clockwise order, each other player must follow that suit if able. If unable, they may play any card. There is never an obligation to play a winning card.
+3. The highest card in the led colour wins unless a rocket was played. Rockets are trump; if rockets are led, they must be followed where possible, and the highest rocket wins.
+4. The winner keeps the trick face down, checks whether tasks in it were completed, and leads next. Only the most recently won trick may be inspected.
+
+### Communicate once
+
+After tasks have been distributed and before, never during, a trick, a player may communicate once per mission attempt. Place one coloured card face up and put the token at its top, middle, or bottom to mean respectively that it is the highest, only, or lowest card of that colour in hand. Rockets cannot be communicated. The card remains playable; when played, discard the reminder card and turn the token red. Its stated position cannot later be changed.
+
+### Mission procedures
+
+The logbook can override the normal task distribution or communication rules. Number tokens require tasks to be completed in that sequence; arrow tokens require only their linked precedence. Several tasks won in one trick are valid only when their order tokens are consecutive.
+
+A dead zone permits a communication card without its positional token. A disruption forbids communication until the named trick. A Commander's decision has the Commander ask each other player only “yes” or “no”, then assign all face-down tasks to one of them. A Commander's distribution similarly uses yes/no responses, but the Commander assigns each revealed task and final task counts may differ by no more than one.
 
 ## Scoring
 
+### Succeed or fail
+
+There are no victory points. The crew wins immediately when every required task has been completed and every mission condition met. It loses immediately if a player wins a card matching another player's task, violates a task order, or breaks a mission-specific rule. Reshuffle, redeal, and draw new tasks to retry.
+
+Record the number of attempts after a successful mission. If the distress signal was activated, add one to that number. Completing all 50 missions completes the campaign.
+
 ## Terminology
 
+### Key terms
 
+- **Trick:** one card played by every crew member.
+- **Lead suit:** the colour or rocket suit set by the first card in a trick.
+- **Rocket:** a trump card, valued 1-4.
+- **Commander:** the holder of the 4 rocket, who starts task selection and the first trick.
+- **Task:** a playing card that its task-card owner must win.
+- **Communication token:** the once-per-attempt signal for a highest, only, or lowest coloured card.
+- **Distress signal:** an optional pre-mission card pass that increases the recorded attempts by one.
+
+## Official rules
+
+This teach follows the supplied *The Crew: The Quest for Planet Nine* rulebook.
