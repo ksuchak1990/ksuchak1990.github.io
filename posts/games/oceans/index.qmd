@@ -8,17 +8,68 @@ description: "Adapt in a continually changing ecosystem in this interactive engi
 ---
 
 ## Theming: What's the point?
+Evolve marine species in a connected ecosystem. Feed your species, adapt to rivals, and finish with the most points.
 
+### Players
+
+- Oceans supports 2-4 players in this supplied quick-rules guide.
+- Each player maintains their own species, but every feeding and attack changes a shared food web.
 
 ## Setting up: How to get started?
 
+### Prepare the ecosystem
+
+1. Put the Reef and three Ocean Zones together; shuffle Scenario cards and put one beneath Zones 1 and 2. Put the Cambrian Explosion card, Reef Variant face-down, in Zone 1. For a gentler beginner game, use the Reef Variant and do not use Deep cards.
+2. Deal six Surface cards to each player. Shuffle the Deep deck and reveal two cards as the Gene Pool. Set aside 60 population in reserve, then distribute 100/120/140 population among the Reef and three Ocean Zones for 2/3/4 players.
+3. Reveal and discard the top Surface card; move its migration number from both the Reef and Zone 1 into Zone 3. Give players screens and choose a first player. Award end-game point tokens: 4/0 for 2 players, 6/4/0 for 3, or 7/6/4/0 for 4.
+
+### What you are building
+
+- A species board holds its population as fish and its trait cards.
+- Traits can help a species feed, defend itself, attack, migrate, or change other rules.
+- Keep your hand behind the player screen unless a card instructs otherwise.
 
 ## Rounds and Phases
 
+### Take a turn
+
+Take the following four phases, then pass play clockwise.
+
+1. **Playing Cards:** before the Cambrian Explosion, play one Surface card; after it, play any two cards one at a time. Each card either evolves a species or migrates population. To evolve, start a new species or add the card beside an existing one; a species normally has at most three traits, but there is no species limit. Traits are active immediately and may be removed during this phase. To migrate, discard a card and move up to its migration number from one water zone to one other water zone.
+2. **Feeding:** choose one species to forage from the Reef or attack one species, including your own. It must have an empty space and be able to take at least one population. Use total green forage or red attack value, defaulting to one if no value is shown; the defender's shell value saves that many population. Take the full possible amount, subject to board capacity. Resolve all triggered traits, then overpopulation: a species with population on its fishbone space falls to five and returns the excess to one water zone.
+3. **Aging:** move one population from each species to your score pile, or two after the Cambrian Explosion. A species goes extinct only if it cannot remove the full required aging amount: score what remains, then remove its board and traits.
+4. **Drawing Cards:** optionally take one Deep card, either from the Gene Pool or by drawing three and keeping one, putting the other two face-up on the Gene Pool. Discard any number of Surface cards, then draw Surface cards to a hand of six.
+
+### Surface and Deep
+
+- The Cambrian Explosion occurs when Zone 1 first empties, even if population later returns. From then on, play two cards, age two population, and Deep traits may be played.
+- A Deep card played as a trait costs population from the player's score pile equal to its migration number, returned to one water zone. A Deep card used for migration costs nothing but is removed from the game. Deep cards are not used in the Reef Variant.
+- A blue Scenario remains active while its corresponding empty zone remains empty; a purple Scenario resolves each time that zone empties. Resolve trait triggers and overpopulation before the Scenario.
+
+### End-of-round care
+
+The game continues until all three Ocean Zones are empty. Then put the 60 reserve population into Zone 3 and continue only until the last player in turn order, the player with the zero-point token, finishes their turn. Population and species boards are unlimited; use substitutes if needed after the end-game trigger.
 
 ## Scoring
 
+### End of game
+
+At game end, score:
+
+- population in your score pile behind the screen;
+- population currently on species boards; and
+- the setup point token.
+
+The highest total wins; ties go to the player with the most traits currently in play.
 
 ## Terminology
 
+- **Species:** one of your evolving animals.
+- **Population:** fish on a species board.
+- **Surface trait:** a card used to evolve a species or discarded to migrate.
+- **Deep trait:** a unique trait, playable after the Cambrian Explosion by paying scored population.
+- **Reef / Ocean:** the shared fish supplies from which population and effects draw.
+- **Extinction:** removal during Aging when a species cannot pay its full aging amount.
 
+## Official rules
+This teach follows the supplied Oceans Quick Rules Guide.

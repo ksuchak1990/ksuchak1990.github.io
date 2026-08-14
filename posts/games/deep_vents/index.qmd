@@ -4,18 +4,60 @@ author: "Keiran Suchak"
 date: 2024-03-03
 categories: []
 image: "https://cf.geekdo-images.com/G8uLl3y093weBY7MmONDRQ__itemrep/img/Zi7CSAYYTVLs1RF_GIf9YmtV_CY=/fit-in/246x300/filters:strip_icc()/pic5413915.jpg"
-description: "Attack opponents as you fuel a hydrothermal ecosystem and attempt
-to hoard archaea."
+description: "Attack opponents as you fuel a hydrothermal ecosystem and attempt to hoard archaea."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Deep Vents is a 2-4 player ecosystem-building game. Grow archaea on connected hexes, convert it to the personal supply that scores, and use triggers to build shells or attack rival ecosystems. After eight turns each, the richest surviving ecosystem wins.
 
-## Rounds
+### What makes a good ecosystem
+
+* Adjacent heat, rock, bioluminescence, and predation traits power many growth effects.
+* Archaea on a hex are productive but score only half as efficiently as archaea in personal supply.
+* Attacks drain personal supply, so shells and avoiding shortfall matter as much as growth.
+
+## Setting up: How to get started?
+
+Give each player one Deep Vent starting hex; return unused starting hexes to the box in a 2- or 3-player game. Shuffle the remaining hexes face-up as a central stack and reveal the top five in a row to its left. The display therefore has six available hexes including the top of the stack.
+
+### Table checklist
+
+1. Choose a first player, then give starting archaea by player count and seat: 2 players receive 10 and 11; 3 players receive 15, 16, and 17; 4 players receive 20, 21, 22, and 23.
+2. Put all remaining archaea and shells in the general supply.
+3. Keep shortfall tokens and the two track cubes available for hexes that use tracks.
+
+## Rounds and Phases
+
+Players take eight turns each, clockwise. A turn is choose, place, activate, then refill. Hexes retain any archaea already on them when taken, and no hex may hold more than ten; excess is lost.
+
+### Teaching a placement
+
+1. Choose a display hex. The leftmost is free; for any later hex, place one archaeon from personal supply on every skipped hex, left to right.
+2. Add it adjacent by at least one side to your ecosystem.
+3. Activate every hex in your ecosystem once, in top-left to bottom-right order. For each, choose **grow** or **trigger**, never both, and do not return to a previous hex. Grow adds archaea from supply according to its symbols, commonly one per matching adjacent passive trait. A trigger pays its listed cost from that hex or collects/uses its stated effect; repeat a trigger as often as affordable before continuing. If triggering would have no effect, grow instead.
+4. Slide unclaimed hexes left and replenish from the stack; play passes left.
+
+### Important exception
+
+Attacks remove archaea from every opponent's personal supply, sometimes once per matching trait in their ecosystem. A defender may spend one shell per attack to block half the damage, rounded up. If damage exceeds a player's supply, they take a shortfall token and 10 archaea, then finish taking the damage. A player with a shortfall at the start of their turn must take the leftmost hex; end a turn with two shortfalls and be eliminated. A shortfall can be repaid at any time for 10 personal archaea.
 
 ## Scoring
 
+The game ends after all players have completed eight turns, when each has nine hexes, or immediately once all but one player has been eliminated. Score 1 point per personal archaeon, 1 per two unused shells rounded up, 1 per two archaea on your hexes rounded up, and subtract 10 per shortfall token. Highest score wins; ties go to the player earlier in turn order.
+
+### Endgame
+
+Decimated hexes are flipped in place: take half their archaea, rounded up, into personal supply, return the rest, and thereafter use only their reverse-side passive trait. They cannot be grown or triggered, but may still receive archaea from adjacent effects.
+
 ## Terminology
 
+* **Grow:** Add archaea from the general supply to the active hex.
+* **Trigger:** Pay or collect archaea to resolve a hex's upper-left action.
+* **Personal supply:** Your scored archaea, and the pool damaged by attacks.
+* **Shell:** A one-attack defence token.
+* **Shortfall:** Borrowed archaea after over-damage, worth -10 points.
 
+## Official rules
+
+This teach follows the supplied Deep Vents rulebook.

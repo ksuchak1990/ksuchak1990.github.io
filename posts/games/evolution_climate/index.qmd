@@ -4,91 +4,64 @@ author: "Keiran Suchak"
 date: "2024-02-28"
 categories: [evolution]
 image: "https://cf.geekdo-images.com/hs1P4qPgDKHXct3qs4JWGg__itemrep/img/lzH5SE_WuCSDlKDyVfdyi5pE8-I=/fit-in/246x300/filters:strip_icc()/pic2876816.jpg"
-description: "Adapt your species in an ecosystem of scarce food, predators, and
-a dynamic climate!"
+description: "Adapt your species in an ecosystem of scarce food, predators, and a dynamic climate!"
 ---
 
 ## Theming: What's the point?
 
-* In Evolution Climate, players take responsibility for species evolving in an ever-changing ecosystem.
-* The game involves:
-    * Creating and evolving species with different traits,
-    * Adapting species to withstand challenges posed by the changing climate,
-    * Managing populations, and 
-    * Competing for limited resources.
-* The goal is to have the most successful and well-adapted species by the end of the game.
-* This is achieved by scoring points at the end of the game based on:
-    * The food that a player's species have eaten over the course of the game.
-    * The population of a player's surviving species.
-    * The traits attached to a player's surviving species.
+Evolution: Climate supports 2-6 players. Feed species, adapt them to predators and temperature, and preserve population for final scoring. Food eaten is banked as points; surviving population and traits score too.
+
+### What changes from round to round
+
+* Food cards jointly determine both plant food and whether climate moves one zone warmer or colder.
+* The climate can reduce population before anyone feeds; protective traits stack where applicable.
+* A hungry carnivore feeds only through legal attacks, while non-carnivores normally use the Watering Hole.
 
 ## Setting up: How to get started?
 
-1. **Assemble the board.**
-    * Choose the appropriate side (2-3 vs 4-6).
-2. **Climate marker:** Place the climate marker in the temperate zone.
-3. **Climate event cards:**
-    * Shuffle each of the cold and hot decks.
-    * Place them face-down in their respective zones on the board.
-    * Draw the top card from each deck and place it in the climate zone on the
-      card.
-4. **Deck of trait cards:**
-    * Adjust the deck size according to the table below.
-    * Shuffle the deck.
-    * Place the deck face-down on the table.
-5. **For each player:**
-    * Give one food bag.
-    * Give one species board with wooden markers (portrait or landscape); all
-      species start with 1 population and 1 body size.
-6. **Food bank:**
-    * Put the food tokens in pile on the table.
+Use the 2-3 player side of the climate board for 2-3 players and the 4-6 player side otherwise. Put the marker in Temperate, make the Food Bank, give each player a food bag, shuffle the trait deck, and deal no starting hand. Reveal one cold and one hot Climate Event under the named zones, then randomly choose the first player.
 
-* Deck sizing:
+### Table checklist
 
-| Number of players | Number of cards to remove |
-|:-----------------:|:-------------------------:|
-|         2         |            Half           |
-|         3         |             60            |
-|         4         |             30            |
-|        5-6        |             0             |
+1. Remove and set aside roughly 88 trait cards for 2 players, 60 for 3, 30 for 4, and none for 5-6. The set-aside cards become the replacement draw deck in smaller games.
+2. Each player begins their first Deal Cards phase with one Species board at population 1 and body size 1.
+3. Use the 2-player exception of at most three traits per species. Six players use the Quick Play variant, in which all players play Phase 3 simultaneously.
 
 ## Rounds and Phases
 
-* **A game** is made up of 5-7 rounds.
-* **A round consists of 5 phases:**
-    1. Dealing cards
-    2. Selecting food cards
-    3. Playing trait cards
-    4. Modifying the environment
-    5. Feeding
+The game normally lasts five to seven rounds. Each round has five phases: Deal Cards, Select Food Cards, Play Cards, Modify Environment, and Feeding.
 
-### Dealing cards
+### Round sequence
 
-* For any players who don't have any species boards, place a species board in
-  front of them.
-* Deal cards from the draw deck:
-    * Deal 4 cards to each player + 1 card for each species they have.
-* If the draw deck runs out, this is the final round of the game; shuffle the
-  discard pile and use this to finish dealing.
+1. **Deal Cards:** give each player four cards plus one per existing species. If the deck runs out now, or ran out during an extinction in the prior round, this is the final round. Rebuild it from the discard pile in 5-6 players or the set-aside cards in 2-4 players.
+2. **Select Food Cards:** everyone secretly chooses one hand card for the Watering Hole.
+3. **Play Cards:** starting with first player, each player may add face-down non-duplicate traits to species (maximum four), discard cards to create a new size-1/population-1 species at either end of their row, or discard to increase one species' body size or population by one, up to six. Reveal new traits after everyone has played. A player may also discard an existing trait during their turn and may cycle hand cards to the bottom of the deck after playing; replacement cards cannot be played until next round.
+4. **Modify Environment:** first resolve pre-reveal leafy-frame traits; reveal food cards; shift climate one zone toward the majority of Sun or Snowflake icons; resolve an event in the current zone; apply climate population loss; add or remove plant food from the total food-card value adjusted by the climate zone; then replace a triggered event. Only one event can trigger per round.
+5. **Feeding:** starting with first player and cycling clockwise, each player must feed one hungry species until all are fed or none can eat. A non-carnivore takes one plant food from the Watering Hole. A hungry carnivore instead attacks a species, including its own, only if it has greater body size and bypasses every defence; reduce prey population by one, then take meat equal to the prey's body size. Carnivores never eat plant food.
 
-### Selecting food cards
+### Feeding reminders
 
-* Each player chooses one of the trait cards from their hand 
-
-### Playing trait cards
-
-* If playing with 6 players, all players play their cards at the same time
-  without looking at what their opponents are doing.
-
-### Modifying the environment
-
-### Feeding
+* A species is hungry for every population without food, and normally cannot eat above population. At feeding end, lose all hungry population; population zero is extinct.
+* Put food from species boards into owners' bags after feeding; remaining Watering Hole plant food stays for the next round.
+* On extinction, discard its traits, draw one card per discarded trait, bank its food, discard the species board, and close any gap in its row.
+* If the game continues, pass first player left. Climate Event cards are optional for a first game, but this teach otherwise assumes they are used.
 
 ## Scoring
 
-* 
+After the final round's Feeding phase, score 1 point per food token in your bag, plus the population of every surviving species, plus 1 per trait on surviving species. Highest score wins; then compare trait-card points, then population points. If still tied, play again as the rulebook directs.
+
+### Final round
+
+Running out of the draw deck does **not** end the game immediately: create the replacement deck if needed, finish the current round, and then score. An extinction that exhausts the deck makes the *next* round the final round.
 
 ## Terminology
 
-* Food bank: All of the food tokens on the side of the table.
-* Watering hole: Collection of food tokens on the board.
+* **Species:** A board with population, body size, and up to four traits (three in 2 players).
+* **Food card:** The secretly chosen trait card determining food and climate pressure.
+* **Watering Hole:** The shared supply of plant food.
+* **Climate Event:** The currently exposed hot- or cold-side effect in a climate zone.
+* **Hungry:** A species with fewer food tokens than required by its population.
+
+## Official rules
+
+This teach follows the supplied Evolution: Climate rulebook.

@@ -4,18 +4,72 @@ author: "Keiran Suchak"
 date: 2024-03-03
 categories: [kickstarter]
 image: https://cf.geekdo-images.com/OumdYwqyXtCBWXozRyj7GA__itemrep/img/5i_ASdtfrT7gluQhN8mlHwfOXDY=/fit-in/246x300/filters:strip_icc()/pic6422013.jpg
-description: "Jump through the space portal, assemble the best crew & explore
-the galaxy!"
+description: "Jump through the space portal, assemble the best crew & explore the galaxy!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+In this 2-4 player exploration game, take a faction through a Space Gate and earn Expedition points across eight rounds. Discover locations, recruit a crew by building Embassies, meet Expedition requirements, and make the most of limited movement and resources before the Gate closes.
 
-## Rounds
+### The race through the gate
+
+* The first three rounds are Exploration rounds: the first Embassy on a new Location is discounted by 3, then 2, then 1 Raw Material.
+* Crew used for an Expedition or Encounter go to Transit and cannot be used again that round.
+* Three Embassies at one Recruiting Location double its production from the following round and immediately award one Expedition point.
+
+## Setting up: How to get started?
+
+Put the Space Gate in the middle. Each player chooses a faction, takes its Dashboard, 12 Embassy cubes and Location card, then places its matching Starting Location adjacent to the Gate. Put a Spaceship and one Embassy on that Starting Location; take its Captain and level-one Crew card, leaving the level-two and level-three cards on the table. Every player starts with five Raw Materials, two Crystals, and one Influence.
+
+### Table checklist
+
+1. Combine the corresponding face-up Location and Crew decks, shuffle the remaining Location tiles, and place the Gate token on round 1.
+2. Shuffle the Bronze, Silver, and Gold Expedition decks. Draft starting Expeditions by taking two cards of each type, choosing and passing until each player has one Expedition of each type; reshuffle the rest into their decks.
+3. Shuffle Encounter, Upgrade, and Damage decks. Reveal six Upgrades as the store.
+4. Choose a first player and give them the First Player token. The player to their left will become first player after every round.
+5. Starting Locations are Recruiting Locations with one prebuilt Embassy. Recruiting Locations can produce resources and support Embassies; Anomalies cannot support either.
+
+## Rounds and Phases
+
+Play eight rounds. Work through all four phases in order, with the first player and then clockwise order where needed. Round one skips Production.
+
+### Round structure
+
+1. **Production:** Collect resources from your Starting Location and from your current Location if you have an Embassy there. Put a Collection token on each other Embassy Location to show it may be collected later in Command. A Location can be collected only once each round; three Embassies there produce double.
+2. **Discovery:** Beginning with the first player, each player at the map edge places up to two tiles adjacent to their current Location (up to three in a two-player game). Take only as many as can legally be placed. Recruiting Locations offer crew, resources, and Embassies; Anomalies instead have their printed effects.
+3. **Sensor:** Each player rolls two Sensor dice and resolves the result. With two reward faces, choose one; with two blanks, optionally reroll one die. One Encounter icon draws one Encounter, while two let you draw two and choose one. Once per round, spend one Influence to reroll a Sensor die.
+4. **Command:** In any order, and as often as resources and available Crew permit, move, recruit, build Embassies, complete Expeditions, collect marked Locations, and spend resources or Influence. Each Ship has one normal move; each Warp Jump costs two Raw Materials or one Crystal for one extra move.
+
+### Teaching priorities
+
+* Build an Embassy only while your Ship is at that Recruiting Location and you can pay its printed cost. The first Embassy gives its Location card, level-one Crew, and one Influence; the second gives level-two Crew; the third gives level-three Crew and one point. New Crew enters Transit and is available next round.
+* You may build one Embassy at another player's non-starting Location, but do not receive its Location or Crew. Both players still produce its full resources.
+* Complete as many Expeditions as you can meet. Play the required Crew to Transit, score the card's points, and take its bonus if its extra requirement is also met. At round end, replace completed regular Expeditions until you have three non-secret ones, choosing any difficulty.
+* Crew skill, level, Embassy, and Location Expeditions have different requirements. Used Crew cannot complete another Expedition or Encounter that round. Secret Expeditions cost three Influence, stay hidden, and are not replaced.
+* Spend two Raw Materials on an Upgrade, place it in the next Dashboard slot, and refill the six-card store. Influence can also replace an Expedition, add a Location beside your current location, trade resources 2:1 for the round, reroll a Sensor die, or buy a Secret Expedition.
+
+### Player variants
+
+The rulebook's solo game uses a Nameless drone and its own movement/action decks. Optional modules, including objectives and events, change scoring or round procedures and are not part of this base-game teach.
 
 ## Scoring
 
+There is no separate final scoring phase. Expedition points are earned when Expeditions are completed and when a third Embassy is built on a Recruiting Location. After the eighth round ends, total those points.
+
+### Endgame
+
+1. After all players finish the round-eight Command phase, return Transit Crew, move Sickbay and Solo Mission Crew to Transit, retrieve unused Collection tokens, and advance the Gate marker as usual.
+2. Add Expedition points from completed Expeditions and from Locations where you built three Embassies.
+3. The highest total wins. Ties go first to the highest combined Crew levels, then to the most Location cards; any remaining tie is shared.
+
 ## Terminology
 
+* **Gate:** The central starting point and the eight-round timer's theme.
+* **Nameless:** The ancient aliens associated with the Gate; their drone appears only in solo play.
+* **Crew:** Cards with skills and levels, recruited through Embassies and committed to Expeditions or Encounters.
+* **Embassy:** A cube on a Recruiting Location that unlocks crew, production, and Influence.
+* **Expedition Point:** The victory-point currency, chiefly earned from Expeditions and completed three-Embassy Locations.
 
+## Official rules
+
+This page teaches the base multiplayer game only.

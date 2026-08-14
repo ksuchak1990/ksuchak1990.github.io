@@ -7,14 +7,73 @@ image: "https://cf.geekdo-images.com/iMtHHxutEtga5DiZDIbgJg__itemrep/img/7YtnKpb
 description: "A head-to-head battle of wits, between octopus and shark."
 ---
 
-## Theming
+## Theming: What's the point?
+This asymmetric duel takes place in a kelp forest. The Octopus hides, moves blocks and develops its deck; the Shark patrols with dice, searches blocks and tries to strike the Octopus.
 
-## Setting up
+### Players
 
-## Rounds
+- Kelp is strictly a two-player game.
+- One player is the Octopus; one is the Shark. The Octopus takes the first turn.
+- The Octopus wins by placing all four food blocks on the Food Track, or when the Shark places a seventh die on the Hunger Track. The Shark wins only by striking the Octopus with a red die and matching its confrontation choice.
+
+## Setting up: How to get started?
+
+1. Seat the players on their named sides. Put 7 blue Current dice, 3 yellow Search dice and 1 red Strike die in the Shark bag; make four face-up Shark cards, the deck, and four unflipped Growth tiles. Put both sets of three confrontation cards face-down beside the board.
+2. Separate the non-starter Octopus cards into face-up Move, Hide, Learn and Eat piles. Put the matching food block on the top Eat card; put the other food, three named traps, a shell and a double shell beside the piles.
+3. Put the Octopus, one trap and seven shells in the Octopus bag. The Octopus secretly draws and places all nine blocks upright in the board spaces, then puts the bag aside. Hidden blocks show their icons only to the Octopus.
+4. Set aside Fast Learning. Shuffle the remaining starter cards as the Octopus draw pile; take Fast Learning plus three cards, set hand size to four, and have the Octopus place the Shark on any den Current space facing the centre.
+
+## Rounds and Phases
+
+### Alternating turns
+
+Players alternate whole turns, beginning with the Octopus, until an immediate win condition is met.
+
+### The Octopus turn
+
+Take exactly two actions; the same action may be chosen twice.
+
+1. **Play a card:** reveal the stated number of hidden blocks as its cost (the double shell counts as two), complete its effect, and put it in an action slot. A card cannot be played unless its full effect can happen.
+2. **Draw:** if below hand size, draw up to it; an empty hand must use this action. Shuffle the discard pile only when a draw is required and the draw pile is empty.
+3. **Discard and hide:** discard one card, then hide one revealed block if possible.
+
+At turn end, discard played cards. Move swaps orthogonally adjacent blocks without changing their hidden/revealed state; a shuffle returns chosen hidden blocks to the bag and the Shark chooses their replacement empty spaces. Learn gains the stated mix of top cards and blocks: gained cards usually go to discard, while each gained block replaces a revealed board block and enters revealed. An Eat card comes with its matching food block as one Learn gain.
+
+To eat, the Octopus and matching food must be orthogonally adjacent, then play the matching Eat card as an action, reveal both blocks, replace the food with a revealed spare shell, put the food on the next Food Track space, and trash the Eat card. Its one-time food effect may be used before, between or after actions.
+
+### The Shark turn
+
+Perform these steps in order; only Draw & Roll and Move are compulsory.
+
+1. **Draw & Roll:** draw and roll two dice (plus unlocked bonuses). Blue dice may be placed on any empty Current space.
+2. **Move:** move forward to an empty Current space. The Shark cannot stand still, reverse, or move backwards; it may choose a direction when starting at a den. It may skip a Current or a connected chain whose values strictly decrease, moving only the first skipped Current to Growth.
+3. **Search/Strike:** use yellow and/or red dice on up to two orthogonally adjacent zones, each die at least the zone value and with only one die per space. Search reveals a hidden block; Strike reveals a block and attacks it. Used yellow dice go to Growth; a red die goes to Hunger after a miss, trap, or escaped confrontation. Unused dice remain for Energy.
+4. **Growth:** place used yellow dice and the first Current used from left to right. When a tile receives its third die, return those dice to the bag and flip it for its permanent ability. Red dice never go here.
+5. **Energy:** place all remaining pool dice in stored Energy. With one or two dice the Shark may buy; with three it must buy if able. Buy any number of face-up cards up to the total pips, add their dice to the bag immediately, refill the display, and return unspent dice to the bag. Spending Energy moves exactly one stored die to Hunger; if no displayed card is affordable, return all dice without Hunger.
+
+### Attacking
+
+1. A red Strike die that reveals the Octopus starts a confrontation.
+2. Both players secretly choose one remaining coloured confrontation card and reveal together.
+3. If colours match, the Shark wins immediately. Otherwise the Octopus performs its escape effect, then trashes its used card and the Shark card of that matching colour.
+4. Thus the second confrontation is a 50/50 choice; by the third the remaining colours must match.
+
+### Important exceptions
+
+- A Search can reveal the Octopus but does not attack it; shells and food have no search effect, while traps trigger on Search or Strike.
+- If the Shark's bag is empty when dice are needed, remove Current dice from the board until two dice can be drawn. If a second chosen Search/Strike zone ceases to be adjacent after the first reveal, return its die to the bag.
+- The seventh Hunger die ends the game immediately in the Octopus's favour. This includes a die moved there after a Strike or spent Energy.
 
 ## Scoring
+There is no points total. The Octopus wins immediately by eating its fourth food block or exhausting the Shark with the seventh Hunger die. The Shark wins immediately on the first confrontation in which its colour matches the Octopus's choice.
 
 ## Terminology
 
+- **Energy:** unspent rolled dice whose pips buy Shark cards.
+- **Learn:** an Octopus card that gains a new option and its matching food block.
+- **Eat:** the matching card/food pairing acquired through Learn.
+- **Confrontation cards:** simultaneous coloured choices; matching colours win the attack.
+- **Hunger Track:** permanent dice from Strikes and Energy spending; seven exhaust the Shark.
 
+## Official rules
+This teach follows the supplied Kelp Rulebook v1.2, including its FAQ and card clarifications.

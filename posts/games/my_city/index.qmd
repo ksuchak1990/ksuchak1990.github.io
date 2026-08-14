@@ -8,14 +8,78 @@ description: "Develop your city through the ages in this family-friendly legacy
 experience."
 ---
 
-## Theming
+## Theming: What's the point?
+Build a city from its first settlement to industrialisation. My City is a 2-4 player legacy game of 24 episodes: your board is permanently altered as the campaign develops. Three episodes make a chapter, and each chapter introduces rules and components through a sealed envelope. The same group is best, but a new player may take over a departed player's city.
 
-## Setting up
+### Players and modes
 
-## Rounds
+- In the legacy campaign, each player keeps one animal board for all 24 episodes. At the end of every episode, remove the buildings, reset the score marker to 10, then make only the permanent changes the current chapter instructs.
+- Do not open a later envelope. Each episode can be played separately, but the three episodes in a chapter are designed to be played together.
+- The reverse side offers the repeatable **Eternity mode**. It is a later-game configuration; at least one player should already know episodes 1-5. It uses identical boards and is suitable for players who have not played the campaign.
+
+## Setting up: How to get started?
+
+### Legacy play
+
+1. Give each player their animal-side board, matching 24 buildings, and a score marker on 10. Put buildings face-up beside their owner. The three building colours are residential (yellow), administrative (red), and industrial (blue).
+2. Shuffle the 24 Construction cards into a face-down deck. Open only the envelope for the current chapter; read its rules and keep its scoring/allocation sheet visible.
+3. Apply all current episode instructions, including any stickers or extra components. Unless told otherwise, stickers go on empty, undecorated meadow squares with a small central square, after all buildings have been removed.
+
+### Repeatable play
+
+1. Use the reverse side of each board, with score markers on 10. Each player takes 27 buildings: eight of each colour plus three churches. Ignore campaign stickers and extra campaign buildings.
+2. Shuffle the 24 basic Construction cards, the three church cards, and the Prohibition card: 28 cards in all. Do not add campaign-only cards.
+3. The Eternity board also includes wells and two gold deposits. These, churches, and the Prohibition card are specific to this mode.
+
+## Rounds and Phases
+
+### A building step
+
+1. Reveal the next Construction card. All active players take the pictured building and place it immediately and simultaneously; there is no holding a piece for a later turn.
+2. A building may cover empty meadow, rocks, trees, and (in Eternity mode) wells or gold deposits. It may not cover mountain or forest, overlap another building, or straddle the river. It may cover part of the river while remaining entirely on one bank.
+3. Your first building must run along the river, not merely touch it at a corner. Every later building must share at least one edge with an existing building. Corner contact is not adjacency; buildings on opposite banks do count as adjacent if their edges meet across the river.
+4. Once placed, a building never moves. If you cannot or do not wish to place the revealed building, either **pass** or leave the episode/game. Passing turns that building face-down and costs 1 point, but you remain active. Leaving turns it face-down at no cost and means you place no more buildings.
+
+### Important exceptions
+
+- You cannot pass while your score marker is at 0. If you cannot or will not build then, you must leave the episode/game.
+- In Eternity mode, churches must be built. If you cannot build a revealed church, you must leave rather than pass.
+- When Prohibition appears in Eternity mode, immediately reveal one further card. Its building is forbidden: nobody builds it, everyone turns that piece face-down, and play continues with the following card. This also applies if the forbidden piece is a church.
+- In Eternity mode, the first player to cover both gold deposits announces it and gains 3 points immediately; all players who achieve this in the same turn gain the 3 points.
+
+### End of an episode
+
+The episode or Eternity game ends when every player has left it or all Construction cards have been revealed. In the campaign, score the episode, award progress circles and the instructed stickers, then clear buildings and reset score markers before the next episode.
 
 ## Scoring
 
+### Legacy episode scoring
+
+Start from the score marker, including any points gained or lost during the episode, then score the current episode sheet in its stated order. The base scoring is +1 per visible tree, -1 per visible rock, and -1 per empty meadow square. A square with two trees or rocks is worth two points; later single-tree squares are worth one. A player reaching 50 immediately checks one progress circle, stops scoring, and remains on 50; negative points below 0 are remembered and offset later positive points in that episode.
+
+For the episode ranking, at 3-4 players first place checks two progress circles and second place checks one. At 2 players, only first place checks two. Break a tied score by comparing the number of empty meadow squares in the top row, then each lower row until one player has fewer. Check progress circles from left to right, top row first. After episode 24, the player with the most progress circles wins the campaign.
+
+### Eternity scoring
+
+Score in this order:
+
+1. Each visible double-tree meadow square: +2.
+2. Each visible double-rock meadow square: -2.
+3. For each building colour, score the size of its largest edge-adjacent group.
+4. Each church with at least one adjacent building of each of the three colours: +3. Churches are not a colour.
+5. Each well with a building on all four sides: +4.
+6. Each empty meadow square: -1.
+
+The highest total wins. Resolve a tie by the same row-by-row fewest-empty-meadows comparison used in the campaign.
+
 ## Terminology
 
+- **Episode:** One game in the 24-part legacy campaign; three episodes form a chapter.
+- **Construction card:** The shared card that tells every active player which building to place.
+- **Adjacent:** Sharing an edge, including across the river; corner contact does not count.
+- **Progress circle:** A permanent campaign award. The most after episode 24 wins.
+- **Leave:** Stop placing buildings for the current episode/game without losing a point for the revealed building.
+- **Pass:** Decline one revealed building, lose 1 point, and remain active.
 
+## Official rules
+This teach is based on the supplied My City rulebook, including its Eternity-mode rules.

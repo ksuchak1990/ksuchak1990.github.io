@@ -8,14 +8,61 @@ description: "Become a psychic and divine spectral visions to solve the murder
 of a restless ghost."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+One player is the Ghost, communicating only through surreal vision cards. The psychics must interpret those visions to reconstruct the murder and identify the culprit.
 
-## Rounds
+### Two different jobs
+
+The Ghost knows every answer but may not explain, gesture, or react to guesses. Psychics may discuss their theories freely, but must make their own final choices. Treat the Ghost's visions as associative clues, not literal evidence.
+
+## Setting up: How to get started?
+
+### Prepare the investigation
+
+1. Choose one player as the Ghost; everyone else is a psychic.
+2. Use the player-count setup on the Ghost screen to lay out the required character, location, and object cards.
+3. Give each psychic an intuition token and sleeve. For 4-7 players, also give a clairvoyancy marker at 0 and four tokens at 4-5 players or six at 6-7; 2-3 players do not use clairvoyancy.
+4. Choose difficulty and lay out the required number of each card type: Easy 4/5/5/6/6/7, Medium 5/6/6/7/8/8, Hard 6/7/7/8/9/9 for 2-7 players. Give the Ghost the correspondingly numbered ghost cards, who secretly assigns one character, location and object to each psychic.
+5. Set the clock to hour 1. The Ghost draws seven vision cards and takes crows according to difficulty: one discard per turn at Easy, three per game at Medium, or one per game at Hard.
+
+The Ghost must keep each psychic's solution secret. Psychics should see only the public suspect displays and their own tokens.
+
+## Rounds and Phases
+
+### Each of the seven hours
+
+1. Each unresolved psychic is on character, then location, then object, in that order. The Ghost gives each at least one vision card, marks that psychic as served, and redraws to seven after each vision; the Ghost may not speak, gesture or otherwise signal.
+2. Start the two-minute timer. Psychics may discuss and move their intuition tokens until it expires; more than one may choose the same public card.
+3. Before time expires, a psychic may put one agree or disagree clairvoyancy token on another psychic's intuition token, never their own. Tokens are discarded after use and returned at the start of hour four.
+4. The Ghost reveals each result. A correct psychic discards their visions, puts the correct card in their sleeve, and advances to the next category. An incorrect psychic keeps their visions and remains on that category, receiving additional visions in later hours.
+5. Successful clairvoyancy predictions advance their owners one space. A psychic completing all three cards moves to the mission space and gains one clairvoyancy space per hour remaining, but keeps helping and may spend remaining tokens. Advance the clock.
+
+### Ghost tools and final phase
+
+The group loses if anybody remains unresolved when hour seven ends. Otherwise, make one numbered group from each completed character-location-object set. The Ghost secretly chooses the culprit group, selects three vision cards, one pointing to each element of that group, shuffles them face-down as the shared vision, and records its group number.
+
+Reveal the shared vision one card at a time. Psychics vote secretly for a group when their clairvoyancy level permits them to see one, two, or all three cards; they may not discuss the vote. Reveal votes when all have voted. The group with most votes is chosen; a tie goes to the choice of the furthest clairvoyant, then the eldest player if still tied. For 2-3 players, each player runs two psychics, no clairvoyancy is used, three shared visions are face-up, two random extra groups bring the total to four, and the psychics agree openly on a vote.
 
 ## Scoring
 
+### Win or lose together
+
+Mysterium has no individual score. The group loses if all psychics have not completed their three-card combinations within seven hours, or if its final selected group is not the Ghost's culprit. It wins only if the final group is correct. Clairvoyancy determines how much of the shared vision a psychic sees, not points.
+
 ## Terminology
 
+### Key terms
 
+- **Ghost:** gives vision cards but never explains their meaning.
+- **Psychic:** an investigator interpreting visions.
+- **Vision card:** an illustrated, associative clue.
+- **Hour:** one timed investigation round.
+- **Intuition token:** marks a psychic's current guess.
+- **Clairvoyancy:** predictions of others' guesses that unlock more shared-vision cards for the final vote.
+- **Crow:** lets the Ghost cycle unhelpful vision cards.
+- **Culprit:** the correct completed solution in the final vote.
+
+## Official rules
+
+This teach follows the supplied Mysterium game rules.

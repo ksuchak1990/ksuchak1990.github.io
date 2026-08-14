@@ -8,14 +8,75 @@ description: "Out-manoeuvre your rivals as you vie for control of an ancient,
 crumbling kingdom."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+In this 2-4 player game, lead one of four factions vying to replace the old king. Accumulate **Influence** over a fixed number of years by bidding for useful Kingdom cards, committing forces to three regions, and winning their clashes. Influence in your supply, rather than territorial control, wins the crown.
 
-## Rounds
+### The central tension
+
+- A Faction card can bid, occupy a Kingdom card, fight in a region, supply votes to a Council, or be sent on a Journey for Lore. Each use closes off the others.
+- You secretly place one card at each region before Summer, then can reinforce, retreat, move, or eliminate cards through Actions, Commands, and effects.
+- Heralds choose the exact location whose reward you hope to claim; Supporters add strength to a region's first clash. Neither stays on the map indefinitely.
+
+## Setting up: How to get started?
+
+1. Choose the standard five-round game (recommended), or a four-round short game or six-round extended game. Put the round marker on 1, the season marker on Spring, and stack the three clash markers I, II, III with I on top.
+2. Put the Kingdom board and Councils tile in reach. Shuffle the Kingdom deck onto the Great Road, fill its three spaces from right to left with face-up cards, then reveal the top deck card: four Kingdom cards are available. Make a common reserve of Influence and Lore, and put the Kingdom's Favour on the Harvest Field.
+3. Each player chooses a faction and takes its board, Herald, five Supporters, four unexhausted Tactics, markers, Site of Power, and hand-size marker at its printed starting value. Put that faction's advanced cards and HQ cards face-up at its Site of Power.
+4. Find the faction's Heir, put it in hand, shuffle the remaining basic Faction cards into its deck, and draw to six cards. Determine starting order by age or randomly; the first player takes the active-player marker.
+
+## Rounds and Phases
+
+The game has five phases per round. Resolve simultaneous steps together; resolve turn-order steps from the top of the Order track down. Actions are optional and normally usable once per round; mandatory effects resolve simultaneously in their indicated effects step. Card text overrides the general rules.
+
+### Start of the year
+
+Skip this phase in round 1. Everyone draws up to hand size, then reorder players by Influence in supply, highest first. A tie reverses the tied players' previous order. If you must draw from an empty deck, shuffle your discard pile into a new deck, reduce hand size by one, and draw to the new size; hand size cannot fall below three or rise above eight.
+
+### Spring: bid, commit, and prepare
+
+1. Everyone secretly places one Faction card as a bid, then reveals. Bid strength is the card's Strength plus effects that modify bids; ignore its other attributes unless an effect says otherwise. Resolve bids from highest strength down, breaking ties by Order track.
+2. On resolving a bid, either take a face-up Great Road Kingdom card and occupy it with the bidding card, steal an opponent's occupied Kingdom card if your bid is strictly stronger than its occupying card, or return your bidding card to hand. You may have only two occupied Kingdom cards; replacing one discards its Kingdom card and returns its former occupying card to hand.
+3. Refresh the Great Road. If cards were taken from it, discard its rightmost remaining card, slide the rest right, refill from the deck, then reveal the top deck card. If none were taken, discard the two rightmost cards first. A card removed from the Road outside bidding is simply replaced, without that discard.
+4. In turn order, each player places their Herald on any location. Then everyone secretly places one card from hand next to each of the three regions. Those cards remain private until their region's clash.
+5. In turn order, each player may use any available Spring Actions and Commands, including placing any number of Supporters from their board into regions. Each Supporter adds 1 strength only in that region's first clash this round.
+
+### Summer: resolve the three clashes
+
+The last player on the Order track assigns clash markers I-III to the regions, setting the resolution order. For each region:
+
+1. Reveal all cards there. Face-up cards next to a region are **Active**.
+2. In turn order, players use any available Day Actions and Commands. An Active card may Ambush a further face-down card into the clash; reveal new cards after everyone has acted, then only Actions and Commands on those newly revealed cards may be used in another turn-order pass.
+3. Resolve all mandatory Night effects simultaneously. Deadly eliminates opponents' Active cards in the clash; Invulnerable cards cannot be eliminated, while Resilient cards go to their owner's discard instead of the Lost Pile.
+4. Total each player's strength: unused Active-card strength in that region, +1 for each unused Supporter there, plus modifiers. Highest total wins. If tied players all pass when offered the choice to add a face-down card, the region is tied and nobody receives rewards; otherwise begin a new clash among the tied players. Cards and Supporters used in an earlier clash in that region do not count in the new one.
+5. The winner chooses either location in that region. If their Herald is there, they gain 1 Influence and steal 1 Influence, if possible, from each opponent Herald there. Then take the location's printed Influence and may take its additional reward. A resolved region cannot clash again that round.
+
+### Autumn and Winter
+
+In Autumn, each player acts in turn order and may interleave any number of available Actions/Commands with one **Govern** and one **Journey**. Govern moves a hand card with at least one vote to a chosen Council. Journey moves a hand card with Lore to the Lost Pile and gains Lore equal to its icons; when you gain Lore, you may immediately spend any amount of Lore to acquire advanced cards to hand or HQ cards to supply from your Site of Power.
+
+In Winter, resolve mandatory effects, then clean up simultaneously: return Heralds to player boards, move map Supporters to the Lost Pile, return clash markers, and discard remaining Active cards with no Influence on them. For an Active card bearing Influence, remove one Influence instead. Advance the round marker; after the selected final round, end the game.
 
 ## Scoring
 
+### Winning the crown
+
+After the final round, first convert Lore to Influence if your Site of Power is empty: gain 1 Influence for every 2 Lore in supply. Then the player with the most Influence in supply wins. A tie goes first to a tied player holding the Kingdom's Favour; if none does, the tied player highest on the Order track wins.
+
+### Key exception
+
+The Kingdom's Favour is claimed whenever a player takes the Harvest Field's location reward, even if another player holds it. It provides the holder's faction-specific Action and begins with three uses; rotate it after each use and return it to the Harvest Field after the third. Reclaiming it resets it to three uses. Holding it is also the first endgame tie-breaker.
+
 ## Terminology
 
+- **Influence:** The victory currency. Keep it in your supply; the most at game end wins.
+- **Lore:** Currency gained chiefly by Journeying and spent only when you gain Lore, to acquire Site of Power cards.
+- **Herald / Supporter:** A Herald occupies one location for potential reward; a Supporter occupies a whole region and adds 1 strength to its first clash.
+- **Kingdom card:** A shared Great Road card that must normally be occupied by the Faction card used to bid for it.
+- **Active card:** A face-up Faction card next to a region.
+- **Clash:** The Summer contest in one region. The winner chooses one of its two locations for rewards.
+- **Lost Pile:** The public shared pile for eliminated cards, Journey cards, and spent Supporters.
 
+## Official rules
+
+This teach is based on the supplied The Old King's Crown rulebook.

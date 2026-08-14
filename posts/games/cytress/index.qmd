@@ -4,18 +4,58 @@ author: "Keiran Suchak"
 date: 2024-03-03
 categories: [kickstarter]
 image: "https://cf.geekdo-images.com/tswEHgzwehM3wqqH9zUkXg__itemrep/img/RRK84sAz_HIdRf2dNeLpfn19uvA=/fit-in/246x300/filters:strip_icc()/pic8014174.jpg"
-description: "Mercenaries escaping dystopian city to find paradise in floating
-cities above."
+description: "Mercenaries escaping dystopian city to find paradise in floating cities above."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Cytress is a 1-5 player engine-builder. In the standard 2-5 player game, build faction lifepaths, deploy crews onto the Cytress mini-map, then ascend them through waste tubes to the three levels of Stratos. When the tube supply runs out, score Prestige for crews, majorities, controlled tubes, and bounties.
 
-## Rounds
+### What the game rewards
+
+* Corpocrat lifepaths provide Phase 1 income, Privateer lifepaths reward rivals' scouting, Rover lifepaths improve trade ratios, and Hooligang lifepaths discount matching costs.
+* Crews left on the mini-map compete to control tubes; crews sent higher into Stratos score more directly.
+* Faction intel cards have both a faction colour, which governs crew placement, and a target faction icon, which matters for bounties and level-3 majorities.
+
+## Setting up: How to get started?
+
+Use one random mini-map tile per player, the matching 1-3 or 4+ player sides of the faction boards, and the relevant bounty cards. Construct Stratos, randomise the Cytress board side, reveal three cards from each faction deck and five Stratolites, and place **seven tube sections per player** near Stratos. The remaining tubes stay out of reach until game end is triggered.
+
+### Setup discipline
+
+1. Each player chooses a side of a randomly dealt rebel board and receives its leader, three transports, twelve crews, and a resource tracker.
+2. Start every resource at 2, with a maximum of 25. The resources are Creds, Tech, Glow, and Ammo.
+3. The most recent cyberpunk-film viewer takes the first-player marker.
+4. In a 2-player game, only the designated 3-resource scout spot is available in each district. In 2-3 players, every player scouts twice each round; in 4-5 players, each scouts once.
+
+## Rounds and Phases
+
+Play repeated rounds of four phases. Phase 3 has a normal Travel stage followed by Extra Travel for transports that visited Stratos. Players can still gain intel cards after their crews are gone, but a tube can only be placed on a hex containing their own crew.
+
+### How to teach a turn
+
+1. **Income, simultaneously:** gain every resource icon in your Corpocrat lifepath.
+2. **Scout Districts:** in first-player order, put your leader on an empty scout spot of a faction and gain its printed resource plus one matching resource for each of your crews already on Stratos. Every other player gains matching resources shown in their Privateer lifepath; the active scout does not. In 2-3 players, repeat the process with a different faction.
+3. **Travel:** players alternate moving one of their three transports to a landing pad until all have moved. Meeting a faction pays its cost, takes and refills one intel card, adds it to the matching lifepath, places a crew on an empty matching-colour mini-map hex, and may spy on one adjacent rival for resources matching all hex colours occupied by that rival's adjacent crews.
+4. Other Travel actions are: Stratolite or Renegade to pay for a 1-, 2-, or 3-high tube (cost 5, 11, or 18) and ascend that crew to the matching Stratos level; Enforcer for a bounty and one optional immediate benefit; Fixer for free intel without crew placement, one reserved Stratolite, and next phase's first-player marker; or Merchant for up to two directed trades. A Stratolite requires its shown resource and hex type; Renegade accepts any one resource type and any hex with your crew. Hooligang discounts apply to the matching resource cost.
+5. **Extra Travel:** in turn order, each transport left on Stratos after meeting a Stratolite takes one more Travel action, but must leave Stratos and cannot meet another Stratolite. **Reset:** discard the rightmost Stratolite, shift the rest right, refill the leftmost slot, and return leaders and transports.
+
+### Version warning
+
+The game enters its final round when the allocated tube sections are exhausted in Travel or Extra Travel. Use extra tubes from the box to finish that round, then score rather than resetting.
 
 ## Scoring
 
+Add Prestige for each crew on Stratos: 5 on level 1, 10 on level 2, and 15 on level 3. On each level, every player tied for the most crews also earns its majority award: level 1 is 3 per crew on all of Stratos, level 2 is 3 per card in the longest lifepath, and level 3 is 6 per complete set of the four faction target icons across lifepaths. Control each tube with a strict majority of crews on its adjacent mini-map hexes; tied tubes score nobody. Controlled tubes score 3, 5, or 7 for heights 1, 2, or 3. Finally score bounties for matching target icons: 2 Prestige each in 2-3 players; in 4-5 players use each bounty's printed 1- or 2-Prestige rate. Highest total wins; ties share victory.
+
 ## Terminology
 
+* **Lifepath:** One of four engine rows receiving faction intel cards.
+* **Crew:** A token placed on the mini-map or ascended to Stratos.
+* **Waste tube:** A 1-3 section route that moves one crew to its matching Stratos level.
+* **Stratolite:** A card that fixes the resource and mini-map hex type for a tube drop.
+* **Bounty:** A faction-target scoring card taken from the Enforcers.
 
+## Official rules
+
+This teach follows the supplied Cytress rulebook for multiplayer play.

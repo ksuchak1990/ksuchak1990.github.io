@@ -8,110 +8,65 @@ description: "Construct the most popular Moon base by drafting cards and placing
 rovers."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Moon is a 2-5 player pick-and-pass base-building game played over three Eras. Build a Settlement that produces resources, establishes the five Flag types, and gains Hearts. Hearts earned during play, plus printed Hearts on grey Structures and Reputation cards at the end, determine the winner.
 
-1. Put all Hearts, Rovers and Resources on the table within reach of all
-   players, forming the **General Supply**.
-2. Place the Flag Reward Board near the centre of the table.
-    a) Place a 3-Heart token on the space under each Flag.
-    b) Place 3 Hearts on the X space.
-    c) Stack the five 4-Heart tokens and five 5-Heart tokens next to the board.
-3. In the centre of the table, place $n$ random Reputation Cards of each level
-   face-up, where $n$ is the number of players.
-4. Place the Structure Cards for each of the Eras in separate decks on the
-   table.
-5. Place one of the Era 1 cards next to the Flag Reward Board - this is the
-   Discard Pile.
-6. Provide each player with the following:
-    * A Base Card,
-    * A Player Aid Card, and
-    * Two Rovers.
-7. Give the First Expedition Card to the player with the loudest voice; use the
-   appropriate card for the number of players.
-8. Place each of the Expedition Decks on the table.
+### What guests should watch for
 
-### Two-player games
+* Every Era starts with Production, including the very first one, before any cards are drafted.
+* Every Construction turn requires exactly one Build or Assimilate action; the four extra actions are each limited to once that turn.
+* Hearts placed on Structures or Reputation cards score again in every later Era; do not remove them after scoring.
 
-## Rounds
+## Setting up: How to get started?
 
-* The game is played in three rounds called Eras
-* Each Era consists of the following phases:
-    1. Production Phase: Players produce Resources, Rovers and Hearts from their
-       Settlements.
-    2. Construction Phase: Players pick a card from their hands to Build or
-       Assimilate, then pass their hand to the next player.
-    3. Scoring Phase: Players claim the Hearts on the Flag Reward Board and
-       score any Hearts placed on their Structure and Reputation Cards.
+Make a general supply of Hearts, Rovers, and Energy, Water, Biomass, and Metal. Put three Hearts below each Flag on the Flag Reward board and three Hearts on X. Reveal as many random Bronze, Silver, and Gold Reputation cards as there are players, except reveal three of each in a two-player game. Shuffle the three Structure decks and three Expedition decks separately; start a face-up Era I discard pile with one Structure card.
 
-### Production phase
+### Table checklist
 
-* In this phase, all players claim the Resources and other items depicted on the
-  Production Symbols in their Settlement.
-* In the first Production Phase, players only have the Production Symbols on
-  their Base Card.
-* Production Symbols on Structure Cards also produce immediately when built in
-  the Construction Phase.
+1. Give each player a Base, player aid, and two Rovers. A Base counts as both a blue and yellow Structure.
+2. Give the First Expedition card to the starting player: use the `2-3` card for two or three players and the `4-5` card for four or five.
+3. For two players, remove the Base, Expedition, and Era I/II Structure cards marked `3+` before setup. No Era III Structures are removed.
+4. In Era I, deal Structure hands only after Production: eight cards at two players, seven at three or four, and six at five. In Eras II and III, first turn one Structure from that Era face up to begin a new discard pile.
+5. Deal one current-Era Expedition card to every player except the holder of First Expedition; each hand therefore has Structure cards plus one Expedition card.
 
-### Construction phase
+## Rounds and Phases
 
-* In this phase, players take turn acquiring cards and placing them in their
-  Settlements.
-* Start the phase by taking the following actions:
-    1. If at the beginning of either Era 2 or Era 3:
-        a) Form a new Discard Pile with a card from the appropriate Era Structure 
-           Card Deck.
-        b) Deal each player a hand from the current Era Structure Card Deck
-        (according to @tbl-handsize).
-    2. Deal a random Expedition Card to each player (except the player with the
-       First Expedition Card) using the appropriate Era Expedition Deck.
-* Each player now has a hand consisting of multiple Structure Cards and one
-  Expedition Card.
-* Players take turns (starting with the player holding the First Expedition
-  Card), proceeding in clockwise order.
-* Turns take the following form:
-    * A player must either:
-        a) Build, or
-        b) Assimilate.
-    * A player may do any of the following actions once at any point in their
-      turn:
-        a) Use the Bonus Action on their Expedition Card,
-        b) Park a Rover,
-        c) Claim a Reputation Card,
-        d) Flip over a pink Action Card.
-* After all players have taken a turn, they pass their hand (including
-  Expedition Card) to the player to the left.
-* Repeat the turn process until only the Expedition Cards are left in players'
-  hands.
+Each Era has Production, Construction, then Scoring. In Production, all players take everything shown by the white-arrow Production symbols in their Settlement. Blue Structures produce immediately when built as well as in later Production phases.
 
-| Number of players | Hand size |
-|:-----------------:|:---------:|
-|         2         |    8      |
-|        3-4        |    7      |
-|         5         |    6      |
+### Construction turn
 
-: Hand size by number of players {#tbl-handsize}
+1. Starting with First Expedition, take turns clockwise. You must either **Build** one Structure from hand, paying its resource cost and already meeting all printed Flag requirements, or **Assimilate** one Structure by placing it on the discard pile and taking its trash-can reward.
+2. Before or after that mandatory action, each of these optional actions may be used once: use the Expedition card's bonus action, park one Rover, claim one Reputation card, and flip one pink Structure.
+3. A Rover parks only on another player's blue or yellow Structure. On blue, take its production immediately; on yellow, use its Flags for this turn's Build requirement. The parking space remains blocked until Era end, when the Rover becomes that Structure owner's Rover.
+4. A Reputation card may be claimed only when its requirement is met; take its immediate or ongoing effect and keep it. Pink Structures are flipped for their once-per-Era effects.
+5. After everyone has taken a turn, pass complete hands, including Expedition cards, left. Repeat until only Expedition cards remain. In a two-player game, the same player leads throughout Construction, then the other player leads next Era.
+6. End Construction by passing First Expedition left, returning the other Expedition cards, taking parked Rovers into the owning players' supplies, flipping pink cards back, and shuffling the discard pile back into the current Era deck.
 
-### Scoring phase
+### Important exception
+
+Flag requirements must already be in your Settlement, but a Rover parked on another player's yellow Structure can supply Flags only for the Build made that turn. A Rover cannot park on your own cards, and one card has room for only one Rover (the Base has one blue and one yellow space).
 
 ## Scoring
 
+Resolve each Flag reward in order. The player with the most of that Flag in their Settlement takes all Hearts below it. A tie goes to the tied player with more Rovers in their supply; if still tied, nobody takes the reward and the Hearts remain. Then each player gains Hearts equal to the Heart tokens on their Structures and Reputation cards, leaving those tokens in place.
+
+### End of an Era
+
+1. Award all five Flag rewards, then score Heart tokens already placed on cards.
+2. Remove one Heart from X, reducing the Excitement Value from 3 in Era I to 2 in Era II and 1 in Era III.
+3. After Era I, put four Hearts below every Flag; after Era II, put five below every Flag. Unclaimed Hearts remain and add to the refill.
+4. After Era III, do not refill. Add the Hearts already earned during the game to the printed Hearts on grey Structures and Reputation cards. Do not score Heart tokens on cards again.
+5. The highest total wins. Ties go to the player with more Rovers, then fewer Reputation cards; a remaining tie is shared.
+
 ## Terminology
 
-* **General Supply:** Collection of Hearts, Rovers and Resources.
-* **Settlement:** The Base Card and Structure Cards of a player.
-* **Era:** A round of the game.
-* **Build:** Take a Structure Card from your hand and place it in your
-  Settlement. Resource costs must be paid and Flag Requirements must be
-  fulfilled.
-* **Assimilate:** Place a Structure Card from your hand onto the discard pile.
-  Take the Resources, Rovers or Hearts depicted on the card into your Supply.
+* **Settlement:** Your Base, built Structures, and Hearts and Rovers on them; resources and Reputation cards are not part of it.
+* **Build:** Put a Structure into the appropriate Settlement area after paying costs and satisfying Flag requirements.
+* **Assimilate:** Discard a Structure from hand for its trash-can reward.
+* **Rover:** A token that can use another player's blue production or yellow Flags for the turn.
+* **Reputation card:** A public, claimable card with a requirement, an effect, and printed endgame Hearts.
 
-### Structure Card Types
+## Official rules
 
-* **Blue Cards:**
-* **Yellow Cards:**
-* **Pink Cards:**
-* **Grey Cards:**
-* **Red Cards:**
+This teach covers multiplayer; the rulebook's GURPS opponent is a separate solo mode.

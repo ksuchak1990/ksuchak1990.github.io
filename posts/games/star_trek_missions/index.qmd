@@ -5,39 +5,66 @@ date: today
 date-format: iso
 categories: []
 image: "https://cf.geekdo-images.com/HQSs1ZMoi0PdfFlVzlCdow__itemrep/img/QKl50OvyIYPLx0QdL4MAtOSV54I=/fit-in/246x300/filters:strip_icc()/pic6458192.jpg"
-description: "Construct the best hand and explore new worlds, one card at a
-time!"
+description: "Construct the best hand and explore new worlds, one card at a time!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Build the highest-scoring seven-card hand from Galaxy and Mission cards. Galaxy cards are the characters, places, equipment, and artefacts that supply attributes and bonuses; Mission cards are scoring challenges. Everything is evaluated only against cards in your own final hand.
 
-1. Galaxy deck:
-    i) Shuffle the Galaxy deck.
-    ii) Deal 5 Galaxy cards to each player.
-    iii) Place the deck facedown.
-2. Mission deck:
-    i) Shuffle the Mission deck.
-    ii) Deal 2 Mission cards to each player.
-    iii) Place the deck facedown.
+### How a hand tells a story
 
-## Rounds
+* Galaxy cards have a Type, possibly one or more Specialties, a Lifeform, an Affiliation, and scoring text. Mission cards have scoring text only.
+* You may finish with one or two Mission cards, never none or more than two.
+* A card that is blanked scores no points, grants no points, and has no effect, but still occupies one of your seven hand slots.
+
+## Setting up: How to get started?
+
+Shuffle the 50-card Galaxy deck and 24-card Mission deck separately. Deal every player five Galaxy cards and two Mission cards. Put both decks facedown beside a shared, initially empty discard area; choose a starting player at random and play clockwise.
+
+### Table checklist
+
+1. Keep the Galaxy and Mission decks separate throughout the game.
+2. Spread all discarded cards face up so every player can inspect the whole discard area, not just its most recent card.
+3. Each player begins with seven cards and two Missions. The score pad is needed only after the end trigger.
+
+## Rounds and Phases
+
+There are no rounds or phases: players take one turn at a time until the shared discard area contains either eight Galaxy cards or twelve Mission cards. A turn always ends with seven cards in hand and one or two Mission cards.
+
+### Turn sequence
+
+1. Choose exactly one option: take one card from the discard area, then discard a *different* card; draw the top Galaxy card, then discard any card; or draw the top two Mission cards, then discard any two cards.
+2. Discards go face up into the shared discard area. The cards taken from it can be Galaxy or Mission cards.
+3. Check your Mission count after discarding. You may not end with zero Missions or with more than two.
+4. The game ends immediately once the discard area reaches eight Galaxy cards or twelve Mission cards. Finish the current turn's required discards before scoring.
+
+### Reading card text
+
+* **WITH** grants the bonus once if at least one named card or attribute is present.
+* **FOR EACH** grants the stated bonus once for every qualifying card.
+* A single card may grant bonuses to several cards, but it cannot grant the same receiving card more than one bonus, even if it matches several requested criteria.
+* Resolve **BLANKS** and **BLANKED UNLESS WITH** first. A blanked card cannot score, give bonuses, or affect the hand in any way.
 
 ## Scoring
 
+At game end, score every non-blanked card in each player's seven-card hand, including Mission cards, according to its text and the other cards in that hand. Do not compare or combine players' hands.
+
+### Scoring order
+
+1. Identify cards blanked outright or blanked unless their stated condition is present.
+2. Ignore those cards completely, except that they still count towards the seven-card hand size.
+3. Add the values and conditional bonuses of every remaining Galaxy and Mission card, applying the one-bonus-per-giving-card restriction.
+4. The highest total wins; tied players share victory.
+
 ## Terminology
 
-* Galaxy card
-* Type
-* Speciality
-* Lifeform
-* Affiliation
-* Text
-* Mission card
+* **Galaxy card:** A card with attributes and scoring text.
+* **Mission card:** A text-only card that scores as part of the final hand.
+* **Type, Specialty, Lifeform, Affiliation:** Galaxy-card attributes that card text can require or reward.
+* **Blanked:** A card that neither scores nor has any effect, while still taking a hand slot.
+* **With / For Each:** Respectively, a one-off conditional bonus and a bonus repeated for each qualifying card.
 
-* WITH
-* FOR EACH
-* BLANKS
-* BLANKED UNLESS WITH
+## Official rules
 
+The scoring examples in the rulebook are useful for checking unusual combinations of attributes and blanking.

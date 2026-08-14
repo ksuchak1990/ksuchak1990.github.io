@@ -8,14 +8,65 @@ description: "All you want is to get back to your home timeline. Or at least
 steal some treasures."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+You are a time traveller changing history, collecting lost objects, and trying to reach the reality your Identity calls home.
 
-## Rounds
+### Three routes home
+
+You can win by restoring the reality on your Identity, putting the Artifacts named by your Mission on the table, or ending your turn with ten cards in hand. Watch all three routes because opponents can change the TimeLine under you.
+
+## Setting up: How to get started?
+
+### Build the table
+
+1. Arrange the 32 double-sided TimeLine cards in the 8-by-4 Time Index grid, A1-8 through D1-8, with every card on its True History side: Ripplepoints blue and Linchpins purple.
+2. Make separate shuffled piles for the other card types. Give each player one secret Identity, one secret Mission, and three cards from the main deck.
+3. Everyone guesses the current time; the closest starts, then play proceeds clockwise.
+
+Keep Identities and Missions secret until claiming victory. The TimeLine remains public and fixed in its indexed grid; its cards are flipped, not removed.
+
+## Rounds and Phases
+
+### Take a turn
+
+1. Draw one card from the main deck.
+2. Play one card from hand, or discard one if it cannot or should not be played. Resolve the card fully.
+3. If the card was discarded instead of played, the player may discard a second card and draw one replacement: this is Killing Time.
+4. Check only that active player's victory conditions at the end of their turn. Shuffle the discard pile to form a draw deck only when a draw is required and the deck is empty.
+
+### Changing history
+
+- An **Inverter** flips a Linchpin, then all affected Ripplepoints are adjusted. Inverters never directly flip Ripplepoints.
+- A changed dependency creates a Paradox. A **Patch** may be played only on its matching Paradox, covering it; playing a Patch immediately draws one card.
+- Follow a Patch's nullification icons whenever history changes. A nullified Patch is discarded; the underlying TimeLine card remains.
+- Artifacts and Gadgets stay face-up before their owner; Actions and Timewarps resolve then discard. A Memo From Your Future Self is the exception to turn ownership: it can cancel a card as it is played.
+
+If 13 Paradoxes are visible at once, the game ends immediately and everybody loses. The 1962' Patch creates the UberParadox: nothing after 1962 can be accessed, changed or collected from the future until it is cleared; later Paradoxes count as part of that one large Paradox. The 1945 Nexus can have three dependencies and four possible Patches, so check its playable and nullification icons especially carefully.
 
 ## Scoring
 
+### End of the game
+
+There is no points total. Claim victory only at the end of your own turn by meeting one condition:
+
+1. **Going Home:** all three headlines on the Identity appear on the TimeLine; a Paradox blocks this route.
+2. **Mission:** the three named Artifacts are face-up in front of the player, not merely in hand. Some Missions name any three from four.
+3. **Power and Success:** the player has ten cards in hand, excluding Identity and Mission cards.
+
 ## Terminology
 
+### Key terms
 
+- **TimeLine:** the shared chronological row of events.
+- **Linchpin:** a two-sided pivotal event, changed by an Inverter.
+- **Ripplepoint:** a dependent event that becomes a Paradox when its condition fails.
+- **Patch:** a card that covers its matching Paradox and grants an immediate draw.
+- **Paradox:** a contradiction created by the current TimeLine.
+- **Artifact:** a collectable object used by Missions.
+- **Identity:** your secret home-reality objective.
+- **Mission:** your secret list of three Artifacts.
+
+## Official rules
+
+This teach follows the supplied Chrononauts rules sheet.
