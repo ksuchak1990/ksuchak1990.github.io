@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -75,9 +76,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="home.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -125,40 +127,93 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="./img/ks.jpg" alt="Portrait of Keiran Suchak" class="about-image
-  rounded " style="width: 20em;">
+<main class="content page-columns page-full column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Keiran Suchak</h1>
 </div>
-<div class="quarto-title-meta">
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/ksuchak1990" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a Research Fellow in Mobility Data Science in the School of Geography at the University of Leeds. Within the school, I am a member of the <a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/">Institute for Spatial Data Science</a> and the <a href="https://mobscilab.com/">Mobility Science Lab</a>.</p>
-<p>My current research focuses on exploring the mobility of healthcare workers and its impact on the way in which infections spread within healthcare settings; this research forms part of a broader digital health hub focused on antimicrobial resistance.</p>
-<p>I previously did my PhD at the Leeds Institute for Data Analytics, working on the development of novel methods for the real-time simulation of pedestrian systems. During my PhD, I also held the role of Data Science Fellow with the Connected Places Catapult, working on modelling and mapping the incidence of social isolation.</p>
 
 
-</main></div>
+<section class="home-hero page-columns page-full" aria-labelledby="home-title">
+<div class="home-hero-main">
+<p class="home-kicker">Mobility data science</p>
+<h1 id="home-title">Researching movement, space, and health.</h1>
+<p class="home-intro">I am a Research Fellow in Mobility Data Science in the School of Geography at the University of Leeds. My current research explores the mobility of healthcare workers and its impact on infection transmission within healthcare settings.</p>
+<div class="home-actions" aria-label="Professional links">
+<a href="publications.html">Publications</a>
+<a href="cv.html">Curriculum vitae</a>
+<a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/staff/10166/keiran-suchak">Contact via University profile</a>
 </div>
- <!-- /main -->
+</div>
+<aside class="home-profile">
+<img src="img/ks.jpg" alt="Portrait of Keiran Suchak">
+<p>School of Geography<br>University of Leeds</p>
+</aside>
+</section>
+
+<section class="home-focus-band" aria-labelledby="focus-title">
+<div class="home-focus">
+<div class="home-focus-heading">
+<h2 id="focus-title" class="anchored">From individual movement to systems-level questions.</h2>
+</div>
+<div class="home-focus-items">
+<article>
+<h3 class="anchored">Healthcare mobility</h3>
+<p>Exploring how the movement of healthcare workers shapes infection transmission in healthcare settings.</p>
+</article>
+<article>
+<h3 class="anchored">Spatial modelling</h3>
+<p>Developing methods for the real-time simulation of pedestrian and urban systems.</p>
+</article>
+<article>
+<h3 class="anchored">Open research</h3>
+<p>Building accessible computational tools and open-source software for mobility research.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="home-networks" aria-labelledby="networks-title">
+<h2 id="networks-title" class="anchored">Working across spatial data science and mobility research.</h2>
+<p>I am a member of the <a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/">Institute for Spatial Data Science</a> and the <a href="https://mobscilab.com/">Mobility Science Lab</a>.</p>
+<div class="home-actions" aria-label="Research profiles">
+<a href="https://mobscilab.com/people/keiran-suchak/">MOB.SCI.LAB profile</a>
+<a href="https://scholar.google.com/citations?user=RUJDDR4AAAAJ">Google Scholar</a>
+<a href="https://github.com/ksuchak1990">GitHub</a>
+</div>
+</section>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

@@ -1,21 +1,233 @@
+:root {
+    --color-paper: #fafafa;
+    --color-surface: #ffffff;
+    --color-ink: #191b20;
+    --color-muted: #626773;
+    --color-rule: #d5d6d9;
+    --color-link: #0d5bd7;
+    --color-link-hover: #0747a6;
+    --color-nav: #082f5b;
+    --color-nav-active: #c8e2ff;
+    --color-work: #0d6ed1;
+    --color-education: #9a5a00;
+    --color-blue-tint: #edf5ff;
+    --color-amber-tint: #fff5e8;
+    --shadow-marker: 0 1px 4px rgb(0 0 0 / 35%);
+    --font-display: "DM Sans", Arial, sans-serif;
+    --font-body: "DM Sans", Arial, sans-serif;
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2.5rem;
+    --space-5: 4rem;
+}
+
+html,
 body {
-    font-family: 'Montserrat', sans-serif; /* Body font */
+    overflow-x: clip;
+}
+
+body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    line-height: 1.7;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration-color: color-mix(in srgb, var(--color-link) 45%, transparent);
+    text-underline-offset: 0.16em;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 3px solid var(--color-education);
+    outline-offset: 3px;
+}
+
+#quarto-header .navbar {
+    background: var(--color-nav);
+    border-bottom: 1px solid color-mix(in srgb, var(--color-surface) 22%, transparent);
+    min-height: 4.25rem;
+}
+
+#quarto-header .navbar-brand,
+#quarto-header .nav-link {
+    color: var(--color-surface);
+}
+
+#quarto-header .navbar-brand {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#quarto-header .nav-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+#quarto-header .nav-link.active,
+#quarto-header .nav-link:hover {
+    color: var(--color-nav-active);
+}
+
+#quarto-content {
+    padding-top: var(--space-4);
+}
+
+.content {
+    font-size: 1.02rem;
+}
+
+#title-block-header {
+    border-bottom: 1px solid var(--color-rule);
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-3);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-ink);
+    font-family: var(--font-display);
+    font-style: normal;
+    line-height: 1.3;
+}
+
+h1,
+.quarto-title .title {
+    font-size: clamp(2.15rem, 5vw, 3.5rem);
+    letter-spacing: -0.035em;
+}
+
+h2 {
+    border-bottom: 1px solid var(--color-rule);
+    margin-top: var(--space-5);
+    padding-bottom: var(--space-1);
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: var(--space-4);
+}
+
+blockquote {
+    border-left-color: var(--color-education);
+    color: var(--color-muted);
+}
+
+code,
+pre {
+    background: var(--color-surface);
+    border-color: var(--color-rule);
+}
+
+#TOC {
+    border-left: 1px solid var(--color-rule);
+    font-size: 0.82rem;
+}
+
+#TOC .nav-link {
+    color: var(--color-muted);
+}
+
+#TOC .nav-link.active,
+#TOC .nav-link:hover {
+    color: var(--color-link);
+}
+
+.quarto-listing-container .listing-title,
+.quarto-grid-item .card-title {
+    font-family: var(--font-display);
+}
+
+.quarto-grid-item.card,
+.quarto-listing-default .listing {
+    border-color: var(--color-rule);
+    box-shadow: none;
+}
+
+.map-locations {
+    background: var(--color-surface);
+    border: 1px solid var(--color-rule);
+    margin-bottom: var(--space-2);
+    padding: var(--space-1) var(--space-2);
+}
+
+.map-locations[open] {
+    padding-bottom: var(--space-2);
+}
+
+.map-locations summary {
+    color: var(--color-link);
+    cursor: pointer;
+    font-weight: 600;
 }
 
 h3.cv-entry::before {
+    background: var(--color-work);
+    border-radius: 50%;
     content: "";
     display: inline-block;
-    width: 0.65rem;
     height: 0.65rem;
-    margin-right: 0.5rem;
-    border-radius: 50%;
+    margin-right: var(--space-1);
     vertical-align: 0.08em;
-}
-
-h3.cv-work::before {
-    background: #2a81cb;
+    width: 0.65rem;
 }
 
 h3.cv-education::before {
-    background: #988f2e;
+    background: var(--color-education);
+}
+
+@media (max-width: 575px) {
+    .content {
+        font-size: 1rem;
+    }
+
+    #title-block-header {
+        margin-bottom: var(--space-3);
+    }
+
+    h2 {
+        margin-top: var(--space-4);
+    }
+
+    .map-locations {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media print {
+    body {
+        background: var(--color-surface);
+        color: var(--color-ink);
+        font-size: 10pt;
+    }
+
+    #quarto-header,
+    #quarto-margin-sidebar,
+    #map,
+    .map-locations {
+        display: none;
+    }
+
+    #quarto-content {
+        padding-top: 0;
+    }
+
+    #title-block-header,
+    h2 {
+        break-after: avoid;
+    }
 }
