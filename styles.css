@@ -1,3 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif; /* Body font */
 }
+
+h3.cv-entry::before {
+    content: "";
+    display: inline-block;
+    width: 0.65rem;
+    height: 0.65rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    vertical-align: 0.08em;
+}
+
+h3.cv-work::before {
+    background: #2a81cb;
+}
+
+h3.cv-education::before {
+    background: #988f2e;
+}
