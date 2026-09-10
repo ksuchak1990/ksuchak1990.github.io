@@ -26,9 +26,9 @@ __*Projects: AMR-Hub*__
     // Initialize the map and set its view to focus on the UK (latitude, longitude) with a suitable zoom level
     const map = L.map('map').setView([52.5, -2.0], 7);  // Centre the map over the UK
 
-    // Use CartoDB Dark Matter map tiles
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    // Use OpenStreetMap's standard raster tiles.
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19
     }).addTo(map);
 
