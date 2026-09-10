@@ -7,14 +7,54 @@ image: https://cf.geekdo-images.com/RHodnyerrE-g0yQ85BXXmQ__itemrep/img/qV-lB-pv
 description: "A roll-and-write space adventure."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Captain a small spaceship and explore as much of the galaxy as possible: recruit crew, visit planets, fight enemy ships, and brave asteroid fields.
 
-## Rounds
+### Shared or solo play
+
+The creator campaign presents the game as a print-and-play roll-and-write for one or more players. Each captain records an individual voyage.
+
+## Setting up: How to get started?
+
+Each player needs a Game Sheet and Space Map. The game is print-and-play and supports solo play or any number of players. Check the supplied PnP files for exact starting marks and dice.
+
+### Match components first
+
+Use sheets and dice from the same PnP version. The public campaign does not establish whether later files changed icons, starting positions, or player aids.
+
+## Rounds and Phases
+
+Play 18 rounds, each called a **Star Calendar Day**. Resolve each day's roll-and-write choices on the Game Sheet and Space Map. A final public official rulebook was not located, so use the supplied files for the exact dice results and action sequence.
+
+### Day order
+
+The campaign confirms the round count, not the complete step order. Read the supplied PnP rules before the first day and follow their sequence consistently for all 18 days.
+
+### Multiplayer etiquette
+
+If players share dice or a result, ensure every player records the same public result before anyone moves to the next step. The exact shared-roll procedure must come from the supplied files.
 
 ## Scoring
 
+After the eighteenth Star Calendar Day, total the scoring categories on the Game Sheet. Verify category values and tie handling in the supplied PnP rules.
+
+### No inferred objectives
+
+Crew, planets, enemies, and asteroids are confirmed exploration elements, but this public source does not state their individual point values.
+
 ## Terminology
 
+**Star Calendar Day**: one of the game's 18 rounds. **Space Map**: the sheet used to record exploration. **Crew**, **planets**, **enemy ships**, and **asteroid fields**: major exploration elements.
 
+### Game Sheet
+
+The Game Sheet is the companion record for your captain's progress and final scoring categories.
+
+## Official rules
+
+The [creator Kickstarter campaign](https://www.kickstarter.com/projects/tristam-rossin/uncharted-stars) verifies the game's format and 18-round structure. No final official public rulebook was located; use the PnP files supplied with the game for procedural and scoring details.
+
+### Limitation
+
+This page gives a verified overview only. It deliberately does not reconstruct the day procedure, icon effects, combat, or scoring values from unofficial copies.

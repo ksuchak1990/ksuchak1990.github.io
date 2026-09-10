@@ -8,14 +8,62 @@ description: "Collect strange lost creatures and build the weirdest wildlife
 park."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Populate a wildlife park with strange creatures collected from the air, forest, plains, and sea.
 
-## Rounds
+### Table promise
+
+Wonderbow describes a simultaneous 2-5 player game. Everyone chooses at once, so the table should agree when selections are locked before cards are revealed.
+
+## Setting up: How to get started?
+
+Use the creature, hunter, and special-card sets specified by the edition's rulebook. The publisher confirms that the game supports 2-5 players and is played simultaneously.
+
+### Keep the habitats visible
+
+Air, Forest, Plains, and Sea are the four creature homes named by the publisher. Arrange the relevant cards so everyone can see which habitat they affect.
+
+### Player-count caveat
+
+The official product page confirms the player range, but not the final setup changes by player count. Use the included English rulebook for those quantities.
+
+## Rounds and Phases
+
+Players secretly choose cards, then reveal them together. Hunters seek creatures in habitats, while special cards can disrupt plans. If players compete for the same habitat, the creature can escape.
+
+### Reveal together
+
+Have all players place their selected card face down, then reveal together. This preserves the bluffing and prevents a later player from reacting to an earlier reveal.
+
+### Special cards
+
+The publisher names thieves, trolls, and traps among the special cards. Resolve their exact effects from the card or included rules; do not generalise one special card's timing to another.
+
+### Two-player and advanced content
+
+Do not extrapolate a two-player variant or custom-hunter setup from the core sequence. The public official page does not publish these procedures.
 
 ## Scoring
 
+Build valuable creature collections in your park. The publisher page does not provide the final scoring table, so use the boxed rulebook for exact collection values, special effects, and the end condition.
+
+### Finish cleanly
+
+Before the first reveal, identify the deck-ending condition and the scoring reference in the included rulebook. This avoids guessing whether an effect scores immediately or only at the end.
+
 ## Terminology
 
+**Habitat**: Air, Forest, Plains, or Sea. **Hunter**: a card sent to seek a creature. **Creature**: a park card. **Special cards**: disruptive cards including thieves, trolls, and traps.
 
+### Park
+
+Your park is the collection of creatures you have acquired. Keep it visible and grouped as the scoring reference requires.
+
+## Official rules
+
+[Wonderbow Games' product page](https://wonderbowgames.com/products/hunters-of-the-lost-creatures) is the verified official source. No final publisher-hosted rulebook or FAQ was located, so exact setup and scoring must be checked in the included rulebook.
+
+### Limitation
+
+The public source supports the simultaneous choice, habitats, and named card types only. It does not support a complete playable teach, so this page does not invent one.

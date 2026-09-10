@@ -8,14 +8,58 @@ description: "A card game in which you lead an IT company while avoiding
 burnout."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Lead an IT company: turn coffee and other resources into code while managing employee burnout.
 
-## Rounds
+### Edition warning
+
+Office Lockdown is presented as a stand-alone expansion to *IT Startup: The Card Game*. It can also be combined with earlier products, but this page covers neither combination rules nor final-edition card text.
+
+## Setting up: How to get started?
+
+The game is a stand-alone expansion for 1-6 players. Follow the available PDF for the shared deck, cards, resource tokens, and burnout cubes, but note that it is explicitly a work-in-progress prototype rather than a verified final-edition rulebook.
+
+### Prototype setup only
+
+Use the prototype document only if everyone agrees to play that prototype. For a printed copy, use the printed rulebook's component counts and setup diagrams instead.
+
+### Modes
+
+The publisher describes standard shared-deck play and additional solo, tournament, custom-deck, and 2-vs-2 modes. Their setup and exceptions are edition-specific.
+
+## Rounds and Phases
+
+Use the prototype PDF for the turn sequence and card effects. Do not assume that prototype wording, balance, or modes exactly match the final printed edition.
+
+### Guest-facing teach
+
+Explain the resource-to-code theme and burnout pressure first. Then read the active version's turn sequence from its rules before play, including when cards enter play and when burnout is checked.
+
+### Card precedence
+
+If prototype text and printed card text differ, the printed card and final rulebook should control the printed game.
 
 ## Scoring
 
+Use the prototype PDF or the final printed rulebook for the applicable mode's victory condition. This page does not treat prototype values as final.
+
+### Do not mix modes
+
+Do not combine a standard-mode end condition with a tournament, solo, or team-mode setup unless the final rules explicitly say to do so.
+
 ## Terminology
 
+**Resources**: items used to develop the company. **Burnout cubes**: markers tracking burnout. **Shared deck**: the standard game's common card supply.
 
+### Stand-alone expansion
+
+This means the product can be played without owning the older base game; it does not mean that all prior-product rules automatically apply.
+
+## Official rules
+
+[IT Startup prototype rulebook PDF](https://www.playitstartup.com/pnp-officelockdown-prototype3.pdf) is publisher-hosted but explicitly a prototype. See also the [official IT Startup site](https://www.playitstartup.com/) and [creator campaign](https://www.kickstarter.com/projects/kupilasmedia/it-startup-office-lockdown).
+
+### Limitation
+
+No verified final public rulebook was located. This page deliberately avoids repeating prototype card effects, numerical thresholds, or detailed mode rules as if they were final.
