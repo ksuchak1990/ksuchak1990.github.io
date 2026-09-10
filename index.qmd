@@ -1,29 +1,60 @@
 ---
 title: "Keiran Suchak"
-about:
-    template: trestles
-    image: ./img/ks.jpg
-    image-alt: Portrait of Keiran Suchak
-    links:
-        - icon: github
-          text: Github
-          href: https://github.com/ksuchak1990
+page-layout: full
+toc: false
+format:
+  html:
+    title-block: false
+    css: home.css
 ---
 
-I am a Research Fellow in Mobility Data Science in the School of Geography at
-the University of Leeds.
-Within the school, I am a member of the 
-[Institute for Spatial Data Science](https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/) 
-and the [Mobility Science Lab](https://mobscilab.com/).
+```{=html}
+<section class="home-hero" aria-labelledby="home-title">
+<div class="home-hero-main">
+<p class="home-kicker">Mobility data science</p>
+<h1 id="home-title">Researching movement, space, and health.</h1>
+<p class="home-intro">I am a Research Fellow in Mobility Data Science in the School of Geography at the University of Leeds. My current research explores the mobility of healthcare workers and its impact on infection transmission within healthcare settings.</p>
+<div class="home-actions" aria-label="Professional links">
+<a href="publications.html">Publications</a>
+<a href="cv.html">Curriculum vitae</a>
+<a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/staff/10166/keiran-suchak">Contact via University profile</a>
+</div>
+</div>
+<aside class="home-profile">
+<img src="img/ks.jpg" alt="Portrait of Keiran Suchak">
+<p>School of Geography<br>University of Leeds</p>
+</aside>
+</section>
 
-My current research focuses on exploring the mobility of healthcare workers and
-its impact on the way in which infections spread within healthcare settings;
-this research forms part of a broader digital health hub focused on
-antimicrobial resistance.
+<section class="home-focus-band" aria-labelledby="focus-title">
+<div class="home-focus">
+<div class="home-focus-heading">
+<h2 id="focus-title">From individual movement to systems-level questions.</h2>
+</div>
+<div class="home-focus-items">
+<article>
+<h3>Healthcare mobility</h3>
+<p>Exploring how the movement of healthcare workers shapes infection transmission in healthcare settings.</p>
+</article>
+<article>
+<h3>Spatial modelling</h3>
+<p>Developing methods for the real-time simulation of pedestrian and urban systems.</p>
+</article>
+<article>
+<h3>Open research</h3>
+<p>Building accessible computational tools and open-source software for mobility research.</p>
+</article>
+</div>
+</div>
+</section>
 
-I previously did my PhD at the Leeds Institute for Data Analytics, working on
-the development of novel methods for the real-time simulation of pedestrian
-systems.
-During my PhD, I also held the role of Data Science Fellow with the Connected
-Places Catapult, working on modelling and mapping the incidence of social
-isolation.
+<section class="home-networks" aria-labelledby="networks-title">
+<h2 id="networks-title">Working across spatial data science and mobility research.</h2>
+<p>I am a member of the <a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/">Institute for Spatial Data Science</a> and the <a href="https://mobscilab.com/">Mobility Science Lab</a>.</p>
+<div class="home-actions" aria-label="Research profiles">
+<a href="https://mobscilab.com/people/keiran-suchak/">MOB.SCI.LAB profile</a>
+<a href="https://scholar.google.com/citations?user=RUJDDR4AAAAJ">Google Scholar</a>
+<a href="https://github.com/ksuchak1990">GitHub</a>
+</div>
+</section>
+```
