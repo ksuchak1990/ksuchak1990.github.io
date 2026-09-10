@@ -3,6 +3,7 @@ title: "Keiran Suchak"
 about:
     template: trestles
     image: ./img/ks.jpg
+    image-alt: Portrait of Keiran Suchak
     links:
         - icon: github
           text: Github
@@ -26,4 +27,3 @@ systems.
 During my PhD, I also held the role of Data Science Fellow with the Connected
 Places Catapult, working on modelling and mapping the incidence of social
 isolation.
-
