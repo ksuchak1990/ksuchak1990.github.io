@@ -9,85 +9,62 @@ description: "Create creatures and help them evolve in a strange magical world!"
 
 ## Theming: What's the point?
 
-In _Evolution: Another World_, you create uncommon creatures, evolve them, 
-imbue them with energy and transmute them into super-beings. 
-A creature can transmute when its Energy track is filled.
-Transmute three of your creatures first to win the game.
+Create fantastic creatures, give them Traits, and collect Energy from mystical Sources. The first player to transmute three creatures wins.
+
+### The key race
+
+* Energy is scarce and comes from the current Source.
+* A creature needs four Energy at the start of its own turn to transmute.
+* Creatures cannot die, so disruption delays opponents rather than removing them.
 
 ## Setting up: How to get started?
 
-1. **Energy deck:**
-    * Shuffle the Energy Source cards.
-    * Place the deck face down on the table.
-    * Draw a card and place it next to the deck - this is the Energy Source.
-    * Place the required number of Energy tokens on the lower part of the card
-      according to the number of players.
-    * Additionally, place the required number of Energy tokens on the upper part
-      of the card.
-2. **Token supply:**
-    * Place the remaining Energy tokens, Sleep tokens and Transmutations on the
-      table.
-    * For the purpose of the game, these tokens are considered to be unlimited.
-3. **Evolution deck:**
-    * Shuffle the Evolution cards 
-    * Place the deck on the table with space for a discard pile.
-4. **Starting creatures and starting hands:**
-    * Place 1 card from the top of the Evolution deck face down in front of each
-      player - these are players' starting creatures.
-    * Deal 5 cards from the Evolution deck to each player - these are the
-      players' starting hands.
-5. **First player:**
-    * The youngest player decides who gets the First Player Token.
+Shuffle the Energy Source and Evolution decks. Reveal an Energy Source and add its player-count Energy tokens, make the Energy, Sleep, and Transmutation supply available, then give each player one facedown starting creature and five Evolution cards.
+
+### Table checklist
+
+1. Shuffle Energy Source cards and reveal the first Source.
+2. Put the player-count Energy on both parts of that Source as shown.
+3. Make Energy, Sleep, and Transmutation tokens available.
+4. Shuffle Evolution cards and leave room for their discard pile.
+5. Deal one facedown starting creature and five cards to every player.
+6. Give the First Player token as directed by the rulebook.
 
 ## Rounds and Phases
 
-* The game comprises of several rounds.
-* Each round, players take turns clockwise.
-* At the start of the round, each player may redraw cards once; when redrawing,
-  players discard their hand and redraw an each number of cards from the
-  Evolution deck.
-* If the deck runs out of cards, immediately shuffle the discard pile to form a
-  new deck.
-* The round ends as soon as all creatures of all players are asleep, i.e. have
-  gained a Sleep token.
-* A turn comprises of players taking the following actions:
-    1. **Create a new creature:** Place 1 Evolution card face down from your
-       hand to the table, creating a new creature with no traits **(optional)**.
-    2. **Add a new trait:** Place 1 Evolution card from your hand face up under
-       one of your exiting creatures, providing the trait to the creature
-       **(optional)**.
-    3. **Activate:** Choose 1 of your non-sleeping creatures and activate it
-       **(compulsory)**.
+Players take clockwise turns until all creatures are asleep, which ends the round. On a turn, a player may create a creature and add a Trait, then must activate an awake creature. After activation, it gains Energy, transmutes, attaches, or sleeps. At a new round's start, players may redraw their hand once.
 
-### Notes
+### A turn in order
 
-* **Creating creatures:**
-    * You may create as many creatures as you want over the course of the game.
-    * The creatures of a player are considered *friendly* to each other;
-      friendly creatures can attach each other.
-    * Creatures do not die.
-* **Adding traits:**
-    * You may add a trait to sleeping creatures.
-    * A creature can have multiple different traits but can never have more than
-      one copy of a trait.
-* **Activating traits:**
-    * After activating a creature's traits, it must perform one of the following
-      actions:
-        * Gain energy,
-        * Transmute,
-        * Attach,
-        * Sleep.
+1. Optionally play one Evolution card facedown to create a creature.
+2. Optionally play one card face-up under a creature as a Trait.
+3. Choose one non-sleeping creature and activate it.
+4. Resolve its Traits, then choose its resulting action.
+5. Check whether a transmutation has produced a third marker.
 
-### Traits
+### Important exceptions
 
-* **Aggressive:**
-* **Defensive:**
-* **Energetic:**
-* **Special:**
+* A sleeping creature may receive a new Trait.
+* A creature may not have two copies of the same Trait.
+* Friendly creatures may attach to one another.
+* If the Evolution deck runs out, reshuffle its discard pile immediately.
 
 ## Scoring
 
+There is no final point count: a player wins immediately on transmuting a third creature. A creature can transmute when it has four Energy at the start of its turn.
+
+### Endgame check
+
+Do this check as soon as a creature transmutes. Do not finish the round once a player has three Transmutation markers.
+
 ## Terminology
 
-* **Energy Source cards:** Cards with a waterfall on the back.
-* **Evolution cards:** Cards with a lizard and Energy track on the back.
+* **Creature:** An Evolution card placed facedown; creatures do not die.
+* **Trait:** A face-up Evolution card attached to a creature.
+* **Energy Source:** The current card from which Energy can be gained.
+* **Sleep:** A token showing a creature cannot activate again that round.
+* **Transmutation:** A marker showing a creature has ascended.
+
+## Official rules
+
+[Evolution: Another World rules (CrowD Games)](https://crowdgames.us/our-products/evolution-another-world/)

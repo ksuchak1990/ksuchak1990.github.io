@@ -7,14 +7,94 @@ image: "https://cf.geekdo-images.com/cbcG9UP9T430LZqV3aVVEg__itemrep/img/b5lxiMu
 description: "A fun and cooperative party-game!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+The dead return for the Day of the Dead, and the group must remember every deceased character before they are forgotten.
 
-## Rounds
+### The teaching sentence
+
+You are not trying to preserve a clue word. You are trying to preserve enough of its association through a chain of new words that the group can recover the original character.
+
+### Cooperative table talk
+
+During the clue-writing chain, keep the hidden identities and previous words private as required. Save group discussion for the deduction stage.
+
+## Setting up: How to get started?
+
+Each player takes a Skull slate, a Deduction slate, and a marker. Shuffle the non-blank Character cards into a face-down deck; each player secretly draws one character.
+
+### Protect the secret
+
+Look at your Character card without showing it. Place it face down in front of you; it is the identity that your first clue should evoke.
+
+### Player count and card selection
+
+OldChap lists the game for 3-8 players. Use the official rulebook's card-selection guidance for the chosen group, including any easier cards or blank cards.
+
+### Ready the slates
+
+Use erasable markers and make sure everyone can pass a Skull slate comfortably. Deduction slates remain with their owners; Skull slates travel.
+
+## Rounds and Phases
+
+Write one word that describes your secret character on the Skull slate, then pass it on. On receiving a slate, erase its word and write a new associated word before passing it again. When the chain is complete, use the final clues to identify the characters together.
+
+### Phase one: write an opening clue
+
+Privately write a single associated word for your character. Aim for a useful association rather than a direct repetition of the name.
+
+### Phase two: transform the clue
+
+Pass the Skull slate as instructed by the official rulebook. Read only the word currently on the slate, erase it, and replace it with one new word associated with that word.
+
+### The important restriction
+
+Each later player reacts to the visible word, not to the secret character that began the chain. The word is expected to drift; that drift is the game's challenge.
+
+### Keep passing
+
+Continue the erase, write, and pass sequence until the rulebook tells the group the chain is complete. Do not reveal a Character card early to rescue a clue.
+
+### Phase three: deduce together
+
+Reveal the final clues and discuss which Character card each should match. Use Deduction slates to track possible identities before committing the group's answers.
+
+### Variants and exceptions
+
+The official page confirms the 3-8 player range and 15-minute duration, but the final French rulebook should be used for player-count adjustments, difficulty choices, and special cards.
 
 ## Scoring
 
+The game is cooperative: assess the group's success by the characters correctly recovered. Use the official rulebook for its precise evaluation and any difficulty adjustments.
+
+### Reveal and check
+
+After the group has made its matches, reveal the Character cards and compare each answer with the original identity. Count success exactly as the rulebook directs.
+
+### A good first game
+
+For a first play, focus on whether the group can explain the journey from final clue back to character. Use the official evaluation only after every identity has been checked.
+
+### Do not invent penalties
+
+The source establishes cooperative recovery, not a generic points race. Use the rulebook rather than adding time penalties or individual scores.
+
 ## Terminology
 
+**Character card**: the secret deceased identity. **Skull slate**: the board passed between players for the changing clue. **Deduction slate**: a player's aid for identifying characters. **Clue chain**: the successive one-word associations.
 
+### Opening clue and final clue
+
+The **opening clue** is written by the character's owner; the **final clue** is the word left after the chain of transformations.
+
+### Association
+
+A word connected in the writer's mind to the visible clue. It need not be a synonym, which is why deduction and discussion matter.
+
+## Official rules
+
+[OldChap Games' official page and rulebook](https://oldchap.games/jeux/fiesta-de-los-muertos/) provide the authoritative rules. The linked rulebook is currently in French.
+
+### Source notes
+
+OldChap verifies the game as a 3-8 player cooperative imagination-and-deduction game and links its official rulebook. This teach paraphrases the chain and deduction structure; use that rulebook for its exact passing direction, card mix, evaluation, and exceptions.

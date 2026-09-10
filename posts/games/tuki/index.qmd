@@ -8,14 +8,47 @@ description: "Race to use snow blocks to recreate a target image with your
 colorful shapes."
 ---
 
-## Theming
+## Theming: What's the point?
+Race to build the revealed Inuit-inspired stone marker, called a Tukilik, from coloured stones and snow blocks.
 
-## Setting up
+### Players
 
-## Rounds
+- Tuki supports 2-4 players.
+- Everyone builds simultaneously, so speed matters only after the structure is correct.
+
+## Setting up: How to get started?
+
+1. Give every player one colour's stones and snow blocks.
+2. Shuffle the Tukilik cards and prepare the card stand and die.
+3. Choose the difficulty level and card side specified by the rulebook.
+4. Select the first Scout as directed by the setup rules.
+
+## Rounds and Phases
+
+### Build simultaneously
+
+1. Reveal a Tukilik card in the stand.
+2. All active builders recreate the pictured structure with their own pieces.
+3. The structure must match the card's front view exactly; hidden depth does not excuse a visible mismatch.
+4. The first player to finish calls out and is checked.
+5. If correct, that player takes the card. If not, play continues for the other builders.
+
+### Scout and ties
+
+- The Scout checks finished structures and, in the relevant player-count modes, may sit out of a round.
+- If several completed structures must be compared, use the rulebook's checking order and tie procedure rather than awarding a card for speed alone.
+- The player who wins a card may become the next Scout, depending on the player count and round result.
 
 ## Scoring
 
+When a player earns a fifth Tukilik card, play the decisive final round. The finale differs between 2 players and 3-4 players, so use the appropriate rulebook procedure instead of assuming that five cards is an immediate win.
+
 ## Terminology
 
+- **Tukilik:** the target marker shown on a card.
+- **Scout:** the player who reveals and checks the target in applicable rounds.
+- **Stone / snow block:** the physical pieces used to reproduce the target.
+- **Front view:** the visible silhouette and colour arrangement that must match the card.
 
+## Official rules
+[Next Move / Asmodee: Tuki Rules PDF](https://cdn.svc.asmodee.net/production-nextmove/uploads/sites/4/2024/06/EN-Tuki-Rules_2019-03-13_compressed.pdf).

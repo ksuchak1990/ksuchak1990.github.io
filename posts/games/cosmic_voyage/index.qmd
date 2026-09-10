@@ -8,14 +8,62 @@ description: "Explore, fight and overcome the odds in the deepest regions of
 uncharted space! "
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Work together as the crew of a stranded spacecraft. Explore the Discovery Zone, survive cosmic hazards, complete missions, and get the ship home.
 
-## Rounds
+### A cooperative voyage
+
+* Everyone wins or loses together.
+* Each crew member brings a different ability to the team.
+* Dice, events, and the changing Discovery Zone make plans uncertain.
+* Missions move the crew closer to home.
+
+## Setting up: How to get started?
+
+Choose crew members, then prepare the ship and player areas, dice, Discovery Zone, missions, events, and threat components as directed by the rulebook.
+
+### Table checklist
+
+1. Choose the required number of crew members for the player count.
+2. Prepare the ship, its progress components, and the shared dice.
+3. Build the initial Discovery Zone exactly as illustrated.
+4. Shuffle and place mission, event, and other encounter components.
+5. Put each crew member's ability reference where everyone can read it.
+6. For solo play, use the Captain, probes, tactics, and experience rules.
+
+## Rounds and Phases
+
+Players coordinate crew abilities and dice to explore, resolve discoveries and events, tackle threats, and advance toward home. The group decides how to allocate actions and resources, so communication is central to play.
+
+### Teaching a crew turn
+
+1. Discuss the immediate threat and the mission most likely to advance the ship.
+2. Use the active crew member's ability and available dice as allowed.
+3. Explore or resolve the chosen Discovery Zone opportunity.
+4. Resolve any resulting Cosmic Event, hazard, or enemy effect.
+5. Apply mission progress and any return-home progress immediately.
+
+### Hazards and planning
+
+Solar storms, black holes, asteroid fields, and wormholes can change the best route. Keep enough flexibility to respond to an event rather than committing every die to one task.
 
 ## Scoring
 
+This is cooperative rather than point-based. The group wins by reaching home and loses if it meets the rulebook's failure condition.
+
+### Solo variant
+
+The solo Captain uses probes and tactics. Experience can be spent to swap those ongoing benefits, so review that special procedure before starting a solo game.
+
 ## Terminology
 
+* **Crew member:** A character with a unique ability.
+* **Discovery Zone:** The changing area of space explored by the crew.
+* **Cosmic Event:** A hazard or complication encountered during the voyage.
+* **Mission:** A task that helps the ship progress.
+* **Experience:** A resource used by the solo Captain variant.
 
+## Official rules
+
+[Cosmic Voyage official rulebook](https://boardgamegeek.com/filepage/220505/cosmic-voyage-rulebook-revision-10)
