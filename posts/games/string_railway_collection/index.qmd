@@ -7,14 +7,50 @@ description: "Build a railway out of string!"
 image: "https://cf.geekdo-images.com/gIGUVamUAZLE-f_sKPeNPw__itemrep/img/EHOZ2kiNHWRM-YlKErPyN1ZY68c=/fit-in/246x300/filters:strip_icc()/pic7565075.png"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Build railway routes with string. The collection turns a physical route-building idea into several compact railway games.
 
-## Rounds
+### Before teaching
+
+Treat this as an introduction, not a substitute for the rules in the box. The collection may contain different games with different objectives.
+
+## Setting up: How to get started?
+
+A verified official rulebook was unavailable when this page was prepared, so use the rulebook included with the edition being played for setup.
+
+### Table check
+
+Identify the specific game in the collection first. Keep its cards, boards, string, and any scoring material separate from the other games.
+
+## Rounds and Phases
+
+A verified official rulebook was unavailable. Do not rely on this page for turn order or route-placement rules.
+
+### Safe teaching prompt
+
+Ask one player to read the game's objective and a sample turn from the physical rulebook before the first placement.
 
 ## Scoring
 
+A verified official rulebook was unavailable. Check the edition's rulebook for its end condition and scoring.
+
+### Do not infer across games
+
+A route rule or point value in one collection game need not apply to another.
+
 ## Terminology
 
+**Route**: a railway connection represented with string. Exact game-specific terms vary across the collection.
 
+### Edition-specific language
+
+Use the terms printed in the rulebook for the game actually on the table.
+
+## Official rules
+
+No verified publisher-hosted rulebook, PDF, or rulings source was located. This page is intentionally only an introduction.
+
+### Limitation
+
+Without a verified source, this page deliberately gives no player count, setup count, action sequence, exception, or scoring procedure.

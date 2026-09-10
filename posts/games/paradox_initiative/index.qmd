@@ -7,14 +7,50 @@ image: "https://cf.geekdo-images.com/mfep0cn3D0Nq7UpLpaUQyQ__itemrep/img/avxjTvS
 description: "Mad scientists steal strands of spacetime by tile-matching their paradox particles."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Rival paradox laboratories manipulate the building blocks of reality while competing for the most successful experiments.
 
-## Rounds
+### What is known
+
+The published description identifies card drafting, set collection, resource management, and a personal match-three-style particle grid. It does not provide enough verified detail to teach their interaction safely.
+
+## Setting up: How to get started?
+
+A verified official rulebook was unavailable when this page was prepared. Use the boxed rulebook for the player-board, card, and resource setup.
+
+### Teach from the box
+
+Set out only the components named by the physical rulebook. In particular, do not assume a grid size, starting hand, market display, or resource quantity from an edition photograph.
+
+## Rounds and Phases
+
+A verified official rulebook was unavailable. The game is known to combine card drafting, set collection, resource management, and a personal particle grid, but this page does not prescribe their order of play.
+
+### Avoid a common mistake
+
+Do not assume that every particle match produces the same result. Confirm the match resolution and any chain reactions in the boxed rules.
 
 ## Scoring
 
+A verified official rulebook was unavailable. Consult the boxed rulebook for end-game timing, point sources, and ties.
+
+### End-game check
+
+Before play, find the end-game trigger and tie-break rule in the physical rulebook so that the final round is handled consistently.
+
 ## Terminology
 
+**Paradox particles**: the pieces manipulated in a player's personal grid. **Paradox lab**: a player's competing laboratory.
 
+### Other likely components
+
+Cards and resources are part of the game's published description, but their names and effects should be taken from the edition being played.
+
+## Official rules
+
+No verified publisher-hosted rulebook, PDF, or rulings source was located. Do not use this page as a procedural rules reference.
+
+### Limitation
+
+This page intentionally does not provide setup quantities, a turn order, particle-resolution rules, scoring values, or variants.

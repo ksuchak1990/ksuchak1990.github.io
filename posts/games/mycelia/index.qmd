@@ -8,14 +8,32 @@ description: "Creation, expansion, death & rebirth - Build your own Fungi
 Kingdom."
 ---
 
-## Theming
+## Theming: What's the point?
+Build a fungi kingdom through the life cycle of creation, expansion, death, and rebirth. The published premise describes growing mushrooms, expanding a mycelial network through spores, and competing for space and resources.
 
-## Setting up
+### Players and scope
 
-## Rounds
+The published product description identifies it as a 1-4 player game. No verified official rules source was available to confirm player-count setup changes or variant procedures.
+
+## Setting up: How to get started?
+No verified official rulebook was available during research, so this page cannot safely describe setup steps.
+
+### What can be stated safely
+
+The premise concerns a fungi kingdom, mushrooms, mycelial expansion, space, and resources. Consult the physical rulebook before setting out components.
+
+## Rounds and Phases
+No verified official rulebook was available during research, so this page cannot safely describe turn structure or procedures.
+
+### Why this is intentionally limited
+
+Retailer descriptions do not establish action order, restrictions, timing, or exceptions. Those details are omitted rather than guessed.
 
 ## Scoring
+The high-level premise states that mushrooms are grown to score points, but the official scoring procedure could not be verified.
 
 ## Terminology
+**Mycelium** is the fungal network. **Mushrooms** are grown within that network. **Sporing** is described as expanding it. Precise game meanings require the physical rulebook.
 
-
+## Official rules
+No verified official rulebook, publisher rules page, or stable official game URL was available during research. Do not rely on retailer listings for procedural rules.

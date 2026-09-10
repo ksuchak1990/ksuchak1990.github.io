@@ -7,14 +7,64 @@ image: "https://cf.geekdo-images.com/bknTHvLMqPTC4GxsMkYvAA__itemrep/img/0f3WcGG
 description: "A new generation of Marvel superheroes joins Unmatched!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Unmatched is a tactical duel: move fighters around a battlefield and use a character's unique deck to defeat opposing heroes.
 
-## Rounds
+### Source limitation
+
+This teaches covers the general Unmatched system only. A current official Teen Spirit rulebook was not available online during research, so use the physical rulebook for its exact fighter roster, setup diagram, sidekick rules, and card-specific exceptions.
+
+## Setting up: How to get started?
+
+### General system setup
+
+1. Follow the Teen Spirit rulebook to choose fighters and the battlefield.
+2. Give each player their fighter deck, health dial, character card, and figures.
+3. Set every hero's health to its character-card maximum.
+4. Shuffle each player's deck and draw the starting hand specified by the physical rules.
+5. Place fighters in the indicated starting spaces and choose the first player as the box instructs.
+
+Do not substitute another Unmatched set's starting spaces or character powers: they may not match this product.
+
+## Rounds and Phases
+
+### Take two actions
+
+On your turn, take any two actions, including the same action twice unless a rule says otherwise:
+
+1. **Maneuver:** draw one card, then move one of your fighters up to its move value. You may boost by discarding a card and adding its boost value.
+2. **Scheme:** play a Scheme card from hand, pay any printed requirement, resolve it, then discard it.
+3. **Attack:** choose one of your fighters and an eligible opposing fighter, then begin combat.
+
+### Resolve combat
+
+1. Confirm range: melee fighters attack adjacent opponents; ranged fighters attack within their zone.
+2. Attacker and defender each choose one combat card face-down. The defender may be unable to defend if they have no cards.
+3. Reveal together, resolve card effects in the rulebook's timing order, then compare attack and defence values.
+4. Defender loses health equal to any remaining damage. Discard used combat cards unless an effect says otherwise.
+
+Cards can move fighters, cancel damage, or trigger after combat. Follow their timing text over this overview. When a deck runs out, a player may still take actions but has no cards to draw or use.
 
 ## Scoring
 
+### End of the game
+
+There is no points total. When a hero reaches 0 health, that hero is defeated. The last player whose hero remains in the game wins. Consult the physical Teen Spirit rules if its multiplayer mode has a different team or elimination condition.
+
 ## Terminology
 
+### Key terms
 
+- **Hero:** a player's main fighter.
+- **Sidekick:** an allied fighter controlled with the hero.
+- **Maneuver:** draw one card, then move.
+- **Scheme:** play and resolve a Scheme card.
+- **Attack:** combat between an attacker and defender.
+- **Boost:** discard a card for its boost value while maneuvering, unless a card says otherwise.
+- **Zone:** a connected group of spaces on the battlefield.
+- **Adjacent:** spaces linked by a line.
+
+## Official rules
+
+No title-specific official online rules source was available during research. The general system source is [Restoration Games' Unmatched collection](https://restorationgames.com/unmatched/).

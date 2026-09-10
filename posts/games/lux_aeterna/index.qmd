@@ -8,14 +8,50 @@ description: "Race against time to repair your spaceship before you are sucked
 into a black hole."
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Race against time to repair a failing spaceship before it is consumed by a black hole.
 
-## Rounds
+### Solo pressure
+
+The theme is a real-time emergency: decisions must be made before time runs out, not after a leisurely optimisation.
+
+## Setting up: How to get started?
+
+A verified official rulebook was unavailable when this page was prepared. Follow the physical rulebook for system, card, and timer setup.
+
+### Prepare before starting the timer
+
+Read and arrange every component required by the physical rulebook before time begins. Do not start a real-time game while still interpreting setup.
+
+## Rounds and Phases
+
+A verified official rulebook was unavailable. This is a real-time solo game, but this page does not specify the order in which systems are repaired or cards are resolved.
+
+### Rules question protocol
+
+Agree before the timer starts how to handle a rules question: pause only if the physical rulebook permits it, otherwise make the fastest reasonable reading and continue.
 
 ## Scoring
 
+The central outcome is whether the ship is repaired before the timer expires. Consult the physical rulebook for its exact win, loss, and any performance conditions.
+
+### Do not add a score
+
+No verified source supports an additional score or ranking procedure here.
+
 ## Terminology
 
+**Systems**: parts of the ship requiring repair. **Timer**: the real-time pressure. **Black hole**: the impending failure represented by the timer.
 
+### Repair
+
+Use the physical rulebook's definition of a completed repair; visual intuition is not a rules test.
+
+## Official rules
+
+No verified live publisher-hosted rulebook, PDF, or rulings source was located. Do not use this page as a complete rules reference.
+
+### Limitation
+
+This page intentionally provides no component list, timer length, action sequence, variant, or detailed success condition.

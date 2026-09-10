@@ -7,14 +7,50 @@ image: "https://cf.geekdo-images.com/UEUQaGo6wDuCCsmPp5uVLQ__itemrep/img/XdFA5FN
 description: "Hackers work to destroy the AI systems sent to replace them"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+Hackers fight the AI systems sent to replace them in a campaign-style roll-and-write story.
 
-## Rounds
+### Source limit
+
+This high-level premise is not enough to reconstruct a campaign. Use the physical game as the authority for all play decisions.
+
+## Setting up: How to get started?
+
+A verified official rulebook was unavailable when this page was prepared. Use the game's physical materials for campaign and scenario setup.
+
+### Keep a campaign record
+
+Record only the progress the physical game tells you to carry forward. Do not assume that every scenario uses the same sheet or starting state.
+
+## Rounds and Phases
+
+A verified official rulebook was unavailable. Do not rely on this page for the sequence of rolls, choices, or story progression.
+
+### Scenario first
+
+Read the current scenario's objective and any special rules before making a roll or marking a sheet.
 
 ## Scoring
 
+A verified official rulebook was unavailable. Check the campaign rules for its objectives, success conditions, and any scoring.
+
+### Outcome
+
+Campaign success may be scenario-specific; do not treat a generic point total as a verified win condition.
+
 ## Terminology
 
+**Automata**: AI systems targeted by the hackers. **Campaign**: connected play progressing through the graphic-novel story.
 
+### Roll-and-write
+
+This describes recording outcomes on a sheet, but the verified source does not establish which dice, tracks, or symbols are used.
+
+## Official rules
+
+No verified publisher-hosted rulebook, PDF, rulings page, or creator campaign was located. This page deliberately avoids procedural guidance.
+
+### Limitation
+
+No player variants, setup instructions, action order, exceptions, or scoring rules are supplied here.

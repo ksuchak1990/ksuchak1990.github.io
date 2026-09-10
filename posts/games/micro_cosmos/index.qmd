@@ -8,14 +8,32 @@ description: "Rebuild the galaxy after a great war and help its inhabitants find
 new homes."
 ---
 
-## Theming
+## Theming: What's the point?
+After a great war, commanders of Interplanetary Terraforming Arks help rebuild worlds and find new homes for scattered populations.
 
-## Setting up
+### Players and scope
 
-## Rounds
+The published game is presented as a competitive game about restoring worlds, but no verified official rulebook was available to confirm player counts, setup variants, or solo rules.
+
+## Setting up: How to get started?
+No verified official rulebook was available during research, so this page cannot safely describe setup steps.
+
+### Verified premise only
+
+The available description identifies Interplanetary Terraforming Arks, damaged worlds, terraforming, and displaced inhabitants. Consult the physical rulebook before preparing components.
+
+## Rounds and Phases
+No verified official rulebook was available during research, so this page cannot safely describe turn structure or procedures.
+
+### Why this is intentionally limited
+
+Third-party rules hosting does not establish a publisher-approved procedure. Action order, costs, and exceptions are omitted rather than inferred.
 
 ## Scoring
+The high-level premise concerns terraforming worlds and resettling inhabitants, but the official end trigger and scoring rules could not be verified.
 
 ## Terminology
+An **ITA** is an Interplanetary Terraforming Ark. **Terraforming** restores a planet for settlement. Precise resource, action, and scoring terms require the physical rulebook.
 
-
+## Official rules
+No verified publisher-hosted rulebook or rules page was available during research. A Tabletopia rules page exists, but it is not treated here as an official publisher source.

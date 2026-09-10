@@ -8,14 +8,50 @@ description: "Gather resources, capture the city, and expose the hidden
 Invaders!"
 ---
 
-## Theming
+## Theming: What's the point?
 
-## Setting up
+In John Carpenter's *They Live*, players attempt either to save the city or secretly help Invaders enslave it.
 
-## Rounds
+### The social contract
+
+The campaign describes asymmetrical strategy, teamwork, and deceit. Keep private information private unless a card or final rulebook tells you to reveal it.
+
+## Setting up: How to get started?
+
+A verified official rulebook was unavailable when this page was prepared. Use the boxed rulebook to prepare roles, cards, and city resources.
+
+### Do not assign roles from memory
+
+Role counts and any hidden-information procedure are core balance rules. Follow the player-count table in the physical rulebook.
+
+## Rounds and Phases
+
+A verified official rulebook was unavailable. The official campaign describes an asymmetrical game of strategy, teamwork, deceit, resource gathering, city capture, and exposing hidden Invaders, but it does not establish a final turn procedure here.
+
+### Avoid invented social-deduction rules
+
+Do not add discussion limits, voting rules, night phases, or public accusations unless the final rules explicitly provide them.
 
 ## Scoring
 
+Consult the boxed rulebook for the human and Invader victory conditions. This is not presented as a conventional points game.
+
+### Endgame reminder
+
+Confirm whether the final rules require an immediate check after a city or exposure event.
+
 ## Terminology
 
+**Humans**: players trying to save the city. **Invaders**: hidden opponents trying to enslave it. **Exposure**: identifying hidden Invaders. **City capture**: the conflict's central objective.
 
+### Resources
+
+The official campaign confirms resources are gathered, but the final rulebook defines their types and use.
+
+## Official rules
+
+The verified official source is the [creator Kickstarter campaign](https://www.kickstarter.com/projects/1708218446/they-live-the-card-game-save-the-city-enslave-the-city). No verified final public rulebook or rulings source was located.
+
+### Limitation
+
+This page intentionally does not give roles, setup counts, turns, card timing, victory thresholds, or variants.
