@@ -189,6 +189,21 @@ h3.cv-education::before {
     background: var(--color-education);
 }
 
+.career-stage h3::before {
+    background: var(--color-work);
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 0.65rem;
+    margin-right: var(--space-1);
+    vertical-align: 0.08em;
+    width: 0.65rem;
+}
+
+.career-stage.cv-education h3::before { background: var(--color-education); }
+.career-stage.cv-fellowship h3::before { background: #6e4fa3; }
+.career-stage.cv-appointment h3::before { background: #167a6e; }
+
 @media (max-width: 575px) {
     .content {
         font-size: 1rem;

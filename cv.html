@@ -73,30 +73,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-
- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
- <style>
-		#map {
-			height: 600px;
-			width: 100%;
-		}
-
-        .map-marker {
-            border: 3px solid var(--color-surface);
-            border-radius: 50%;
-            box-shadow: var(--shadow-marker);
-        }
-
-        .map-marker-work {
-            background: var(--color-work);
-        }
-
-        .map-marker-education {
-            background: var(--color-education);
-        }
-	</style>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.20.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="career-atlas.css">
+<script defer="" src="https://unpkg.com/maplibre-gl@5.20.0/dist/maplibre-gl.js"></script>
+<script defer="" src="career-stages.js"></script>
+<script defer="" src="career-atlas.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -150,36 +131,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#current-role" id="toc-current-role" class="nav-link active" data-scroll-target="#current-role">Current Role</a>
-  <ul class="collapse">
-  <li><a href="#present-research-fellow-in-mobility-data-science" id="toc-present-research-fellow-in-mobility-data-science" class="nav-link" data-scroll-target="#present-research-fellow-in-mobility-data-science">2024 - Present: Research Fellow in Mobility Data Science</a></li>
-  </ul></li>
-  <li><a href="#previous-experience" id="toc-previous-experience" class="nav-link" data-scroll-target="#previous-experience">Previous Experience</a>
-  <ul class="collapse">
-  <li><a href="#research-fellow-in-simulating-urban-systems" id="toc-research-fellow-in-simulating-urban-systems" class="nav-link" data-scroll-target="#research-fellow-in-simulating-urban-systems">2023: Research Fellow in Simulating Urban Systems</a></li>
-  <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link" data-scroll-target="#principal-investigator">2022 - 2023: Principal Investigator</a></li>
-  <li><a href="#research-fellow-in-transport-health-interactions" id="toc-research-fellow-in-transport-health-interactions" class="nav-link" data-scroll-target="#research-fellow-in-transport-health-interactions">2021 - 2023: Research Fellow in Transport-Health Interactions</a></li>
-  <li><a href="#data-science-fellow" id="toc-data-science-fellow" class="nav-link" data-scroll-target="#data-science-fellow">2020: Data Science Fellow</a></li>
-  <li><a href="#cdt-data-analytics-and-society" id="toc-cdt-data-analytics-and-society" class="nav-link" data-scroll-target="#cdt-data-analytics-and-society">2017 - 2022: CDT Data Analytics and Society</a></li>
-  <li><a href="#software-developer-analyst" id="toc-software-developer-analyst" class="nav-link" data-scroll-target="#software-developer-analyst">2016 - 2017: Software Developer / Analyst</a></li>
-  <li><a href="#msc-mathematics" id="toc-msc-mathematics" class="nav-link" data-scroll-target="#msc-mathematics">2015 - 2016: MSc Mathematics</a></li>
-  <li><a href="#aviation-observations-placement-student" id="toc-aviation-observations-placement-student" class="nav-link" data-scroll-target="#aviation-observations-placement-student">2015: Aviation Observations Placement Student</a></li>
-  <li><a href="#msc-aerospace-dynamics" id="toc-msc-aerospace-dynamics" class="nav-link" data-scroll-target="#msc-aerospace-dynamics">2013 - 2014: MSc Aerospace Dynamics</a></li>
-  <li><a href="#bsc-physics" id="toc-bsc-physics" class="nav-link" data-scroll-target="#bsc-physics">2010 - 2013: BSc Physics</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -188,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -200,14 +157,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>This atlas follows my education, fellowships and research appointments in reverse chronological order. Lines describe the sequence of career stages, rather than travel routes; overlapping appointments remain separate stages.</p>
 <section id="current-role" class="level2">
-<h2 class="anchored" data-anchor-id="current-role">Current Role</h2>
-<section id="present-research-fellow-in-mobility-data-science" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="present-research-fellow-in-mobility-data-science">2024 - Present: Research Fellow in Mobility Data Science</h3>
+<h2 class="anchored" data-anchor-id="current-role">Current role</h2>
+<div class="career-atlas">
+<div class="career-atlas__map-column" aria-label="Career trajectory map">
+<div class="career-atlas__status" aria-live="polite">
+<span class="career-atlas__marker"></span>
+<div class="career-atlas__context">
+<p><span class="career-atlas__date"></span> <span class="career-atlas__role"></span></p>
+</div>
+</div>
+<div class="career-atlas__timeline" aria-label="Active career stage">
+
+</div>
+<div class="career-atlas__map-frame">
+<div class="career-atlas__map" role="img" aria-label="Interactive map showing a reverse-chronological career trajectory across UK locations">
+
+</div>
+<p class="career-atlas__map-note">
+Select a numbered marker to move to its full CV entry.
+</p>
+</div>
+</div>
+<div class="career-atlas__stages">
+<section id="present-research-fellow-in-mobility-data-science" class="level3 career-stage cv-entry cv-work" data-stage-index="10">
+<h3 class="anchored" data-anchor-id="present-research-fellow-in-mobility-data-science">2024 - Present: Research Fellow in Mobility Data Science</h3>
 <blockquote class="blockquote">
 <p>School of Geography, University of Leeds</p>
 </blockquote>
-<p><strong><em>Projects: AMR-Hub</em></strong></p>
+<p><em>Projects: AMR-Hub</em></p>
 <ul>
 <li>Undertaking analyses of large-scale mobility and trajectory data.</li>
 <li>Developing exploratory and predictive models of mobility behaviour.</li>
@@ -215,143 +194,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Developing and maintaining collaborations within and beyond the research group.</li>
 </ul>
 </section>
-</section>
-<section id="previous-experience" class="level2">
-<h2 class="anchored" data-anchor-id="previous-experience">Previous Experience</h2>
- <details class="map-locations">
-  <summary>Career locations represented on the map</summary>
-  <p><strong>Work:</strong></p>
-  <ul>
-   <li>School of Geography, University of Leeds: Research Fellow in Mobility Data Science and Research Fellow in Simulating Urban Systems.</li>
-   <li>Institute for Transport Studies, University of Leeds: Research Fellow in Transport-Health Interactions.</li>
-   <li>Alan Turing Institute, London: Principal Investigator for the Sustrans Challenge.</li>
-   <li>Buckinghamshire County Council: Data Science Fellow with Connected Places Catapult.</li>
-   <li>Ampere Analysis, London: Software Developer / Analyst.</li>
-   <li>Met Office, Exeter: Aviation Observations Placement Student.</li>
-  </ul>
-  <p><strong>Education:</strong></p>
-  <ul>
-   <li>Imperial College London: BSc Physics.</li>
-   <li>Cranfield University: MSc Aerospace Dynamics.</li>
-   <li>University of Leeds: MSc Mathematics and CDT Data Analytics and Society.</li>
-  </ul>
- </details>
- <div id="map" role="region" aria-label="Interactive map of career locations. A text list of these locations appears above."></div>
- <script>
-    // Set up map
-    // Initialize the map and set its view to focus on the UK (latitude, longitude) with a suitable zoom level
-    const map = L.map('map').setView([52.5, -2.0], 7);  // Centre the map over the UK
-
-    // Use OpenStreetMap's standard raster tiles.
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 19
-    }).addTo(map);
-
-    // CSS markers avoid additional third-party image requests.
-    const workIcon = L.divIcon({
-        className: 'map-marker map-marker-work',
-        iconSize: [18, 18],
-        iconAnchor: [9, 9],
-        popupAnchor: [0, -9]
-    });
-
-    const educationIcon = L.divIcon({
-        className: 'map-marker map-marker-education',
-        iconSize: [18, 18],
-        iconAnchor: [9, 9],
-        popupAnchor: [0, -9]
-    });
-
-    // Functions
-    // Adding an individual location to the map
-    function addLocation(location, iconType){
-        var marker = L.marker([location[1], location[2]], {icon: iconType}).addTo(map);
-        marker.bindPopup(location[0]);
-    }
-    
-    // Add a collection of maps
-    function addLocations(locations, iconType){
-        for (var i = 0; i < locations.length; i++) {
-            addLocation(locations[i], iconType);
-        }
-    }
-
-    // Define main locations
-    var study_locations = [
-        ["<b>BSc Physics</b><br>Department of Physics<br>Imperial College London", 51.499524, -0.179225],
-        ["<b>MSc Aerospace Dynamics</b><br>Department of Aerospace Engineering<br>Cranfield University", 52.071858, -0.627679],
-        ["<b>MSc Mathematics</b><br>School of Mathematics<br>University of Leeds", 53.805682, -1.554612],
-        ["<b>CDT Data Analytics and Society</b><br>LIDA<br>University of Leeds", 53.803272, -1.555669]
-    ];
-
-    var work_locations = [
-        ["<b>Research Fellow - Mobility Data Science<br>Research Fellow - Simulating Urban Systems</b><br>School of Geography<br>University of Leeds", 53.804666, -1.555481],
-        ["<b>Research Fellow - Transport-Health Interactions</b><br>Institute for Transport Studies<br>University of Leeds", 53.808052, -1.558518],
-        ["<b>Principal Investigator - Sustrans Challenge</b><br>Alan Turing Institute<br>", 51.530213, -0.126976],
-        ["<b>Data Science Fellow - Connected Place Catapult</b><br>Buckinghamshire County Council", 51.814784, -0.811689],
-        ["<b>Software Developer / Analyst</b><br>Ampere Analysis", 51.529102, -0.077912],
-        ["<b>Aviation Observations Placement</b><br>Met Office", 50.727282, -3.474336]
-    ];
-
-    // Add both types of locations to map
-    addLocations(work_locations, workIcon);
-    addLocations(study_locations, educationIcon);
-
-    // Add a custom legend control to the map
-    var legend = L.control({ position: 'topright' });
-
-    legend.onAdd = function (map) {
-        var div = L.DomUtil.create('div', 'info legend');
-        div.innerHTML += '<i class="map-marker-work"></i> Work<br>';
-        div.innerHTML += '<i class="map-marker-education"></i> Education<br>';
-    return div;
-    };
-
-    legend.addTo(map);
-
- </script>
-
- <style>
-  /* Legend styling */
-  .legend {
-    background-color: var(--color-surface);
-    padding: 10px;
-    font-size: 12px;
-    line-height: 18px;
-    color: var(--color-ink);
-  }
-
-  .legend i {
-    width: 14px;
-    height: 14px;
-    border: 2px solid var(--color-surface);
-    border-radius: 50%;
-    box-shadow: var(--shadow-marker);
-    float: left;
-    margin-right: 8px;
-    opacity: 1.0;
-  }
-</style>
-
-
-<section id="research-fellow-in-simulating-urban-systems" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="research-fellow-in-simulating-urban-systems">2023: Research Fellow in Simulating Urban Systems</h3>
+<section id="research-fellow-in-simulating-urban-systems" class="level3 career-stage cv-entry cv-work" data-stage-index="9">
+<h3 class="anchored" data-anchor-id="research-fellow-in-simulating-urban-systems">2023: Research Fellow in Simulating Urban Systems</h3>
 <blockquote class="blockquote">
 <p>School of Geography, University of Leeds</p>
 </blockquote>
-<p><strong><em>Projects: DUST</em></strong></p>
+<p><em>Projects: DUST</em></p>
 <ul>
 <li>Disseminating cutting-edge research on the development of method for the real-time simulation of urban systems.</li>
 <li>Developing a series of unit tests to verify reliable behaviour of agent-based models and data assimilation methods.</li>
 </ul>
 </section>
-<section id="principal-investigator" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="principal-investigator">2022 - 2023: Principal Investigator</h3>
+<section id="principal-investigator" class="level3 career-stage cv-entry cv-appointment" data-stage-index="8">
+<h3 class="anchored" data-anchor-id="principal-investigator">2022 - 2023: Principal Investigator</h3>
 <blockquote class="blockquote">
 <p>Sustrans / Alan Turing Institute</p>
 </blockquote>
-<p><strong><em>Data Study Group Project: Towards Equitable Walking and Cycling Infrastructure for All</em></strong></p>
+<p><em>Data Study Group Project: Towards Equitable Walking and Cycling Infrastructure for All</em></p>
 <ul>
 <li>Working with challenge owners to formulate academic questions based on industrial challenges.</li>
 <li>Scoping challenge feasibility, assessing ethical implications and project sensitivity.</li>
@@ -359,12 +218,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Monitoring and finalising the production of reports for publication.</li>
 </ul>
 </section>
-<section id="research-fellow-in-transport-health-interactions" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="research-fellow-in-transport-health-interactions">2021 - 2023: Research Fellow in Transport-Health Interactions</h3>
+<section id="research-fellow-in-transport-health-interactions" class="level3 career-stage cv-entry cv-work" data-stage-index="7">
+<h3 class="anchored" data-anchor-id="research-fellow-in-transport-health-interactions">2021 - 2023: Research Fellow in Transport-Health Interactions</h3>
 <blockquote class="blockquote">
 <p>Institute for Transport Studies, University of Leeds</p>
 </blockquote>
-<p><strong><em>Projects: KARMA, TRACK</em></strong></p>
+<p><em>Projects: KARMA, TRACK</em></p>
 <ul>
 <li>Developing agent-based models of commuter behaviour and mode shift.</li>
 <li>Developing a framework for interfacing between different modelling paradigms, focussing on data flows between spatial micro-simulation models, agent-based models and system dynamics models.</li>
@@ -373,12 +232,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Disseminating research group work at workshops.</li>
 </ul>
 </section>
-<section id="data-science-fellow" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="data-science-fellow">2020: Data Science Fellow</h3>
+<section id="data-science-fellow" class="level3 career-stage cv-entry cv-fellowship" data-stage-index="6">
+<h3 class="anchored" data-anchor-id="data-science-fellow">2020: Data Science Fellow</h3>
 <blockquote class="blockquote">
 <p>Buckinghamshire County Council / Connected Places Catapult</p>
 </blockquote>
-<p><strong><em>Fellowship Project: Mapping and Modelling Social Isolation</em></strong></p>
+<p><em>Fellowship Project: Mapping and Modelling Social Isolation</em></p>
 <ul>
 <li>Developing a method for modelling all-age social isolation across Buckinghamshire using Geographically Weighted Regression.</li>
 <li>Critically appraising the existing research from both academia and government.</li>
@@ -387,8 +246,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Managing stakeholder relationships and running stakeholder engagement events in conjunction with the Connected Places Catapult.</li>
 </ul>
 </section>
-<section id="cdt-data-analytics-and-society" class="level3 cv-entry cv-education">
-<h3 class="cv-entry cv-education anchored" data-anchor-id="cdt-data-analytics-and-society">2017 - 2022: CDT Data Analytics and Society</h3>
+<section id="cdt-data-analytics-and-society" class="level3 career-stage cv-entry cv-education" data-stage-index="5">
+<h3 class="anchored" data-anchor-id="cdt-data-analytics-and-society">2017 - 2022: CDT Data Analytics and Society</h3>
 <blockquote class="blockquote">
 <p>Leeds Institute for Data Analytics, University of Leeds</p>
 </blockquote>
@@ -398,8 +257,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Internship project: Footfall at Kirkgate Market with Leeds City Council</li>
 </ul>
 </section>
-<section id="software-developer-analyst" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="software-developer-analyst">2016 - 2017: Software Developer / Analyst</h3>
+<section id="software-developer-analyst" class="level3 career-stage cv-entry cv-work" data-stage-index="4">
+<h3 class="anchored" data-anchor-id="software-developer-analyst">2016 - 2017: Software Developer / Analyst</h3>
 <blockquote class="blockquote">
 <p>Ampere Analysis</p>
 </blockquote>
@@ -409,8 +268,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Supporting the wider team’s bespoke consulting work for high-profile film, TV and technology firms.</li>
 </ul>
 </section>
-<section id="msc-mathematics" class="level3 cv-entry cv-education">
-<h3 class="cv-entry cv-education anchored" data-anchor-id="msc-mathematics">2015 - 2016: MSc Mathematics</h3>
+<section id="msc-mathematics" class="level3 career-stage cv-entry cv-education" data-stage-index="3">
+<h3 class="anchored" data-anchor-id="msc-mathematics">2015 - 2016: MSc Mathematics</h3>
 <blockquote class="blockquote">
 <p>School of Mathematics, University of Leeds</p>
 </blockquote>
@@ -418,8 +277,8 @@ ul.task-list li input[type="checkbox"] {
 <li>MSc Project: Dynamics on Networks</li>
 </ul>
 </section>
-<section id="aviation-observations-placement-student" class="level3 cv-entry cv-work">
-<h3 class="cv-entry cv-work anchored" data-anchor-id="aviation-observations-placement-student">2015: Aviation Observations Placement Student</h3>
+<section id="aviation-observations-placement-student" class="level3 career-stage cv-entry cv-work" data-stage-index="2">
+<h3 class="anchored" data-anchor-id="aviation-observations-placement-student">2015: Aviation Observations Placement Student</h3>
 <blockquote class="blockquote">
 <p>Met Office</p>
 </blockquote>
@@ -428,8 +287,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Analysing large multivariate datasets using R.</li>
 </ul>
 </section>
-<section id="msc-aerospace-dynamics" class="level3 cv-entry cv-education">
-<h3 class="cv-entry cv-education anchored" data-anchor-id="msc-aerospace-dynamics">2013 - 2014: MSc Aerospace Dynamics</h3>
+<section id="msc-aerospace-dynamics" class="level3 career-stage cv-entry cv-education" data-stage-index="1">
+<h3 class="anchored" data-anchor-id="msc-aerospace-dynamics">2013 - 2014: MSc Aerospace Dynamics</h3>
 <blockquote class="blockquote">
 <p>Department of Aerospace Engineering, Cranfield University</p>
 </blockquote>
@@ -437,17 +296,19 @@ ul.task-list li input[type="checkbox"] {
 <li>MSc Project: Turbulent to Laminar Relaminarisation</li>
 </ul>
 </section>
-<section id="bsc-physics" class="level3 cv-entry cv-education">
-<h3 class="cv-entry cv-education anchored" data-anchor-id="bsc-physics">2010 - 2013: BSc Physics</h3>
+<section id="bsc-physics" class="level3 career-stage cv-entry cv-education" data-stage-index="0">
+<h3 class="anchored" data-anchor-id="bsc-physics">2010 - 2013: BSc Physics</h3>
 <blockquote class="blockquote">
 <p>Department of Physics, Imperial College London</p>
 </blockquote>
 <ul>
 <li>BSc Project: Membrane Stresses in the Earth</li>
 </ul>
-
-
 </section>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
