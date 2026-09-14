@@ -1,242 +1,149 @@
 ---
 title: "CV"
+page-layout: full
+toc: false
 include-in-header: ./mapping_header.html
 ---
 
-## Current Role
+This atlas follows my education, fellowships and research appointments in reverse chronological order. Lines describe the sequence of career stages, rather than travel routes; overlapping appointments remain separate stages.
 
-### 2024 - Present: Research Fellow in Mobility Data Science {.cv-entry .cv-work}
+## Current role
+
+::: {.career-atlas}
+::: {.career-atlas__map-column aria-label="Career trajectory map"}
+::: {.career-atlas__status aria-live="polite"}
+<span class="career-atlas__marker"></span>
+<div class="career-atlas__context">
+<span class="career-atlas__date"></span>
+<span class="career-atlas__role"></span>
+</div>
+:::
+
+<div class="career-atlas__timeline" aria-label="Active career stage"></div>
+
+::: {.career-atlas__map-frame}
+<div class="career-atlas__map" role="img" aria-label="Interactive map showing a reverse-chronological career trajectory across UK locations"></div>
+<p class="career-atlas__map-note">Select a numbered marker to move to its full CV entry.</p>
+:::
+:::
+
+::: {.career-atlas__stages}
+::: {.career-stage .cv-entry .cv-work data-stage-index="10"}
+### 2024 - Present: Research Fellow in Mobility Data Science
 
 > School of Geography, University of Leeds
 
-__*Projects: AMR-Hub*__
+*Projects: AMR-Hub*
 
 * Undertaking analyses of large-scale mobility and trajectory data.
 * Developing exploratory and predictive models of mobility behaviour.
 * Producing data visualisations.
-* Developing and maintaining collaborations within and beyond the research
-  group.
+* Developing and maintaining collaborations within and beyond the research group.
+:::
 
-## Previous Experience
-
-```{=html}
- <details class="map-locations">
-  <summary>Career locations represented on the map</summary>
-  <p><strong>Work:</strong></p>
-  <ul>
-   <li>School of Geography, University of Leeds: Research Fellow in Mobility Data Science and Research Fellow in Simulating Urban Systems.</li>
-   <li>Institute for Transport Studies, University of Leeds: Research Fellow in Transport-Health Interactions.</li>
-   <li>Alan Turing Institute, London: Principal Investigator for the Sustrans Challenge.</li>
-   <li>Buckinghamshire County Council: Data Science Fellow with Connected Places Catapult.</li>
-   <li>Ampere Analysis, London: Software Developer / Analyst.</li>
-   <li>Met Office, Exeter: Aviation Observations Placement Student.</li>
-  </ul>
-  <p><strong>Education:</strong></p>
-  <ul>
-   <li>Imperial College London: BSc Physics.</li>
-   <li>Cranfield University: MSc Aerospace Dynamics.</li>
-   <li>University of Leeds: MSc Mathematics and CDT Data Analytics and Society.</li>
-  </ul>
- </details>
- <div id="map" role="region" aria-label="Interactive map of career locations. A text list of these locations appears above."></div>
- <script>
-    // Set up map
-    // Initialize the map and set its view to focus on the UK (latitude, longitude) with a suitable zoom level
-    const map = L.map('map').setView([52.5, -2.0], 7);  // Centre the map over the UK
-
-    // Use OpenStreetMap's standard raster tiles.
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 19
-    }).addTo(map);
-
-    // CSS markers avoid additional third-party image requests.
-    const workIcon = L.divIcon({
-        className: 'map-marker map-marker-work',
-        iconSize: [18, 18],
-        iconAnchor: [9, 9],
-        popupAnchor: [0, -9]
-    });
-
-    const educationIcon = L.divIcon({
-        className: 'map-marker map-marker-education',
-        iconSize: [18, 18],
-        iconAnchor: [9, 9],
-        popupAnchor: [0, -9]
-    });
-
-    // Functions
-    // Adding an individual location to the map
-    function addLocation(location, iconType){
-        var marker = L.marker([location[1], location[2]], {icon: iconType}).addTo(map);
-        marker.bindPopup(location[0]);
-    }
-    
-    // Add a collection of maps
-    function addLocations(locations, iconType){
-        for (var i = 0; i < locations.length; i++) {
-            addLocation(locations[i], iconType);
-        }
-    }
-
-    // Define main locations
-    var study_locations = [
-        ["<b>BSc Physics</b><br>Department of Physics<br>Imperial College London", 51.499524, -0.179225],
-        ["<b>MSc Aerospace Dynamics</b><br>Department of Aerospace Engineering<br>Cranfield University", 52.071858, -0.627679],
-        ["<b>MSc Mathematics</b><br>School of Mathematics<br>University of Leeds", 53.805682, -1.554612],
-        ["<b>CDT Data Analytics and Society</b><br>LIDA<br>University of Leeds", 53.803272, -1.555669]
-    ];
-
-    var work_locations = [
-        ["<b>Research Fellow - Mobility Data Science<br>Research Fellow - Simulating Urban Systems</b><br>School of Geography<br>University of Leeds", 53.804666, -1.555481],
-        ["<b>Research Fellow - Transport-Health Interactions</b><br>Institute for Transport Studies<br>University of Leeds", 53.808052, -1.558518],
-        ["<b>Principal Investigator - Sustrans Challenge</b><br>Alan Turing Institute<br>", 51.530213, -0.126976],
-        ["<b>Data Science Fellow - Connected Place Catapult</b><br>Buckinghamshire County Council", 51.814784, -0.811689],
-        ["<b>Software Developer / Analyst</b><br>Ampere Analysis", 51.529102, -0.077912],
-        ["<b>Aviation Observations Placement</b><br>Met Office", 50.727282, -3.474336]
-    ];
-
-    // Add both types of locations to map
-    addLocations(work_locations, workIcon);
-    addLocations(study_locations, educationIcon);
-
-    // Add a custom legend control to the map
-    var legend = L.control({ position: 'topright' });
-
-    legend.onAdd = function (map) {
-        var div = L.DomUtil.create('div', 'info legend');
-        div.innerHTML += '<i class="map-marker-work"></i> Work<br>';
-        div.innerHTML += '<i class="map-marker-education"></i> Education<br>';
-    return div;
-    };
-
-    legend.addTo(map);
-
- </script>
-
- <style>
-  /* Legend styling */
-  .legend {
-    background-color: var(--color-surface);
-    padding: 10px;
-    font-size: 12px;
-    line-height: 18px;
-    color: var(--color-ink);
-  }
-
-  .legend i {
-    width: 14px;
-    height: 14px;
-    border: 2px solid var(--color-surface);
-    border-radius: 50%;
-    box-shadow: var(--shadow-marker);
-    float: left;
-    margin-right: 8px;
-    opacity: 1.0;
-  }
-</style>
-
-
-```
-
-### 2023: Research Fellow in Simulating Urban Systems {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-work data-stage-index="9"}
+### 2023: Research Fellow in Simulating Urban Systems
 
 > School of Geography, University of Leeds
 
-__*Projects: DUST*__
+*Projects: DUST*
 
-* Disseminating cutting-edge research on the development of method for the
-  real-time simulation of urban systems.
-* Developing a series of unit tests to verify reliable behaviour of
-  agent-based models and data assimilation methods.
+* Disseminating cutting-edge research on the development of method for the real-time simulation of urban systems.
+* Developing a series of unit tests to verify reliable behaviour of agent-based models and data assimilation methods.
+:::
 
-### 2022 - 2023: Principal Investigator {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-appointment data-stage-index="8"}
+### 2022 - 2023: Principal Investigator
 
 > Sustrans / Alan Turing Institute
 
-__*Data Study Group Project: Towards Equitable Walking and Cycling
-Infrastructure for All*__
+*Data Study Group Project: Towards Equitable Walking and Cycling Infrastructure for All*
 
-* Working with challenge owners to formulate academic questions based on
-  industrial challenges.
-* Scoping challenge feasibility, assessing ethical implications and project
-  sensitivity.
-* Overseeing challenge progress, offering guidance and ensuring scientific
-  integrity.
+* Working with challenge owners to formulate academic questions based on industrial challenges.
+* Scoping challenge feasibility, assessing ethical implications and project sensitivity.
+* Overseeing challenge progress, offering guidance and ensuring scientific integrity.
 * Monitoring and finalising the production of reports for publication.
+:::
 
-### 2021 - 2023: Research Fellow in Transport-Health Interactions {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-work data-stage-index="7"}
+### 2021 - 2023: Research Fellow in Transport-Health Interactions
 
 > Institute for Transport Studies, University of Leeds
 
-__*Projects: KARMA, TRACK*__
+*Projects: KARMA, TRACK*
 
 * Developing agent-based models of commuter behaviour and mode shift.
-* Developing a framework for interfacing between different modelling paradigms,
-  focussing on data flows between spatial micro-simulation models, agent-based
-  models and system dynamics models.
+* Developing a framework for interfacing between different modelling paradigms, focussing on data flows between spatial micro-simulation models, agent-based models and system dynamics models.
 * Developing Python data pipelines for the processing of spatial data.
-* Reviewing literature on the integration of agent-based and system dynamics
-  modelling approaches.
+* Reviewing literature on the integration of agent-based and system dynamics modelling approaches.
 * Disseminating research group work at workshops.
+:::
 
-### 2020: Data Science Fellow {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-fellowship data-stage-index="6"}
+### 2020: Data Science Fellow
 
 > Buckinghamshire County Council / Connected Places Catapult
 
-__*Fellowship Project: Mapping and Modelling Social Isolation*__
+*Fellowship Project: Mapping and Modelling Social Isolation*
 
-* Developing a method for modelling all-age social isolation across
-  Buckinghamshire using Geographically Weighted Regression.
+* Developing a method for modelling all-age social isolation across Buckinghamshire using Geographically Weighted Regression.
 * Critically appraising the existing research from both academia and government.
 * Identifying the required internal and external datasets.
-* Developing dashboards to communicate findings with non-technical stakeholders
-  and colleagues using the Dash framework in Python.
-* Managing stakeholder relationships and running stakeholder engagement events
-  in conjunction with the Connected Places Catapult.
+* Developing dashboards to communicate findings with non-technical stakeholders and colleagues using the Dash framework in Python.
+* Managing stakeholder relationships and running stakeholder engagement events in conjunction with the Connected Places Catapult.
+:::
 
-### 2017 - 2022: CDT Data Analytics and Society {.cv-entry .cv-education}
+::: {.career-stage .cv-entry .cv-education data-stage-index="5"}
+### 2017 - 2022: CDT Data Analytics and Society
 
 > Leeds Institute for Data Analytics, University of Leeds
 
 * PhD Project: Developing Methods for Real-time Pedestrian Simulation
 * MSc Project: Implementing the Ensemble Kalman Filter with an Agent-Based Model
 * Internship project: Footfall at Kirkgate Market with Leeds City Council
+:::
 
-### 2016 - 2017: Software Developer / Analyst {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-work data-stage-index="4"}
+### 2016 - 2017: Software Developer / Analyst
 
 > Ampere Analysis
 
-* Creating mechanisms to obtain and manage large and complex media-sector
-  datasets using Python.
-* Developing innovative solutions to help visualise and solve live business
-  challenges relating to content sales and acquisition, competitive analysis and
-  business planning.
-* Supporting the wider team's bespoke consulting work for high-profile film, TV
-  and technology firms.
+* Creating mechanisms to obtain and manage large and complex media-sector datasets using Python.
+* Developing innovative solutions to help visualise and solve live business challenges relating to content sales and acquisition, competitive analysis and business planning.
+* Supporting the wider team's bespoke consulting work for high-profile film, TV and technology firms.
+:::
 
-### 2015 - 2016: MSc Mathematics {.cv-entry .cv-education}
+::: {.career-stage .cv-entry .cv-education data-stage-index="3"}
+### 2015 - 2016: MSc Mathematics
 
 > School of Mathematics, University of Leeds
 
 * MSc Project: Dynamics on Networks
+:::
 
-### 2015: Aviation Observations Placement Student {.cv-entry .cv-work}
+::: {.career-stage .cv-entry .cv-work data-stage-index="2"}
+### 2015: Aviation Observations Placement Student
 
 > Met Office
 
-* Working alongside observation scientists to answer some of the currently open
-  questions regarding data quality from commercial aircraft.
+* Working alongside observation scientists to answer some of the currently open questions regarding data quality from commercial aircraft.
 * Analysing large multivariate datasets using R.
+:::
 
-### 2013 - 2014: MSc Aerospace Dynamics {.cv-entry .cv-education}
+::: {.career-stage .cv-entry .cv-education data-stage-index="1"}
+### 2013 - 2014: MSc Aerospace Dynamics
 
 > Department of Aerospace Engineering, Cranfield University
 
 * MSc Project: Turbulent to Laminar Relaminarisation
+:::
 
-### 2010 - 2013: BSc Physics {.cv-entry .cv-education}
+::: {.career-stage .cv-entry .cv-education data-stage-index="0"}
+### 2010 - 2013: BSc Physics
 
 > Department of Physics, Imperial College London
 
 * BSc Project: Membrane Stresses in the Earth
+:::
+:::
+:::
