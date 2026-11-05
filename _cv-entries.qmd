@@ -1,0 +1,117 @@
+::: {#leeds-mobility .career-stage .cv-entry .cv-work}
+### 2024 - Present: Research Fellow in Mobility Data Science
+
+> School of Geography, University of Leeds
+
+*Projects: AMR-Hub*
+
+* Undertaking analyses of large-scale mobility and trajectory data.
+* Developing exploratory and predictive models of mobility behaviour.
+* Producing data visualisations.
+* Developing and maintaining collaborations within and beyond the research group.
+:::
+
+::: {#leeds-dust .career-stage .cv-entry .cv-work}
+### 2023: Research Fellow in Simulating Urban Systems
+
+> School of Geography, University of Leeds
+
+*Projects: DUST*
+
+* Disseminating cutting-edge research on the development of method for the real-time simulation of urban systems.
+* Developing a series of unit tests to verify reliable behaviour of agent-based models and data assimilation methods.
+:::
+
+::: {#turing-sustrans .career-stage .cv-entry .cv-appointment}
+### 2022 - 2023: Principal Investigator
+
+> Sustrans / Alan Turing Institute
+
+*Data Study Group Project: Towards Equitable Walking and Cycling Infrastructure for All*
+
+* Working with challenge owners to formulate academic questions based on industrial challenges.
+* Scoping challenge feasibility, assessing ethical implications and project sensitivity.
+* Overseeing challenge progress, offering guidance and ensuring scientific integrity.
+* Monitoring and finalising the production of reports for publication.
+:::
+
+::: {#leeds-transport-health .career-stage .cv-entry .cv-work}
+### 2021 - 2023: Research Fellow in Transport-Health Interactions
+
+> Institute for Transport Studies, University of Leeds
+
+*Projects: KARMA, TRACK*
+
+* Developing agent-based models of commuter behaviour and mode shift.
+* Developing a framework for interfacing between different modelling paradigms, focussing on data flows between spatial micro-simulation models, agent-based models and system dynamics models.
+* Developing Python data pipelines for the processing of spatial data.
+* Reviewing literature on the integration of agent-based and system dynamics modelling approaches.
+* Disseminating research group work at workshops.
+:::
+
+::: {#buckinghamshire-fellowship .career-stage .cv-entry .cv-fellowship}
+### 2020: Data Science Fellow
+
+> Buckinghamshire County Council / Connected Places Catapult
+
+*Fellowship Project: Mapping and Modelling Social Isolation*
+
+* Developing a method for modelling all-age social isolation across Buckinghamshire using Geographically Weighted Regression.
+* Critically appraising the existing research from both academia and government.
+* Identifying the required internal and external datasets.
+* Developing dashboards to communicate findings with non-technical stakeholders and colleagues using the Dash framework in Python.
+* Managing stakeholder relationships and running stakeholder engagement events in conjunction with the Connected Places Catapult.
+:::
+
+::: {#leeds-cdt .career-stage .cv-entry .cv-education}
+### 2017 - 2022: CDT Data Analytics and Society
+
+> Leeds Institute for Data Analytics, University of Leeds
+
+* PhD Project: Developing Methods for Real-time Pedestrian Simulation
+* MSc Project: Implementing the Ensemble Kalman Filter with an Agent-Based Model
+* Internship project: Footfall at Kirkgate Market with Leeds City Council
+:::
+
+::: {#ampere .career-stage .cv-entry .cv-work}
+### 2016 - 2017: Software Developer / Analyst
+
+> Ampere Analysis
+
+* Creating mechanisms to obtain and manage large and complex media-sector datasets using Python.
+* Developing innovative solutions to help visualise and solve live business challenges relating to content sales and acquisition, competitive analysis and business planning.
+* Supporting the wider team's bespoke consulting work for high-profile film, TV and technology firms.
+:::
+
+::: {#leeds-msc .career-stage .cv-entry .cv-education}
+### 2015 - 2016: MSc Mathematics
+
+> School of Mathematics, University of Leeds
+
+* MSc Project: Dynamics on Networks
+:::
+
+::: {#met-office-placement .career-stage .cv-entry .cv-work}
+### 2015: Aviation Observations Placement Student
+
+> Met Office
+
+* Working alongside observation scientists to answer some of the currently open questions regarding data quality from commercial aircraft.
+* Analysing large multivariate datasets using R.
+:::
+
+::: {#cranfield-msc .career-stage .cv-entry .cv-education}
+### 2013 - 2014: MSc Aerospace Dynamics
+
+> Department of Aerospace Engineering, Cranfield University
+
+* MSc Project: Turbulent to Laminar Relaminarisation
+:::
+
+::: {#imperial-bsc .career-stage .cv-entry .cv-education}
+### 2010 - 2013: BSc Physics
+
+> Department of Physics, Imperial College London
+
+* BSc Project: Membrane Stresses in the Earth
+:::

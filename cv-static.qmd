@@ -1,0 +1,18 @@
+---
+title: "CV — text-only"
+search: false
+toc: false
+format:
+  html:
+    css: cv-static.css
+---
+
+The same career and education history in a compact, text-only format. [View the interactive career atlas](cv.qmd).
+
+## Career and education
+
+::: {.cv-static}
+
+{{< include _cv-entries.qmd >}}
+
+:::
