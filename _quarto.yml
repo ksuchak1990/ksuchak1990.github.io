@@ -13,6 +13,11 @@ website:
     left:
       - publications.qmd
       - cv.qmd
+  page-footer:
+    left: "Keiran Suchak · University of Leeds"
+    right:
+      - text: Contact
+        href: https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/staff/10166/keiran-suchak
 
 format:
   html:
