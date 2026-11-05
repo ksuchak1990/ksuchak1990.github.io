@@ -5,12 +5,14 @@ website:
   title: "Keiran Suchak"
   navbar:
     right:
+      - text: Boardgames
+        href: boardgames.qmd
       - icon: github
+        text: GitHub
         href: https://github.com/ksuchak1990/
     left:
-      - cv.qmd
       - publications.qmd
-      - boardgames.qmd
+      - cv.qmd
 
 format:
   html:
