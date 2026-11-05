@@ -28,7 +28,7 @@ This atlas follows my education, fellowships and research appointments in revers
 :::
 
 ::: {.career-atlas__stages}
-::: {.career-stage .cv-entry .cv-work data-stage-index="10"}
+::: {#leeds-mobility .career-stage .cv-entry .cv-work}
 ### 2024 - Present: Research Fellow in Mobility Data Science
 
 > School of Geography, University of Leeds
@@ -41,7 +41,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Developing and maintaining collaborations within and beyond the research group.
 :::
 
-::: {.career-stage .cv-entry .cv-work data-stage-index="9"}
+::: {#leeds-dust .career-stage .cv-entry .cv-work}
 ### 2023: Research Fellow in Simulating Urban Systems
 
 > School of Geography, University of Leeds
@@ -52,7 +52,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Developing a series of unit tests to verify reliable behaviour of agent-based models and data assimilation methods.
 :::
 
-::: {.career-stage .cv-entry .cv-appointment data-stage-index="8"}
+::: {#turing-sustrans .career-stage .cv-entry .cv-appointment}
 ### 2022 - 2023: Principal Investigator
 
 > Sustrans / Alan Turing Institute
@@ -65,7 +65,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Monitoring and finalising the production of reports for publication.
 :::
 
-::: {.career-stage .cv-entry .cv-work data-stage-index="7"}
+::: {#leeds-transport-health .career-stage .cv-entry .cv-work}
 ### 2021 - 2023: Research Fellow in Transport-Health Interactions
 
 > Institute for Transport Studies, University of Leeds
@@ -79,7 +79,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Disseminating research group work at workshops.
 :::
 
-::: {.career-stage .cv-entry .cv-fellowship data-stage-index="6"}
+::: {#buckinghamshire-fellowship .career-stage .cv-entry .cv-fellowship}
 ### 2020: Data Science Fellow
 
 > Buckinghamshire County Council / Connected Places Catapult
@@ -93,7 +93,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Managing stakeholder relationships and running stakeholder engagement events in conjunction with the Connected Places Catapult.
 :::
 
-::: {.career-stage .cv-entry .cv-education data-stage-index="5"}
+::: {#leeds-cdt .career-stage .cv-entry .cv-education}
 ### 2017 - 2022: CDT Data Analytics and Society
 
 > Leeds Institute for Data Analytics, University of Leeds
@@ -103,7 +103,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Internship project: Footfall at Kirkgate Market with Leeds City Council
 :::
 
-::: {.career-stage .cv-entry .cv-work data-stage-index="4"}
+::: {#ampere .career-stage .cv-entry .cv-work}
 ### 2016 - 2017: Software Developer / Analyst
 
 > Ampere Analysis
@@ -113,7 +113,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Supporting the wider team's bespoke consulting work for high-profile film, TV and technology firms.
 :::
 
-::: {.career-stage .cv-entry .cv-education data-stage-index="3"}
+::: {#leeds-msc .career-stage .cv-entry .cv-education}
 ### 2015 - 2016: MSc Mathematics
 
 > School of Mathematics, University of Leeds
@@ -121,7 +121,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * MSc Project: Dynamics on Networks
 :::
 
-::: {.career-stage .cv-entry .cv-work data-stage-index="2"}
+::: {#met-office-placement .career-stage .cv-entry .cv-work}
 ### 2015: Aviation Observations Placement Student
 
 > Met Office
@@ -130,7 +130,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * Analysing large multivariate datasets using R.
 :::
 
-::: {.career-stage .cv-entry .cv-education data-stage-index="1"}
+::: {#cranfield-msc .career-stage .cv-entry .cv-education}
 ### 2013 - 2014: MSc Aerospace Dynamics
 
 > Department of Aerospace Engineering, Cranfield University
@@ -138,7 +138,7 @@ This atlas follows my education, fellowships and research appointments in revers
 * MSc Project: Turbulent to Laminar Relaminarisation
 :::
 
-::: {.career-stage .cv-entry .cv-education data-stage-index="0"}
+::: {#imperial-bsc .career-stage .cv-entry .cv-education}
 ### 2010 - 2013: BSc Physics
 
 > Department of Physics, Imperial College London

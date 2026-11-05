@@ -8,10 +8,12 @@
 
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const stageById = new Map(stages.map((stage) => [stage.id, stage]));
-  const stageElementById = new Map(stageElements.map((element) => {
-    const stage = stages[Number(element.dataset.stageIndex)];
-    return [stage.id, element];
-  }));
+  const stageIndexById = new Map(stages.map((stage, index) => [stage.id, index]));
+  const stageElementById = new Map(stageElements.map((element) => [element.id, element]));
+  if (stageElementById.size !== stages.length || stageElements.some((element) => !stageById.has(element.id))) {
+    console.error("Career atlas: CV entry IDs must match career-stages.js stage IDs.");
+    return;
+  }
   const stagesByCoordinate = groupStages((stage) => coordinateKey(stage.coordinates));
   const stagesByLocation = groupStages((stage) => stage.location);
   const status = {
@@ -22,7 +24,7 @@
     timeline: document.querySelector(".career-atlas__timeline")
   };
   addStageMarkerLabels();
-  let activeStageIndex = Number(stageElements[0].dataset.stageIndex);
+  let activeStageIndex = stageIndexById.get(stageElements[0].id);
   let mapIsReady = false;
   const map = new maplibregl.Map({
     container: mapElement,
@@ -111,7 +113,7 @@
 
   function addStageMarkerLabels() {
     stageElements.forEach((element) => {
-      const stage = stages[Number(element.dataset.stageIndex)];
+      const stage = stageById.get(element.id);
       const marker = document.createElement("span");
       marker.className = "career-stage__marker";
       marker.setAttribute("aria-hidden", "true");
@@ -163,7 +165,7 @@
     const stage = stages[index];
     activeStageIndex = index;
     stageElements.forEach((element) => {
-      const isActive = Number(element.dataset.stageIndex) === index;
+      const isActive = element.id === stage.id;
       element.classList.toggle("is-active", isActive);
       element.setAttribute("aria-current", isActive ? "step" : "false");
     });
@@ -246,7 +248,7 @@
 
   const observer = new IntersectionObserver((entries) => {
     const active = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-    if (active) setActiveStage(Number(active.target.dataset.stageIndex));
+    if (active) setActiveStage(stageIndexById.get(active.target.id));
   }, {rootMargin: "-22% 0px -55% 0px", threshold: [0.15, 0.5]});
 
   stageElements.forEach((element) => observer.observe(element));
