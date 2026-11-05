@@ -1,5 +1,6 @@
 ---
 title: "Keiran Suchak"
+description: "Keiran Suchak is a Research Fellow in Mobility Data Science at the University of Leeds, researching movement, space and health."
 page-layout: full
 toc: false
 format:
