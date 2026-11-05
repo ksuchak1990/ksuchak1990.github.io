@@ -1,0 +1,19 @@
+---
+title: "Publications — bibliography preview"
+search: false
+listing:
+  contents: papers
+  sort:
+    - "date desc"
+    - "title"
+  type: default
+  fields: [title, author, date, description]
+  max-description-length: 140
+  categories: false
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: false
+---
+
+This is an alternative layout for comparison with the [current publications page](publications.qmd). Both lists are generated from the same papers.
