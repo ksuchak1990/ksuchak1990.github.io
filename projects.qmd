@@ -1,8 +1,8 @@
 ---
 title: "Projects"
+draft: true
 ---
 
 # Bio
 
 This is me.
-

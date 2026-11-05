@@ -51,6 +51,11 @@ summary:focus-visible {
     outline-offset: 3px;
 }
 
+#quarto-header a:focus-visible,
+#quarto-header button:focus-visible {
+    outline-color: var(--color-nav-active);
+}
+
 #quarto-header .navbar {
     background: var(--color-nav);
     border-bottom: 1px solid color-mix(in srgb, var(--color-surface) 22%, transparent);
