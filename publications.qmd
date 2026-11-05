@@ -6,10 +6,11 @@ listing:
     - "date desc"
     - "title"
   type: default
-  categories: true
+  fields: [title, author, date, description]
+  max-description-length: 140
+  categories: false
   sort-ui: true
   filter-ui: true
 page-layout: full
 title-block-banner: false
 ---
-
