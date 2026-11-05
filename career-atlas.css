@@ -187,4 +187,12 @@
 @media print {
     .career-atlas__map-column { display: none; }
     .career-atlas { display: block; }
+    .career-stage,
+    .career-stage.is-active {
+        border-left: 0;
+        break-inside: avoid;
+        margin-bottom: var(--space-2);
+        min-height: 0;
+        padding: 0;
+    }
 }
