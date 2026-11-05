@@ -27,23 +27,30 @@ format:
 </aside>
 </section>
 
-<section class="home-focus-band" aria-labelledby="focus-title">
-<div class="home-focus">
-<div class="home-focus-heading">
-<h2 id="focus-title">From individual movement to systems-level questions.</h2>
+<section class="home-work-band" aria-labelledby="home-work-title">
+<div class="home-work">
+<div class="home-work-heading">
+<h2 id="home-work-title">Selected work</h2>
+<p>From identifying co-location to updating real-time crowd models.</p>
 </div>
-<div class="home-focus-items">
-<article>
-<h3>Healthcare mobility</h3>
-<p>Exploring how the movement of healthcare workers shapes infection transmission in healthcare settings.</p>
+<div class="home-work-list">
+<article class="home-work-item">
+<p class="home-work-year"><time datetime="2024">2024</time></p>
+<h3>Towards a general framework for co-location</h3>
+<p>Explores how definitions and uncertain observations affect whether we can identify when people were in the same place.</p>
+<div class="home-work-links">
+<a href="papers/24_cosit/index.html">Read summary</a>
+<a href="https://doi.org/10.4230/LIPIcs.COSIT.2024.24">Published paper</a>
+</div>
 </article>
-<article>
-<h3>Spatial modelling</h3>
-<p>Developing methods for the real-time simulation of pedestrian and urban systems.</p>
-</article>
-<article>
-<h3>Open research</h3>
-<p>Building accessible computational tools and open-source software for mobility research.</p>
+<article class="home-work-item">
+<p class="home-work-year"><time datetime="2024">2024</time></p>
+<h3>Coupling an agent-based model and an ensemble Kalman filter for real-time crowd modelling</h3>
+<p>Combines a crowd simulation with incoming observations to keep its model closer to what is happening in real time.</p>
+<div class="home-work-links">
+<a href="papers/24_rsos/index.html">Read summary</a>
+<a href="https://doi.org/10.1098/rsos.231553">Published paper</a>
+</div>
 </article>
 </div>
 </div>
