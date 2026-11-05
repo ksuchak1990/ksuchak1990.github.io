@@ -4,6 +4,21 @@
   const stageElements = [...document.querySelectorAll(".career-stage")];
   const stageColors = {education: "#9a5a00", fellowship: "#6e4fa3", appointment: "#167a6e", employment: "#0d6ed1"};
 
+  const jumpLinks = document.querySelector(".career-atlas__jump-links");
+  if (jumpLinks && stageElements.length) {
+    const jumpMenu = jumpLinks.closest("details");
+    jumpLinks.append(...stageElements.map((element) => {
+      const link = document.createElement("a");
+      link.href = `#${element.id}`;
+      link.textContent = element.querySelector("h3").textContent;
+      return link;
+    }));
+    jumpLinks.addEventListener("click", (event) => {
+      if (event.target.closest("a")) jumpMenu.open = false;
+    });
+    jumpMenu.hidden = false;
+  }
+
   if (!mapElement || !stageElements.length || !Array.isArray(stages) || !window.maplibregl) return;
 
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

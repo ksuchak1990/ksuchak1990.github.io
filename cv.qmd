@@ -21,9 +21,14 @@ This atlas follows my education, fellowships and research appointments in revers
 
 <div class="career-atlas__timeline" aria-label="Active career stage"></div>
 
+<details class="career-atlas__jump" hidden>
+<summary>Jump to a career stage</summary>
+<nav class="career-atlas__jump-links" aria-label="Career stages"></nav>
+</details>
+
 ::: {.career-atlas__map-frame}
-<div class="career-atlas__map" role="img" aria-label="Interactive map showing a reverse-chronological career trajectory across UK locations"></div>
-<p class="career-atlas__map-note">Select a numbered marker to move to its full CV entry.</p>
+<div class="career-atlas__map" role="img" aria-label="Map showing career locations across the UK"></div>
+<p class="career-atlas__map-note">Select a numbered marker or use the career-stage links to move to a CV entry.</p>
 :::
 :::
 
