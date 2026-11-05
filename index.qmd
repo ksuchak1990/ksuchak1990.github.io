@@ -15,7 +15,7 @@ format:
 <h1 id="home-title">Researching movement, space, and health.</h1>
 <p class="home-intro">I am a Research Fellow in Mobility Data Science in the School of Geography at the University of Leeds. My current research explores the mobility of healthcare workers and its impact on infection transmission within healthcare settings.</p>
 <div class="home-actions" aria-label="Professional links">
-<a href="publications.html">Publications</a>
+<a class="home-action-primary" href="publications.html">Publications</a>
 <a href="cv.html">Curriculum vitae</a>
 <a href="https://environment.leeds.ac.uk/geography-research-institute-spatial-data-science/staff/10166/keiran-suchak">Contact via University profile</a>
 </div>

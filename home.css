@@ -65,9 +65,24 @@ main:has(.home-hero) #title-block-header {
 }
 
 .home-actions a {
-    font-size: 0.82rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     text-underline-offset: 0.18em;
+}
+
+.home-actions .home-action-primary {
+    align-items: center;
+    background: var(--color-nav);
+    color: var(--color-surface);
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.home-actions .home-action-primary:hover {
+    background: var(--color-link-hover);
+    color: var(--color-surface);
 }
 
 .home-profile {
