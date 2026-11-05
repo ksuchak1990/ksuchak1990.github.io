@@ -7,7 +7,7 @@ include-in-header: ./mapping_header.html
 
 This atlas follows my education, fellowships and research appointments in reverse chronological order. Lines describe the sequence of career stages, rather than travel routes; overlapping appointments remain separate stages.
 
-## Current role
+## Career and education
 
 ::: {.career-atlas}
 ::: {.career-atlas__map-column aria-label="Career trajectory map"}
