@@ -4,14 +4,31 @@
   const stageElements = [...document.querySelectorAll(".career-stage")];
   const stageColors = {education: "#9a5a00", fellowship: "#6e4fa3", appointment: "#167a6e", employment: "#0d6ed1"};
 
+  const jumpLinks = document.querySelector(".career-atlas__jump-links");
+  if (jumpLinks && stageElements.length) {
+    const jumpMenu = jumpLinks.closest("details");
+    jumpLinks.append(...stageElements.map((element) => {
+      const link = document.createElement("a");
+      link.href = `#${element.id}`;
+      link.textContent = element.querySelector("h3").textContent;
+      return link;
+    }));
+    jumpLinks.addEventListener("click", (event) => {
+      if (event.target.closest("a")) jumpMenu.open = false;
+    });
+    jumpMenu.hidden = false;
+  }
+
   if (!mapElement || !stageElements.length || !Array.isArray(stages) || !window.maplibregl) return;
 
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const stageById = new Map(stages.map((stage) => [stage.id, stage]));
-  const stageElementById = new Map(stageElements.map((element) => {
-    const stage = stages[Number(element.dataset.stageIndex)];
-    return [stage.id, element];
-  }));
+  const stageIndexById = new Map(stages.map((stage, index) => [stage.id, index]));
+  const stageElementById = new Map(stageElements.map((element) => [element.id, element]));
+  if (stageElementById.size !== stages.length || stageElements.some((element) => !stageById.has(element.id))) {
+    console.error("Career atlas: CV entry IDs must match career-stages.js stage IDs.");
+    return;
+  }
   const stagesByCoordinate = groupStages((stage) => coordinateKey(stage.coordinates));
   const stagesByLocation = groupStages((stage) => stage.location);
   const status = {
@@ -22,7 +39,7 @@
     timeline: document.querySelector(".career-atlas__timeline")
   };
   addStageMarkerLabels();
-  let activeStageIndex = Number(stageElements[0].dataset.stageIndex);
+  let activeStageIndex = stageIndexById.get(stageElements[0].id);
   let mapIsReady = false;
   const map = new maplibregl.Map({
     container: mapElement,
@@ -111,7 +128,7 @@
 
   function addStageMarkerLabels() {
     stageElements.forEach((element) => {
-      const stage = stages[Number(element.dataset.stageIndex)];
+      const stage = stageById.get(element.id);
       const marker = document.createElement("span");
       marker.className = "career-stage__marker";
       marker.setAttribute("aria-hidden", "true");
@@ -163,7 +180,7 @@
     const stage = stages[index];
     activeStageIndex = index;
     stageElements.forEach((element) => {
-      const isActive = Number(element.dataset.stageIndex) === index;
+      const isActive = element.id === stage.id;
       element.classList.toggle("is-active", isActive);
       element.setAttribute("aria-current", isActive ? "step" : "false");
     });
@@ -246,7 +263,7 @@
 
   const observer = new IntersectionObserver((entries) => {
     const active = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-    if (active) setActiveStage(Number(active.target.dataset.stageIndex));
+    if (active) setActiveStage(stageIndexById.get(active.target.id));
   }, {rootMargin: "-22% 0px -55% 0px", threshold: [0.15, 0.5]});
 
   stageElements.forEach((element) => observer.observe(element));

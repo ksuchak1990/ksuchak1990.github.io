@@ -90,6 +90,32 @@
 
 .career-atlas__timeline strong { color: var(--color-ink); }
 
+.career-atlas__jump {
+    margin-bottom: var(--space-2);
+}
+
+.career-atlas__jump summary {
+    color: var(--color-link);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.career-atlas__jump-links {
+    background: var(--color-surface);
+    border: 1px solid var(--color-rule);
+    display: grid;
+    max-height: 18rem;
+    overflow-y: auto;
+    padding: var(--space-1);
+}
+
+.career-atlas__jump-links a {
+    overflow: hidden;
+    padding: 0.2rem 0.4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .career-atlas__stages {
     min-width: 0;
     padding-top: 0.25rem;
@@ -102,6 +128,7 @@
     min-height: calc(100vh - 10rem);
     margin: 0 0 var(--space-3);
     padding: 0.25rem 0 var(--space-2) var(--space-2);
+    scroll-margin-top: calc(4.25rem + var(--space-2));
     transition: border-color 180ms ease, opacity 180ms ease;
 }
 
@@ -160,4 +187,12 @@
 @media print {
     .career-atlas__map-column { display: none; }
     .career-atlas { display: block; }
+    .career-stage,
+    .career-stage.is-active {
+        border-left: 0;
+        break-inside: avoid;
+        margin-bottom: var(--space-2);
+        min-height: 0;
+        padding: 0;
+    }
 }
